@@ -1,0 +1,1571 @@
+[
+    {
+        "client_msg_id": "f872403d-b276-46cc-9298-e2c7358154ea",
+        "type": "message",
+        "text": "Hello Andreu, I will test.",
+        "user": "UJHD6A81H",
+        "ts": "1575361587.247700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Y\/S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello Andreu, I will test."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d2ae827c-e8b1-44f2-b48b-360371c54b92",
+        "type": "message",
+        "text": "I tried:",
+        "user": "UJHD6A81H",
+        "ts": "1575361717.247900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RCG3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I tried:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1e85eb75-f20a-4182-8115-7a7c9609b453",
+        "type": "message",
+        "text": "&lt;a {{If( GetContentViewFileName() == \"logs\", 'class=\"active\"', 'class=\"text-secondary\"' )}}\n    onclick=\"SelectCategory( this, 'logs' );\"&gt;\n    &lt;i class=\"fa fontsize = 24;  class =  fa-home\" style=\"color:lightgray;padding-left:15px;padding-right:15px;font-size:|fontsize|px\"&gt;\n    &lt;\/i&gt;Logs\n&lt;\/a&gt;\n\n{{;\n    If(AP_UserIp() == \"::1\" .OR. AP_UserIp() == \"127.0.0.1\", ;\n        \"&lt;a \" + If(GetContent() == \"something\", 'class=\"active\"', 'class=\"text-secondary\"') + ;\n        'onclick=\"SelectCategory(this, \\'something\\');\"&gt;...&lt;\/a&gt;',\n        \"\"  \/\/ Content to display instead if not called from localhost\n    );\n}}\n\n&lt;a {{If( GetContentViewFileName() == \"menus\", 'class=\"active\"', 'class=\"text-secondary\"' )}}\n    onclick=\"SelectCategory( this, 'menus' );\"&gt;\n    &lt;i class=\"fa fontsize = 24;  class =  fa-home\" style=\"color:lightgray;padding-left:15px;padding-right:15px;font-size:|fontsize|px\"&gt;\n    &lt;\/i&gt;Menus\n&lt;\/a&gt;",
+        "user": "UJHD6A81H",
+        "ts": "1575361721.248100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "giDTq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<a {{If( GetContentViewFileName() == \"logs\", 'class=\"active\"', 'class=\"text-secondary\"' )}}\n    onclick=\"SelectCategory( this, 'logs' );\">\n    <i class=\"fa fontsize = 24;  class =  fa-home\" style=\"color:lightgray;padding-left:15px;padding-right:15px;font-size:|fontsize|px\">\n    <\/i>Logs\n<\/a>\n\n{{;\n    If(AP_UserIp() == \"::1\" .OR. AP_UserIp() == \"127.0.0.1\", ;\n        \"<a \" + If(GetContent() == \"something\", 'class=\"active\"', 'class=\"text-secondary\"') + ;\n        'onclick=\"SelectCategory(this, \\'something\\');\">...<\/a>',\n        \"\"  \/\/ Content to display instead if not called from localhost\n    );\n}}\n\n<a {{If( GetContentViewFileName() == \"menus\", 'class=\"active\"', 'class=\"text-secondary\"' )}}\n    onclick=\"SelectCategory( this, 'menus' );\">\n    <i class=\"fa fontsize = 24;  class =  fa-home\" style=\"color:lightgray;padding-left:15px;padding-right:15px;font-size:|fontsize|px\">\n    <\/i>Menus\n<\/a>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "78f8ecdf-6087-4478-ae7b-8d537fd85e0f",
+        "type": "message",
+        "text": "::1 Error: Syntax error\noperation: &amp;\n[ 1] = C { || ; If(AP_UserIp() == \"::1\" .OR. AP_UserIp() == \"127.0.0.1\", ; \"...', \"\" \/\/ Content to display instead if not called from localhost ); }\ncalled from: ..\/..\/..\/apache.prg, (b)MAIN, line: 50\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: ..\/..\/..\/apache.prg, (b)REPLACEBLOCKS, line: 302\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: ..\/..\/..\/apache.prg, (b)REPLACEBLOCKS, line: 302\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: pcode.hrb, CONTROLLER, line: 122\ncalled from: pcode.hrb, MAIN, line: 56\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\/..\/..\/apache.prg, EXECUTE, line: 116\ncalled from: ..\/..\/..\/apache.prg, MAIN, line: 61",
+        "user": "UJHD6A81H",
+        "ts": "1575361734.248300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4HU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "::1 Error: Syntax error\noperation: &\n[ 1] = C { || ; If(AP_UserIp() == \"::1\" .OR. AP_UserIp() == \"127.0.0.1\", ; \"...', \"\" \/\/ Content to display instead if not called from localhost ); }\ncalled from: ..\/..\/..\/apache.prg, (b)MAIN, line: 50\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: ..\/..\/..\/apache.prg, (b)REPLACEBLOCKS, line: 302\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: ..\/..\/..\/apache.prg, (b)REPLACEBLOCKS, line: 302\ncalled from: ..\/..\/..\/apache.prg, REPLACEBLOCKS, line: 302\ncalled from: pcode.hrb, VIEW, line: 481\ncalled from: pcode.hrb, CONTROLLER, line: 122\ncalled from: pcode.hrb, MAIN, line: 56\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\/..\/..\/apache.prg, EXECUTE, line: 116\ncalled from: ..\/..\/..\/apache.prg, MAIN, line: 61"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "12204784-4bca-41a3-90fd-9ada53cf0ce5",
+        "type": "message",
+        "text": "my bad",
+        "user": "UNAHBRTFA",
+        "ts": "1575361808.248800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ttn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "my bad"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cb7575fd-6fce-465d-94db-230c1a2af6b1",
+        "type": "message",
+        "text": "remove the comment",
+        "user": "UNAHBRTFA",
+        "ts": "1575361813.249000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zo9xs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "remove the comment"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be6ae6e9-535c-4bdf-922e-b492a50dab9c",
+        "type": "message",
+        "text": "Andreu, still the same. I think we have to end TEMPLATE and then to start again?",
+        "user": "UJHD6A81H",
+        "ts": "1575365356.249700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P\/gQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, still the same. I think we have to end TEMPLATE and then to start again?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a75d9aa-46c4-4514-8cbb-8f43c30281c4",
+        "type": "message",
+        "text": "I don't know, I don't think so",
+        "user": "UNAHBRTFA",
+        "ts": "1575365604.250900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vj4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't know, I don't think so"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d158f3ff-d28d-4dd9-9082-a0ad2abef296",
+        "type": "message",
+        "text": "what happens technically to \"view\"s.",
+        "user": "UJHD6A81H",
+        "ts": "1575366423.251700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wOq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what happens technically to \"view\"s."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ad6d83fc-bb81-4060-a3ab-951a63906a65",
+        "type": "message",
+        "text": "Here we are at the point why I started Harbourino.",
+        "user": "UJHD6A81H",
+        "ts": "1575366474.252100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+qB9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here we are at the point why I started Harbourino."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9606860a-2ca2-46ff-b92d-f11dde53d4f4",
+        "type": "message",
+        "text": "the code to read and process views seems to be the `View` function in genesis\/index.prg",
+        "user": "UNAHBRTFA",
+        "ts": "1575366525.252700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PGp+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the code to read and process views seems to be the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "View",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " function in genesis\/index.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3240ac3b-15cd-404a-a04c-452bbd3731aa",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/genesis\/index.prg#L411>",
+        "user": "UNAHBRTFA",
+        "ts": "1575366526.252900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "FiveTechSoft\/mod_harbour",
+                "title_link": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/genesis\/index.prg#L411",
+                "text": "Apache mod for Harbour. Contribute to FiveTechSoft\/mod_harbour development by creating an account on GitHub.",
+                "fallback": "GitHub: FiveTechSoft\/mod_harbour",
+                "from_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/genesis\/index.prg#L411",
+                "thumb_url": "https:\/\/repository-images.githubusercontent.com\/186821405\/052d6000-7f03-11e9-85fa-9472623f216c",
+                "thumb_width": 190,
+                "thumb_height": 191,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/genesis\/index.prg#L411"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hKutD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/genesis\/index.prg#L411"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9550d575-e030-4c17-93eb-774c87a8cc79",
+        "type": "message",
+        "text": "if the file exists, it reads it and passes it to the `ReplaceBlocks` function from apache.prg",
+        "user": "UNAHBRTFA",
+        "ts": "1575366546.253500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q=Ir",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if the file exists, it reads it and passes it to the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "ReplaceBlocks",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " function from apache.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "25a18ba4-244e-41a0-99b9-dfa5228a0715",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/apache.prg#L288>",
+        "user": "UNAHBRTFA",
+        "ts": "1575366564.253700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "FiveTechSoft\/mod_harbour",
+                "title_link": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/apache.prg#L288",
+                "text": "Apache mod for Harbour. Contribute to FiveTechSoft\/mod_harbour development by creating an account on GitHub.",
+                "fallback": "GitHub: FiveTechSoft\/mod_harbour",
+                "from_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/apache.prg#L288",
+                "thumb_url": "https:\/\/repository-images.githubusercontent.com\/186821405\/052d6000-7f03-11e9-85fa-9472623f216c",
+                "thumb_width": 190,
+                "thumb_height": 191,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/apache.prg#L288"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gB\/xu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/apache.prg#L288"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "92f03ded-cc55-451e-ab96-9feb091e8589",
+        "type": "message",
+        "text": "I can't remember exactly the problem but it seems it is what you say: I don't think you can do `{{}}` blocks inside other blocks",
+        "user": "UJHD6A81H",
+        "ts": "1575366651.254300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U64EN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I can't remember exactly the problem but it seems it is what you say: I don't think you can do "
+                            },
+                            {
+                                "type": "text",
+                                "text": "{{}}",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " blocks inside other blocks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f83bc6e0-2b93-4f6a-81e7-b03760800ea0",
+        "type": "message",
+        "text": "what you might be able to do, though, is use templates inside a `{{}}` block, even potentially with the `ReplaceBlocks` function",
+        "user": "UNAHBRTFA",
+        "ts": "1575366800.256200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eTJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what you might be able to do, though, is use templates inside a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "{{}}",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " block, even potentially with the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "ReplaceBlocks",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " function"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b0e3ed3-ed99-4bad-912c-9a3579ece8bb",
+        "type": "message",
+        "text": "This is what I said before: Andreu, still the same. I think we have to end TEMPLATE and then to start again?",
+        "user": "UJHD6A81H",
+        "ts": "1575366841.257200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NGjI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This is what I said before: Andreu, still the same. I think we have to end TEMPLATE and then to start again?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e545c441-efb7-4cd6-92a2-8c41bf4ab31c",
+        "type": "message",
+        "text": "But how?",
+        "user": "UJHD6A81H",
+        "ts": "1575366846.257500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0m\/G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But how?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a567bd2-b053-4498-b555-23b6db8eb6d0",
+        "type": "message",
+        "text": "I was thinking of something like",
+        "user": "UNAHBRTFA",
+        "ts": "1575366861.257800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9RC14",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was thinking of something like"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ff763b25-8eee-4cf1-9a51-bc33257653f9",
+        "type": "message",
+        "text": "```{{\n    TEXT INTO output\n        &lt;a {{If(something, 'class=\"a\"', 'class=\"b\"')}}&gt;dfgjhf&lt;\/a&gt;\n    ENDTEXT\n    return ReplaceBlocks(output)\n}}```",
+        "user": "UNAHBRTFA",
+        "ts": "1575366952.259400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uIdN",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "{{\n    TEXT INTO output\n        <a {{If(something, 'class=\"a\"', 'class=\"b\"')}}>dfgjhf<\/a>\n    ENDTEXT\n    return ReplaceBlocks(output)\n}}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d8bb18d1-c5f5-4853-b084-698bed847c82",
+        "type": "message",
+        "text": "I'm not sure if it'll work, but the contents of a `{{}}` block gets eval'd as a codeblock, so it might work",
+        "user": "UNAHBRTFA",
+        "ts": "1575366981.260100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qcZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm not sure if it'll work, but the contents of a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "{{}}",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " block gets eval'd as a codeblock, so it might work"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "737f9cdf-eb76-4e66-81d8-63e144246a0c",
+        "type": "message",
+        "text": "oh wait",
+        "user": "UNAHBRTFA",
+        "ts": "1575367024.260300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RoN3U",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh wait"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "180e4df7-e810-4062-912e-0bf88306a65f",
+        "type": "message",
+        "text": "no, it'll parse the inner `}}` and end the outer block",
+        "user": "UNAHBRTFA",
+        "ts": "1575367039.260700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nM9sU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no, it'll parse the inner "
+                            },
+                            {
+                                "type": "text",
+                                "text": "}}",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and end the outer block"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee9eb818-f74d-4c63-85fb-ef6661b30028",
+        "type": "message",
+        "text": "but you might be able to use `&lt;?prg` or something else",
+        "user": "UNAHBRTFA",
+        "ts": "1575367060.261300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JinOR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but you might be able to use "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<?prg",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " or something else"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "afbd61d3-6325-4a9d-9ac2-389797c0528f",
+        "type": "message",
+        "text": "however, rather than having convoluted code inside a `{{}}` block, you might want to define it in a function and then just use `{{inlineFunction()}}`",
+        "user": "UNAHBRTFA",
+        "ts": "1575367209.262900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Yv2g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "however, rather than having convoluted code inside a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "{{}}",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " block, you might want to define it in a function and then just use "
+                            },
+                            {
+                                "type": "text",
+                                "text": "{{inlineFunction()}}",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "35285083-d746-4548-a7e7-b4e824e0d2fd",
+        "type": "message",
+        "text": "Andreu, I personally already have a solution for me.\nthe router calls  another view.\n\nBut I think in terms of mod harbor we should present a solution here .",
+        "user": "UJHD6A81H",
+        "ts": "1575367214.263100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1T7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, I personally already have a solution for me.\nthe router calls  another view.\n\nBut I think in terms of mod harbor we should present a solution here ."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a597670-3149-4b12-a5a0-1fcd5dd001b6",
+        "type": "message",
+        "text": "Yeah, I guess",
+        "user": "UNAHBRTFA",
+        "ts": "1575367278.263600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o2G0v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeah, I guess"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a99f6518-54ca-4120-b602-8a0e04ba902f",
+        "type": "message",
+        "text": "but having arbitrarily deep inline code blocks might be hard to do",
+        "user": "UNAHBRTFA",
+        "ts": "1575367295.264100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/n2LV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but having arbitrarily deep inline code blocks might be hard to do"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "987c5e12-d745-440e-9010-48ae2bf678c0",
+        "type": "message",
+        "text": "I think none of the beginners can follow us here. We just need a \"ready to go\" feature.",
+        "user": "UJHD6A81H",
+        "ts": "1575367303.264400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CNBQ\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think none of the beginners can follow us here. We just need a \"ready to go\" feature."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c40701f4-5670-45c6-a055-94f8347b1db8",
+        "type": "message",
+        "text": "Yeah",
+        "user": "UNAHBRTFA",
+        "ts": "1575367399.265200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Glq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeah"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "926dbf36-90d8-4640-bfa3-2c2c70322bcf",
+        "type": "message",
+        "text": "But whereas in PHP inline code is a fundamental part of the syntax, in mod_harbour we have to achieve arbitrarily deep inline code through preprocessing and templates",
+        "user": "UNAHBRTFA",
+        "ts": "1575367459.266600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1575368296.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LGXB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But whereas in PHP inline code is a fundamental part of the syntax, in mod_harbour we have to achieve arbitrarily deep inline code through preprocessing and templates"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a1920da3-d4a1-400b-a63c-be69379dd699",
+        "type": "message",
+        "text": "And I'm not nearly familiar enough with either of those things to be of much help",
+        "user": "UNAHBRTFA",
+        "ts": "1575367515.267200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OVK+Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And I'm not nearly familiar enough with either of those things to be of much help"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "808315e0-ea2c-4103-af7d-36f3e0c57c5a",
+        "type": "message",
+        "text": "maybe a topic for Friday",
+        "user": "UJHD6A81H",
+        "ts": "1575369207.267800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eXzh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "maybe a topic for Friday"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10cc2736-3c31-41e9-83cc-35b6a415097d",
+        "type": "message",
+        "text": "ReplaceBlocks  - After lunch I will include function ReplaceBlocks and insert logging to see input and output. Maybe we can finetune the function or insert new shortcuts - mod harbour shortcuts",
+        "user": "UJHD6A81H",
+        "ts": "1575370887.269500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VKM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ReplaceBlocks  - After lunch I will include function ReplaceBlocks and insert logging to see input and output. Maybe we can finetune the function or insert new shortcuts - mod harbour shortcuts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb1a927f-606b-4dd4-b810-bdf5c7660452",
+        "type": "message",
+        "text": "like I have in Harbourino.",
+        "user": "UJHD6A81H",
+        "ts": "1575370936.269800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bte",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "like I have in Harbourino."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2df3a93-d84f-4802-9e1e-7ebcd4c0b1a9",
+        "type": "message",
+        "text": "Then we would have a Harbourino - online - version :slightly_smiling_face:",
+        "user": "UJHD6A81H",
+        "ts": "1575370970.270400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DL+n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Then we would have a Harbourino - online - version "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9d11b44e-31eb-4228-8a60-80d165371b9d",
+        "type": "message",
+        "text": "<https:\/\/www.heise.de\/developer\/meldung\/Webentwicklung-Bootstrap-4-4-bringt-responsive-Container-4597034.html>",
+        "user": "UJHD6A81H",
+        "ts": "1575395330.270600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Developer",
+                "title": "Webentwicklung: Bootstrap 4.4 bringt responsive Container",
+                "title_link": "https:\/\/www.heise.de\/developer\/meldung\/Webentwicklung-Bootstrap-4-4-bringt-responsive-Container-4597034.html",
+                "text": "Das aktuelle Release des CSS-Frameworks kann die Größe von Containern ebenso der Bildschirmgröße anpassen wie die Zahl der Spalten.",
+                "fallback": "Developer: Webentwicklung: Bootstrap 4.4 bringt responsive Container",
+                "image_url": "https:\/\/heise.cloudimg.io\/bound\/1200x1200\/q85.png-lossy-85.webp-lossy-85.foil1\/_www-heise-de_\/imgs\/18\/2\/7\/9\/5\/9\/8\/3\/web-bastler-ed8c8f52f358483c.jpeg",
+                "from_url": "https:\/\/www.heise.de\/developer\/meldung\/Webentwicklung-Bootstrap-4-4-bringt-responsive-Container-4597034.html",
+                "image_width": 444,
+                "image_height": 250,
+                "image_bytes": 80135,
+                "service_icon": "https:\/\/www.heise.de\/icons\/ho\/touch-icons\/apple-touch-icon-180x180.png",
+                "id": 1,
+                "original_url": "https:\/\/www.heise.de\/developer\/meldung\/Webentwicklung-Bootstrap-4-4-bringt-responsive-Container-4597034.html"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NiD2f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.heise.de\/developer\/meldung\/Webentwicklung-Bootstrap-4-4-bringt-responsive-Container-4597034.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

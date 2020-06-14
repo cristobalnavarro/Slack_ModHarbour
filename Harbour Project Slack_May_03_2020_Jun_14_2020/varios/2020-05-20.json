@@ -1,0 +1,2293 @@
+[
+    {
+        "client_msg_id": "6522c188-ae0e-492b-9c1a-803fcd4a92f8",
+        "type": "message",
+        "text": "*MyBlog*\n\n*Triggers para dbf*\nResulta que me llama la cliente. Que le ha vuelto a pasar. Es la segunda vez en aprox. un mes. Que se le ha perdido la primera linea de un pedido de compras. Que es la segunda vez que le pasa. Le pregunto si lo habrá borrado alguien y dice que no. Yo después de silbar un rato le he dicho que lo siga observando.\n\nA este lado del teclado se me ha puesto la cara roja. No puede ser que pase eso. Así que despues de revisar y revisar el codigo y los muchos deletes que pueden estar afectados... He decidido que el codigo está bien, pero que lo que puede estar pasando es un SELECT mal puesto o similar.\n\nAsi que he decidido \"tirar\" de triggers.\n\nIntento con RddInfo() que tiene una RDDI_TRIGGER constante y nada. Lo intento con dbInfo() que tambien tiene una DBI_TRIGGER constante y nada. Asumo que son constantes de uso interno aunque no lo parece.\n\nAsí que tiro por otro lado y visito la pagina de users de harbour y buscando por \"trigger\" veo que Massimo Belgrano le da la solución a alguien: utilizar el driver LogRdd.\n\nEn el cuore de Harbour está el driver consistente en un archivo LogRdd.prg. Hay un ejemplo de su uso ExLogRdd.prg y requiere linkar hbUsrRdd.Lib. Lo meto todo en la cacerola a fuego rápido, que hay prisa y voilá. Funciona. Ahora me falta adaptarlo al programa que por defecto abre todas las .dbfs de un tirón y con DbfCdx.\n\nEste primer artículo se lo dedico a Big, el instigador.\n\n\n\nPD. A petición de Big, pego el mismo ejemplo que trae Harbour:\n\n`#include \"<http:\/\/dbinfo.ch|dbinfo.ch>\"`\n`#include \"<http:\/\/hbusrrdd.ch|hbusrrdd.ch>\"`\n\n`\/\/ Request for LOGRDD rdd driver`\n`REQUEST LOGRDD`\n\n`\/\/ Here put Request for RDD you want to inherit then add`\n`\/\/ function hb_LogRddInherit() (see at bottom)`\n`REQUEST DBFCDX`\n\n`PROCEDURE ExLog()`\n\n   `\/\/ Set LOGRDD as default RDD otherwise I have to set explicitly use`\n   `\/\/ with DRIVER option`\n   `rddSetDefault( \"LOGRDD\" )`\n   `\/\/ Adding Memofile Info`\n   `rddInfo( RDDI_MEMOVERSION, DB_MEMOVER_CLIP, \"LOGRDD\" )`\n\n   `\/\/ Define Log File Name and position`\n   `hb_LogRddLogFileName( \"logs\\changes.log\" )`\n   `\/\/ Define Tag to add for each line logged`\n   `hb_LogRddTag( NetName() + \"\\\" + hb_UserName() )`\n   `\/\/ Activate Logging, it can be stopped\/started at any moment`\n   `hb_LogRddActive( .T. )`\n\n   `\/\/ Uncomment next command to change logged string that I have to return to standard LOGRDD file`\n   `\/\/ hb_LogRddMsgLogBlock( {| cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 | MyToString( cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 ) } )`\n\n   `\/\/ Uncomment next command to change standard destination of my logged string`\n   `\/\/ hb_LogRddUserLogBlock( {| cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 | hb_ToOutDebug( MyToString( cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 ) + \"\\n\\r\" ) } )`\n\n   `\/\/ Start program logic`\n\n   `\/\/ Open a table with logging (default RDD is LOGRDD)`\n   `USE \\paso`\n   `rlock()`\n   `field-&gt;name := \"Francesco\"`\n   `CLOSE`\n\n   `\/\/ Open a table without logging`\n\n   `USE \\paso VIA \"DBFCDX\"`\n   `APPEND BLANK`\n   `rlock()`\n   `field-&gt;name := \"Francesco\"`\n\n   `RETURN`\n\n`STATIC FUNCTION MyToString( cCmd, nWA, xPar1, xPar2, xPar3 )`\n\n   `LOCAL cString`\n\n   `DO CASE`\n   `CASE cCmd == \"CREATE\"`\n      `\/\/ Parameters received: xPar1 = aOpenInfo`\n      `cString := xPar1[ UR_OI_NAME ]`\n   `CASE cCmd == \"CREATEFIELDS\"`\n      `\/\/ Parameters received: xPar1 = aStruct`\n      `cString := hb_ValToExp( xPar1 )`\n   `CASE cCmd == \"OPEN\"`\n      `\/\/ Parameters received: xPar1 = aOpenInfo`\n      `\/\/ cString := 'Table : \"' + xPar1[ UR_OI_NAME ] + '\", Alias : \"' + Alias() + '\", WorkArea : ' + hb_ntos( nWA )`\n      `\/\/ In this example I don't want to log Open Command`\n   `CASE cCmd == \"CLOSE\"`\n      `\/\/ Parameters received: xPar1 = cTableName, xPar2 = cAlias`\n      `\/\/ cString := 'Table : \"' + xPar1 + '\", Alias : \"' + xPar2 + '\", WorkArea : ' + hb_ntos( nWA )`\n      `\/\/ In this example I don't want to log Close Command`\n   `CASE cCmd == \"APPEND\"`\n      `\/\/ Parameters received: xPar1 = lUnlockAll`\n      `cString := Alias() + \"-&gt;RecNo() = \" + hb_ntos( RecNo() )`\n   `CASE cCmd == \"DELETE\"`\n      `\/\/ Parameters received: none`\n      `cString := Alias() + \"-&gt;RecNo() = \" + hb_ntos( RecNo() )`\n   `CASE cCmd == \"RECALL\"`\n      `\/\/ Parameters received: none`\n      `cString := Alias() + \"-&gt;RecNo() = \" + hb_ntos( RecNo() )`\n   `CASE cCmd == \"PUTVALUE\"`\n      `\/\/ Parameters received: xPar1 = nField, xPar2 = xValue, xPar3 = xOldValue`\n      `HB_SYMBOL_UNUSED( xPar3 ) \/\/ Here don't log previous value`\n      `cString := Alias() + \"(\" + hb_ntos( RecNo() ) + \")-&gt;\" + PadR( FieldName( xPar1 ), 10 ) + \" := \" + hb_LogRddValueToText( xPar2 )`\n   `CASE cCmd == \"ZAP\"`\n      `\/\/ Parameters received: none`\n      `cString := 'Alias : \"' + Alias() + ' Table : \"' + dbInfo( DBI_FULLPATH ) + '\"'`\n   `ENDCASE`\n\n   `RETURN cString`\n\n`FUNCTION hb_LogRddInherit()`\n\n   `RETURN \"DBFCDX`\"",
+        "user": "UJULQCHL5",
+        "ts": "1589995278.395300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJULQCHL5",
+            "ts": "1589995859.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7MSG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "MyBlog",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Triggers para dbf",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nResulta que me llama la cliente. Que le ha vuelto a pasar. Es la segunda vez en aprox. un mes. Que se le ha perdido la primera linea de un pedido de compras. Que es la segunda vez que le pasa. Le pregunto si lo habrá borrado alguien y dice que no. Yo después de silbar un rato le he dicho que lo siga observando.\n\nA este lado del teclado se me ha puesto la cara roja. No puede ser que pase eso. Así que despues de revisar y revisar el codigo y los muchos deletes que pueden estar afectados... He decidido que el codigo está bien, pero que lo que puede estar pasando es un SELECT mal puesto o similar.\n\nAsi que he decidido \"tirar\" de triggers.\n\nIntento con RddInfo() que tiene una RDDI_TRIGGER constante y nada. Lo intento con dbInfo() que tambien tiene una DBI_TRIGGER constante y nada. Asumo que son constantes de uso interno aunque no lo parece.\n\nAsí que tiro por otro lado y visito la pagina de users de harbour y buscando por \"trigger\" veo que Massimo Belgrano le da la solución a alguien: utilizar el driver LogRdd.\n\nEn el cuore de Harbour está el driver consistente en un archivo LogRdd.prg. Hay un ejemplo de su uso ExLogRdd.prg y requiere linkar hbUsrRdd.Lib. Lo meto todo en la cacerola a fuego rápido, que hay prisa y voilá. Funciona. Ahora me falta adaptarlo al programa que por defecto abre todas las .dbfs de un tirón y con DbfCdx.\n\nEste primer artículo se lo dedico a Big, el instigador.\n\n\n\nPD. A petición de Big, pego el mismo ejemplo que trae Harbour:\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#include \"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/dbinfo.ch",
+                                "text": "dbinfo.ch",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "#include \"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/hbusrrdd.ch",
+                                "text": "hbusrrdd.ch",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/\/ Request for LOGRDD rdd driver",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "REQUEST LOGRDD",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/\/ Here put Request for RDD you want to inherit then add",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/\/ function hb_LogRddInherit() (see at bottom)",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "REQUEST DBFCDX",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "PROCEDURE ExLog()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Set LOGRDD as default RDD otherwise I have to set explicitly use",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ with DRIVER option",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   rddSetDefault( \"LOGRDD\" )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Adding Memofile Info",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   rddInfo( RDDI_MEMOVERSION, DB_MEMOVER_CLIP, \"LOGRDD\" )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Define Log File Name and position",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   hb_LogRddLogFileName( \"logs\\changes.log\" )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Define Tag to add for each line logged",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   hb_LogRddTag( NetName() + \"\\\" + hb_UserName() )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Activate Logging, it can be stopped\/started at any moment",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   hb_LogRddActive( .T. )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Uncomment next command to change logged string that I have to return to standard LOGRDD file",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ hb_LogRddMsgLogBlock( {| cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 | MyToString( cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 ) } )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Uncomment next command to change standard destination of my logged string",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ hb_LogRddUserLogBlock( {| cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 | hb_ToOutDebug( MyToString( cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3 ) + \"\\n\\r\" ) } )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Start program logic",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Open a table with logging (default RDD is LOGRDD)",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   USE \\paso",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   rlock()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   field->name := \"Francesco\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CLOSE",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Open a table without logging",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   USE \\paso VIA \"DBFCDX\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   APPEND BLANK",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   rlock()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   field->name := \"Francesco\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   RETURN",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "STATIC FUNCTION MyToString( cCmd, nWA, xPar1, xPar2, xPar3 )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   LOCAL cString",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   DO CASE",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"CREATE\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = aOpenInfo",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := xPar1[ UR_OI_NAME ]",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"CREATEFIELDS\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = aStruct",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := hb_ValToExp( xPar1 )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"OPEN\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = aOpenInfo",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ cString := 'Table : \"' + xPar1[ UR_OI_NAME ] + '\", Alias : \"' + Alias() + '\", WorkArea : ' + hb_ntos( nWA )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ In this example I don't want to log Open Command",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"CLOSE\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = cTableName, xPar2 = cAlias",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ cString := 'Table : \"' + xPar1 + '\", Alias : \"' + xPar2 + '\", WorkArea : ' + hb_ntos( nWA )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ In this example I don't want to log Close Command",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"APPEND\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = lUnlockAll",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := Alias() + \"->RecNo() = \" + hb_ntos( RecNo() )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"DELETE\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: none",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := Alias() + \"->RecNo() = \" + hb_ntos( RecNo() )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"RECALL\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: none",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := Alias() + \"->RecNo() = \" + hb_ntos( RecNo() )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"PUTVALUE\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: xPar1 = nField, xPar2 = xValue, xPar3 = xOldValue",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      HB_SYMBOL_UNUSED( xPar3 ) \/\/ Here don't log previous value",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := Alias() + \"(\" + hb_ntos( RecNo() ) + \")->\" + PadR( FieldName( xPar1 ), 10 ) + \" := \" + hb_LogRddValueToText( xPar2 )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   CASE cCmd == \"ZAP\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      \/\/ Parameters received: none",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      cString := 'Alias : \"' + Alias() + ' Table : \"' + dbInfo( DBI_FULLPATH ) + '\"'",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   ENDCASE",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   RETURN cString",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "FUNCTION hb_LogRddInherit()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   RETURN \"DBFCDX",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f6f5f35-d95b-4482-94cd-84a9b4e1c2b2",
+        "type": "message",
+        "text": "Gracias <@UJULQCHL5> :slightly_smiling_face: . Los triggers... yo los prove hace muchos años y no me digas como, porque no me suena lo que has explicado. De todas maneras hace años que creo mi propio sistema de logs para este tipo de incidencias, bajas, modificaciones,... si alguien borra queda retratado",
+        "user": "UJWR5N32S",
+        "ts": "1589995485.397200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Xmtx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJULQCHL5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": " . Los triggers... yo los prove hace muchos años y no me digas como, porque no me suena lo que has explicado. De todas maneras hace años que creo mi propio sistema de logs para este tipo de incidencias, bajas, modificaciones,... si alguien borra queda retratado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ff7aa549-2f3b-4a27-a1b6-373cbe1d44ab",
+        "type": "message",
+        "text": "Doy fe de que el LogRdd funciona de lujo",
+        "user": "UJUJLTWMT",
+        "ts": "1589995531.397600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=XDzy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Doy fe de que el LogRdd funciona de lujo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f82f0525-3aae-4857-87b0-f5cfe4ebfe88",
+        "type": "message",
+        "text": "Pues cuando Paco quiera acabar con un ejemplo practico, avisa que lo quiero ver... :slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1589995709.398200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tz6M5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues cuando Paco quiera acabar con un ejemplo practico, avisa que lo quiero ver... "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9a036ff5-3cae-46cb-a29f-42c66fab75b2",
+        "type": "message",
+        "text": "```\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/ Un RDD que utiliza un archivo LOG.\n\/\/ Hereda de cualquier RDD existente y si escribe \/ reemplaza \/ borra algo\n\/\/ en cualquier tabla, escribe cambios en un fichero LOG.\n\/\/ Esta funcionalidad puede utilizarse para modificar la acción a realizar y\/o\n\/\/ los datos a grabar.\n\/\/\n\/\/ El único inconveniente que veo es que sin tener un ID unico, utilizar el RECNO\n\/\/ no lo encuentro demasiado util. Lo ideal seria tener en las bases de datos\n\/\/ un campo AUTOINCREMENTAL, en ese caso ese campo ID si seria un buen\n\/\/ identificador para ser utilizado en el log.\n\/\/ Bien, eso nos obliga a guardar datos mas exhaustivos dependiendo del grado\n\/\/ de detalle que deseemos tener en LOG.\n\/\/ Habra que valorar tambien en produccion el impacto de este tema. Yo creo que\n\/\/ no sera muy apreciable pero .....\n\/\/\n\/\/   Funciones Principales:\n\/\/   =====================\n\/\/\n\/\/   hb_LogRddInherit() -&gt; &lt;cRDDName&gt;\n\/\/     Requerida - Debe devolver el nombre del RDD del que hereda el RDDLOG.\n\/\/                 Es local y debe ser definida por el usuario en su aplicacion\n\/\/\n\/\/   hb_LogRddLogFileName( [&lt;cFileName&gt;] ) -&gt; &lt;cOldFileName&gt;\n\/\/     Opcional  - Set\/Get logging nombre del fichero LOG ( por defecto \"changes.log\" ).\n\/\/\n\/\/   hb_LogRddTag( [&lt;cTag&gt;] ) -&gt; &lt;cOldTag&gt;\n\/\/     Opcional  - Set\/Get Tag: cadena de caracteres que es añadida al comienzo\n\/\/                 de cada linea del fichero LOG.\n\/\/                 ( por defecto: COMPUTERNAME \\ USERNAME )\n\/\/\n\/\/   hb_LogRddActive( [&lt;lActive&gt;] ) -&gt; &lt;lOldActive&gt;\n\/\/     Opcional  - Set\/Get Activar o desactivar el proceso de logging o conocer\n\/\/                 el estado ( por defecto .F., hay que activarlo )\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\n#include \"<http:\/\/fivewin.ch|fivewin.ch>\"\n#include \"<http:\/\/dbinfo.ch|dbinfo.ch>\"\n\nREQUEST LOGRDD\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/ Forzar el linkado del RDD ( DBFCDX ) del que va a heredar el RDDLOG\n\/\/ Es necesario poner el RDD del que va a heredar\n\/\/----------------------------------------------------------------------------\/\/\nREQUEST DBFCDX\n\nStatic oWindow\nStatic oFont4\nStatic cFileLog := \"changes.log\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\nFunction Main()\n\n   local nCol\n   local nRow\n   local nWAncho\n   local nWAlto\n   local cFile   := \"\"\n\n   DEFINE FONT oFont4 NAME \"CALIBRI\" SIZE 0,-16\n\n   nWAncho   := Int( GetSysMetrics( 0 ) * 0.98 )\n   nWAlto    := Int( GetSysMetrics( 1 ) * 0.96 )\n   nCol      := Int( ( GetSysMetrics( 0 ) - nWAncho ) \/ 2 )\n   nRow      := Int( ( GetSysMetrics( 1 ) - nWAlto  ) \/ 2 )\n   nWAncho   := 1338\n   nCol      := 14\n   nWAlto    := 737\n   nRow      := 15\n\n   DEFINE WINDOW oWindow FROM nRow, nCol TO nWAlto + nRow, nWAncho + nCol ;\n      PIXEL COLOR CLR_WHITE, Rgb( 220, 220, 220 ) \/\/ ;      STYLE WS_POPUP\n      oWindow:SetFont( oFont4 )\n\n      cFile  := cGetFile( \"Archivos DBF |*.dbf|\", \"Seleccione Base de Datos\" )\n      cFile  := Alltrim( cFile )\n      if !Empty( cFile )\n         \/\/ Definimos el path completo de la ubicacion del fichero LOG\n         cFileLog   := CurDrive() + \":\\\" + CurDir() + \"\\logs\\\" + cFileLog\n         OpenTable( cFile )\n         if !Empty( Alias() )\n            XBROWSER Alias() PARENT oWindow NOCAPTION ASCONTROL FASTEDIT\n         endif\n      endif\n\n   ACTIVATE WINDOW oWindow\n   RELEASE FONT oFont4\n   DbCloseAll()\n\n   if hb_FileExists( cFileLog )\n      ? hb_MemoRead( cFileLog )\n   endif\n\nReturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\nFunction OpenTable( cFile )\n\n    \/\/ Set LOGRDD como RDD por defecto para no tener que utilizar la opcion DRIVER\n    RDDSetDefault( \"LOGRDD\" )\n    \/\/ Añadir al RddLog Memofile Info\n    rddInfo( RDDI_MEMOVERSION, DB_MEMOVER_CLIP, \"LOGRDD\" )\n    \/\/ Definir el nombre y path del Log File\n    hb_LogRddLogFileName( cFileLog )\n    \/\/ Define el Tag que se añade a cada linea del fichero log\n    hb_LogRddTag( NETNAME() + \"\\\" + hb_USERNAME() )\n    \/\/ Activamos el proceso LOG, y con esta function podemos pararlo y reanudarlo\n    \/\/ en cualquier momento\n    hb_LogRddActive( .T. )\n\n   \/\/ Comment next line to change the logged string to standard LOGRDD message\n   \/\/hb_LogRddMsgLogBlock( {|cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3| MyToString( cCmd, nWA, xPar1, xPar2, xPar3 ) } )\n   \/\/hb_LogRddUserLogBlock( bUserLogBlock )\n\n   \/\/ Abrir la tabla con el proceso RddLogging ( ya que el RDD por defecto es LOGRDD )\n   USE ( cFile ) SHARED\n\n   \/\/ Tambien podemos abrir una base de datos sin utilizar el Rddlogging\n   \/\/ USE ( cFile ) DRIVER \"DBFCDX\"\n\nReturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/ Definicion del RDD del que se hereda el RddLog\n\/\/----------------------------------------------------------------------------\/\/\n\nFUNCTION hb_LogRddInherit()\nRETURN \"DBFCDX\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/```",
+        "user": "UJUJLTWMT",
+        "ts": "1589996458.398400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJUJLTWMT",
+            "ts": "1589996681.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=zAo",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/ Un RDD que utiliza un archivo LOG.\n\/\/ Hereda de cualquier RDD existente y si escribe \/ reemplaza \/ borra algo\n\/\/ en cualquier tabla, escribe cambios en un fichero LOG.\n\/\/ Esta funcionalidad puede utilizarse para modificar la acción a realizar y\/o\n\/\/ los datos a grabar.\n\/\/\n\/\/ El único inconveniente que veo es que sin tener un ID unico, utilizar el RECNO\n\/\/ no lo encuentro demasiado util. Lo ideal seria tener en las bases de datos\n\/\/ un campo AUTOINCREMENTAL, en ese caso ese campo ID si seria un buen\n\/\/ identificador para ser utilizado en el log.\n\/\/ Bien, eso nos obliga a guardar datos mas exhaustivos dependiendo del grado\n\/\/ de detalle que deseemos tener en LOG.\n\/\/ Habra que valorar tambien en produccion el impacto de este tema. Yo creo que\n\/\/ no sera muy apreciable pero .....\n\/\/\n\/\/   Funciones Principales:\n\/\/   =====================\n\/\/\n\/\/   hb_LogRddInherit() -> <cRDDName>\n\/\/     Requerida - Debe devolver el nombre del RDD del que hereda el RDDLOG.\n\/\/                 Es local y debe ser definida por el usuario en su aplicacion\n\/\/\n\/\/   hb_LogRddLogFileName( [<cFileName>] ) -> <cOldFileName>\n\/\/     Opcional  - Set\/Get logging nombre del fichero LOG ( por defecto \"changes.log\" ).\n\/\/\n\/\/   hb_LogRddTag( [<cTag>] ) -> <cOldTag>\n\/\/     Opcional  - Set\/Get Tag: cadena de caracteres que es añadida al comienzo\n\/\/                 de cada linea del fichero LOG.\n\/\/                 ( por defecto: COMPUTERNAME \\ USERNAME )\n\/\/\n\/\/   hb_LogRddActive( [<lActive>] ) -> <lOldActive>\n\/\/     Opcional  - Set\/Get Activar o desactivar el proceso de logging o conocer\n\/\/                 el estado ( por defecto .F., hay que activarlo )\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\n#include \""
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/fivewin.ch",
+                                "text": "fivewin.ch"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"\n#include \""
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/dbinfo.ch",
+                                "text": "dbinfo.ch"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"\n\nREQUEST LOGRDD\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/ Forzar el linkado del RDD ( DBFCDX ) del que va a heredar el RDDLOG\n\/\/ Es necesario poner el RDD del que va a heredar\n\/\/----------------------------------------------------------------------------\/\/\nREQUEST DBFCDX\n\nStatic oWindow\nStatic oFont4\nStatic cFileLog := \"changes.log\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\nFunction Main()\n\n   local nCol\n   local nRow\n   local nWAncho\n   local nWAlto\n   local cFile   := \"\"\n\n   DEFINE FONT oFont4 NAME \"CALIBRI\" SIZE 0,-16\n\n   nWAncho   := Int( GetSysMetrics( 0 ) * 0.98 )\n   nWAlto    := Int( GetSysMetrics( 1 ) * 0.96 )\n   nCol      := Int( ( GetSysMetrics( 0 ) - nWAncho ) \/ 2 )\n   nRow      := Int( ( GetSysMetrics( 1 ) - nWAlto  ) \/ 2 )\n   nWAncho   := 1338\n   nCol      := 14\n   nWAlto    := 737\n   nRow      := 15\n\n   DEFINE WINDOW oWindow FROM nRow, nCol TO nWAlto + nRow, nWAncho + nCol ;\n      PIXEL COLOR CLR_WHITE, Rgb( 220, 220, 220 ) \/\/ ;      STYLE WS_POPUP\n      oWindow:SetFont( oFont4 )\n\n      cFile  := cGetFile( \"Archivos DBF |*.dbf|\", \"Seleccione Base de Datos\" )\n      cFile  := Alltrim( cFile )\n      if !Empty( cFile )\n         \/\/ Definimos el path completo de la ubicacion del fichero LOG\n         cFileLog   := CurDrive() + \":\\\" + CurDir() + \"\\logs\\\" + cFileLog\n         OpenTable( cFile )\n         if !Empty( Alias() )\n            XBROWSER Alias() PARENT oWindow NOCAPTION ASCONTROL FASTEDIT\n         endif\n      endif\n\n   ACTIVATE WINDOW oWindow\n   RELEASE FONT oFont4\n   DbCloseAll()\n\n   if hb_FileExists( cFileLog )\n      ? hb_MemoRead( cFileLog )\n   endif\n\nReturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/\n\nFunction OpenTable( cFile )\n\n    \/\/ Set LOGRDD como RDD por defecto para no tener que utilizar la opcion DRIVER\n    RDDSetDefault( \"LOGRDD\" )\n    \/\/ Añadir al RddLog Memofile Info\n    rddInfo( RDDI_MEMOVERSION, DB_MEMOVER_CLIP, \"LOGRDD\" )\n    \/\/ Definir el nombre y path del Log File\n    hb_LogRddLogFileName( cFileLog )\n    \/\/ Define el Tag que se añade a cada linea del fichero log\n    hb_LogRddTag( NETNAME() + \"\\\" + hb_USERNAME() )\n    \/\/ Activamos el proceso LOG, y con esta function podemos pararlo y reanudarlo\n    \/\/ en cualquier momento\n    hb_LogRddActive( .T. )\n\n   \/\/ Comment next line to change the logged string to standard LOGRDD message\n   \/\/hb_LogRddMsgLogBlock( {|cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3| MyToString( cCmd, nWA, xPar1, xPar2, xPar3 ) } )\n   \/\/hb_LogRddUserLogBlock( bUserLogBlock )\n\n   \/\/ Abrir la tabla con el proceso RddLogging ( ya que el RDD por defecto es LOGRDD )\n   USE ( cFile ) SHARED\n\n   \/\/ Tambien podemos abrir una base de datos sin utilizar el Rddlogging\n   \/\/ USE ( cFile ) DRIVER \"DBFCDX\"\n\nReturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/ Definicion del RDD del que se hereda el RddLog\n\/\/----------------------------------------------------------------------------\/\/\n\nFUNCTION hb_LogRddInherit()\nRETURN \"DBFCDX\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\/\/\n\/\/----------------------------------------------------------------------------\/\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52f67dca-011d-4119-af39-39410ecc4522",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UJWR5N32S",
+        "ts": "1589996562.398600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Do1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a49496cb-8dd0-4b44-9c5c-f1bfb49f1a51",
+        "type": "message",
+        "text": "<@UJUJLTWMT> Coincido con tus comentarios. Los recno son malos identificadores... se van atpc cuando pack. Autoincremental quizas no le pondria, porque me parece que si hacez zap se pone a cero y entonces puedes empezar a repetir ID que tengas referidos en otras tablas.\nLo ideal sería siempre tener un UUID de esos para cada registro. Si hoy tuviera que hacer algo no habría tabla que no llevara ese campo.",
+        "user": "UJULQCHL5",
+        "ts": "1589996746.400900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bzr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJUJLTWMT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Coincido con tus comentarios. Los recno son malos identificadores... se van atpc cuando pack. Autoincremental quizas no le pondria, porque me parece que si hacez zap se pone a cero y entonces puedes empezar a repetir ID que tengas referidos en otras tablas.\nLo ideal sería siempre tener un UUID de esos para cada registro. Si hoy tuviera que hacer algo no habría tabla que no llevara ese campo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "54d637f0-50b0-4536-b04d-1d52b561b5ec",
+        "type": "message",
+        "text": "Si, eso es lo mejor. También huyo de los incrementales por el mismo motivo que indicas, y un ID único es realmente lo mejor",
+        "user": "UJUJLTWMT",
+        "ts": "1589996828.402100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BBr8w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, eso es lo mejor. También huyo de los incrementales por el mismo motivo que indicas, y un ID único es realmente lo mejor"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1bf3f722-d54e-4562-bd46-6711abefa34f",
+        "type": "message",
+        "text": "<@UJWR5N32S> un comentario adicional, igual que se usa para grabar en un log, puedes programarlo para que, por ejemplo, grabe en otra tabla ( igual o distinto RDD ). Las posibilidades las que quieras.",
+        "user": "UJUJLTWMT",
+        "ts": "1589996971.404100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TkAA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " un comentario adicional, igual que se usa para grabar en un log, puedes programarlo para que, por ejemplo, grabe en otra tabla ( igual o distinto RDD ). Las posibilidades las que quieras."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a7060315-39e7-463d-adea-0207736c0127",
+        "type": "message",
+        "text": "He utilizado el xbrowser en mi ejemplo anterior porque va a permitir añadir, borrar, mover, etc por la base de datos fácilmente, y poder probar el ejemplo rápidamente",
+        "user": "UJUJLTWMT",
+        "ts": "1589997042.405600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "osI1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "He utilizado el xbrowser en mi ejemplo anterior porque va a permitir añadir, borrar, mover, etc por la base de datos fácilmente, y poder probar el ejemplo rápidamente"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba5a7e17-7b6b-4291-9c5b-3ccd7b9ab3c3",
+        "type": "message",
+        "text": "\"Si, eso es lo mejor. También huyo de los incrementales por el mismo motivo que indicas, y un ID único es realmente lo mejor\"\n\nParafraseando aquel \"dame un punto de apoyo y moveré el mundo\", nosotros podemos decir sin pudor, \"dame un identificador único y no me faltará integridad referencial\"",
+        "user": "UJULQCHL5",
+        "ts": "1589997055.405900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gb8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"Si, eso es lo mejor. También huyo de los incrementales por el mismo motivo que indicas, y un ID único es realmente lo mejor\"\n\nParafraseando aquel \"dame un punto de apoyo y moveré el mundo\", nosotros podemos decir sin pudor, \"dame un identificador único y no me faltará integridad referencial\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e55ae613-8e44-4216-95c7-e1fc11ca2839",
+        "type": "message",
+        "text": "Eso es, por ahí empecé y terminé haciendo la clase TBlockChain\n<http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=17&amp;t=34973&amp;start=15#p211321>",
+        "user": "UJUJLTWMT",
+        "ts": "1589997164.406600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CuWJ9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso es, por ahí empecé y terminé haciendo la clase TBlockChain\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=17&t=34973&start=15#p211321"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "470da11b-e6e0-4cb0-936f-4a93bd95e3f4",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UJULQCHL5",
+        "ts": "1589997567.407000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7Fg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd057fd1-169a-4e3d-adfe-31ccfeb57b40",
+        "type": "message",
+        "text": "<@UJWR5N32S>, si investigas un poco más con el tema del LogRdd, verás miles de posibilidades a lo que aplicarlo. Para mí, desde hace ya mucho tiempo que lo uso, es otra joya de Harbour, comparable al server de Mindaugas",
+        "user": "UJUJLTWMT",
+        "ts": "1590000297.408700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qk5FL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", si investigas un poco más con el tema del LogRdd, verás miles de posibilidades a lo que aplicarlo. Para mí, desde hace ya mucho tiempo que lo uso, es otra joya de Harbour, comparable al server de Mindaugas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "77e2f8d5-b5b2-4740-b613-50693ab40f1f",
+        "type": "message",
+        "text": "Le echare un vistazo. Antes le he pegado uno por encima, pero parecia q te creaba log para todas las acciones: append,delete,open,...",
+        "user": "UJWR5N32S",
+        "ts": "1590000383.410400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NSh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Le echare un vistazo. Antes le he pegado uno por encima, pero parecia q te creaba log para todas las acciones: append,delete,open,..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "60a03adc-de3b-4e3a-99e5-eb3231d60d37",
+        "type": "message",
+        "text": "No se si es parametrizable",
+        "user": "UJWR5N32S",
+        "ts": "1590000394.410900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "31Lg9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No se si es parametrizable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae383180-1d82-4a93-b47c-bf96894b755b",
+        "type": "message",
+        "text": "Ynsi carga mucho",
+        "user": "UJWR5N32S",
+        "ts": "1590000400.411300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7q9w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ynsi carga mucho"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "227a50e2-41ca-4f85-beef-aba7f5036744",
+        "type": "message",
+        "text": "Eso es programable, y totalmente parametrizable",
+        "user": "UJUJLTWMT",
+        "ts": "1590000405.411500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yCN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso es programable, y totalmente parametrizable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "213f53a9-6403-4fdd-8755-43012de4356d",
+        "type": "message",
+        "text": "Y la function puede hacer lo que quieras, no necesariamente crear un log",
+        "user": "UJUJLTWMT",
+        "ts": "1590000447.412100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O1R4A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y la function puede hacer lo que quieras, no necesariamente crear un log"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f3499c7-0703-4c98-a69e-fab69d189305",
+        "type": "message",
+        "text": "Como uso mis logs..., pero lo kirare",
+        "user": "UJWR5N32S",
+        "ts": "1590000455.412500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TSZj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como uso mis logs..., pero lo kirare"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e2b25300-e9fd-4f8b-85ee-988f4c119fc7",
+        "type": "message",
+        "text": "Mirare",
+        "user": "UJWR5N32S",
+        "ts": "1590000458.412700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f+H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mirare"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "125a5e15-185b-4863-b9c8-cc2a67fe8056",
+        "type": "message",
+        "text": "Ya he visto q habia un eval por alla",
+        "user": "UJWR5N32S",
+        "ts": "1590000477.413200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "woYvY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya he visto q habia un eval por alla"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fdef8843-e9b3-407c-be13-4bfb689b3e13",
+        "type": "message",
+        "text": "Fijate que hay un\n```   \/\/ Comment next line to change the logged string to standard LOGRDD message\n   \/\/hb_LogRddMsgLogBlock( {|cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3| MyToString( cCmd, nWA, xPar1, xPar2, xPar3 ) } )\n   \/\/hb_LogRddUserLogBlock( bUserLogBlock )```",
+        "user": "UJUJLTWMT",
+        "ts": "1590000526.413500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oFrg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Fijate que hay un\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "   \/\/ Comment next line to change the logged string to standard LOGRDD message\n   \/\/hb_LogRddMsgLogBlock( {|cTag, cRDDName, cCmd, nWA, xPar1, xPar2, xPar3| MyToString( cCmd, nWA, xPar1, xPar2, xPar3 ) } )\n   \/\/hb_LogRddUserLogBlock( bUserLogBlock )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "911c6086-7cf0-4c32-9505-e42bd802bd46",
+        "type": "message",
+        "text": "Si, me he fijado",
+        "user": "UJWR5N32S",
+        "ts": "1590000549.414000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uQU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, me he fijado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9723240a-69a6-40fc-8c14-fa4746fbaff8",
+        "type": "message",
+        "text": "Ves ? Hoy me han salido 2 setas mas ....",
+        "user": "UJWR5N32S",
+        "ts": "1590000563.414700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJWR5N32S",
+            "ts": "1590000580.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FcaAg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ves ? Hoy me han salido 2 setas mas ...."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a89caf63-1dd0-49ca-b9da-de51d7d133a8",
+        "type": "message",
+        "text": "Pues con eso ya se te abren todas las puertas que quieraas",
+        "user": "UJUJLTWMT",
+        "ts": "1590000569.414900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DO7r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues con eso ya se te abren todas las puertas que quieraas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "155a0d67-13c9-4ffa-9136-272ce9fce88c",
+        "type": "message",
+        "text": "Una put.... maravilla, te lo aseguro",
+        "user": "UJUJLTWMT",
+        "ts": "1590000592.415300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rUhI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Una put.... maravilla, te lo aseguro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b257aebb-6530-4e44-932f-6a1f108fc162",
+        "type": "message",
+        "text": "Vale, me lo creo",
+        "user": "UJWR5N32S",
+        "ts": "1590000602.415600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WZd7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Vale, me lo creo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "61a97263-a3aa-44d1-a757-4085cbef601b",
+        "type": "message",
+        "text": "Lo mirare",
+        "user": "UJWR5N32S",
+        "ts": "1590000607.415900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k28tA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo mirare"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d7a32108-dbdd-4b14-935e-671b3cadfb64",
+        "type": "message",
+        "text": "Antes de q me echen de casa",
+        "user": "UJWR5N32S",
+        "ts": "1590000614.416300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H4hCN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Antes de q me echen de casa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a23beb1-cb21-4a68-9a29-9057d8bbe514",
+        "type": "message",
+        "text": "Yo lo tengo integrado en mi mod_harbour de pruebas a ver si se podía meter",
+        "user": "UJUJLTWMT",
+        "ts": "1590000621.416500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJUJLTWMT",
+            "ts": "1590000991.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TR4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yo lo tengo integrado en mi mod_harbour de pruebas a ver si se podía meter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db398f61-3b03-4175-a9e9-f06a43dc4354",
+        "type": "message",
+        "text": "Gracias x la info",
+        "user": "UJWR5N32S",
+        "ts": "1590000708.417400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "skdkT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias x la info"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d4ec11c0-e667-4e29-a425-17e04a4c9800",
+        "type": "message",
+        "text": "y no dejes de mirar tampoco el ArrayRdd, en la misma carpeta de Harbour que está este",
+        "user": "UJUJLTWMT",
+        "ts": "1590000935.418000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nCX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y no dejes de mirar tampoco el ArrayRdd, en la misma carpeta de Harbour que está este"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "868ae4dd-4123-494b-b7a7-3a612d5e56fd",
+        "type": "message",
+        "text": "Ese ya lo vi y prove",
+        "user": "UJWR5N32S",
+        "ts": "1590001053.418700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJWR5N32S",
+            "ts": "1590001101.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iBkB6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ese ya lo vi y prove"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2eb62b7a-8cdf-4ba3-8372-e4c354c9a428",
+        "type": "message",
+        "text": "Me suena que hay algo para decir que un Rdd deriva de otro... Alguien se acuerda ?",
+        "user": "UJULQCHL5",
+        "ts": "1590017055.419400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sUA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Me suena que hay algo para decir que un Rdd deriva de otro... Alguien se acuerda ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8816cf3-7df4-48c9-8cf8-2be07ac8315f",
+        "type": "message",
+        "text": "Existe hb_rddIsDerivedFrom() pero no es una funcion publica o al menos de usuario.",
+        "user": "UJULQCHL5",
+        "ts": "1590017953.420000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H3\/IH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Existe hb_rddIsDerivedFrom() pero no es una funcion publica o al menos de usuario."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

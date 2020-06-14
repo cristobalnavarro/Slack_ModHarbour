@@ -1,0 +1,979 @@
+[
+    {
+        "client_msg_id": "d92cf966-157a-472a-96cc-ab8e61fd2cd5",
+        "type": "message",
+        "text": "Good morning. I have a strange problem with a procedure that is making some Excel exports. If I have a server with Xampp installed everything works fine. But on another machine, with only Apache installed, when the procedure is calling the oworkbook:save the program is giving the error that the save method is not present. What could be the problem ? Thanks a lot.",
+        "user": "UPK8HA95J",
+        "ts": "1575538286.286200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "raN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning. I have a strange problem with a procedure that is making some Excel exports. If I have a server with Xampp installed everything works fine. But on another machine, with only Apache installed, when the procedure is calling the oworkbook:save the program is giving the error that the save method is not present. What could be the problem ? Thanks a lot."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "efb27d1d-2661-446a-bbf7-2fb926f29c59",
+        "type": "message",
+        "text": "Hi Massimo,\nDo you have the same Excel version in both machines?\nDid you try with SaveAs Method? <https:\/\/docs.microsoft.com\/en-us\/office\/vba\/api\/excel.workbook.saveas>",
+        "user": "UJRQZMTAM",
+        "ts": "1575541207.287900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pnMI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Massimo,\nDo you have the same Excel version in both machines?\nDid you try with SaveAs Method? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.microsoft.com\/en-us\/office\/vba\/api\/excel.workbook.saveas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0f7d498f-2800-4d1c-b015-fe333d095cef",
+        "type": "message",
+        "text": "Try disable UAC or see the privilegies folder",
+        "user": "UJRQZMTAM",
+        "ts": "1575541248.288400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9vf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Try disable UAC or see the privilegies folder"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2ef91187-c0db-4dfc-8e8d-1ac64e79b073",
+        "type": "message",
+        "text": "Hi Diego. Yes, I have the same Excel version and the Saveas gives the same error. UAC is disabled. Both servers are running the 2012 R2. It's really strange. Probably Xampp installs something that changes the windows configuration. Otherwise I don't see any other possibility. The Apache version is the same.",
+        "user": "UPK8HA95J",
+        "ts": "1575542845.291500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s4FQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Diego. Yes, I have the same Excel version and the Saveas gives the same error. UAC is disabled. Both servers are running the 2012 R2. It's really strange. Probably Xampp installs something that changes the windows configuration. Otherwise I don't see any other possibility. The Apache version is the same."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "825d9ea7-c29e-4279-a686-6d5c39f7e8d7",
+        "type": "message",
+        "text": "Try to save the file in %temp%",
+        "user": "UJRQZMTAM",
+        "ts": "1575546871.292000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJRQZMTAM",
+            "ts": "1575546880.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7xeY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Try to save the file in %temp%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ca526bb7-8ac6-4380-b7a8-d0fa6e08e624",
+        "type": "message",
+        "text": "Hi Diego. I made it and the problem is the same. If I save manually the file everything works, in both servers. It doesn't works inside the machine without Xampp, calling the saveas from the prg.",
+        "user": "UPK8HA95J",
+        "ts": "1575547308.295100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KXGV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Diego. I made it and the problem is the same. If I save manually the file everything works, in both servers. It doesn't works inside the machine without Xampp, calling the saveas from the prg."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51b420c4-1227-47c0-9765-09b7bedc05a2",
+        "type": "message",
+        "text": "Please share your code. I have Apache server to test it...\nBut in Windows 7 x86. If it works the problem must be with the SO",
+        "user": "UJRQZMTAM",
+        "ts": "1575547715.296200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ovq7Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Please share your code. I have Apache server to test it...\nBut in Windows 7 x86. If it works the problem must be with the SO"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "325e4a49-ccaf-4c0c-9311-f1e997e53163",
+        "type": "message",
+        "text": "Massimo, can you check in which account httpd.exe is running. It seems to me as if you start from Yampp you have the same account as xampp.",
+        "user": "UJHD6A81H",
+        "ts": "1575548072.297800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tTc3v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Massimo, can you check in which account httpd.exe is running. It seems to me as if you start from Yampp you have the same account as xampp."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "324952bf-25e3-4978-8970-da6a2a1e2833",
+        "type": "message",
+        "text": "Al final ¿ Quedamos que se adelantaba a esta tarde la sesión de vídeo ? Es que ya no me acuerdo... mi memoria juega a marearme.",
+        "user": "UJULQCHL5",
+        "ts": "1575551072.299100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xMu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al final ¿ Quedamos que se adelantaba a esta tarde la sesión de vídeo ? Es que ya no me acuerdo... mi memoria juega a marearme."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c85bdcea-d940-400b-842e-6c6180b2a41d",
+        "type": "message",
+        "text": "Buenos dias a todos! Saludos",
+        "user": "UJUSD6VB2",
+        "ts": "1575551205.299400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YAWf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos dias a todos! Saludos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bbdb8ff1-8a86-4da8-a145-58b8fcd3b245",
+        "type": "message",
+        "text": "Buen dias saludos desde Mx",
+        "user": "UK28N3CER",
+        "ts": "1575555233.300100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "7f09da813e5b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-01\/880554116721_7f09da813e5b80b5a0a0_72.jpg",
+            "first_name": "",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1+kQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen dias saludos desde Mx"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ddf7cb4-9a9f-4249-b703-ce6a4cb3f745",
+        "type": "message",
+        "text": "```function Main()\nLOCAL oExcel, oWorkBook, oSheet, riga\nLOCAL nomefile, file_excel, colonna , logfile:=\"\"\nLOCAL handle\n\nnomefile = \"c:\/temp\/Export_Excel.xlsx\"\nfile_excel = nomefile\nnomefile = strtran(nomefile,\"\/\",\"\\\")\nferase(nomefile)\n\noExcel:=TOleAuto():New(\"Excel.Application\")\noExcel:Visible := .F.\noExcel:DisplayAlerts:=.F.\n\noExcel:Workbooks:Add()\noWorkBook:=oExcel:Get(\"ActiveWorkBook\")\noSheet:=oExcel:Sheets:Add()\n\nriga = 1\noSheet:Cells(riga,1):Value:=\"FIELD 1\"\noSheet:Cells(riga,2):Value:=\"FIELD 2\"\noSheet:Cells(riga,3):Value:=\"FIELD 3\"\noSheet:Cells(riga,4):Value:=\"FIELD 4\"\noSheet:Cells(riga,5):Value:=\"FIELD 5\"\n\noSheet:rows(1):Font:Size = 11\noSheet:rows(1):Font:Name:=\"Arial\"\noSheet:rows(1):Font:Bold:=.T.\n\ndo while .t.\n    riga ++\n    if riga &gt; 20\n        exit\n    endif\n\n    oSheet:Cells(riga,1):Value = alltrim(str(riga))\n    oSheet:Cells(riga,2):Value = alltrim(str(riga))\n    oSheet:Cells(riga,3):Value = alltrim(str(riga))\n    oSheet:Cells(riga,4):Value = alltrim(str(riga))\n    oSheet:Cells(riga,5):Value = alltrim(str(riga))\n\n    oSheet:Cells(riga,1):VerticalAlignment = -4160\n    oSheet:Cells(riga,2):VerticalAlignment = -4160\n    oSheet:Cells(riga,3):VerticalAlignment = -4160\n    oSheet:Cells(riga,4):VerticalAlignment = -4160\n    oSheet:Cells(riga,5):VerticalAlignment = -4160\n\nEnddo\n\noSheet:Cells:Select()\noSheet:Cells:EntireColumn:AutoFit()\noSheet:Range(\"A1\"):Select()\noWorkBook:SaveAs(nomefile, 51)\noWorkBook:Close(.T.)\noExcel:Quit()\n\nreturn nil```",
+        "user": "UPK8HA95J",
+        "ts": "1575558978.300400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=Ug",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()\nLOCAL oExcel, oWorkBook, oSheet, riga\nLOCAL nomefile, file_excel, colonna , logfile:=\"\"\nLOCAL handle\n\nnomefile = \"c:\/temp\/Export_Excel.xlsx\"\nfile_excel = nomefile\nnomefile = strtran(nomefile,\"\/\",\"\\\")\nferase(nomefile)\n\noExcel:=TOleAuto():New(\"Excel.Application\")\noExcel:Visible := .F.\noExcel:DisplayAlerts:=.F.\n\noExcel:Workbooks:Add()\noWorkBook:=oExcel:Get(\"ActiveWorkBook\")\noSheet:=oExcel:Sheets:Add()\n\nriga = 1\noSheet:Cells(riga,1):Value:=\"FIELD 1\"\noSheet:Cells(riga,2):Value:=\"FIELD 2\"\noSheet:Cells(riga,3):Value:=\"FIELD 3\"\noSheet:Cells(riga,4):Value:=\"FIELD 4\"\noSheet:Cells(riga,5):Value:=\"FIELD 5\"\n\noSheet:rows(1):Font:Size = 11\noSheet:rows(1):Font:Name:=\"Arial\"\noSheet:rows(1):Font:Bold:=.T.\n\ndo while .t.\n    riga ++\n    if riga > 20\n        exit\n    endif\n\n    oSheet:Cells(riga,1):Value = alltrim(str(riga))\n    oSheet:Cells(riga,2):Value = alltrim(str(riga))\n    oSheet:Cells(riga,3):Value = alltrim(str(riga))\n    oSheet:Cells(riga,4):Value = alltrim(str(riga))\n    oSheet:Cells(riga,5):Value = alltrim(str(riga))\n\n    oSheet:Cells(riga,1):VerticalAlignment = -4160\n    oSheet:Cells(riga,2):VerticalAlignment = -4160\n    oSheet:Cells(riga,3):VerticalAlignment = -4160\n    oSheet:Cells(riga,4):VerticalAlignment = -4160\n    oSheet:Cells(riga,5):VerticalAlignment = -4160\n\nEnddo\n\noSheet:Cells:Select()\noSheet:Cells:EntireColumn:AutoFit()\noSheet:Range(\"A1\"):Select()\noWorkBook:SaveAs(nomefile, 51)\noWorkBook:Close(.T.)\noExcel:Quit()\n\nreturn nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "660471ae-be11-435d-be71-737722226493",
+        "type": "message",
+        "text": "Here is a little test for Excel.",
+        "user": "UPK8HA95J",
+        "ts": "1575559006.300800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "84wrC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here is a little test for Excel."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dff384ee-be15-4b97-8411-032ccdf4baac",
+        "type": "message",
+        "text": "Otto, the same configuration is on both servers. I've not configured different users.",
+        "user": "UPK8HA95J",
+        "ts": "1575559187.302900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uf9Gp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otto, the same configuration is on both servers. I've not configured different users."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2C0BB266-2C44-40B3-9842-3B5F6804D5DC",
+        "type": "message",
+        "text": "C:\\temp is your %temp%?",
+        "user": "UJRQZMTAM",
+        "ts": "1575559563.303500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "CF4517B5-0F18-42BD-9298-6E55DD22595A",
+        "type": "message",
+        "text": "%temp% is usually inside user folder's. Use getenv(\"TEMP\")",
+        "user": "UJRQZMTAM",
+        "ts": "1575559874.304300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJRQZMTAM",
+            "ts": "1575561763.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VTDo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "%temp% is usually inside user folder's. Use getenv(\"TEMP\")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46690026-abdc-494c-acc3-94e1366b762d",
+        "type": "message",
+        "text": "Massimo, I tested it in Windows Server 2008 R2, with Apache24 installed( 2.4.41 ) and It works",
+        "user": "UJRQZMTAM",
+        "ts": "1575561066.307200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IMqkY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Massimo, I tested it in Windows Server 2008 R2, with Apache24 installed( 2.4.41 ) and It works"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Massimo, depending on who calls  httpd.exe. If I call it from Xampp autostart it is running in SYSTEM user. If I call httpd.exe  from my usere it is running in my user account. Please check in task manager.",
+        "files": [
+            {
+                "id": "FRAUZ3ZKN",
+                "created": 1575561072,
+                "timestamp": 1575561072,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 10832,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRAUZ3ZKN\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRAUZ3ZKN\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRAUZ3ZKN-e3cc01a135\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRAUZ3ZKN-e3cc01a135\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRAUZ3ZKN-e3cc01a135\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 71,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRAUZ3ZKN-e3cc01a135\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 94,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRAUZ3ZKN-e3cc01a135\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 646,
+                "original_h": 127,
+                "thumb_tiny": "AwAJADC8uDwSfzp2ACOf1pp60lADgRn3+tKGyO1NpKAHliCelIX4xx7U2juKAP\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FRAUZ3ZKN\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FRAUZ3ZKN-e84cb79bc2",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Aiy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Massimo, depending on who calls  httpd.exe. If I call it from Xampp autostart it is running in SYSTEM user. If I call httpd.exe  from my usere it is running in my user account. Please check in task manager."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1575561074.307300",
+        "client_msg_id": "f36b348b-699d-4b0b-8800-cd01a5e48247"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FQYKEDLAE",
+                "created": 1575561096,
+                "timestamp": 1575561096,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 12068,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FQYKEDLAE\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FQYKEDLAE\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQYKEDLAE-a63e801d47\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQYKEDLAE-a63e801d47\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQYKEDLAE-a63e801d47\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 88,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQYKEDLAE-a63e801d47\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 117,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQYKEDLAE-a63e801d47\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 670,
+                "original_h": 164,
+                "thumb_tiny": "AwALADC4IwR\/9el8sdx+tJkg8Uu4+tO4rIPLTHI4+tKI48d6bk+tKGI6Gi4WQvlx+9IYo8bgDkdOaTJ9aXJ6etK4WP\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FQYKEDLAE\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FQYKEDLAE-98e858d019",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1575561101.307600",
+        "client_msg_id": "be92d13e-89eb-424a-a724-25821a0b490c"
+    },
+    {
+        "client_msg_id": "e89651f4-aae4-4bd0-a388-a2ee75458d47",
+        "type": "message",
+        "text": "Hi Diego. Thanks for your test. I must check the OS configuration.",
+        "user": "UPK8HA95J",
+        "ts": "1575563075.309400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QQH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Diego. Thanks for your test. I must check the OS configuration."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bdba9d3c-8f38-4a34-926a-0d5fe3712416",
+        "type": "message",
+        "text": "Otto thanks for your suggestions.",
+        "user": "UPK8HA95J",
+        "ts": "1575563162.309900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cD595",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otto thanks for your suggestions."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3e6497f-7603-4b69-bcc6-9f1ae9e7b872",
+        "type": "message",
+        "text": "Hi Otto. Where do I change the user ? Is there a parameter in some configuration file ?",
+        "user": "UPK8HA95J",
+        "ts": "1575569007.311700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Z2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Otto. Where do I change the user ? Is there a parameter in some configuration file ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e129e579-0f71-439b-898e-661823923979",
+        "type": "message",
+        "text": "It depends which user calls httpd.exe.",
+        "user": "UJHD6A81H",
+        "ts": "1575575930.312100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qj7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It depends which user calls httpd.exe."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "If you use task scheduling you can tell which user should run the task.",
+        "files": [
+            {
+                "id": "FQZ3323D0",
+                "created": 1575576309,
+                "timestamp": 1575576309,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 33086,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FQZ3323D0\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FQZ3323D0\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQZ3323D0-c651b56c33\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQZ3323D0-c651b56c33\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQZ3323D0-c651b56c33\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 308,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQZ3323D0-c651b56c33\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 411,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FQZ3323D0-c651b56c33\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 541,
+                "original_h": 632,
+                "thumb_tiny": "AwAwACnS3CjcPWmEEEc8U4DI6mgB1FMx\/tGlwfU0AOopB+NLQAh+6KQAj\/8AXSn7oqPnPQUAP4\/u0oK9sUwE98\/pS5z6\/jigB9FNwf8AJowf71AADlFI6HFHU\/8A1qpx30HlqvmcgD+E077bD\/z0\/wDHDQBZ\/wA9DRkejVDHcxyvsRyWPbbU3Pv+VAChgT0anU0Zzz\/KnUAf\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FQZ3323D0\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FQZ3323D0-8c06374fce",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tUBv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you use task scheduling you can tell which user should run the task."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1575576311.312700",
+        "client_msg_id": "53d2ad95-2e3b-4b79-9ff7-f34146bbd387"
+    }
+]

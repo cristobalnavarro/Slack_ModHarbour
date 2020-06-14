@@ -1,0 +1,332 @@
+[
+    {
+        "client_msg_id": "72e44b90-1355-462c-b892-2fbfcc4cf21c",
+        "type": "message",
+        "text": "<@UJWR5N32S> Cuando voy al navegador y escribo localhost, me despliega el dashboard de XAMPP, no tengo instalado mod_harbour, sólo lo descargué como zip, y los archivos que descargué en del zip ya los copié, tanto mod_harbour.so en C:\\xampp\\apache\\modules como libharbour.dll en C:\\xampp\\htdocs\\libharbour.dll y las ediciones en el archivo httpd.conf en C:\\xampp\\apache\\conf\\httpd.conf, no sé qué estoy haciendo mal...",
+        "user": "UJV4XG3J4",
+        "ts": "1561331997.002000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "reply_count": 9,
+        "reply_users_count": 2,
+        "latest_reply": "1561346638.004700",
+        "reply_users": [
+            "UJJNSR2V8",
+            "UJV4XG3J4"
+        ],
+        "replies": [
+            {
+                "user": "UJJNSR2V8",
+                "ts": "1561345668.003000"
+            },
+            {
+                "user": "UJJNSR2V8",
+                "ts": "1561345724.003200"
+            },
+            {
+                "user": "UJV4XG3J4",
+                "ts": "1561345911.003400"
+            },
+            {
+                "user": "UJV4XG3J4",
+                "ts": "1561345935.003600"
+            },
+            {
+                "user": "UJV4XG3J4",
+                "ts": "1561345958.003800"
+            },
+            {
+                "user": "UJJNSR2V8",
+                "ts": "1561345970.004000"
+            },
+            {
+                "user": "UJV4XG3J4",
+                "ts": "1561346286.004200"
+            },
+            {
+                "user": "UJJNSR2V8",
+                "ts": "1561346512.004500"
+            },
+            {
+                "user": "UJV4XG3J4",
+                "ts": "1561346638.004700"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "1ec91768-9c07-4d65-9a51-545ce98e54f0",
+        "type": "message",
+        "text": "Gracias Charly este ejemplo mvc me contenta mucho porque al leerles por ser ya todo codigo .prg que si se es comestible se puede entender todo el proceso , como los .view el uso de &lt;?prg  esto es lo que comemos desde chiquiticos,  ahora si me veo haciendo .prg navegando en la web. GRACIAS.",
+        "user": "UJJNSR2V8",
+        "ts": "1561344897.002200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561182663.489600",
+        "parent_user_id": "UJWR5N32S"
+    },
+    {
+        "client_msg_id": "befac5dc-38a8-4682-a1a3-5a61fc820bf7",
+        "type": "message",
+        "text": "<https:\/\/harbour.fourtech.es\/modharbour_samples\/apps\/mvc\/users\/7>       me muestra la informacion algunas veces",
+        "user": "UJJNSR2V8",
+        "ts": "1561345385.002800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561269099.498600",
+        "parent_user_id": "UJWR5N32S"
+    },
+    {
+        "client_msg_id": "09dee568-b4ee-425d-9e7a-1a1882b07c8e",
+        "type": "message",
+        "text": "Saludos Javier ,   Copiar libharbour.dll por ejemplo en c:\\xampp\\htdocs\n\nCopiar mod_harbour.so en ..\\apache\\modules\n\nModificar fichero ..\\apache\\conf\\httpd.conf y añadir\n\nLoadModule harbour_module modules\/mod_harbour.so\n\nSetEnv LIBHARBOUR \"c:\\xampp\\htdocs\\libharbour.dll\"\n\n &lt;FilesMatch \"\\.(prg|hrb)$\"&gt;\n\tSetHandler harbour\n&lt;\/FilesMatch&gt;\nArrancar apache",
+        "user": "UJJNSR2V8",
+        "ts": "1561345668.003000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "655170b6-70fb-464b-9761-313794fca7d4",
+        "type": "message",
+        "text": "verifica que el mod_harbour.so tenga fecha de 17-06 si no copialo de nuevo tanto el .so como el .dll",
+        "user": "UJJNSR2V8",
+        "ts": "1561345724.003200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "1410a466-bc97-4da9-887a-e29382c0f700",
+        "type": "message",
+        "text": "Hola Mario,",
+        "user": "UJV4XG3J4",
+        "ts": "1561345911.003400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "b6ee22bc-b14d-459c-8d38-07e2ccb3817f",
+        "type": "message",
+        "text": "ya tengo todo esto que comentas lo único que la fecha del mod es menor a la que me comentas",
+        "user": "UJV4XG3J4",
+        "ts": "1561345935.003600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "f7deeefd-6a00-4289-912a-88bfed1c8ed4",
+        "type": "message",
+        "text": "voy a descargar nuevamente el zip a ver que tal",
+        "user": "UJV4XG3J4",
+        "ts": "1561345958.003800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "dbfadac3-0024-4695-884d-d16987fcd5f8",
+        "type": "message",
+        "text": "bajate de nuevo .... eso es!!!! a mi me paso...",
+        "user": "UJJNSR2V8",
+        "ts": "1561345970.004000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "fa3b6114-62a8-473e-9755-6ec148866d74",
+        "type": "message",
+        "text": "Perfecto Mario!!!, es eso, muchas gracias",
+        "user": "UJV4XG3J4",
+        "ts": "1561346286.004200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJJNSR2V8"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2cf57bdf-6842-4985-a47b-6e45c9ae0ca3",
+        "type": "message",
+        "text": "para evitar eso o usas comados git o bajate el github desktop para mantenerse actualizado, estamos aprendiendo herramientas nuevas lo bueno es que despues que dominemos y alza vuelo el proyecto vamos a poder a punta de .prg que es lo que sabemos programar en la web :slightly_smiling_face:  ... que buen trabajo vienen haciendo los duros. :slightly_smiling_face:  Suerte.",
+        "user": "UJJNSR2V8",
+        "ts": "1561346512.004500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5c7770c1441",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a95c7770c144160e668fb52dae4a4024.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Mario Gonzalez",
+            "display_name": "Mario Gonzalez",
+            "team": "TJH5YU202",
+            "name": "mag071",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    },
+    {
+        "client_msg_id": "0b25a845-54b6-4503-97ed-82e71569fba1",
+        "type": "message",
+        "text": "Si, como bien dices, son cosas nuevas para algunos, yo soy uno de ellos... :grin:",
+        "user": "UJV4XG3J4",
+        "ts": "1561346638.004700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g90d56153d63",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6390d56153d63644fb7b405cad9e41e8.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0002-72.png",
+            "first_name": "Javier",
+            "real_name": "Javier Parada",
+            "display_name": "Javier",
+            "team": "TJH5YU202",
+            "name": "jparada_a",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1561331997.002000",
+        "parent_user_id": "UJV4XG3J4"
+    }
+]

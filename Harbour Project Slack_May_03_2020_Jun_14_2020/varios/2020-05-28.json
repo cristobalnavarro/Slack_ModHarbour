@@ -1,0 +1,44 @@
+[
+    {
+        "client_msg_id": "bf152f2e-ea17-48a4-abac-14d35bef8098",
+        "type": "message",
+        "text": "bd. si, he lanzado un .bat con llamadas al ejecutable con start... Lo mejor hubiera sido hacerlo con al menos dos maquinas. Pero este mismo test ya \"rompia\" el log. Y ahora no lo hace. En mi caso es un test de stress más que suficiente, sólo recojo los \"triggers\" open y delete de una sola tabla, con lo cual no habrá mucha concurrencia en la práctica.",
+        "user": "UJULQCHL5",
+        "ts": "1590649330.014900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJULQCHL5",
+            "ts": "1590649360.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0yCC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bd. si, he lanzado un .bat con llamadas al ejecutable con start... Lo mejor hubiera sido hacerlo con al menos dos maquinas. Pero este mismo test ya \"rompia\" el log. Y ahora no lo hace. En mi caso es un test de stress más que suficiente, sólo recojo los \"triggers\" open y delete de una sola tabla, con lo cual no habrá mucha concurrencia en la práctica."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

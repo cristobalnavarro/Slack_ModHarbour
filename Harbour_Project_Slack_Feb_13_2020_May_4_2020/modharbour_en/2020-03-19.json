@@ -1,0 +1,274 @@
+[
+    {
+        "client_msg_id": "832a57c8-3562-4961-945c-79dc5ebb1f1b",
+        "type": "message",
+        "text": "Hello to all",
+        "user": "UJHD6A81H",
+        "ts": "1584645169.000600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WO7D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello to all"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3d0a670e-b4e0-4a9e-8990-26160219b6fc",
+        "type": "message",
+        "text": "Hi Otto",
+        "user": "UMZ3LNV5Z",
+        "ts": "1584651655.000800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9wuqp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Otto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b598ca3a-f7ef-4a31-a3d1-ad33f89e73aa",
+        "type": "message",
+        "text": "Your nephew helped me today with",
+        "user": "UJHD6A81H",
+        "ts": "1584652235.001600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ryVh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Your nephew helped me today with"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "387541bd-d67f-4b0f-a6c9-aec069f3601c",
+        "type": "message",
+        "text": "Can someone please show me how to do this in mod harbour.\n<https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609357447700|[10:15 Uhr]>\n&lt;input type=\"hidden\" id=\"all\" value=\"&lt;?php echo $allcount; ?&gt;\"&gt;\n\n<https:\/\/app.slack.com\/team\/UNAHBRTFA|Andreu Botella>  <https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609437448800|[10:17 Uhr]>\n```TEMPLATE INTO result\n   &lt;input type=\"hidden\" id=\"all\" value=\"{{allcount}}\"&gt;\nENDTEMPLATE\n?? result```\n",
+        "user": "UJHD6A81H",
+        "ts": "1584652238.001800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609357447700",
+                "fallback": "[March 19th, 2020 2:15 AM] otto: &lt;input type=\"hidden\" id=\"all\" value=\"&lt;?php echo $allcount; ?&gt;\"&gt;",
+                "ts": "1584609357.447700",
+                "author_id": "UJHD6A81H",
+                "author_subname": "Otto Atzwanger",
+                "channel_id": "CJUHF8SBX",
+                "channel_name": "modharbour",
+                "is_msg_unfurl": true,
+                "text": "&lt;input type=\"hidden\" id=\"all\" value=\"&lt;?php echo $allcount; ?&gt;\"&gt;",
+                "author_name": "Otto Atzwanger",
+                "author_link": "https:\/\/harbourproject.slack.com\/team\/UJHD6A81H",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "original_url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609357447700",
+                "footer": "Publicado en #modharbour"
+            },
+            {
+                "from_url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609437448800",
+                "fallback": "[March 19th, 2020 2:17 AM] andreu.132: ```TEMPLATE INTO result\n   &lt;input type=\"hidden\" id=\"all\" value=\"{{allcount}}\"&gt;\nENDTEMPLATE\n?? result```",
+                "ts": "1584609437.448800",
+                "author_id": "UNAHBRTFA",
+                "author_subname": "Andreu Botella",
+                "channel_id": "CJUHF8SBX",
+                "channel_name": "modharbour",
+                "is_msg_unfurl": true,
+                "text": "```TEMPLATE INTO result\n   &lt;input type=\"hidden\" id=\"all\" value=\"{{allcount}}\"&gt;\nENDTEMPLATE\n?? result```",
+                "author_name": "Andreu Botella",
+                "author_link": "https:\/\/harbourproject.slack.com\/team\/UNAHBRTFA",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 2,
+                "original_url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609437448800",
+                "footer": "Publicado en #modharbour"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qomum",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Can someone please show me how to do this in mod harbour.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609357447700",
+                                "text": "[10:15 Uhr]"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n<input type=\"hidden\" id=\"all\" value=\"<?php echo $allcount; ?>\">\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/app.slack.com\/team\/UNAHBRTFA",
+                                "text": "Andreu Botella"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1584609437448800",
+                                "text": "[10:17 Uhr]"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TEMPLATE INTO result\n   <input type=\"hidden\" id=\"all\" value=\"{{allcount}}\">\nENDTEMPLATE\n?? result"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de2a5386-fb2d-4c57-9158-98c573aad76f",
+        "type": "message",
+        "text": "Now I try to get navigation with scrolling ready.",
+        "user": "UJHD6A81H",
+        "ts": "1584652264.002500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UxJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Now I try to get navigation with scrolling ready."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

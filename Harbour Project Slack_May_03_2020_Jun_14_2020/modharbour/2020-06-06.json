@@ -1,0 +1,2984 @@
+[
+    {
+        "client_msg_id": "78a19aca-5bdc-4860-b893-078424f3c604",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/releases\/download\/3.0\/modharbour_win64_msvc_2020_05_27.zip|modharbour_win64_msvc_2020_05_27.zip>",
+        "user": "UJN8D8U3B",
+        "ts": "1591429831.062700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4XhRh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/releases\/download\/3.0\/modharbour_win64_msvc_2020_05_27.zip",
+                                "text": "modharbour_win64_msvc_2020_05_27.zip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "43883ce7-da8e-42c9-8118-ad0322e1b915",
+        "type": "message",
+        "text": "<@UMZ3LNV5Z> <@UM81W8B0Q> si recordais como los osos usan el sistema extendido, siempre se recibe un puntero a tu \"entorno\"",
+        "user": "UJN8D8U3B",
+        "ts": "1591430556.063700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5f8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UMZ3LNV5Z"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UM81W8B0Q"
+                            },
+                            {
+                                "type": "text",
+                                "text": " si recordais como los osos usan el sistema extendido, siempre se recibe un puntero a tu \"entorno\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "44f0a93f-7360-469a-9d20-7e35572151a7",
+        "type": "message",
+        "text": "Al usar multihilo, tenemos que proporcionar el request_rec correcto a cada thread",
+        "user": "UJN8D8U3B",
+        "ts": "1591430674.065400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pc1dE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al usar multihilo, tenemos que proporcionar el request_rec correcto a cada thread"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4b34cdae-0ea8-4d68-b59d-871ac8c2302a",
+        "type": "message",
+        "text": "no nos sirve el guardarlo en una static, porque en el siguiente hilo, la sobreescribimos",
+        "user": "UJN8D8U3B",
+        "ts": "1591430694.065900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/XOyq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no nos sirve el guardarlo en una static, porque en el siguiente hilo, la sobreescribimos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "92fe8317-9728-44a6-a332-d77789d83133",
+        "type": "message",
+        "text": "esto nos obligaria a recibir siempre una variable que tiene el valor de nuestro request_rec",
+        "user": "UJN8D8U3B",
+        "ts": "1591430754.066900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "idiAm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esto nos obligaria a recibir siempre una variable que tiene el valor de nuestro request_rec"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "58067f7b-22c3-40e1-9ee9-62a16bdd793b",
+        "type": "message",
+        "text": "es decir, la pasamos por la pila",
+        "user": "UJN8D8U3B",
+        "ts": "1591430764.067200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZHgn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es decir, la pasamos por la pila"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e44e254c-da99-48cd-a8a3-338a8d18d5c3",
+        "type": "message",
+        "text": "Dear Antonio, all is working fine. Thank you.",
+        "user": "UJHD6A81H",
+        "ts": "1591434415.067800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uYs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Dear Antonio, all is working fine. Thank you."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23808165-d1cb-41a7-bc79-b31f602a2499",
+        "type": "message",
+        "text": "great! :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1591438666.068000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QWG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "great! "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b4c2109-7878-49db-a955-2caa80a96f84",
+        "type": "message",
+        "text": "c:\\Apache24\\bin&gt;ab -n 100 -c 10 <http:\/\/localhost\/test.prg>\nThis is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;\nCopyright 1996 Adam Twiss, Zeus Technology Ltd, <http:\/\/www.zeustech.net\/>\nLicensed to The Apache Software Foundation, <http:\/\/www.apache.org\/>\n\nBenchmarking localhost (be patient).....done\n\n\nServer Software:        Apache\/2.4.39\nServer Hostname:        localhost\nServer Port:            80\n\nDocument Path:          \/test.prg\nDocument Length:        56 bytes\n\nConcurrency Level:      10\nTime taken for tests:   7.107 seconds\nComplete requests:      100\nFailed requests:        0\nTotal transferred:      22200 bytes\nHTML transferred:       5600 bytes\nRequests per second:    14.07 [#\/sec] (mean)\nTime per request:       710.746 [ms] (mean)\nTime per request:       71.075 [ms] (mean, across all concurrent requests)\nTransfer rate:          3.05 [Kbytes\/sec] received\n\nConnection Times (ms)\n              min  mean[+\/-sd] median   max\nConnect:        0    0   0.2      0       1\nProcessing:     1  547 271.8    629    1179\nWaiting:        1  547 271.8    629    1179\nTotal:          1  547 271.8    629    1179\n\nPercentage of the requests served within a certain time (ms)\n  50%    629\n  66%    638\n  75%    647\n  80%    648\n  90%    653\n  95%   1094\n  98%   1177\n  99%   1179\n 100%   1179 (longest request)",
+        "user": "UJN8D8U3B",
+        "ts": "1591445337.068200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Welcome to The Apache Software Foundation!",
+                "title_link": "http:\/\/www.apache.org\/",
+                "text": "Home page of The Apache Software Foundation",
+                "fallback": "Welcome to The Apache Software Foundation!",
+                "from_url": "http:\/\/www.apache.org\/",
+                "service_icon": "http:\/\/www.apache.org\/favicons\/apple-touch-icon-57x57.png",
+                "service_name": "apache.org",
+                "id": 1,
+                "original_url": "http:\/\/www.apache.org\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z\/J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "c:\\Apache24\\bin>ab -n 100 -c 10 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost\/test.prg"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nThis is ApacheBench, Version 2.3 <$Revision: 1843412 $>\nCopyright 1996 Adam Twiss, Zeus Technology Ltd, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.zeustech.net\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nLicensed to The Apache Software Foundation, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.apache.org\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nBenchmarking localhost (be patient).....done\n\n\nServer Software:        Apache\/2.4.39\nServer Hostname:        localhost\nServer Port:            80\n\nDocument Path:          \/test.prg\nDocument Length:        56 bytes\n\nConcurrency Level:      10\nTime taken for tests:   7.107 seconds\nComplete requests:      100\nFailed requests:        0\nTotal transferred:      22200 bytes\nHTML transferred:       5600 bytes\nRequests per second:    14.07 [#\/sec] (mean)\nTime per request:       710.746 [ms] (mean)\nTime per request:       71.075 [ms] (mean, across all concurrent requests)\nTransfer rate:          3.05 [Kbytes\/sec] received\n\nConnection Times (ms)\n              min  mean[+\/-sd] median   max\nConnect:        0    0   0.2      0       1\nProcessing:     1  547 271.8    629    1179\nWaiting:        1  547 271.8    629    1179\nTotal:          1  547 271.8    629    1179\n\nPercentage of the requests served within a certain time (ms)\n  50%    629\n  66%    638\n  75%    647\n  80%    648\n  90%    653\n  95%   1094\n  98%   1177\n  99%   1179\n 100%   1179 (longest request)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b34bd31-9649-40e7-8b5b-95396b1f256e",
+        "type": "message",
+        "text": "100% oks. 14req\/seq",
+        "user": "UJWR5N32S",
+        "ts": "1591447625.068900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bdulX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "100% oks. 14req\/seq"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e6feec9-be2a-439b-b6f2-d4ff87618c87",
+        "type": "message",
+        "text": "Estamos dentro de los tiempos Quim-PHP ? \nHa pasado ya el terrible benchmark Pais-Angel ?",
+        "user": "UJULQCHL5",
+        "ts": "1591450297.072200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "w9Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Estamos dentro de los tiempos Quim-PHP ? \nHa pasado ya el terrible benchmark Pais-Angel ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db1bc2b0-e958-427b-acc6-950c357201a7",
+        "type": "message",
+        "text": "c:\\Apache24\\bin&gt;ab -n 100 -c 10 <http:\/\/localhost\/modharbour_samples\/test.prg>\nThis is ApacheBench, Version 2.3 &lt;$Revision: 1843412 $&gt;\nCopyright 1996 Adam Twiss, Zeus Technology Ltd, <http:\/\/www.zeustech.net\/>\nLicensed to The Apache Software Foundation, <http:\/\/www.apache.org\/>\n\nBenchmarking localhost (be patient).....done\n\n\nServer Software:        Apache\/2.4.39\nServer Hostname:        localhost\nServer Port:            80\n\nDocument Path:          \/modharbour_samples\/test.prg\nDocument Length:        55 bytes\n\nConcurrency Level:      10\nTime taken for tests:   1.688 seconds\nComplete requests:      100\nFailed requests:        0\nTotal transferred:      22100 bytes\nHTML transferred:       5500 bytes\nRequests per second:    59.25 [#\/sec] (mean)\nTime per request:       168.770 [ms] (mean)\nTime per request:       16.877 [ms] (mean, across all concurrent requests)\nTransfer rate:          12.79 [Kbytes\/sec] received\n\nConnection Times (ms)\n              min  mean[+\/-sd] median   max\nConnect:        0    0   0.3      0       1\nProcessing:     1   30 123.0      2     981\nWaiting:        1   30 122.9      2     980\nTotal:          1   30 123.0      2     981\n\nPercentage of the requests served within a certain time (ms)\n  50%      2\n  66%      3\n  75%      3\n  80%      3\n  90%    116\n  95%    118\n  98%    707\n  99%    981\n 100%    981 (longest request)",
+        "user": "UJN8D8U3B",
+        "ts": "1591452034.072400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Welcome to The Apache Software Foundation!",
+                "title_link": "http:\/\/www.apache.org\/",
+                "text": "Home page of The Apache Software Foundation",
+                "fallback": "Welcome to The Apache Software Foundation!",
+                "from_url": "http:\/\/www.apache.org\/",
+                "service_icon": "http:\/\/www.apache.org\/favicons\/apple-touch-icon-57x57.png",
+                "service_name": "apache.org",
+                "id": 1,
+                "original_url": "http:\/\/www.apache.org\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "96\/H7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "c:\\Apache24\\bin>ab -n 100 -c 10 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost\/modharbour_samples\/test.prg"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nThis is ApacheBench, Version 2.3 <$Revision: 1843412 $>\nCopyright 1996 Adam Twiss, Zeus Technology Ltd, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.zeustech.net\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nLicensed to The Apache Software Foundation, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.apache.org\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nBenchmarking localhost (be patient).....done\n\n\nServer Software:        Apache\/2.4.39\nServer Hostname:        localhost\nServer Port:            80\n\nDocument Path:          \/modharbour_samples\/test.prg\nDocument Length:        55 bytes\n\nConcurrency Level:      10\nTime taken for tests:   1.688 seconds\nComplete requests:      100\nFailed requests:        0\nTotal transferred:      22100 bytes\nHTML transferred:       5500 bytes\nRequests per second:    59.25 [#\/sec] (mean)\nTime per request:       168.770 [ms] (mean)\nTime per request:       16.877 [ms] (mean, across all concurrent requests)\nTransfer rate:          12.79 [Kbytes\/sec] received\n\nConnection Times (ms)\n              min  mean[+\/-sd] median   max\nConnect:        0    0   0.3      0       1\nProcessing:     1   30 123.0      2     981\nWaiting:        1   30 122.9      2     980\nTotal:          1   30 123.0      2     981\n\nPercentage of the requests served within a certain time (ms)\n  50%      2\n  66%      3\n  75%      3\n  80%      3\n  90%    116\n  95%    118\n  98%    707\n  99%    981\n 100%    981 (longest request)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6d8dd64a-8fd1-4038-8e0c-d232ec3c8ff3",
+        "type": "message",
+        "text": "ni un error en concurrencia, usando solo una DLL. 59 peticiones por segundo atendidas",
+        "user": "UJN8D8U3B",
+        "ts": "1591452097.073400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6U9B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ni un error en concurrencia, usando solo una DLL. 59 peticiones por segundo atendidas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c338a5be-ba99-4273-b4cd-fc65f8c9fa0f",
+        "type": "message",
+        "text": "Con picos de hasta 69: Requests per second:    69.36 [#\/sec] (mean)",
+        "user": "UJN8D8U3B",
+        "ts": "1591452142.073700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pSa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con picos de hasta 69: Requests per second:    69.36 [#\/sec] (mean)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Aqui teneis la beta de la versión para Apache Windows.  Funcionando ok con concurrencia, sin copiar DLLs, falta solo el timeout",
+        "files": [
+            {
+                "id": "F014YPGF5JN",
+                "created": 1591453128,
+                "timestamp": 1591453128,
+                "name": "modharbour_beta_2020_06_06.zip",
+                "title": "modharbour_beta_2020_06_06.zip",
+                "mimetype": "application\/zip",
+                "filetype": "zip",
+                "pretty_type": "Zip",
+                "user": "UJN8D8U3B",
+                "editable": false,
+                "size": 3012991,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014YPGF5JN\/modharbour_beta_2020_06_06.zip?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014YPGF5JN\/download\/modharbour_beta_2020_06_06.zip?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJN8D8U3B\/F014YPGF5JN\/modharbour_beta_2020_06_06.zip",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F014YPGF5JN-e117dd35f3",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y8EBt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aqui teneis la beta de la versión para Apache Windows.  Funcionando ok con concurrencia, sin copiar DLLs, falta solo el timeout"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJN8D8U3B",
+        "display_as_bot": false,
+        "ts": "1591453180.074600"
+    },
+    {
+        "client_msg_id": "fc7a21b4-97c1-4f00-b4b8-86caca9b7196",
+        "type": "message",
+        "text": "Se agradece que lo probeis y comenteis que tal va :+1:",
+        "user": "UJN8D8U3B",
+        "ts": "1591453196.075200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/6cQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se agradece que lo probeis y comenteis que tal va "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50b6082f-40fe-4830-87f3-2467d73cac62",
+        "type": "message",
+        "text": "This is a very fast mod_harbour version. We appreciate your feedback",
+        "user": "UJN8D8U3B",
+        "ts": "1591453251.075900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FlFl2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This is a very fast mod_harbour version. We appreciate your feedback"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e112eb6f-a044-4d0a-b293-159a4ed709e8",
+        "type": "message",
+        "text": "Aqui estan los fuentes y los makes de la beta: <https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/windows\/win64\/beta>",
+        "user": "UJN8D8U3B",
+        "ts": "1591454299.076400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mnje",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aqui estan los fuentes y los makes de la beta: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/windows\/win64\/beta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e27c6b69-6bac-47a3-a431-e3b7a3fb026b",
+        "type": "message",
+        "text": "Para probar la concurrencia: c:\\Apache24\\bin&gt;ab -n 100 -c 10 <http:\/\/localhost\/modharbour_samples\/test.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1591454368.076700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H8F4E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Para probar la concurrencia: c:\\Apache24\\bin>ab -n 100 -c 10 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost\/modharbour_samples\/test.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e523f656-ae10-4f4a-a3eb-14bf72aadc0f",
+        "type": "message",
+        "text": "Excelente Antonio",
+        "user": "UJRQZMTAM",
+        "ts": "1591455340.076900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Ri\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Excelente Antonio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50e97225-34fd-4625-8786-3d52447acda5",
+        "type": "message",
+        "text": "a eso me referia respecto a como manejar la vm de harbour",
+        "user": "UJRQZMTAM",
+        "ts": "1591455363.077400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eY3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "a eso me referia respecto a como manejar la vm de harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a5938e7-7a0d-432f-8042-c6ac3964c5a3",
+        "type": "message",
+        "text": "Diego nos falta solo implementar este código a bajo nivel:",
+        "user": "UJN8D8U3B",
+        "ts": "1591455781.077800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "risf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Diego nos falta solo implementar este código a bajo nivel:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "036fcde3-1722-4869-8148-3bd9978d9811",
+        "type": "message",
+        "text": "```      if hb_threadWait( pThread, Max( Val( AP_GetEnv( \"MHTIMEOUT\" ) ), 15 ) ) != 1\n         hb_threadQuitRequest( pThread )\n\t      ErrorLevel( 408 ) \/\/ request timeout\n      endif```",
+        "user": "UJN8D8U3B",
+        "ts": "1591455795.078300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LX=",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "      if hb_threadWait( pThread, Max( Val( AP_GetEnv( \"MHTIMEOUT\" ) ), 15 ) ) != 1\n         hb_threadQuitRequest( pThread )\n\t      ErrorLevel( 408 ) \/\/ request timeout\n      endif"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8cab1be-e6cb-412a-aacb-df12e7ac5339",
+        "type": "message",
+        "text": "Si miramos lo que hacen esas funciones desde C posiblemente podamos resolverlo",
+        "user": "UJN8D8U3B",
+        "ts": "1591455859.079600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9cQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si miramos lo que hacen esas funciones desde C posiblemente podamos resolverlo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f4e3d07-5982-4926-9052-4f188baee96c",
+        "type": "message",
+        "text": "ese mismo test pero sin concurrencia si entiendo bien el codigo te deberia dar mas lento. Hiciste la prueba?",
+        "user": "UJRQZMTAM",
+        "ts": "1591456627.080300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OYtj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ese mismo test pero sin concurrencia si entiendo bien el codigo te deberia dar mas lento. Hiciste la prueba?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d0d6ff4-f1ec-4a67-b85a-d1263a590f66",
+        "type": "message",
+        "text": "Si, la diferencia es muy grande. Al atender en modo concurrente, vamos mucho más rápido :ok_hand:",
+        "user": "UJN8D8U3B",
+        "ts": "1591460581.081400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fTv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, la diferencia es muy grande. Al atender en modo concurrente, vamos mucho más rápido "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ok_hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2b79947e-f598-4f47-a10b-9eda91ac2c1f",
+        "type": "message",
+        "text": "En realidad nosotros no creamos nuevos threads, ya que vienen creados del exterior, nosotros lo que hacemos es crear un nuevo stack para cada petición",
+        "user": "UJN8D8U3B",
+        "ts": "1591460696.082600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/lL9r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En realidad nosotros no creamos nuevos threads, ya que vienen creados del exterior, nosotros lo que hacemos es crear un nuevo stack para cada petición"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "708c48fd-4bfb-449e-bebb-e1dd32672f97",
+        "type": "message",
+        "text": "Estamos atendiendo a razón de una petición por segundo. Va como un tiro :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1591460771.083200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zyof",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Estamos atendiendo a razón de una petición por segundo. Va como un tiro "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2fa6966f-c560-485a-a488-051fb663e5f7",
+        "type": "message",
+        "text": "o incluso algo menos",
+        "user": "UJN8D8U3B",
+        "ts": "1591460812.083600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gMvnv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o incluso algo menos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "603e274b-40fc-4e6a-b46c-e49fea08f4d6",
+        "type": "message",
+        "text": "Pero no podemos hacer el timeout como lo haciamos, porque los threads no son nuestros",
+        "user": "UJN8D8U3B",
+        "ts": "1591460865.084200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YA6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero no podemos hacer el timeout como lo haciamos, porque los threads no son nuestros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "27a23e38-a5ef-46d5-9991-705d8809d9d2",
+        "type": "message",
+        "text": "tenemos que ver la forma de medir tiempos de otra manera",
+        "user": "UJN8D8U3B",
+        "ts": "1591460883.084500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i=2F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tenemos que ver la forma de medir tiempos de otra manera"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1d38c8c5-2b1f-4dc3-a0d1-007ecc9b5bd2",
+        "type": "message",
+        "text": "eso va a ser un poco complicado si un prg se mete en un bucle infinito",
+        "user": "UNAHBRTFA",
+        "ts": "1591461622.085000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gj\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eso va a ser un poco complicado si un prg se mete en un bucle infinito"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a76ad57-48ca-41b5-b1ba-9183905614fd",
+        "type": "message",
+        "text": "si hace `InKey(0)` o sleep, puedes cogerlo desde `hb_idleAdd()`, pero con un bucle infinito de CPU no puedes sin crear más hilos",
+        "user": "UNAHBRTFA",
+        "ts": "1591461675.085800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1591461710.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8=3qC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si hace "
+                            },
+                            {
+                                "type": "text",
+                                "text": "InKey(0)",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " o sleep, puedes cogerlo desde "
+                            },
+                            {
+                                "type": "text",
+                                "text": "hb_idleAdd()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", pero con un bucle infinito de CPU no puedes sin crear más hilos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d807b53d-851a-4df4-a65c-0280a33f0851",
+        "type": "message",
+        "text": "Requests per second:    2299.54 [#\/sec] (mean)",
+        "user": "UJN8D8U3B",
+        "ts": "1591463050.086800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "orAA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Requests per second:    2299.54 [#\/sec] (mean)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2598102b-a4ad-4aae-a18b-46ae866af34e",
+        "type": "message",
+        "text": "Como he dejado el bucle funcionando, fijaros a que velocidad atiende :smile:",
+        "user": "UJN8D8U3B",
+        "ts": "1591463070.087300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UHuj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como he dejado el bucle funcionando, fijaros a que velocidad atiende "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "553fdfe3-206a-4d6d-9e86-79ef6302773d",
+        "type": "message",
+        "text": "A ver que se nos ocurre...",
+        "user": "UJN8D8U3B",
+        "ts": "1591463203.087500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YVV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A ver que se nos ocurre..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2aec6fa5-d18c-422b-b9ce-5b3b8a329c55",
+        "type": "message",
+        "text": "Muy bueno <@UJN8D8U3B> ya vamos a probar",
+        "user": "UK28N3CER",
+        "ts": "1591464542.088100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R\/U",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muy bueno "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ya vamos a probar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "version Actual",
+        "files": [
+            {
+                "id": "F015BGH2AKT",
+                "created": 1591468951,
+                "timestamp": 1591468951,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UK28N3CER",
+                "editable": false,
+                "size": 38851,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015BGH2AKT\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015BGH2AKT\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BGH2AKT-c8a507dfa0\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BGH2AKT-c8a507dfa0\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BGH2AKT-c8a507dfa0\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 334,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BGH2AKT-c8a507dfa0\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 445,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BGH2AKT-c8a507dfa0\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 617,
+                "original_h": 572,
+                "thumb_tiny": "AwAsADCH7bOOjL\/3zR9vuAR8y\/8AfNQdDTT96gCz\/aFx\/fT\/AL5pP7RuP7y\/981XIB6DFIVx70AWf7RuP7y\/981Jb308k6IxXDHB+WqOD6GprMH7XFx\/FQBEf88GjHvStk9qBx2oAT8BSfgKXk5460HnoKAEqaz\/AOPuL\/eqHBFTWf8Ax9xf71AEeOR9KZUuOR\/u0mwcdeaAI6KcwAOKSgBKns\/+PuL\/AHqhqa04uov96gD\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UK28N3CER\/F015BGH2AKT\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015BGH2AKT-851d1ac4d3",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "umFVg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "version Actual"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UK28N3CER",
+        "display_as_bot": false,
+        "ts": "1591468975.088600"
+    },
+    {
+        "type": "message",
+        "text": "contra la version anterior hay una gran diferencia",
+        "files": [
+            {
+                "id": "F01553FU0N8",
+                "created": 1591469040,
+                "timestamp": 1591469040,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UK28N3CER",
+                "editable": false,
+                "size": 41713,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01553FU0N8\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01553FU0N8\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01553FU0N8-e6bcc9cd10\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01553FU0N8-e6bcc9cd10\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01553FU0N8-e6bcc9cd10\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 316,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01553FU0N8-e6bcc9cd10\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 422,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01553FU0N8-e6bcc9cd10\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 651,
+                "original_h": 572,
+                "thumb_tiny": "AwAqADCH7ZcDo4\/75o+33Gcbx\/3yKr96T+OgCz9uusfeH\/fNH266\/vD\/AL5FVyM+1NINAFk6hcjqw\/75FPgvp3nRWYEMwB+UVSwalthi6i\/3xQAw5H\/66Nv1FBGe59aTd7mgA7dTSHIOKXP1pCQTk5oASpbb\/j6i\/wB8VHUlt\/x9Rf74oAQf+y0zFGaMn1oAKSlooASpbb\/j6i\/3xUdSW\/8Ax8x\/7woA\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UK28N3CER\/F01553FU0N8\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01553FU0N8-76c99cdbcc",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TXHp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "contra la version anterior hay una gran diferencia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UK28N3CER",
+        "display_as_bot": false,
+        "ts": "1591469063.089300"
+    },
+    {
+        "client_msg_id": "493846ce-f72b-4095-97cb-de3ce7b9ae4c",
+        "type": "message",
+        "text": "Cesar...  hacé el mismo test con arrays.prg",
+        "user": "UM81W8B0Q",
+        "ts": "1591469163.089800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KaCb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cesar...  hacé el mismo test con arrays.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "edab08cb-d826-4632-b521-25f4ffb2169c",
+        "type": "message",
+        "text": "y pegalo aca",
+        "user": "UM81W8B0Q",
+        "ts": "1591469169.090000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sjDA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y pegalo aca"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a42f3d4d-2b2d-46d2-acc8-593927e47e51",
+        "type": "message",
+        "text": "OK",
+        "user": "UK28N3CER",
+        "ts": "1591469756.090200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a47YB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "OK"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F014Z4GV6FM",
+                "created": 1591469847,
+                "timestamp": 1591469847,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UK28N3CER",
+                "editable": false,
+                "size": 44739,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014Z4GV6FM\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014Z4GV6FM\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014Z4GV6FM-1a9a6453f3\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014Z4GV6FM-1a9a6453f3\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014Z4GV6FM-1a9a6453f3\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 353,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014Z4GV6FM-1a9a6453f3\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 470,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014Z4GV6FM-1a9a6453f3\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 617,
+                "original_h": 630,
+                "thumb_tiny": "AwAwAC+H7dMOhH\/fNJ9vuM9R\/wB81BSE5YfyoAsnUZ\/Uf980f2jceq\/lVZgRnJ+tN49aALX9o3H95f8Avmp7O8mmuAjlSCCelZ1WtN\/4\/F+hoAr5+n50mcmlbjvQBkUAGfp+dIeeT\/Oj14pGGDQAce9WtNx9sXHoaqVb03\/j8X6GgCvgccdqbn2p\/p9KZtPpQAZ9qM+1GKKAD8Ktab\/x+L9DVWrWm\/8AH4v0NAH\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UK28N3CER\/F014Z4GV6FM\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F014Z4GV6FM-664a33bace",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UK28N3CER",
+        "display_as_bot": false,
+        "ts": "1591469853.090300"
+    },
+    {
+        "client_msg_id": "2411d2d6-99a2-4b9f-a042-b2f750c44348",
+        "type": "message",
+        "text": "no ves nada raro ?",
+        "user": "UM81W8B0Q",
+        "ts": "1591469892.090700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AYN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no ves nada raro ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "17515cee-66e8-42f6-92bf-90e2edcaa3c6",
+        "type": "message",
+        "text": "dió 95 errores",
+        "user": "UJN8D8U3B",
+        "ts": "1591469910.090900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/lN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "dió 95 errores"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de63c52c-ade4-4bc5-a231-d5cfd482c4bc",
+        "type": "message",
+        "text": "yep",
+        "user": "UM81W8B0Q",
+        "ts": "1591469915.091100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9R+gB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6e995356-0988-47c9-b359-aeb402012674",
+        "type": "message",
+        "text": "eso es lo que pediamos ayuda en lo que poublicamos el otro dia",
+        "user": "UM81W8B0Q",
+        "ts": "1591469927.091500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qjKg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eso es lo que pediamos ayuda en lo que poublicamos el otro dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33f63470-8506-4778-9d58-e9c2500ab43d",
+        "type": "message",
+        "text": "el prepro mezcla los simbolos, pero nadie nos dio bola",
+        "user": "UM81W8B0Q",
+        "ts": "1591469943.092000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Sk54",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el prepro mezcla los simbolos, pero nadie nos dio bola"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "572e01e0-f4fb-47e0-ab95-1040fe75b054",
+        "type": "message",
+        "text": "sip",
+        "user": "UK28N3CER",
+        "ts": "1591470054.092300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p4ZyG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "99d7c343-f038-469a-8fa7-399a415d1d33",
+        "type": "message",
+        "text": "el codig que publicamos el otro dia tambien nos da falla con el preprocesador",
+        "user": "UM81W8B0Q",
+        "ts": "1591470099.092800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CiWD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el codig que publicamos el otro dia tambien nos da falla con el preprocesador"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e06112cc-d8e1-4334-9461-0b273a40679d",
+        "type": "message",
+        "text": "Cual es el error Angel ?",
+        "user": "UJN8D8U3B",
+        "ts": "1591470161.093400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I9YHb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cual es el error Angel ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb077d0f-1b96-4e40-bc1a-21525f614c19",
+        "type": "message",
+        "text": "sospechamos que el prepro mezcla los simbolos",
+        "user": "UM81W8B0Q",
+        "ts": "1591470196.093700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b95fp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sospechamos que el prepro mezcla los simbolos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef3a3eee-0d57-46ac-b38b-ee41a3c22a54",
+        "type": "message",
+        "text": "por eso queríamos que tu lo debuguearas",
+        "user": "UM81W8B0Q",
+        "ts": "1591470207.094100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QET",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "por eso queríamos que tu lo debuguearas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6aee7935-4102-4a7e-9a7f-de0e13d742d5",
+        "type": "message",
+        "text": "ya que yo con el debugger soy como Pedro Picapiedras",
+        "user": "UM81W8B0Q",
+        "ts": "1591470225.094800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1591470367.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MJ5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ya que yo con el debugger soy como Pedro Picapiedras"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae38ea1a-d50a-4737-9c36-9daa8bdd4ac0",
+        "type": "message",
+        "text": "Aqui se ejecuta bien",
+        "user": "UJN8D8U3B",
+        "ts": "1591470235.095000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s7dmG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aqui se ejecuta bien"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c76bd8e0-e995-4c29-a0cd-390368e3f023",
+        "type": "message",
+        "text": "no veo el error",
+        "user": "UJN8D8U3B",
+        "ts": "1591470243.095300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z5a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no veo el error"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "11ce5f03-df9a-4f54-afc3-17aa80cb8d44",
+        "type": "message",
+        "text": "es un ESNI: error de simbolos no identificado LOL",
+        "user": "UM81W8B0Q",
+        "ts": "1591470446.096300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1591470455.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ghX1B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es un ESNI: error de simbolos no identificado LOL"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e3501689-0889-4b00-a4e0-dfae2a36b873",
+        "type": "message",
+        "text": "Supermán enviaba a sus enemigos a la Zona Fantasma. Sospecho que el preprocesador hace lo mismo con los símbolos gggg",
+        "user": "UM81W8B0Q",
+        "ts": "1591470884.097300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3kyZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Supermán enviaba a sus enemigos a la Zona Fantasma. Sospecho que el preprocesador hace lo mismo con los símbolos gggg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb581a7d-3d6b-4e4a-84fe-89088f5081ca",
+        "type": "message",
+        "text": "<@UJN8D8U3B> en esta BETA el MVC de <@UJWR5N32S> no funca,",
+        "user": "UK28N3CER",
+        "ts": "1591471118.097900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jwEd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " en esta BETA el MVC de "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " no funca,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f9a47d1-e1a8-4f4a-b953-e6725f9b911a",
+        "type": "message",
+        "text": "se queda resquesqueando y al fina dice sitio no encontrado :hushed:",
+        "user": "UK28N3CER",
+        "ts": "1591471346.098500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SxNS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "se queda resquesqueando y al fina dice sitio no encontrado "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "hushed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a55fed1d-be02-49b7-83e5-c96eeb62aad0",
+        "type": "message",
+        "text": "probando <http:\/\/localhost:82\/mercury\/boot>  de <@UJWR5N32S> se queda ciclado y al final dice No se puede acceder a este sitio web",
+        "user": "UK28N3CER",
+        "ts": "1591471507.099100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sXi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "probando "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost:82\/mercury\/boot"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  de "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " se queda ciclado y al final dice No se puede acceder a este sitio web"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "27f1725a-d463-46e3-89fd-c099b649f307",
+        "type": "message",
+        "text": "Angel, si le pasamos el parámetro -l al llamar a ab:",
+        "user": "UJN8D8U3B",
+        "ts": "1591477050.099500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dacdi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Angel, si le pasamos el parámetro -l al llamar a ab:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b20a60a6-d18a-4220-b465-4a75633f6535",
+        "type": "message",
+        "text": "c:\\Apache24\\bin&gt;ab -n 100 -c 10 -l <http:\/\/localhost\/modharbour_samples\/arrays.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1591477071.099700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n+oJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "c:\\Apache24\\bin>ab -n 100 -c 10 -l "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost\/modharbour_samples\/arrays.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d3710653-1ec3-4193-b2d1-1e6bf0330c52",
+        "type": "message",
+        "text": "Entonces ya no hay errores. Esta dando resultados de longitud variable",
+        "user": "UJN8D8U3B",
+        "ts": "1591477090.100100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5t9i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Entonces ya no hay errores. Esta dando resultados de longitud variable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2dbcaea-fc00-4bbf-aa77-59e15c6123ec",
+        "type": "message",
+        "text": "como podemos salvar en disco lo que recibe ? Ahi veriamos de donde viene la diferencia",
+        "user": "UJN8D8U3B",
+        "ts": "1591477125.100900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qpu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "como podemos salvar en disco lo que recibe ? Ahi veriamos de donde viene la diferencia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "81d68dc4-2c7d-4b02-b5d3-ea8ca5501e5d",
+        "type": "message",
+        "text": "Asi:",
+        "user": "UJN8D8U3B",
+        "ts": "1591477286.101500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jk+l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Asi:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "06b768b3-46b4-4a72-b619-4d43b28a3cff",
+        "type": "message",
+        "text": "c:\\Apache24\\bin&gt;ab -n 100 -c 10 -l -v4 <http:\/\/localhost\/modharbour_samples\/arrays.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1591477288.101700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E7f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "c:\\Apache24\\bin>ab -n 100 -c 10 -l -v4 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/localhost\/modharbour_samples\/arrays.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "13a3cb1b-88c4-4aac-b645-42ce45382413",
+        "type": "message",
+        "text": "<@UK28N3CER> estas en una beta. Cuando este estabilizado ya lo adaptaremos si son necesarios cambios",
+        "user": "UJWR5N32S",
+        "ts": "1591477334.102900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wbe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UK28N3CER"
+                            },
+                            {
+                                "type": "text",
+                                "text": " estas en una beta. Cuando este estabilizado ya lo adaptaremos si son necesarios cambios"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c71fb861-e2c8-4d29-a4d7-cd156d197f66",
+        "type": "message",
+        "text": "Bien Charly, gracias",
+        "user": "UK28N3CER",
+        "ts": "1591477403.103200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wtnn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien Charly, gracias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e1576aad-1d5a-41e8-8b89-c51dc34acf05",
+        "type": "message",
+        "text": "En realidad no seria asi Antonio. El arrays.prg es una pagina estatica.\nIndependientemente de eso si fuera como comentas, el test de esta misma pagina(arrays.prg) hecho con el mod estable tambien deberia dar errores y no es asi.",
+        "user": "UJRQZMTAM",
+        "ts": "1591477631.104400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJRQZMTAM",
+            "ts": "1591477647.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6k\/ag",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En realidad no seria asi Antonio. El arrays.prg es una pagina estatica.\nIndependientemente de eso si fuera como comentas, el test de esta misma pagina(arrays.prg) hecho con el mod estable tambien deberia dar errores y no es asi."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b351b3a-30ca-4da1-a11f-6266dbb2045e",
+        "type": "message",
+        "text": "Asi es, con el parámetro -v4 vemos lo que recibe",
+        "user": "UJN8D8U3B",
+        "ts": "1591478119.104900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GB\/+1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Asi es, con el parámetro -v4 vemos lo que recibe"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

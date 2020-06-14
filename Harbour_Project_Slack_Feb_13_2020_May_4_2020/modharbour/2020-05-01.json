@@ -1,0 +1,2915 @@
+[
+    {
+        "client_msg_id": "71823cc2-9d1d-444a-baac-a450feb3c18e",
+        "type": "message",
+        "text": "```TRY \nCATCH \nEND```\nNo está implementado en modharbour ???",
+        "user": "UJU3NMK0U",
+        "ts": "1588320593.346000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VX8",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TRY \nCATCH \nEND"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No está implementado en modharbour ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "074be1b1-3479-4aa0-91a0-d4ec879b558d",
+        "type": "message",
+        "text": "Y... puestos a probar\n```oExcel := GetActiveObject( \"Excel.Application\" )```\nEsto se puede hacer de alguna forma en modharbour ???",
+        "user": "UJU3NMK0U",
+        "ts": "1588320708.346600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/wcYX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y... puestos a probar\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oExcel := GetActiveObject( \"Excel.Application\" )"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto se puede hacer de alguna forma en modharbour ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb01fa00-df57-4dfb-9e73-71bce29ac2de",
+        "type": "message",
+        "text": "Error: 0x800401e3\noperation: TOLEAUTO:GETACTIVEOBJECT\n[ 1] = C Excel.Application\ncalled from: THROW, line: 0\ncalled from: xhb\\xhbole.prg, TOLEAUTO:GETACTIVEOBJECT, line: 0\ncalled from: xhb\\xhbole.prg, GETACTIVEOBJECT, line: 0\ncalled from: pcode.hrb, FITXERSCONTROLLER:EXCELTOSEPAXML, line: 77\ncalled from: pcode.hrb, FITXERSCONTROLLER:NEW, line: 28\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 3\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, ZEXECUTE, line: 314\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:EXECUTE, line: 588\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:LISTEN, line: 391\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TAPP:INIT, line: 111\ncalled from: pcode.hrb, MAIN, line: 65\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 143\n\nSource:\n0075:\n0076:\n0077 =&gt;   oExcel := GetActiveObject( \"Excel.Application\" )\n0078:\n0079:",
+        "user": "UJU3NMK0U",
+        "ts": "1588320862.346800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kITZV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Error: 0x800401e3\noperation: TOLEAUTO:GETACTIVEOBJECT\n[ 1] = C Excel.Application\ncalled from: THROW, line: 0\ncalled from: xhb\\xhbole.prg, TOLEAUTO:GETACTIVEOBJECT, line: 0\ncalled from: xhb\\xhbole.prg, GETACTIVEOBJECT, line: 0\ncalled from: pcode.hrb, FITXERSCONTROLLER:EXCELTOSEPAXML, line: 77\ncalled from: pcode.hrb, FITXERSCONTROLLER:NEW, line: 28\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 3\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, ZEXECUTE, line: 314\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:EXECUTE, line: 588\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:LISTEN, line: 391\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TAPP:INIT, line: 111\ncalled from: pcode.hrb, MAIN, line: 65\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 143\n\nSource:\n0075:\n0076:\n0077 =>   oExcel := GetActiveObject( \"Excel.Application\" )\n0078:\n0079:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d558be8a-3851-4706-8cd5-f21310604a98",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1588322337.347000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xi9n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a995cda-110b-48f1-a3ad-731c9d4971bc",
+        "type": "message",
+        "text": "<@UJU3NMK0U> en el ejemplo modpro tienes el codigo para escoger un fichero y enviarlo al servidor",
+        "user": "UJN8D8U3B",
+        "ts": "1588322364.347600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1588322376.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lON",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " en el ejemplo modpro tienes el codigo para escoger un fichero y enviarlo al servidor"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d4d348cf-29b5-471f-a54f-823289fffae7",
+        "type": "message",
+        "text": "Esto funciona correctamente, siempre y cuando estes ejecutando Apache en Windows:",
+        "user": "UJN8D8U3B",
+        "ts": "1588322605.348300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sv3zE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto funciona correctamente, siempre y cuando estes ejecutando Apache en Windows:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8de349e-0461-43dd-9719-9c5c240ce2d8",
+        "type": "message",
+        "text": "```function Main()\n\n   local o := TOleAuto():New( \"ADODB.RecordSet\" )\n\n   ? o:ClassName()\n\nreturn nil```",
+        "user": "UJN8D8U3B",
+        "ts": "1588322610.348600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1JU",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()\n\n   local o := TOleAuto():New( \"ADODB.RecordSet\" )\n\n   ? o:ClassName()\n\nreturn nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d3217988-1ff2-4056-b8b3-5bc459814b34",
+        "type": "message",
+        "text": "Debe ser algo específico de Excel",
+        "user": "UJN8D8U3B",
+        "ts": "1588322623.348900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zgCls",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Debe ser algo específico de Excel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e0d32c15-6b52-4b1b-8050-1f40cde7f825",
+        "type": "message",
+        "text": "Bien... para cargar Excel...\n```? oExcel := CreateObject( \"Excel.Application\" )```\n```{\n  \"CLASS\": \"TOLEAUTO\",\n  \"FROM\":\n  [\n    \"WIN_OLEAUTO\"\n  ],\n  \"DATAs\":\n  {\n    \"CCLASSNAME\": \"Excel.Application\",\n    \"HOBJ\": null,\n    \"OLEVALUE\": \"Microsoft Excel\"\n  },\n  \"METHODs\":\n  [\n    \"WIN_OLEAUTO\",\n    \"REALCLASS\",\n    \"TOLEAUTO\",\n    \"SUPER\",\n    \"NEW\",\n    \"GETACTIVEOBJECT\",\n    \"INVOKE\",\n    \"CALLMETHOD\",\n    \"SET\",\n    \"SETPROPERTY\",\n    \"GET\",\n    \"GETPROPERTY\"\n  ]\n}```\nLo que me ocurria, es que como no puedo utulizar TRY...CATCH, no puedo detectar si está Excel corriendo o no.\n```TRY\n   oExcel := GetActiveObject( \"Excel.Application\" )\nCATCH\n   TRY\n      oExcel := CreateObject( \"Excel.Application\" )\n   CATCH\n      MsgAlert( \"ERROR! Excel not avialable. [\" + Ole2TxtError()+ \"]\" )\n      oExcel := NIL\n      RETURN Nil\n   END\nEND\n...```\nEsto no lo puedo hacer...\nAlguna sugerencia o se va a implementar TRY...CATCH en modharbour ???",
+        "user": "UJU3NMK0U",
+        "ts": "1588331785.351700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/YPcM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien... para cargar Excel...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "? oExcel := CreateObject( \"Excel.Application\" )"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "{\n  \"CLASS\": \"TOLEAUTO\",\n  \"FROM\":\n  [\n    \"WIN_OLEAUTO\"\n  ],\n  \"DATAs\":\n  {\n    \"CCLASSNAME\": \"Excel.Application\",\n    \"HOBJ\": null,\n    \"OLEVALUE\": \"Microsoft Excel\"\n  },\n  \"METHODs\":\n  [\n    \"WIN_OLEAUTO\",\n    \"REALCLASS\",\n    \"TOLEAUTO\",\n    \"SUPER\",\n    \"NEW\",\n    \"GETACTIVEOBJECT\",\n    \"INVOKE\",\n    \"CALLMETHOD\",\n    \"SET\",\n    \"SETPROPERTY\",\n    \"GET\",\n    \"GETPROPERTY\"\n  ]\n}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo que me ocurria, es que como no puedo utulizar TRY...CATCH, no puedo detectar si está Excel corriendo o no.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TRY\n   oExcel := GetActiveObject( \"Excel.Application\" )\nCATCH\n   TRY\n      oExcel := CreateObject( \"Excel.Application\" )\n   CATCH\n      MsgAlert( \"ERROR! Excel not avialable. [\" + Ole2TxtError()+ \"]\" )\n      oExcel := NIL\n      RETURN Nil\n   END\nEND\n..."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto no lo puedo hacer...\nAlguna sugerencia o se va a implementar TRY...CATCH en modharbour ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c7638b0d-976d-4474-aae4-8799b385a54c",
+        "type": "message",
+        "text": "¿No puedes definirlo como macros del preprocesador?",
+        "user": "UNAHBRTFA",
+        "ts": "1588332385.353100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VEa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿No puedes definirlo como macros del preprocesador?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "29cb6413-ae02-4ed7-84e0-54c35743c84d",
+        "type": "message",
+        "text": ":face_with_rolling_eyes:... So mu burro, yo!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588332565.353600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iyje",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "face_with_rolling_eyes"
+                            },
+                            {
+                                "type": "text",
+                                "text": "... So mu burro, yo!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e7ed1531-548f-41a6-b329-59d36cf74d2c",
+        "type": "message",
+        "text": "Prueba esto:\n```   \/* TRY \/ CATCH \/ FINALLY \/ END *\/\n   #xcommand TRY =&gt; BEGIN SEQUENCE WITH __BreakBlock()\n   #xcommand CATCH [<!oErr!>] =&gt; RECOVER [USING &lt;oErr&gt;] &lt;-oErr-&gt;\n   #xcommand FINALLY =&gt; ALWAYS```\n",
+        "user": "UL77SJTB2",
+        "ts": "1588337015.354400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g083d53f16df",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e083d53f16dfeb8acae9b468b891210.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "Pere Cordonet",
+            "display_name": "Pere Cordonet",
+            "team": "TJH5YU202",
+            "name": "perecordonet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CjO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Prueba esto:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "   \/* TRY \/ CATCH \/ FINALLY \/ END *\/\n   #xcommand TRY => BEGIN SEQUENCE WITH __BreakBlock()\n   #xcommand CATCH [<!oErr!>] => RECOVER [USING <oErr>] <-oErr->\n   #xcommand FINALLY => ALWAYS"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588337015.354400",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1588361921.381800",
+        "reply_users": [
+            "UJN8D8U3B"
+        ],
+        "replies": [
+            {
+                "user": "UJN8D8U3B",
+                "ts": "1588361906.381600"
+            },
+            {
+                "user": "UJN8D8U3B",
+                "ts": "1588361921.381800"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "39824f17-af0c-4b0e-b86c-75a5da1107de",
+        "type": "message",
+        "text": "PERFECT!!!, <@UL77SJTB2>\n```TRY \n    ? \"TRY\"+5\n    CATCH \n    ? \"CATCH\"\nEND```",
+        "user": "UJU3NMK0U",
+        "ts": "1588337891.354800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zkBBU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "PERFECT!!!, "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UL77SJTB2"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "TRY \n    ? \"TRY\"+5\n    CATCH \n    ? \"CATCH\"\nEND"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588337891.354800",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1588362026.382200",
+        "reply_users": [
+            "UJN8D8U3B"
+        ],
+        "replies": [
+            {
+                "user": "UJN8D8U3B",
+                "ts": "1588362026.382200"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "cc2ec3c6-1030-4445-a119-b5e6ad677354",
+        "type": "message",
+        "text": "Buenos días",
+        "user": "UK28N3CER",
+        "ts": "1588338103.355200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5OlD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos días"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3c1de55-10ec-4140-82b0-8a9ab022f4cc",
+        "type": "message",
+        "text": "Hola <@UL77SJTB2> has echo la versión hblog con mysql? O maríadb",
+        "user": "UK28N3CER",
+        "ts": "1588338210.357200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FPO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UL77SJTB2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " has echo la versión hblog con mysql? O maríadb"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a034f0df-3178-4e35-a11b-676191bb9445",
+        "type": "message",
+        "text": "hola buenos dias , de vuelta al ruedo. Estoy subiendo los videos faltantes",
+        "user": "UJUFNFMFE",
+        "ts": "1588338286.358900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "aa4e40c137f0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-21\/630419446595_aa4e40c137f03c23b9cd_72.jpg",
+            "first_name": "Marcelo",
+            "real_name": "Marcelo Roggeri",
+            "display_name": "Marcelo Roggeri",
+            "team": "TJH5YU202",
+            "name": "roggerimarcelo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G+Kaq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hola buenos dias , de vuelta al ruedo. Estoy subiendo los videos faltantes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6ec47f1-38a8-4947-997d-2da48ad05e81",
+        "type": "message",
+        "text": "La tenia hecha hasta la version de blog4, pero ahora estoy en medio de un proyecto, y no puedo hacer nada, solo seguir el slack o alguna videoconferencia.",
+        "user": "UL77SJTB2",
+        "ts": "1588338293.359200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g083d53f16df",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e083d53f16dfeb8acae9b468b891210.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "Pere Cordonet",
+            "display_name": "Pere Cordonet",
+            "team": "TJH5YU202",
+            "name": "perecordonet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4uc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "La tenia hecha hasta la version de blog4, pero ahora estoy en medio de un proyecto, y no puedo hacer nada, solo seguir el slack o alguna videoconferencia."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22398e40-02bb-4034-bd4c-be31d8d1c376",
+        "type": "message",
+        "text": "Hola <@UJUFNFMFE>",
+        "user": "UK28N3CER",
+        "ts": "1588338336.359700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Ds",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJUFNFMFE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588338336.359700",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1588338541.361900",
+        "reply_users": [
+            "UJUFNFMFE",
+            "UK28N3CER"
+        ],
+        "replies": [
+            {
+                "user": "UJUFNFMFE",
+                "ts": "1588338398.360900"
+            },
+            {
+                "user": "UK28N3CER",
+                "ts": "1588338468.361700"
+            },
+            {
+                "user": "UJUFNFMFE",
+                "ts": "1588338541.361900"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "79568992-df70-4c96-a7b3-2050b909e694",
+        "type": "message",
+        "text": "<@UL77SJTB2> muy bien podemos ver tu aporte? Gracias",
+        "user": "UK28N3CER",
+        "ts": "1588338388.360800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v0\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UL77SJTB2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " muy bien podemos ver tu aporte? Gracias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cb598b22-c658-43d0-9e33-619143439b27",
+        "type": "message",
+        "text": "Hola Cesar",
+        "user": "UJUFNFMFE",
+        "ts": "1588338398.360900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "aa4e40c137f0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-21\/630419446595_aa4e40c137f03c23b9cd_72.jpg",
+            "first_name": "Marcelo",
+            "real_name": "Marcelo Roggeri",
+            "display_name": "Marcelo Roggeri",
+            "team": "TJH5YU202",
+            "name": "roggerimarcelo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a1dmw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola Cesar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588338336.359700",
+        "parent_user_id": "UK28N3CER"
+    },
+    {
+        "client_msg_id": "235203a9-8f34-46f8-adf4-d1247f63bb3f",
+        "type": "message",
+        "text": "Marcelo que bien que ya andas por aca",
+        "user": "UK28N3CER",
+        "ts": "1588338468.361700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lZ+Fc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Marcelo que bien que ya andas por aca"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588338336.359700",
+        "parent_user_id": "UK28N3CER"
+    },
+    {
+        "client_msg_id": "03c4473e-88e6-441f-a84c-c0b767fecac4",
+        "type": "message",
+        "text": "gracias Cesar",
+        "user": "UJUFNFMFE",
+        "ts": "1588338541.361900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "aa4e40c137f0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-21\/630419446595_aa4e40c137f03c23b9cd_72.jpg",
+            "first_name": "Marcelo",
+            "real_name": "Marcelo Roggeri",
+            "display_name": "Marcelo Roggeri",
+            "team": "TJH5YU202",
+            "name": "roggerimarcelo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fOy5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias Cesar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588338336.359700",
+        "parent_user_id": "UK28N3CER"
+    },
+    {
+        "type": "message",
+        "text": "<@UK28N3CER> Estos son los modelos, uno en dbf y el otro en sql, podia intercambiar los dos, sin hacer ningun otro cambio.",
+        "files": [
+            {
+                "id": "F012PR6ECNS",
+                "created": 1588338697,
+                "timestamp": 1588338697,
+                "name": "entry.prg",
+                "title": "entry.prg",
+                "mimetype": "text\/plain",
+                "filetype": "text",
+                "pretty_type": "Plain Text",
+                "user": "UL77SJTB2",
+                "editable": true,
+                "size": 3151,
+                "mode": "snippet",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012PR6ECNS\/entry.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012PR6ECNS\/download\/entry.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UL77SJTB2\/F012PR6ECNS\/entry.prg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012PR6ECNS-664aacd80b",
+                "edit_link": "https:\/\/harbourproject.slack.com\/files\/UL77SJTB2\/F012PR6ECNS\/entry.prg\/edit",
+                "is_starred": false,
+                "has_rich_preview": false
+            },
+            {
+                "id": "F013967D56V",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RzS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UK28N3CER"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Estos son los modelos, uno en dbf y el otro en sql, podia intercambiar los dos, sin hacer ningun otro cambio."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UL77SJTB2",
+        "ts": "1588338698.362100",
+        "client_msg_id": "18a84ce4-2490-4f99-ad17-955099fb1e75"
+    },
+    {
+        "client_msg_id": "6c574971-c302-434c-a4b6-3c4de66006ff",
+        "type": "message",
+        "text": "Muchas gracias @Pere",
+        "user": "UK28N3CER",
+        "ts": "1588338745.363100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mnu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muchas gracias @Pere"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28e37767-841d-4d91-ad8c-880b320194c2",
+        "type": "message",
+        "text": "Haré pruebas",
+        "user": "UK28N3CER",
+        "ts": "1588338755.363400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AXd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haré pruebas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F012FR8RPST",
+                "created": 1588338778,
+                "timestamp": 1588338778,
+                "name": "entry_sql.prg",
+                "title": "entry_sql.prg",
+                "mimetype": "text\/plain",
+                "filetype": "text",
+                "pretty_type": "Plain Text",
+                "user": "UL77SJTB2",
+                "editable": true,
+                "size": 3380,
+                "mode": "snippet",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012FR8RPST\/entry_sql.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012FR8RPST\/download\/entry_sql.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UL77SJTB2\/F012FR8RPST\/entry_sql.prg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012FR8RPST-6c3f6fc741",
+                "edit_link": "https:\/\/harbourproject.slack.com\/files\/UL77SJTB2\/F012FR8RPST\/entry_sql.prg\/edit",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UL77SJTB2",
+        "display_as_bot": false,
+        "ts": "1588338779.363500",
+        "client_msg_id": "ca9a7b4d-0ef2-431c-b854-146dd3cc937d"
+    },
+    {
+        "client_msg_id": "4cd2b4bc-c95b-4b5a-88d3-cf995efa61f2",
+        "type": "message",
+        "text": "Alguien está conectando con Excel ???\n```    oExcel := CreateObject( \"Excel.Application\" )\n\n    oExcel:WorkBooks():Open( \"D:\\MiExcel.xlsx\" )\n    oExcel:Worksheets( \"Hoja1\" ):Activate()```\nNo puede conectar,\n```METHOD exceltosepaxml( oController )\nCreateObject() Error: El Microsoft Excel no pot accedir al fitxer \"D:\\PROVA.xlsx\". Hi pot haver diverses raons: • El nom del fitxer o el nom del camí no existeix. • Un altre programa està fent servir el fitxer. • El llibre de treball que intenteu desar té el mateix nom que un altre llibre de treball obert actualment. (0x800A03EC)\noperation: OPEN\nfilename: Microsoft Excel\n[ 1] = C D:\\PROVA.xlsx\ncalled from: TOLEAUTO:OPEN, line: 0\ncalled from: pcode.hrb, FITXERSCONTROLLER:EXCELTOSEPAXML, line: 112\ncalled from: pcode.hrb, FITXERSCONTROLLER:NEW, line: 35\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 3\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, ZEXECUTE, line: 314\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:EXECUTE, line: 588\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:LISTEN, line: 391\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TAPP:INIT, line: 111\ncalled from: pcode.hrb, MAIN, line: 65\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 143\n\nSource:\n0110:\n0111:\n0112 =&gt;    oExcel:WorkBooks():Open( \"D:\\PROVA.xlsx\" )\n0113:     oExcel:Worksheets( \"FIXES\" ):Activate()\n0114:```\ncuando con mi aplicación escritorio está funcionando correctamente.",
+        "user": "UJU3NMK0U",
+        "ts": "1588339306.365500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "laZw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Alguien está conectando con Excel ???\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "    oExcel := CreateObject( \"Excel.Application\" )\n\n    oExcel:WorkBooks():Open( \"D:\\MiExcel.xlsx\" )\n    oExcel:Worksheets( \"Hoja1\" ):Activate()"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nNo puede conectar,\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "METHOD exceltosepaxml( oController )\nCreateObject() Error: El Microsoft Excel no pot accedir al fitxer \"D:\\PROVA.xlsx\". Hi pot haver diverses raons: • El nom del fitxer o el nom del camí no existeix. • Un altre programa està fent servir el fitxer. • El llibre de treball que intenteu desar té el mateix nom que un altre llibre de treball obert actualment. (0x800A03EC)\noperation: OPEN\nfilename: Microsoft Excel\n[ 1] = C D:\\PROVA.xlsx\ncalled from: TOLEAUTO:OPEN, line: 0\ncalled from: pcode.hrb, FITXERSCONTROLLER:EXCELTOSEPAXML, line: 112\ncalled from: pcode.hrb, FITXERSCONTROLLER:NEW, line: 35\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 3\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, ZEXECUTE, line: 314\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:EXECUTE, line: 588\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TROUTE:LISTEN, line: 391\ncalled from: C:\/xampp\/htdocs\/@Soft\/\/lib\/mercury.hrb, TAPP:INIT, line: 111\ncalled from: pcode.hrb, MAIN, line: 65\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 143\n\nSource:\n0110:\n0111:\n0112 =>    oExcel:WorkBooks():Open( \"D:\\PROVA.xlsx\" )\n0113:     oExcel:Worksheets( \"FIXES\" ):Activate()\n0114:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\ncuando con mi aplicación escritorio está funcionando correctamente."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b7a82a8f-c40e-4f9d-a7d1-1cfb16781cfd",
+        "type": "message",
+        "text": "Se que estamos en un tiempo para ir madurando, pero seguro que alguien debe de estar haciendo pruebas, y pruebas con Excel, no???",
+        "user": "UJU3NMK0U",
+        "ts": "1588339360.366800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BWC=f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se que estamos en un tiempo para ir madurando, pero seguro que alguien debe de estar haciendo pruebas, y pruebas con Excel, no???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bc7b9907-ec96-4fb4-b06c-04e55ff42f8e",
+        "type": "message",
+        "text": "¿Puede que sea cosa de permisos? Se está llamando a la librería de harbour desde apache, y en Linux al menos tiene los permisos de apache.",
+        "user": "UNAHBRTFA",
+        "ts": "1588339401.367600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "htN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Puede que sea cosa de permisos? Se está llamando a la librería de harbour desde apache, y en Linux al menos tiene los permisos de apache."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4a50c38e-16d4-4da4-953f-cdff09dba2cc",
+        "type": "message",
+        "text": "Ok... voy a probar de mover el archivo a htdocs",
+        "user": "UJU3NMK0U",
+        "ts": "1588339425.368000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1588339439.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ywj8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ok... voy a probar de mover el archivo a htdocs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bfd398fe-6ff3-4762-95a7-98ab3a75de0d",
+        "type": "message",
+        "text": "estaba hablando más de permisos para interactuar con excel",
+        "user": "UNAHBRTFA",
+        "ts": "1588339489.368400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fZz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "estaba hablando más de permisos para interactuar con excel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e95cccd-6243-43db-9301-4e979706660c",
+        "type": "message",
+        "text": "ENtendi mal o están queriendo usar Ole desde Linux ?",
+        "user": "UM81W8B0Q",
+        "ts": "1588339536.369100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VNa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ENtendi mal o están queriendo usar Ole desde Linux ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9840afac-40f3-438b-8536-1e9f95a53ab4",
+        "type": "message",
+        "text": "OLE desde windows",
+        "user": "UJU3NMK0U",
+        "ts": "1588339550.369600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wOI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "OLE desde windows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd0c7e07-afa9-4722-a0c4-de4b904bf95b",
+        "type": "message",
+        "text": "Yo entiendo de permisos en Linux, no en windows",
+        "user": "UNAHBRTFA",
+        "ts": "1588339551.369800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "unAej",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yo entiendo de permisos en Linux, no en windows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa449293-a816-4dba-8ad1-2db0c2aa7760",
+        "type": "message",
+        "text": "es lo único que puedo ofrecer",
+        "user": "UNAHBRTFA",
+        "ts": "1588339556.370000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+ocS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es lo único que puedo ofrecer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76c5d02d-a3f8-4f20-bea4-58aeb5504df9",
+        "type": "message",
+        "text": "Xevi, tu estás queriendo crear una planilla excel desde mod_harbour ?",
+        "user": "UM81W8B0Q",
+        "ts": "1588339615.370700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1588339658.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "osZiK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Xevi, tu estás queriendo crear una planilla excel desde mod_harbour ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7841fed1-5801-46e3-8248-94a32f85b063",
+        "type": "message",
+        "text": "Bien, intento hacer lo que hago con harbour... abrir un documento Excel existente, y leer datos.",
+        "user": "UJU3NMK0U",
+        "ts": "1588339702.371700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MQi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien, intento hacer lo que hago con harbour... abrir un documento Excel existente, y leer datos."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "160d92d6-701f-4e3b-b19d-ae30981008c8",
+        "type": "message",
+        "text": "```    oExcel := CreateObject( \"Excel.Application\" )\n    oExcel:WorkBooks():Open( \"D:\\MiExcel.xlsx\" )\n    oExcel:Worksheets( \"Hoja1\" ):Activate()\n\ncL := oExcel:Range( \"A1\" ):Value```",
+        "user": "UJU3NMK0U",
+        "ts": "1588339791.372200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kuoa",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "    oExcel := CreateObject( \"Excel.Application\" )\n    oExcel:WorkBooks():Open( \"D:\\MiExcel.xlsx\" )\n    oExcel:Worksheets( \"Hoja1\" ):Activate()\n\ncL := oExcel:Range( \"A1\" ):Value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d717a92f-3366-4f7b-a759-6cdfb93ecf23",
+        "type": "message",
+        "text": "Esto lo estoy haciendo actualmente en mi aplicación escritorio",
+        "user": "UJU3NMK0U",
+        "ts": "1588339819.372600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g7v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto lo estoy haciendo actualmente en mi aplicación escritorio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb46ecb2-1477-4fa0-bf18-959aecd55c17",
+        "type": "message",
+        "text": "Podria convertir ese archivo xls a csv y leer los datos del csv... pero creo que lo lógico seria poder leer archivos xls, doc... con OLE",
+        "user": "UJU3NMK0U",
+        "ts": "1588339940.373500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7o9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Podria convertir ese archivo xls a csv y leer los datos del csv... pero creo que lo lógico seria poder leer archivos xls, doc... con OLE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39a47168-1bd1-4132-8b6b-22245e9192e6",
+        "type": "message",
+        "text": "O usar xlsxwriter que en su última versión permiter leer planillas.",
+        "user": "UM81W8B0Q",
+        "ts": "1588340046.374100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qnik8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "O usar xlsxwriter que en su última versión permiter leer planillas."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bd26b2ae-294a-4eb5-90e8-d0b523f487a5",
+        "type": "message",
+        "text": "1. aun no lo he probado",
+        "user": "UM81W8B0Q",
+        "ts": "1588340051.374400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MpBn+",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "aun no lo he probado"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "185f5636-07a2-48b0-92ea-4a66634914ee",
+        "type": "message",
+        "text": "2.  no tengo el link pero fue publicado en el grupo de harbour users",
+        "user": "UM81W8B0Q",
+        "ts": "1588340070.374900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1588340081.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9bN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2.  no tengo el link pero fue publicado en el grupo de harbour users"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2579f825-e4a6-4c4b-8223-b2e9ff0723a1",
+        "type": "message",
+        "text": "No es una solucion que me convenza.\nCreo que modharbour deberia de poder con eso y más!!!\nDeberia de tener incorporado funcional el trabajo con excel \/ word para intercambio de datos.\nIgual está, pero no se ha probado a fondo y de ahí que no esté funcional\/operativo",
+        "user": "UJU3NMK0U",
+        "ts": "1588340310.376600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G+T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No es una solucion que me convenza.\nCreo que modharbour deberia de poder con eso y más!!!\nDeberia de tener incorporado funcional el trabajo con excel \/ word para intercambio de datos.\nIgual está, pero no se ha probado a fondo y de ahí que no esté funcional\/operativo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "567cd8fb-3136-42fe-98bb-2315281ab886",
+        "type": "message",
+        "text": "en fin... yo por avanzar, voy a intentar seguir con mi ExcelToSEPAxml, pero con csv... o sea CsvToSEPAxml",
+        "user": "UJU3NMK0U",
+        "ts": "1588340378.377600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3yKfO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en fin... yo por avanzar, voy a intentar seguir con mi ExcelToSEPAxml, pero con csv... o sea CsvToSEPAxml"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c8b461f-4e0b-4fa1-8c3b-720ddb886b72",
+        "type": "message",
+        "text": "Aunque, como digo... no convencido, pero por ir avanzando y aprendiendo.",
+        "user": "UJU3NMK0U",
+        "ts": "1588340400.378100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aidOv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aunque, como digo... no convencido, pero por ir avanzando y aprendiendo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7B364D8B-BC3B-4483-AA07-A14502DD37C0",
+        "type": "message",
+        "text": "Buen dia Xevi y si usas php para leer excel? Si ",
+        "user": "UJUSD6VB2",
+        "ts": "1588342674.379600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z1k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen dia Xevi y si usas php para leer excel? Si "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3F7D11FB-77D5-4B42-94A3-1D427D2EC571",
+        "type": "message",
+        "text": "Solo es una idea para salir del apuro",
+        "user": "UJUSD6VB2",
+        "ts": "1588343107.380200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "imcb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Solo es una idea para salir del apuro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ac138c11-faeb-4ed6-9416-8b2808218c5e",
+        "type": "message",
+        "text": "Creo que lo que comenta <@UJWGTCNS3> ( Andres ) en Skype puede ser parte de la solución a lo que planteas <@UJWR5N32S>\n<https:\/\/cristiantala.cl\/configuracion-de-ubuntu-server-con-apache2-y-modulo-userdir\/>",
+        "user": "UJUJLTWMT",
+        "ts": "1588357387.381100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Cristian Tala Sánchez",
+                "title": "Configuración de Apache2 con modulo UserDir - Conocimiento que vale la pena compartir.",
+                "title_link": "https:\/\/cristiantala.cl\/configuracion-de-ubuntu-server-con-apache2-y-modulo-userdir\/",
+                "text": "Userdir es un modulo de apache que hace posible que todos los usuarios con acceso a un servidor tengan una carpeta llamada public_html en la cual puedan alojar sus páginas y archivos. La habilitaci…",
+                "fallback": "Cristian Tala Sánchez: Configuración de Apache2 con modulo UserDir - Conocimiento que vale la pena compartir.",
+                "thumb_url": "https:\/\/s0.wp.com\/i\/blank.jpg",
+                "ts": 1356098063,
+                "from_url": "https:\/\/cristiantala.cl\/configuracion-de-ubuntu-server-con-apache2-y-modulo-userdir\/",
+                "thumb_width": 200,
+                "thumb_height": 200,
+                "id": 1,
+                "original_url": "https:\/\/cristiantala.cl\/configuracion-de-ubuntu-server-con-apache2-y-modulo-userdir\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pH+p+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que lo que comenta "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWGTCNS3"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ( Andres ) en Skype puede ser parte de la solución a lo que planteas "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/cristiantala.cl\/configuracion-de-ubuntu-server-con-apache2-y-modulo-userdir\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dcf43fbf-e498-40d1-b7cf-538284c6d375",
+        "type": "message",
+        "text": "Gracias :slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1588357785.381500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "38sl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "08ffef9e-eaad-4403-bf7b-6d284de764af",
+        "type": "message",
+        "text": "Añadido a apache.prg ahora mismo, y ya se estan construyendo solas las nuevas versiones :wink:",
+        "user": "UJN8D8U3B",
+        "ts": "1588361906.381600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GoCC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Añadido a apache.prg ahora mismo, y ya se estan construyendo solas las nuevas versiones "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588337015.354400",
+        "parent_user_id": "UL77SJTB2"
+    },
+    {
+        "client_msg_id": "e5d00848-68d6-40e2-8e59-a773774cdff9",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/actions>",
+        "user": "UJN8D8U3B",
+        "ts": "1588361921.381800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1588361927.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vEuH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/actions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588337015.354400",
+        "parent_user_id": "UL77SJTB2"
+    },
+    {
+        "client_msg_id": "b70fbc95-ca30-4549-b698-3541b0d33e61",
+        "type": "message",
+        "text": "Añadido como un nuevo ejemplo trycatch.prg gracias! :-)",
+        "user": "UJN8D8U3B",
+        "ts": "1588362026.382200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fHMq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Añadido como un nuevo ejemplo trycatch.prg gracias! :-)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588337891.354800",
+        "parent_user_id": "UJU3NMK0U"
+    },
+    {
+        "client_msg_id": "5fb0d4a9-a9de-4801-afbd-539642e5f11c",
+        "type": "message",
+        "text": ":ok_hand:",
+        "user": "UJN8D8U3B",
+        "ts": "1588362130.382500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Y8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "ok_hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a35e938c-fe90-4cc3-b4d8-18ba19c75d16",
+        "type": "message",
+        "text": "Ya teneis aqui el nuevo build de mod_harbour con soporte de TRY ... CATCH construido por GitHub!!!",
+        "user": "UJN8D8U3B",
+        "ts": "1588362860.383000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AID",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya teneis aqui el nuevo build de mod_harbour con soporte de TRY ... CATCH construido por GitHub!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d4b29828-a66b-4acb-88b9-3286af7d40e4",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/suites\/646348752\/artifacts\/5474982>",
+        "user": "UJN8D8U3B",
+        "ts": "1588362862.383200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s\/27v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/suites\/646348752\/artifacts\/5474982"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F013M8PAE00",
+                "created": 1588362985,
+                "timestamp": 1588362985,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJN8D8U3B",
+                "editable": false,
+                "size": 14907,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013M8PAE00\/image.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013M8PAE00\/download\/image.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013M8PAE00-93f987ef50\/image_64.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013M8PAE00-93f987ef50\/image_80.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013M8PAE00-93f987ef50\/image_360.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 199,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013M8PAE00-93f987ef50\/image_480.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 266,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013M8PAE00-93f987ef50\/image_160.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 580,
+                "original_h": 321,
+                "thumb_tiny": "AwAaADCmGJI4o3AZBFNHUf1pcj1I+lXYm4bz04x9KltgJZQjdCD0qCrFj\/x9L9D\/ACoaE2XBaRY70fY4sY+b86sUVBnzMxAcdvzoz7D8qSitDQXNT2P\/AB8r9D\/Kq9WLH\/j6X6H+VDEzUooorMyP\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJN8D8U3B\/F013M8PAE00\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F013M8PAE00-16f4a95a9d",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJN8D8U3B",
+        "display_as_bot": false,
+        "ts": "1588362987.383300",
+        "client_msg_id": "476b1821-feab-4ffa-8c6f-79161c7c5c6a"
+    },
+    {
+        "client_msg_id": "01da24a6-c85f-49ef-a968-429fb209acae",
+        "type": "message",
+        "text": "poco a poco estas integrando el codigo que normalmente usamos,",
+        "user": "UK28N3CER",
+        "ts": "1588365388.384200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1E26P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "poco a poco estas integrando el codigo que normalmente usamos,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f9e25fd-c7b3-484c-b802-cb7e32902eab",
+        "type": "message",
+        "text": "<@UJN8D8U3B> TRY ... CATCH está funcionando si se trata de un único prg, si trabajamos en múltiples prgs MVC, esto no funciona y debo poner la solución de <@UL77SJTB2> en cada prg que vaya a utilizar TRY ... CATCH",
+        "user": "UJU3NMK0U",
+        "ts": "1588366332.386000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Af+b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " TRY ... CATCH está funcionando si se trata de un único prg, si trabajamos en múltiples prgs MVC, esto no funciona y debo poner la solución de "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UL77SJTB2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " en cada prg que vaya a utilizar TRY ... CATCH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F012XNVKV6X",
+                "created": 1588366347,
+                "timestamp": 1588366347,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 50130,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012XNVKV6X\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012XNVKV6X\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012XNVKV6X-623a27796c\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012XNVKV6X-623a27796c\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012XNVKV6X-623a27796c\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 167,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012XNVKV6X-623a27796c\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 223,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012XNVKV6X-623a27796c\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 583,
+                "original_h": 271,
+                "thumb_tiny": "AwAWADC\/uPTAoyO+Ofam\/wAX40d6AHZGe35U4Y9RTApPSl2H2oAfkeopeKj8s+1OC470AAXucflS7R6ClooATaPQUvSiigAooooA\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F012XNVKV6X\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012XNVKV6X-0a4949ac85",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588366349.386100",
+        "client_msg_id": "a87134b2-861d-415f-9d42-6cd87ddef92d"
+    },
+    {
+        "client_msg_id": "e95572e7-d366-45cf-a109-6c1c4401eb5b",
+        "type": "message",
+        "text": "Y que solución es la de Pere ?",
+        "user": "UJN8D8U3B",
+        "ts": "1588367108.386700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dWDR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y que solución es la de Pere ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "94217611-d150-4341-b2a6-59ab28cffc94",
+        "type": "message",
+        "text": "```   \/* TRY \/ CATCH \/ FINALLY \/ END *\/\n   #xcommand TRY =&gt; BEGIN SEQUENCE WITH __BreakBlock()\n   #xcommand CATCH [<!oErr!>] =&gt; RECOVER [USING &lt;oErr&gt;] &lt;-oErr-&gt;\n   #xcommand FINALLY =&gt; ALWAYS```\n",
+        "user": "UJU3NMK0U",
+        "ts": "1588367634.386900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jauJ",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "   \/* TRY \/ CATCH \/ FINALLY \/ END *\/\n   #xcommand TRY => BEGIN SEQUENCE WITH __BreakBlock()\n   #xcommand CATCH [<!oErr!>] => RECOVER [USING <oErr>] <-oErr->\n   #xcommand FINALLY => ALWAYS"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d1733db-a6aa-4aba-83fb-b1b1bb708ef1",
+        "type": "message",
+        "text": "Eso lo pongo en la cabecera del PRG que vaya a utilizar TRY ... CATCH, y tirando!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588367687.387700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9dByq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso lo pongo en la cabecera del PRG que vaya a utilizar TRY ... CATCH, y tirando!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c900da52-dd60-41a7-8bc0-f7912e44fe0f",
+        "type": "message",
+        "text": "Supongo que es como el\n```#xcommand BLOCKS VIEW &lt;v&gt;[ PARAMS [&lt;v1&gt;] [,&lt;vn&gt;] ] =&gt; ;\n\t#pragma __cstream |&lt;v&gt;+= InlinePrg( ReplaceBlocks( %s, '&lt;$', \"$&gt;\" [,&lt;(v1)&gt;][+\",\"+&lt;(vn)&gt;] [, @&lt;v1&gt;][, @&lt;vn&gt;] ) )```\nque donde vaya a utilizarlo, necesito ponerlo al inicio del prg",
+        "user": "UJU3NMK0U",
+        "ts": "1588367756.388500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1588367767.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "klM6q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Supongo que es como el\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#xcommand BLOCKS VIEW <v>[ PARAMS [<v1>] [,<vn>] ] => ;\n\t#pragma __cstream |<v>+= InlinePrg( ReplaceBlocks( %s, '<$', \"$>\" [,<(v1)>][+\",\"+<(vn)>] [, @<v1>][, @<vn>] ) )"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "que donde vaya a utilizarlo, necesito ponerlo al inicio del prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f6699c01-fffe-4905-8308-2f81fffe91d1",
+        "type": "message",
+        "text": "<@UJU3NMK0U>, haz un fichero .ch y pon el include en los prgs",
+        "user": "UJUJLTWMT",
+        "ts": "1588376458.389100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mde",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", haz un fichero .ch y pon el include en los prgs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e336d5a7-0fb2-45b4-b897-9bb64cd86f05",
+        "type": "message",
+        "text": "Real men use BEGIN SEQUENCE !",
+        "user": "UM81W8B0Q",
+        "ts": "1588381748.389500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1588381758.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g4N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Real men use BEGIN SEQUENCE !"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

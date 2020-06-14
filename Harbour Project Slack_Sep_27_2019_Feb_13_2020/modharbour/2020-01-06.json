@@ -1,0 +1,929 @@
+[
+    {
+        "client_msg_id": "4a67e266-3092-455c-9c90-5a822ed17836",
+        "type": "message",
+        "text": "<@UJN8D8U3B>, Actualmente para ese problema utilice hb_idleAdd( {|| WATCHDOG() }, basicamente lo que hace WATCHDOG es chequear si el tiempo de ejecucion de mi prg supera un TIMEOUT. En caso que asi fuera hace un QUIT con un mensaje de error. Utilizo mod_harbour actualmente para consumir un webservice de un ente gubernamental y aveces estos se demoran hasta 30 seg o mas e incluso se quedan colgados.",
+        "user": "UJRQZMTAM",
+        "ts": "1578311211.226500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SJ7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", Actualmente para ese problema utilice hb_idleAdd( {|| WATCHDOG() }, basicamente lo que hace WATCHDOG es chequear si el tiempo de ejecucion de mi prg supera un TIMEOUT. En caso que asi fuera hace un QUIT con un mensaje de error. Utilizo mod_harbour actualmente para consumir un webservice de un ente gubernamental y aveces estos se demoran hasta 30 seg o mas e incluso se quedan colgados."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "008d7972-30a3-439c-aea1-91bf88cd06a5",
+        "type": "message",
+        "text": "Con esto mismo en caso que existiera un inkey(0), do while .t., o cualquier procedimiento que demore mas que el timeout determinado, se finaliza con el QUIT. Liberando asi al servidor para atender a las proximas peticiones",
+        "user": "UJRQZMTAM",
+        "ts": "1578311319.227900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ea5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con esto mismo en caso que existiera un inkey(0), do while .t., o cualquier procedimiento que demore mas que el timeout determinado, se finaliza con el QUIT. Liberando asi al servidor para atender a las proximas peticiones"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "581b1b41-61a3-4de5-beac-e02ba9bb4c71",
+        "type": "message",
+        "text": "Buenos dias",
+        "user": "UJXP7LS78",
+        "ts": "1578316236.228100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dliyi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos dias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46a327b2-6f2c-4d02-85be-83213c30405d",
+        "type": "message",
+        "text": "Feliz dia de REYES",
+        "user": "UJXP7LS78",
+        "ts": "1578316241.228300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9=qh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Feliz dia de REYES"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "059bfc1c-c460-4e6e-aafc-aea41e2b2f25",
+        "type": "message",
+        "text": "a todos",
+        "user": "UJXP7LS78",
+        "ts": "1578316244.228600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qqhi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "a todos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1bbf1573-371e-4025-9b53-6867afa4962b",
+        "type": "message",
+        "text": "Does anyone know if it is possible, if you change a data record in a datatables, you can see this data record again with reload.\nMy problem is if sorting is switched on and change a data record, and there the field on which the sorting is set: for example John Doe to John Test\nThen I do not see John Test because it is on another page.\n\nI could resolve the problem\n        \/\/ Get highlighted row data\n         var mycell = ogrid.row(cell.index().row).data()[ 'recnumber' ];\n        ogrid\n        .column( 0 )\n        .data()\n        .each( function ( value, index ) {\n          \n          if (value == mycell ){\n            console.log( <http:\/\/ogrid.page.info|ogrid.page.info>().length   );\n            alert( 'Data in index: '+ index+' is: '+ value );\n            var nSeite = parseInt( index \/ <http:\/\/ogrid.page.info|ogrid.page.info>().length );\n            console.log( nSeite   );\n            ogrid.page( nSeite ).draw( 'page' );\n          }; \n        } );",
+        "user": "UJHD6A81H",
+        "ts": "1578327318.228800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hJ7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Does anyone know if it is possible, if you change a data record in a datatables, you can see this data record again with reload.\nMy problem is if sorting is switched on and change a data record, and there the field on which the sorting is set: for example John Doe to John Test\nThen I do not see John Test because it is on another page.\n\nI could resolve the problem\n        \/\/ Get highlighted row data\n         var mycell = ogrid.row(cell.index().row).data()[ 'recnumber' ];\n        ogrid\n        .column( 0 )\n        .data()\n        .each( function ( value, index ) {\n          \n          if (value == mycell ){\n            console.log( "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/ogrid.page.info",
+                                "text": "ogrid.page.info"
+                            },
+                            {
+                                "type": "text",
+                                "text": "().length   );\n            alert( 'Data in index: '+ index+' is: '+ value );\n            var nSeite = parseInt( index \/ "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/ogrid.page.info",
+                                "text": "ogrid.page.info"
+                            },
+                            {
+                                "type": "text",
+                                "text": "().length );\n            console.log( nSeite   );\n            ogrid.page( nSeite ).draw( 'page' );\n          }; \n        } );"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dfb510e1-5d5f-4f1b-9bbb-6bcb0df9ccb2",
+        "type": "message",
+        "text": "Thanks Otto!",
+        "user": "UJUSD6VB2",
+        "ts": "1578354125.229000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "15=l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks Otto!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "65b7f298-5137-486b-b41d-da75b7a9b6b5",
+        "type": "message",
+        "text": "Good morning.\nEvery student who starts learning a foreign language begins with a vocabulary book.\nI think we also need a vocabulary book for Harbor \/ Javascript. What do you think?",
+        "user": "UJHD6A81H",
+        "ts": "1578380804.229200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o9nHv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning.\nEvery student who starts learning a foreign language begins with a vocabulary book.\nI think we also need a vocabulary book for Harbor \/ Javascript. What do you think?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "99733b30-b1ec-42bf-a089-44610e273051",
+        "type": "message",
+        "text": "I have opinions about language learning.",
+        "user": "UNAHBRTFA",
+        "ts": "1578381143.229700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5jw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I have opinions about language learning."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dfce10ba-cee7-419b-b26b-67060cf547e5",
+        "type": "message",
+        "text": "Sure, you can't get into grammar without some vocabulary to plug into the slots.",
+        "user": "UNAHBRTFA",
+        "ts": "1578381166.230300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8I\/P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure, you can't get into grammar without some vocabulary to plug into the slots."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b43ced3-0082-4c21-8f86-b280d24618ce",
+        "type": "message",
+        "text": "But maybe more important than the vocabulary is getting somehow used to the language's phonetics. So you need native-ish speakers as teachers.",
+        "user": "UNAHBRTFA",
+        "ts": "1578381208.231300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1e2Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But maybe more important than the vocabulary is getting somehow used to the language's phonetics. So you need native-ish speakers as teachers."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6ca8352-3489-418d-9293-770e9ab9880a",
+        "type": "message",
+        "text": "But back to programming languages. The thing about Javascript is that it's an environment-agnostic script language.",
+        "user": "UNAHBRTFA",
+        "ts": "1578381316.232400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JLvuJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But back to programming languages. The thing about Javascript is that it's an environment-agnostic script language."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c9a8743-7c30-4bb2-b55b-2d6bf0353d05",
+        "type": "message",
+        "text": "Sure, you can learn Javascript itself, but that won't help you very much when you have to use it in a browser.",
+        "user": "UNAHBRTFA",
+        "ts": "1578381346.233300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZOD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure, you can learn Javascript itself, but that won't help you very much when you have to use it in a browser."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5036feab-9b6e-495e-93a2-74782e772fd1",
+        "type": "message",
+        "text": "And if you've learnt Javascript in a browser, that won't help you very much when you have to use it with Node",
+        "user": "UNAHBRTFA",
+        "ts": "1578381371.233900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZWa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And if you've learnt Javascript in a browser, that won't help you very much when you have to use it with Node"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a05b0077-6c39-46c0-a4b6-0b6f2c480a08",
+        "type": "message",
+        "text": "ok, it's not like nothing carries over across environments, but they're different beasts",
+        "user": "UNAHBRTFA",
+        "ts": "1578381516.235600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F0go8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok, it's not like nothing carries over across environments, but they're different beasts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6fb313a4-4288-4f12-818c-3ba2cec0bb4d",
+        "type": "message",
+        "text": "Andreu, we shouldn't be so complicated.\nThe vocabulary booklet should show for the most common problems how to do this with HTML and javascript.\nI also mean simple things like STRTRAN, STR, INT, etc. and e.g., calling functions with parameters, etc.",
+        "user": "UJHD6A81H",
+        "ts": "1578383235.235800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ezu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, we shouldn't be so complicated.\nThe vocabulary booklet should show for the most common problems how to do this with HTML and javascript.\nI also mean simple things like STRTRAN, STR, INT, etc. and e.g., calling functions with parameters, etc."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e5d57993-ead1-49c9-84a1-842ac53f0c9f",
+        "type": "message",
+        "text": "currently the only easy way to do strtran is if you can turn the string to search for into a regexp pattern",
+        "user": "UNAHBRTFA",
+        "ts": "1578383589.236700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1578383675.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=ptt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "currently the only easy way to do strtran is if you can turn the string to search for into a regexp pattern"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2f6e0b9-bbd4-4b7c-a10b-5c44b48b4961",
+        "type": "message",
+        "text": "since str.replace(search, replace) will only replace the first match",
+        "user": "UNAHBRTFA",
+        "ts": "1578383613.237300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tTCW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "since str.replace(search, replace) will only replace the first match"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a2416b2-3a4e-4162-b2fb-83418bcafc1e",
+        "type": "message",
+        "text": "str -&gt; value.toString()",
+        "user": "UNAHBRTFA",
+        "ts": "1578383624.237600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JTD86",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "str -> value.toString()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2bcf6541-c87b-475c-9dfe-3835af50f96b",
+        "type": "message",
+        "text": "int -&gt; parseInt(value)",
+        "user": "UNAHBRTFA",
+        "ts": "1578383635.238000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o\/C2A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "int -> parseInt(value)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "530f4ace-edb9-4438-8cb3-a7b93b1117af",
+        "type": "message",
+        "text": "you can even do parseInt(value, 16) for parsing as hex",
+        "user": "UNAHBRTFA",
+        "ts": "1578383648.238400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lwGI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you can even do parseInt(value, 16) for parsing as hex"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1c0d067e-7eff-45cc-90f1-b9d37840ee64",
+        "type": "message",
+        "text": "but there's a `replaceAll` method going through the rounds, and it'll hopefully land this year",
+        "user": "UNAHBRTFA",
+        "ts": "1578383727.239500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XEn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but there's a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "replaceAll",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " method going through the rounds, and it'll hopefully land this year"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a7ce0ed-bd6a-41e8-b918-623b828c2862",
+        "type": "message",
+        "text": "<https:\/\/github.com\/tc39\/proposal-string-replaceall>",
+        "user": "UNAHBRTFA",
+        "ts": "1578383729.239600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "tc39\/proposal-string-replaceall",
+                "title_link": "https:\/\/github.com\/tc39\/proposal-string-replaceall",
+                "text": "ECMAScript proposal: String.prototype.replaceAll. Contribute to tc39\/proposal-string-replaceall development by creating an account on GitHub.",
+                "fallback": "GitHub: tc39\/proposal-string-replaceall",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/1725583?s=400&v=4",
+                "from_url": "https:\/\/github.com\/tc39\/proposal-string-replaceall",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/tc39\/proposal-string-replaceall"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0m7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/tc39\/proposal-string-replaceall"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,517 @@
+[
+    {
+        "client_msg_id": "7cf0f502-9bc2-47ea-ba2d-3aecb38a9e8c",
+        "type": "message",
+        "text": "good morning - I can't remember the link to download all SLACK posts. Can someone help me out.",
+        "user": "UJHD6A81H",
+        "ts": "1570351329.099200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "7cfaa376-b723-4702-942a-d415f357bc07",
+        "type": "message",
+        "text": "Hi Otto, here it is: <https:\/\/harbourproject.slack.com\/services\/export\/download\/776688371669\/3117a072>",
+        "user": "UJU2ZLJBW",
+        "ts": "1570351815.099500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g4df4d90232e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b4df4d90232ed07739bd4134b92a6d1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Carlos",
+            "real_name": "Carlos Mora",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "carlosantoniomora",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "Eso es un problema y una ventaja: Ya sabemos que podemos compartir datos entre hilos a través del mod. De las variables que listas, las voip * pXxxxx son punteros a funciones, por lo que no debería haber problemas. El problema que puede seer más serio son las variables como szFileName, szArgs, etc.",
+        "user": "UJU2ZLJBW",
+        "ts": "1570352239.099600",
+        "thread_ts": "1570291579.093800",
+        "root": {
+            "client_msg_id": "5214d4ee-c103-4b95-b65b-51ac52272d6f",
+            "type": "message",
+            "text": "Ahora mismo estas variables están como estáticas y cuando entra otro hilo se las machaca,  y como comentaba Charly ayer cuando entra otra petición en otro hilo antes de que acabe la anterior pega un petardazo,  necesitamos moverlas a un TLS para que cada hilo maneje las suyas\n\n```\nstatic void * pRequestRec, * pAPRPuts, * pAPSetContentType;\nstatic void * pHeadersIn, * pHeadersOut, * pHeadersOutCount, * pHeadersOutSet;\nstatic void * pHeadersInCount, * pHeadersInKey, * pHeadersInVal;\nstatic void * pPostPairsCount, * pPostPairsKey, * pPostPairsVal;\nstatic void * pAPGetenv, * pAPBody;\nstatic const char * szFileName, * szArgs, * szMethod, * szUserIP;\nstatic long lAPRemaining;\n```",
+            "user": "UMZ3LNV5Z",
+            "ts": "1570291579.093800",
+            "team": "TJH5YU202",
+            "edited": {
+                "user": "UMZ3LNV5Z",
+                "ts": "1570291819.000000"
+            },
+            "thread_ts": "1570291579.093800",
+            "reply_count": 6,
+            "reply_users_count": 2,
+            "latest_reply": "1570372256.105600",
+            "reply_users": [
+                "UJU2ZLJBW",
+                "UMZ3LNV5Z"
+            ],
+            "replies": [
+                {
+                    "user": "UJU2ZLJBW",
+                    "ts": "1570352239.099600"
+                },
+                {
+                    "user": "UJU2ZLJBW",
+                    "ts": "1570352252.099900"
+                },
+                {
+                    "user": "UJU2ZLJBW",
+                    "ts": "1570352342.100100"
+                },
+                {
+                    "user": "UMZ3LNV5Z",
+                    "ts": "1570368005.105100"
+                },
+                {
+                    "user": "UMZ3LNV5Z",
+                    "ts": "1570369283.105400"
+                },
+                {
+                    "user": "UMZ3LNV5Z",
+                    "ts": "1570372256.105600"
+                }
+            ],
+            "subscribed": true,
+            "last_read": "1570372256.105600"
+        },
+        "client_msg_id": "c5f60b19-cdeb-4e9e-ac43-d4d49347f1db"
+    },
+    {
+        "client_msg_id": "998e9d43-69b3-467f-b2d8-1d9392d68e04",
+        "type": "message",
+        "text": "¿Qué es un TLS?",
+        "user": "UJU2ZLJBW",
+        "ts": "1570352252.099900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g4df4d90232e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b4df4d90232ed07739bd4134b92a6d1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Carlos",
+            "real_name": "Carlos Mora",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "carlosantoniomora",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1570291579.093800",
+        "parent_user_id": "UMZ3LNV5Z"
+    },
+    {
+        "client_msg_id": "e76b0fe9-2f00-444a-b7ba-64674f8d9603",
+        "type": "message",
+        "text": "Tal vez una solución sería armar una struct que encapsule todo y pasar esa struct al mod. Y una vez ejecutado el hilo liberar esa struct.",
+        "user": "UJU2ZLJBW",
+        "ts": "1570352342.100100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g4df4d90232e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b4df4d90232ed07739bd4134b92a6d1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Carlos",
+            "real_name": "Carlos Mora",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "carlosantoniomora",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1570291579.093800",
+        "parent_user_id": "UMZ3LNV5Z"
+    },
+    {
+        "client_msg_id": "1a63eff2-f187-44f7-b29a-0d61971762df",
+        "type": "message",
+        "text": "Buenos días",
+        "user": "UJULAGJG5",
+        "ts": "1570353330.100500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "132733da-0514-4ec7-a27b-5d98432c1bed",
+        "type": "message",
+        "text": "Perdón, entré sin saludar! Güenos dias!",
+        "user": "UJU2ZLJBW",
+        "ts": "1570354137.101000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g4df4d90232e",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/0b4df4d90232ed07739bd4134b92a6d1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0022-72.png",
+            "first_name": "Carlos",
+            "real_name": "Carlos Mora",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "carlosantoniomora",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "7f4f2cae-a1a5-48df-b0ae-d90c77dba6c6",
+        "type": "message",
+        "text": "<@UJU2ZLJBW> Thank you - but there is a problem:\nOnly Workspace Administrators of Harbor Project can see this page",
+        "user": "UJHD6A81H",
+        "ts": "1570359314.105000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "972ed0ac-a8af-4d39-bccf-93245d0cb647",
+        "type": "message",
+        "text": "si claro el problema son las cadenas y los punteros al contexto no los punteros a las funciones que son siempre los mismos",
+        "user": "UMZ3LNV5Z",
+        "ts": "1570368005.105100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMZ3LNV5Z",
+            "ts": "1570368118.000000"
+        },
+        "thread_ts": "1570291579.093800",
+        "parent_user_id": "UMZ3LNV5Z"
+    },
+    {
+        "client_msg_id": "0800f2f5-4872-4943-b609-3c74ebe4034d",
+        "type": "message",
+        "text": "TLS = Thread Local Storage",
+        "user": "UMZ3LNV5Z",
+        "ts": "1570369283.105400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1570291579.093800",
+        "parent_user_id": "UMZ3LNV5Z"
+    },
+    {
+        "client_msg_id": "5dbce145-2903-4dcc-94c8-3de5e490a9ca",
+        "type": "message",
+        "text": "estoy montando un ejemplito para traerme el equivalente a _hb_apache a la dll que corre en IIS.\nque mas o menos hace\n```\n....inicializa las variables \n hb_vmInit( HB_TRUE );\n   return hb_vmQuit();\n```\nPero no se muy bien cual es la vida de hb_vmInit() si es el mismo para todos los hilos y tiene que durar durante todo lo que dure el proceso y poder despachar diferentes requests\n\nMe tocará mirar un poquito en las fuentes a ver como va, porque hace muchisimos años que no miro el codigo de hb",
+        "user": "UMZ3LNV5Z",
+        "ts": "1570372256.105600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMZ3LNV5Z",
+            "ts": "1570372560.000000"
+        },
+        "thread_ts": "1570291579.093800",
+        "parent_user_id": "UMZ3LNV5Z"
+    },
+    {
+        "client_msg_id": "af1e1957-19fc-4cd3-832b-743db1b5e28f",
+        "type": "message",
+        "text": "Buen domingo a todos :muscle:",
+        "user": "UK28N3CER",
+        "ts": "1570374015.106700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "7f09da813e5b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-01\/880554116721_7f09da813e5b80b5a0a0_72.jpg",
+            "first_name": "",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "932d3c89-aff3-4c2b-b46a-4b232d0bb8cd",
+        "type": "message",
+        "text": "hola",
+        "user": "UJULAGJG5",
+        "ts": "1570387437.106900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "5d9f47c6-f937-4c0f-aee5-3b647b7e2362",
+        "type": "message",
+        "text": "alguien ha utilizado WinSCP ?",
+        "user": "UJULAGJG5",
+        "ts": "1570388557.107600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FP3H72R0Q",
+                "created": 1570398923,
+                "timestamp": 1570398923,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJN8D8U3B",
+                "editable": false,
+                "size": 2940386,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FP3H72R0Q\/image.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FP3H72R0Q\/download\/image.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 360,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_720.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 540,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_800.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_800_w": 800,
+                "thumb_800_h": 600,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_960.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_960_w": 960,
+                "thumb_960_h": 720,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FP3H72R0Q-90498b7da6\/image_1024.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 768,
+                "image_exif_rotation": 1,
+                "original_w": 1440,
+                "original_h": 1080,
+                "thumb_tiny": "AwAkADCEOQKcpPfNRZxQD3zUiJyVI5ppAI+U4pinLDGOacrAEjOcUDHcA8Ck4FBOMqATTXLY+6frQITyC3VhTltwO+an2qe9KNo70xkZgjVCQeQOOabjgHZUx25pSQo+Uc0DIwW25IyPYUoU44H50pOBk8U05b3piFNIRSmg0ARgkseamQARs\/cVAPvH61YX\/j3egZBvLEljk0zewXg04VG33RSEf\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJN8D8U3B\/FP3H72R0Q\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FP3H72R0Q-e69e0228a2",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJN8D8U3B",
+        "display_as_bot": false,
+        "ts": "1570398928.107900",
+        "client_msg_id": "6369cf70-8929-47c5-a8a9-1e6d3ce682e8"
+    },
+    {
+        "client_msg_id": "8685e410-b79a-488b-9adc-ea3c6fd5dddf",
+        "type": "message",
+        "text": "Egun on !!! <@UJULAGJG5> que quieres hacer con WinSCP ?",
+        "user": "UJK7SNX51",
+        "ts": "1570424781.108700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "6698a9ba696b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-07-04\/673660529330_6698a9ba696bad01eb8c_72.jpg",
+            "first_name": "Baxajaun",
+            "real_name": "Baxajaun",
+            "display_name": "Baxajaun",
+            "team": "TJH5YU202",
+            "name": "fpgrande",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "69a278ea-e26e-4f59-8e13-04b4bbc3c84a",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1570426024.108900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "4e30b26d-2dcc-44fd-98ca-2b47660286f0",
+        "type": "message",
+        "text": "good morning",
+        "user": "UJHD6A81H",
+        "ts": "1570429894.109100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "cd16a9ba-e61c-400a-8c31-5ead870ff90d",
+        "type": "message",
+        "text": "When I programmed with ASP, we use the session object to swap data between the different web sides.\n\nWhat are the disadvantages of using the javascript session object instead of the post method.",
+        "user": "UJHD6A81H",
+        "ts": "1570430073.109300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "1c6e4954-782c-47cf-98dc-bdb70a10aaac",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1570430342.109500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

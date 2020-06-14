@@ -1,0 +1,127 @@
+[
+    {
+        "client_msg_id": "32f4325e-9d25-4db3-8db8-b9780d17ef56",
+        "type": "message",
+        "text": "Una insignificante modificacion:\nCambiar esto:\n__pp_addRule( hPP, \"#xcommand ? [&lt;explist,...&gt;] =&gt; AP_RPuts( '&lt;br&gt;' ); AP_RPuts( [&lt;explist&gt;] )\" )\n\nA esto:\n*__pp_addRule( hPP, \"#xcommand ? [&lt;explist,...&gt;] =&gt; AP_RPuts('&lt;br&gt;' [, &lt;explist&gt;] )\" )*",
+        "user": "UJULQCHL5",
+        "ts": "1560324688.001400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "09ed0451-d820-450d-97e3-2aeaacfb859c",
+        "type": "message",
+        "text": "Muy bueno :+1:",
+        "user": "UJN8D8U3B",
+        "ts": "1560324890.002100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "0a971e97-fc2d-403e-b3ec-ebd960129f98",
+        "type": "message",
+        "text": "ls",
+        "user": "UJWU1NLQ6",
+        "ts": "1560357857.002200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "034d5c7f6e05",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640791937568_034d5c7f6e05e4dd4551_72.jpg",
+            "first_name": "Lailton",
+            "real_name": "Lailton Fernando Mariano",
+            "display_name": "Lailton",
+            "team": "TJH5YU202",
+            "name": "lailton",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FKH852UJ0",
+                "created": 1560403741,
+                "timestamp": 1560404288,
+                "name": "_defines___includes___",
+                "title": "#defines, #includes...",
+                "mimetype": "text\/plain",
+                "filetype": "space",
+                "pretty_type": "Post",
+                "user": "UJWR5N32S",
+                "editable": true,
+                "size": 2414,
+                "mode": "space",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FKH852UJ0\/_defines___includes___?t=xoxe-629202954002-776688371669-763909703378-01ffaa4c4eeda75ea92ad255b32a04e5",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FKH852UJ0\/download\/_defines___includes___?t=xoxe-629202954002-776688371669-763909703378-01ffaa4c4eeda75ea92ad255b32a04e5",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJWR5N32S\/FKH852UJ0\/_defines___includes___",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FKH852UJ0-c3937c2962",
+                "preview": "<document><p>Bon dia<\/p><p><\/p><p>Buscando soluciones... :-)<\/p><p><\/p><p>Si montamos un proyecto con varias carpetas que cuelguen de una principal... es posible que queramos hacer includes de un prg en otro.<\/p><p><\/p><p>Si tenemos a1.prg que lo tenemos en \/var\/www\/html\/mi_prj y queremos hacer un include de a2.prg que esta en \/var\/www\/html\/mi_prj\/common  pues hacemos un include del path y listos, funciona. Ejemplo:<\/p><\/document>",
+                "updated": 1560404288,
+                "editor": "UJWR5N32S",
+                "last_editor": "UJWR5N32S",
+                "state": "locked",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJWR5N32S",
+        "display_as_bot": false,
+        "ts": "1560404309.002300"
+    },
+    {
+        "client_msg_id": "2c7d6401-52cc-41ce-9a96-4901c489b5d5",
+        "type": "message",
+        "text": "Cualquier idea , prueba,...solución será bienvenida :slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1560404379.003000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

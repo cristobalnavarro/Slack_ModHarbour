@@ -1,0 +1,1748 @@
+[
+    {
+        "client_msg_id": "88b00493-9d31-4914-8cf5-c69892852aff",
+        "type": "message",
+        "text": "nothing",
+        "user": "UJN8D8U3B",
+        "ts": "1580718020.028200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+mbY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nothing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a44dbf2f-a8b9-440b-a5eb-dec71b4d289a",
+        "type": "message",
+        "text": "for Linux nothing, for Windows not sure if a sftp server is required",
+        "user": "UJN8D8U3B",
+        "ts": "1580718046.028700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zJlam",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for Linux nothing, for Windows not sure if a sftp server is required"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "edec42b8-227d-413f-b313-6104d5680734",
+        "type": "message",
+        "text": "Dear Antonio,",
+        "user": "UJHD6A81H",
+        "ts": "1580725883.028900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DJ3y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Dear Antonio,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0988ecda-95a4-4f6a-9af0-b26861ca8397",
+        "type": "message",
+        "text": "thank you. That is the solution.",
+        "user": "UJHD6A81H",
+        "ts": "1580725894.029200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2zDYU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thank you. That is the solution."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f48d9bc-b0cd-461d-8298-a3becb499c22",
+        "type": "message",
+        "text": "Function Main()\n\n\n      hb_SetEnv( \"PASSWORD\",\"1234\")\n\n      ? hb_GetEnv( \"PASSWORD\" )     \n   return nil",
+        "user": "UJHD6A81H",
+        "ts": "1580725944.030000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gP0i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Function Main()\n\n\n      hb_SetEnv( \"PASSWORD\",\"1234\")\n\n      ? hb_GetEnv( \"PASSWORD\" )     \n   return nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f952a18e-1430-4159-8e5e-5cad8f14f6f8",
+        "type": "message",
+        "text": "&gt; for Linux nothing\nTo be fair, for Linux you need `ssh` and `sshd`, but those come by default in every distro I can think of.",
+        "user": "UNAHBRTFA",
+        "ts": "1580725957.030300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dj9D",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for Linux nothing"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "To be fair, for Linux you need "
+                            },
+                            {
+                                "type": "text",
+                                "text": "ssh",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "sshd",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", but those come by default in every distro I can think of."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Please see all my browsers show 1234",
+        "files": [
+            {
+                "id": "FTFMFR6JH",
+                "created": 1580726012,
+                "timestamp": 1580726012,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 32687,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTFMFR6JH\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTFMFR6JH\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTFMFR6JH-a6952998a5\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTFMFR6JH-a6952998a5\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTFMFR6JH-a6952998a5\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 359,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTFMFR6JH-a6952998a5\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 479,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTFMFR6JH-a6952998a5\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 614,
+                "original_h": 615,
+                "thumb_tiny": "AwAwAC+RLZbiNGbcNox9ad\/Zsf8Aef8ASp7b\/UJ9KkyfWgS2Kn9mxf3n\/Sj+zo\/Vv0q3n3oLehoGVorGONw3Lexxip\/JT\/nmv5CnZPrRk9j0oAZbf8e6fSpRUNv\/AMey\/SnAMOrH8qBLYkopgz3JoOexNAx9IelNwfU0hBPc0ANtv+PZPpUwqG2\/49k+lTUCWwUUUUDCiiigD\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FTFMFR6JH\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FTFMFR6JH-8da60439e4",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qr4OC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Please see all my browsers show 1234"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1580726016.030900",
+        "client_msg_id": "51f8b0af-4d48-4a21-a593-1accf44908cf"
+    },
+    {
+        "client_msg_id": "71f45ac9-953a-41bc-921e-f26fabc6e7fd",
+        "type": "message",
+        "text": "Then I shut down the server and try the browsers again an get bach an empty string.",
+        "user": "UJHD6A81H",
+        "ts": "1580726040.031700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nfj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Then I shut down the server and try the browsers again an get bach an empty string."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FTF7K8QSG",
+                "created": 1580726111,
+                "timestamp": 1580726111,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 25965,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTF7K8QSG\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTF7K8QSG\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF7K8QSG-dc6c838dee\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF7K8QSG-dc6c838dee\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF7K8QSG-dc6c838dee\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 322,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF7K8QSG-dc6c838dee\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 429,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF7K8QSG-dc6c838dee\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 560,
+                "original_h": 501,
+                "thumb_tiny": "AwAqADCxDAjRIxUHIz0qT7PH\/cH5U6DPkR4\/uin5PrQJJWGiNFxhQMelJsPqakz70mT60DG7D6mk2H1NPyaATQBAk8cUMYc4JUdqX7Zb\/wB79KiFqk8cbMSMIBxR\/Z0fq36UxLYk+2W\/979KPtlv\/e\/8dqP+zYv77\/pR\/Z0eerfpQMk+224\/i\/8AHTR9ut+z\/wDjpqP+zo\/Vv0oGnR+r\/pRoBYtv9Qn+6KlqK2\/1Cf7oqWkJbBRRRQMKKKKAP\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FTF7K8QSG\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FTF7K8QSG-6e28800e77",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1580726113.031800",
+        "client_msg_id": "5725497f-a6c1-498d-aec6-f05f32b040fa"
+    },
+    {
+        "client_msg_id": "bfce86c7-9b53-493f-8b49-a85ac9054407",
+        "type": "message",
+        "text": "How much varables and data can we store to env.",
+        "user": "UJHD6A81H",
+        "ts": "1580726222.032500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "S2B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "How much varables and data can we store to env."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a2bb5b8-6275-41c1-a14e-60fedde552d5",
+        "type": "message",
+        "text": "That's OS-dependent.",
+        "user": "UNAHBRTFA",
+        "ts": "1580726252.032700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VBj8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That's OS-dependent."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "da75a449-fcb1-462b-82fd-ba4009a7d706",
+        "type": "message",
+        "text": "OK, WINDOWS.",
+        "user": "UJHD6A81H",
+        "ts": "1580726268.033000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sua1g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "OK, WINDOWS."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb75e586-7945-4c0b-9760-e780790a1fd8",
+        "type": "message",
+        "text": "It also probably depends on which exact version of Windows. I don't know the details.",
+        "user": "UNAHBRTFA",
+        "ts": "1580726333.033700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qlBgg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It also probably depends on which exact version of Windows. I don't know the details."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8aea94e7-8049-496d-8567-e5353ee10c38",
+        "type": "message",
+        "text": "SERVER 2019",
+        "user": "UJHD6A81H",
+        "ts": "1580726346.033900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4F3\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "SERVER 2019"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "45f883d8-8c39-47ef-9a44-576af864047f",
+        "type": "message",
+        "text": "Again, I don't know the details.",
+        "user": "UNAHBRTFA",
+        "ts": "1580726366.034200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "blB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Again, I don't know the details."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "30bf85db-7f6e-401a-a7bc-27aa07ec410d",
+        "type": "message",
+        "text": "I don't know how long envstrings can be even for Linux, tbh.",
+        "user": "UNAHBRTFA",
+        "ts": "1580726378.034700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UmKMz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't know how long envstrings can be even for Linux, tbh."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c8a45e9c-6e4d-4525-a5f8-44c8ccb73517",
+        "type": "message",
+        "text": "Is there an equivalent function SetENV()  in PHP. So we can googling for that.",
+        "user": "UJHD6A81H",
+        "ts": "1580726468.035200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gt3+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is there an equivalent function SetENV()  in PHP. So we can googling for that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0297fb75-ccac-4184-a651-54050884e101",
+        "type": "message",
+        "text": "<https:\/\/www.php.net\/manual\/en\/function.putenv.php> ← says nothing about limits",
+        "user": "UNAHBRTFA",
+        "ts": "1580726539.035500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TNzBR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.php.net\/manual\/en\/function.putenv.php"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ← says nothing about limits"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9771769f-8a18-4111-b73f-01a98693c0ba",
+        "type": "message",
+        "text": "In any case, how long did you expect to make the envvar?",
+        "user": "UNAHBRTFA",
+        "ts": "1580726650.036300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/LEc\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "In any case, how long did you expect to make the envvar?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "866079c4-694a-4c79-bc83-35c3fc5f1fe7",
+        "type": "message",
+        "text": "*256*-*bit* encryption key",
+        "user": "UJHD6A81H",
+        "ts": "1580726907.037800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=vJJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "256",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "-"
+                            },
+                            {
+                                "type": "text",
+                                "text": "bit",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " encryption key"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f151df2-d7c5-4787-8830-40e3ab18d56b",
+        "type": "message",
+        "text": "You realize that 256 bits is 32 bytes, or 64 characters if you're encoding it in hex",
+        "user": "UNAHBRTFA",
+        "ts": "1580727024.038400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1580727076.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Bjmg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You realize that 256 bits is 32 bytes, or 64 characters if you're encoding it in hex"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a6747ff-a443-4a07-9c4f-6dff02e67477",
+        "type": "message",
+        "text": "You'll have no problem fitting that into an envvar in any system.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727042.039000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Gx6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You'll have no problem fitting that into an envvar in any system."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "08239a61-8b6c-4f6f-8451-952906c3a932",
+        "type": "message",
+        "text": "I tryied with 4096 bit.",
+        "user": "UJHD6A81H",
+        "ts": "1580727253.039500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "76N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I tryied with 4096 bit."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FTF88H5MJ",
+                "created": 1580727257,
+                "timestamp": 1580727257,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 32043,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTF88H5MJ\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FTF88H5MJ\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 119,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 159,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FTF88H5MJ-58c0fc8ad5\/grafik_720.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 239,
+                "image_exif_rotation": 1,
+                "original_w": 799,
+                "original_h": 265,
+                "thumb_tiny": "AwAPADC9v7YFBf1Ap3lj1NHlj1NADd+ewo3+wp4jA96XaB0zQA0Et0ApccHIFOpD0oA\/\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FTF88H5MJ\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FTF88H5MJ-03a71d3f9f",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1580727266.039600",
+        "client_msg_id": "85d6f319-cca7-41f2-be7a-1f21c5fe0cf9"
+    },
+    {
+        "client_msg_id": "e54a330c-f2af-4f65-b6d2-da53462a2d30",
+        "type": "message",
+        "text": "Don't take this as a given because I'm talking out of my ass at this point, but I don't think you'll find problems with 4096 bits.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727346.040800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3so",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Don't take this as a given because I'm talking out of my ass at this point, but I don't think you'll find problems with 4096 bits."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6935338c-ef1a-48b8-990d-2362ab129ab3",
+        "type": "message",
+        "text": "I do not use such a long key in production - only for testing.",
+        "user": "UJHD6A81H",
+        "ts": "1580727588.041500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vLVxp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I do not use such a long key in production - only for testing."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3bce025-79b1-478b-8da4-9996077b9833",
+        "type": "message",
+        "text": "I don't know which encryption algorithm you're using, but for RSA and so on, 256-bit security is way too low.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727638.042500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e7kz8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't know which encryption algorithm you're using, but for RSA and so on, 256-bit security is way too low."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9ced2cd7-a76f-4de8-9c57-d714dcbf86fc",
+        "type": "message",
+        "text": "For elliptic curves it might be passable.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727651.043100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q7KG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "For elliptic curves it might be passable."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "faeb36eb-30ca-4020-b56d-b086b24e7f1e",
+        "type": "message",
+        "text": "I am so glad that Antionio found a solution for me.\nAfter restarting the server, I can now log in with an admin page and enter my secret code.\nNow the source code has to be secured,\nBut I think if I use a compiled version that should be. Never compiled up to now.",
+        "user": "UJHD6A81H",
+        "ts": "1580727678.043400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Snocm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am so glad that Antionio found a solution for me.\nAfter restarting the server, I can now log in with an admin page and enter my secret code.\nNow the source code has to be secured,\nBut I think if I use a compiled version that should be. Never compiled up to now."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0954dcb1-429e-4e6b-a5e2-8a956f8d93dc",
+        "type": "message",
+        "text": "Look, I think it's great that you invest time in security, but sometimes I see you focusing on details that provide little added value.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727757.044200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1580727846.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hR\/Rp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Look, I think it's great that you invest time in security, but sometimes I see you focusing on details that provide little added value."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d7485425-1262-4f4f-9c51-587e2585652c",
+        "type": "message",
+        "text": "I won't discuss the merits of compiling for \"securing\" any constants, but I believe security researchers would laugh at that.",
+        "user": "UNAHBRTFA",
+        "ts": "1580727805.045200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t3g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I won't discuss the merits of compiling for \"securing\" any constants, but I believe security researchers would laugh at that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b02a0086-a629-4cc3-9616-458937858c22",
+        "type": "message",
+        "text": "<https:\/\/securelist.com\/how-we-developed-our-simple-harbour-decompiler\/95517\/>",
+        "user": "UJHD6A81H",
+        "ts": "1580728528.045500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "How we developed our simple Harbour decompiler",
+                "title_link": "https:\/\/securelist.com\/how-we-developed-our-simple-harbour-decompiler\/95517\/",
+                "text": "There were no readily available tools to analyze how the program written in Harbour works. So, we wrote our own.",
+                "fallback": "How we developed our simple Harbour decompiler",
+                "image_url": "https:\/\/media.kasperskycontenthub.com\/wp-content\/uploads\/sites\/43\/2019\/02\/21111141\/abstract_blur_code.jpg",
+                "from_url": "https:\/\/securelist.com\/how-we-developed-our-simple-harbour-decompiler\/95517\/",
+                "image_width": 371,
+                "image_height": 250,
+                "image_bytes": 265134,
+                "service_icon": "https:\/\/securelist.com\/wp-content\/themes\/securelist\/images\/favicons\/apple-touch-icon.png",
+                "service_name": "securelist.com",
+                "id": 1,
+                "original_url": "https:\/\/securelist.com\/how-we-developed-our-simple-harbour-decompiler\/95517\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EYbQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/securelist.com\/how-we-developed-our-simple-harbour-decompiler\/95517\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9e07658-e69c-43c2-9b71-edb016824bd7",
+        "type": "message",
+        "text": "exactly",
+        "user": "UNAHBRTFA",
+        "ts": "1580728545.045800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "X3kJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "exactly"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2759a0a6-eb8a-407b-ab2d-dd94233f0aee",
+        "type": "message",
+        "text": "...it’s still hard to read in some places",
+        "user": "UJHD6A81H",
+        "ts": "1580728572.046300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0New",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "...it’s still hard to read in some places"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52f6d1d7-68ee-49cd-a427-3bb6453de7db",
+        "type": "message",
+        "text": "of course it is, decompilers aren't a magic bullet",
+        "user": "UNAHBRTFA",
+        "ts": "1580728597.046800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eh+9C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "of course it is, decompilers aren't a magic bullet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c8bde422-594d-429f-97be-6a9345cfaa39",
+        "type": "message",
+        "text": "compilers do a lot of \"magic\" translating arbitrarily complex code into a sequence of low-level instructions",
+        "user": "UNAHBRTFA",
+        "ts": "1580728640.047500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "33IdX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "compilers do a lot of \"magic\" translating arbitrarily complex code into a sequence of low-level instructions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "81703d6f-a744-44f9-93e0-573f1a8d7aea",
+        "type": "message",
+        "text": "reversing that is hard",
+        "user": "UNAHBRTFA",
+        "ts": "1580728644.047700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1580728649.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Duy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "reversing that is hard"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d2b112c3-3278-4d10-ad28-ca112d6ecb62",
+        "type": "message",
+        "text": "<https:\/\/github.com\/whatwg\/infra\/pull\/289> ← this is my second pull request ever into a web standard",
+        "user": "UNAHBRTFA",
+        "ts": "1580729078.048200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1580729401.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ktD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/whatwg\/infra\/pull\/289"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ← this is my second pull request ever into a web standard"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a8a7c36c-810c-43c6-8791-d3a50999e175",
+        "type": "message",
+        "text": "both contributions have been incredibly technical and incredibly short",
+        "user": "UNAHBRTFA",
+        "ts": "1580729088.048700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UxsvF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "both contributions have been incredibly technical and incredibly short"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0fcb542f-49ef-414c-bff3-c399b6079807",
+        "type": "message",
+        "text": "I'm seeing a trend here :smile:",
+        "user": "UNAHBRTFA",
+        "ts": "1580729102.049100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r=DJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm seeing a trend here "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d01176b-0a0b-4b24-a4b5-c0ef57ace7e3",
+        "type": "message",
+        "text": "I thought to reinforce the key.\nThe same time I enter a part of the key online I copy a file with the second part of the key.\nIn case someone steals the server and finds out how it works, he has to come back again and steal the part which is copied and read the env-variable the same time.",
+        "user": "UJHD6A81H",
+        "ts": "1580744786.049600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4XDXe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I thought to reinforce the key.\nThe same time I enter a part of the key online I copy a file with the second part of the key.\nIn case someone steals the server and finds out how it works, he has to come back again and steal the part which is copied and read the env-variable the same time."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b316cb0-3539-4c4f-b7e6-ed473bec2b15",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1580797409.049800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vcVS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

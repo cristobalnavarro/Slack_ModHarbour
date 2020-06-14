@@ -1,0 +1,466 @@
+[
+    {
+        "client_msg_id": "a3bc3c28-589a-4e89-bbdb-98bfd981323d",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1581660583.310900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VUL8h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "162608c0-f762-490d-b32b-2003d2537385",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1581661473.311200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "euiTP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0dd38a36-4adc-472f-b4f5-77c27c11c221",
+        "type": "message",
+        "text": "tenemos que ser capaces de ejecutar el debugger gdb y ver que sucede...",
+        "user": "UJN8D8U3B",
+        "ts": "1581661490.311600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NB\/k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tenemos que ser capaces de ejecutar el debugger gdb y ver que sucede..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cd4b83e5-46d1-4fbf-8cba-c42123b9b7cb",
+        "type": "message",
+        "text": "<https:\/\/httpd.apache.org\/dev\/debugging.html>",
+        "user": "UJN8D8U3B",
+        "ts": "1581662101.311800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "As0VS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/httpd.apache.org\/dev\/debugging.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a81dda3-fb66-4392-931c-b57d57352964",
+        "type": "message",
+        "text": "<https:\/\/agilesysadmin.net\/debugging-apache-modules\/>",
+        "user": "UJN8D8U3B",
+        "ts": "1581662154.312000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Agile Sysadmin",
+                "title": "A Practical Approach to Debugging Apache Modules",
+                "title_link": "https:\/\/agilesysadmin.net\/debugging-apache-modules\/",
+                "text": "These days, The Apache webserver is seen as rather unfashionable, and out of favour, compared to nginx, but despite this, it's still the most widely deployed, powering 43% of the active sites on the internet, and 37% of the busiest. By default, httpd is commonly built with a very small",
+                "fallback": "Agile Sysadmin: A Practical Approach to Debugging Apache Modules",
+                "image_url": "https:\/\/agilesysadmin.net\/content\/images\/2018\/03\/Apache_HTTP_server_logo_-2016-.svg.png",
+                "image_width": 955,
+                "image_height": 250,
+                "fields": [
+                    {
+                        "title": "Written by",
+                        "value": "Stephen Nelson-Smith",
+                        "short": true
+                    },
+                    {
+                        "title": "Filed under",
+                        "value": "Sysadmin, Operations, Devops",
+                        "short": true
+                    }
+                ],
+                "ts": 1521797938,
+                "from_url": "https:\/\/agilesysadmin.net\/debugging-apache-modules\/",
+                "image_bytes": 46498,
+                "service_icon": "https:\/\/agilesysadmin.net\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/agilesysadmin.net\/debugging-apache-modules\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7MWni",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/agilesysadmin.net\/debugging-apache-modules\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "03741368-9cf0-49ce-809f-4dcd9b521cb3",
+        "type": "message",
+        "text": "sudo gdb apache2",
+        "user": "UJN8D8U3B",
+        "ts": "1581663340.312300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1581663910.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jG4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sudo gdb apache2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "850071ff-0da3-43b1-907c-c5cc04fe4d95",
+        "type": "message",
+        "text": "run -X -d \/etc\/apache2",
+        "user": "UJN8D8U3B",
+        "ts": "1581663685.312500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=hr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "run -X -d \/etc\/apache2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33755ac3-94d9-481f-9fc1-9eee63dd4f97",
+        "type": "message",
+        "text": "Se agradece si lo probais vosotros también y asi vamos avanzando juntos :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1581663836.312900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1581663850.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "brTq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se agradece si lo probais vosotros también y asi vamos avanzando juntos "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05f030b2-4b1b-414e-8cab-2d8338abb6c9",
+        "type": "message",
+        "text": "Probando desde Windows bash con ubuntu",
+        "user": "UJN8D8U3B",
+        "ts": "1581663859.313300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Wi82",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Probando desde Windows bash con ubuntu"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f73c3191-9b81-464c-94da-0f8244ba3bdb",
+        "type": "message",
+        "text": "anto@DESKTOP-SKM3723:\/home$ sudo gdb apache2\nGNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1\nCopyright (C) 2016 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http:\/\/gnu.org\/licenses\/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\nand \"show warranty\" for details.\nThis GDB was configured as \"x86_64-linux-gnu\".\nType \"show configuration\" for configuration details.\nFor bug reporting instructions, please see:\n<http:\/\/www.gnu.org\/software\/gdb\/bugs\/>.\nFind the GDB manual and other documentation resources online at:\n<http:\/\/www.gnu.org\/software\/gdb\/documentation\/>.\nFor help, type \"help\".\nType \"apropos word\" to search for commands related to \"word\"...\nReading symbols from apache2...(no debugging symbols found)...done.\n(gdb) run -X -d \/etc\/apache2\nStarting program: \/usr\/sbin\/apache2 -X -d \/etc\/apache2\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"\/lib\/x86_64-linux-gnu\/libthread_db.so.1\".\n[Fri Feb 14 08:06:28.450318 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_LOCK_DIR} is not defined\n[Fri Feb 14 08:06:28.450523 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_PID_FILE} is not defined\n[Fri Feb 14 08:06:28.450549 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_RUN_USER} is not defined\n[Fri Feb 14 08:06:28.450569 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_RUN_GROUP} is not defined\n[Fri Feb 14 08:06:28.450615 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.621524 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.622572 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.622585 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\nAH00526: Syntax error on line 74 of \/etc\/apache2\/apache2.conf:\nInvalid Mutex directory in argument file:${APACHE_LOCK_DIR}\n[Inferior 1 (process 150) exited with code 01]\n(gdb)",
+        "user": "UJN8D8U3B",
+        "ts": "1581664026.313600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5I4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "anto@DESKTOP-SKM3723:\/home$ sudo gdb apache2\nGNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1\nCopyright (C) 2016 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <http:\/\/gnu.org\/licenses\/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.  Type \"show copying\"\nand \"show warranty\" for details.\nThis GDB was configured as \"x86_64-linux-gnu\".\nType \"show configuration\" for configuration details.\nFor bug reporting instructions, please see:\n<http:\/\/www.gnu.org\/software\/gdb\/bugs\/>.\nFind the GDB manual and other documentation resources online at:\n<http:\/\/www.gnu.org\/software\/gdb\/documentation\/>.\nFor help, type \"help\".\nType \"apropos word\" to search for commands related to \"word\"...\nReading symbols from apache2...(no debugging symbols found)...done.\n(gdb) run -X -d \/etc\/apache2\nStarting program: \/usr\/sbin\/apache2 -X -d \/etc\/apache2\n[Thread debugging using libthread_db enabled]\nUsing host libthread_db library \"\/lib\/x86_64-linux-gnu\/libthread_db.so.1\".\n[Fri Feb 14 08:06:28.450318 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_LOCK_DIR} is not defined\n[Fri Feb 14 08:06:28.450523 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_PID_FILE} is not defined\n[Fri Feb 14 08:06:28.450549 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_RUN_USER} is not defined\n[Fri Feb 14 08:06:28.450569 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_RUN_GROUP} is not defined\n[Fri Feb 14 08:06:28.450615 2020] [core:warn] [pid 150] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.621524 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.622572 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\n[Fri Feb 14 08:06:28.622585 2020] [core:warn] [pid 150:tid 140737479509888] AH00111: Config variable ${APACHE_LOG_DIR} is not defined\nAH00526: Syntax error on line 74 of \/etc\/apache2\/apache2.conf:\nInvalid Mutex directory in argument file:${APACHE_LOCK_DIR}\n[Inferior 1 (process 150) exited with code 01]\n(gdb)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "80a67301-f5e4-4686-8e2f-34c3bd952db1",
+        "type": "message",
+        "text": "quit para salir de gdb",
+        "user": "UJN8D8U3B",
+        "ts": "1581664069.313900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uqKFc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "quit para salir de gdb"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "client_msg_id": "a7f05358-3919-4a2f-80ff-429f982ad0fc",
+        "type": "message",
+        "text": "*My Blog. Capitulo II. El preprocesador y el olvido*\n\nObservo muchas veces que los maestros son reticentes a usar el preprocesador. No sé el motivo, si es porque no queda el codigo limpio, porque van rápidos o por qué. Son maestros y sus buenas razones tendrán.\n\nPero a mi, el preprocesador siempre me ha venido de perlas para codificar sin olvidos.\n\nResulta que tienes una condicion `Len(Nombre) &gt; 20 .AND. DatoActivo == \"S\"`\nY 100 líneas más abajo tienes otra condicion `AgnoFechaVenta &gt; 2019 .AND. DatoActivo == \"S\" .AND. Stock &gt; 0`\n\nPodemos sacar factor común:\n```#Define lACTIVO_ ( DatoActivo == \"S\" )\nLen(Nombre) &gt; 20 .AND. lACTIVO_\nAgnoFechaVenta &gt; 2019 .AND. lACTIVO_ .AND. Stock &gt; 0```\nDe esta forma si la condición de activo cambia, cambiará en todas partes.\n\nPD. En la charla de la tarde, si queréis, en una horita lo repasamos y os lo explico.",
+        "user": "UJULQCHL5",
+        "ts": "1591360998.080500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJULQCHL5",
+            "ts": "1591361035.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r0lIB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My Blog. Capitulo II. El preprocesador y el olvido",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nObservo muchas veces que los maestros son reticentes a usar el preprocesador. No sé el motivo, si es porque no queda el codigo limpio, porque van rápidos o por qué. Son maestros y sus buenas razones tendrán.\n\nPero a mi, el preprocesador siempre me ha venido de perlas para codificar sin olvidos.\n\nResulta que tienes una condicion "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Len(Nombre) > 20 .AND. DatoActivo == \"S\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nY 100 líneas más abajo tienes otra condicion "
+                            },
+                            {
+                                "type": "text",
+                                "text": "AgnoFechaVenta > 2019 .AND. DatoActivo == \"S\" .AND. Stock > 0",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nPodemos sacar factor común:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#Define lACTIVO_ ( DatoActivo == \"S\" )\nLen(Nombre) > 20 .AND. lACTIVO_\nAgnoFechaVenta > 2019 .AND. lACTIVO_ .AND. Stock > 0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De esta forma si la condición de activo cambia, cambiará en todas partes.\n\nPD. En la charla de la tarde, si queréis, en una horita lo repasamos y os lo explico."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJUJLTWMT",
+                    "UJHD6A81H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "338d24b9-07a3-43f1-a913-f2cdb997d0af",
+        "type": "message",
+        "text": "No tienes pexxlotxs...",
+        "user": "UJWR5N32S",
+        "ts": "1591365102.081500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UBO0L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No tienes pexxlotxs..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eed70386-b7f7-49bc-8b49-653ccae00337",
+        "type": "message",
+        "text": "Pero de entrada te contesto que el prepro es el ounto final, cuando ya tienes consolidado. Sino siempre estas tocando....",
+        "user": "UJWR5N32S",
+        "ts": "1591365189.083200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MUx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero de entrada te contesto que el prepro es el ounto final, cuando ya tienes consolidado. Sino siempre estas tocando...."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c21626da-4bc5-40f6-86e9-816c7b80eab6",
+        "type": "message",
+        "text": "Pero lo hablamos esta tarde....",
+        "user": "UJWR5N32S",
+        "ts": "1591365207.083700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f9\/\/v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero lo hablamos esta tarde...."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d64a2da6-b618-41e3-bbec-13bc51c45e70",
+        "type": "message",
+        "text": "Ayyyy mon ami... tengo que acostumbrarme a poner iconos de estos al final de las bromas... :wink:",
+        "user": "UJULQCHL5",
+        "ts": "1591370936.084500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/1LLk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ayyyy mon ami... tengo que acostumbrarme a poner iconos de estos al final de las bromas... "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

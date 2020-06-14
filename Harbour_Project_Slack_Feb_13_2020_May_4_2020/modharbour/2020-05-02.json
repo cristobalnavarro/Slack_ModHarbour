@@ -1,0 +1,3780 @@
+[
+    {
+        "client_msg_id": "774300c9-0dd3-4e7b-a61d-a565d4d5cef0",
+        "type": "message",
+        "text": "Uso #define MODHARBOUR para crear una versión fuera de línea para desarrollo y pruebas en paralelo",
+        "user": "UJHD6A81H",
+        "ts": "1588406473.389800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EdPGW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Uso #define MODHARBOUR para crear una versión fuera de línea para desarrollo y pruebas en paralelo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "47940350-7c57-43ab-bec9-9a59164dcfef",
+        "type": "message",
+        "text": "#ifdef MODHARBOUR\n\tuse ( hb_GetEnv( \"PRGPATH\" ) + \"\\data\\tagging.DBF\" ) new\n#else\n\tuse (  \".\\data\\tagging.DBF\" ) new\n#endif",
+        "user": "UJHD6A81H",
+        "ts": "1588406490.390000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YJM87",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#ifdef MODHARBOUR\n\tuse ( hb_GetEnv( \"PRGPATH\" ) + \"\\data\\tagging.DBF\" ) new\n#else\n\tuse (  \".\\data\\tagging.DBF\" ) new\n#endif"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c1f3f4d-cb35-4a76-ab09-4e452aaef170",
+        "type": "message",
+        "text": "#ifdef MODHARBOUR\nTEMPLATE\nENDTEXT\n#else\n\txbrowse()\n#endif",
+        "user": "UJHD6A81H",
+        "ts": "1588406726.390400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b4L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#ifdef MODHARBOUR\nTEMPLATE\nENDTEXT\n#else\n\txbrowse()\n#endif"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6bd97f89-d425-4143-b182-6317104e50e0",
+        "type": "message",
+        "text": "good morning :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1588409674.390700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1MI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "good morning "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ce88c77a-f04c-467a-ab4f-424ed228b096",
+        "type": "message",
+        "text": "Como prometí ayer en la reunión en skype, aqui teneis una demo de como enviar valores desde Javascript (bajo nivel) a Harbour hashes (alto nivel)",
+        "user": "UJN8D8U3B",
+        "ts": "1588409731.391800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bvBZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como prometí ayer en la reunión en skype, aqui teneis una demo de como enviar valores desde Javascript (bajo nivel) a Harbour hashes (alto nivel)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f0f4ea56-a264-4144-a3fd-1074f56d25d8",
+        "type": "message",
+        "text": "Basado en una idea original de Charly, modificada para enviar objetos enteros (json). Gracias :pray:",
+        "user": "UJN8D8U3B",
+        "ts": "1588409808.393200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ENf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Basado en una idea original de Charly, modificada para enviar objetos enteros (json). Gracias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "pray"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d81b64c-5a9b-4df6-9be6-83f427b5aab9",
+        "type": "message",
+        "text": "<https:\/\/www.modharbour.org\/modharbour_samples\/js_to_prg.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1588409813.393400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zXM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.modharbour.org\/modharbour_samples\/js_to_prg.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f80a800-2971-45a7-9094-36a100030ab6",
+        "type": "message",
+        "text": "Código fuente:",
+        "user": "UJN8D8U3B",
+        "ts": "1588409830.393700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7iwav",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Código fuente:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cad03b7e-e5e6-4b2b-b73f-abb7cc1ee43c",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/js_to_prg.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1588409859.393900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1588409866.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f9JQd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/blob\/master\/samples\/js_to_prg.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "890c57b3-b191-4bce-a5b1-05c564b6636c",
+        "type": "message",
+        "text": "Recordaros que también tenemos la demo en sentido contrario, de Harbour hash a javascript object:",
+        "user": "UJN8D8U3B",
+        "ts": "1588409974.394800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yFe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Recordaros que también tenemos la demo en sentido contrario, de Harbour hash a javascript object:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fdb16314-7ad1-47f0-8475-d20f5194b31f",
+        "type": "message",
+        "text": "<https:\/\/www.modharbour.org\/modharbour_samples\/prg_to_js.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1588410001.395000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HI7k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.modharbour.org\/modharbour_samples\/prg_to_js.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a5ffc1e5-dd98-4ba4-a348-d95c332a0efe",
+        "type": "message",
+        "text": "De esta forma, podemos enviar y recibir valores en ambas direcciones :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1588410031.395700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kog",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De esta forma, podemos enviar y recibir valores en ambas direcciones "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4601607b-fd28-4985-b712-463f1b4c16ac",
+        "type": "message",
+        "text": "querido Antonio\n¿Puede explicar eso con más detalle, por favor?\nCuando leo eso, parece ser una sensación real.",
+        "user": "UJHD6A81H",
+        "ts": "1588418634.396000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dpju",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "querido Antonio\n¿Puede explicar eso con más detalle, por favor?\nCuando leo eso, parece ser una sensación real."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "30d14a5e-5786-4db6-934a-8433cce9d11b",
+        "type": "message",
+        "text": "Esto...\n```\t\t\t\t&lt;script&gt;\n\n\t\t\t\t\tfunction LoadState2() {\n\t\t\t\t\t\t\n\t\t\t\t\t\tvar oParam = new Object()\n\t\t\t\t\t\t\toParam[ 'dbf' ]\t\t= 'ARTIC'\n\n\t\t\t\t\t\tMsgServer( 'Miejecutable.exe', oParam, Post_LoadState )\n\n\t\t\t\t\t}```\nDeberia de abrir o lanzar Miejecutable.exe, no???\n\nPues ¿¿qué hago malamente, que no se abre ni ejecuta Miejecutable.exe ???\nSin embargo, si cambio Miejecutable.exe por noexiste.exe (un nombre  de archivo que no existe) me sale el mensaje de \"Objeto no localizado\", lo cual quiere decir que hasta allí llega, y llega bien.\nPEro, no, no veo que arranque la aplicación Miejecutable.exe.",
+        "user": "UJU3NMK0U",
+        "ts": "1588419401.400000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QYN4Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\t\t\t<script>\n\n\t\t\t\t\tfunction LoadState2() {\n\t\t\t\t\t\t\n\t\t\t\t\t\tvar oParam = new Object()\n\t\t\t\t\t\t\toParam[ 'dbf' ]\t\t= 'ARTIC'\n\n\t\t\t\t\t\tMsgServer( 'Miejecutable.exe', oParam, Post_LoadState )\n\n\t\t\t\t\t}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Deberia de abrir o lanzar Miejecutable.exe, no???\n\nPues ¿¿qué hago malamente, que no se abre ni ejecuta Miejecutable.exe ???\nSin embargo, si cambio Miejecutable.exe por noexiste.exe (un nombre  de archivo que no existe) me sale el mensaje de \"Objeto no localizado\", lo cual quiere decir que hasta allí llega, y llega bien.\nPEro, no, no veo que arranque la aplicación Miejecutable.exe."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3172ddc8-1e10-4ffe-a881-7fbf378f3f27",
+        "type": "message",
+        "text": "Creo que el primer parámetro de MsgServer espera una dirección de tu dominio que apunte a un prg o hrb",
+        "user": "UNAHBRTFA",
+        "ts": "1588420028.401200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uTRck",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que el primer parámetro de MsgServer espera una dirección de tu dominio que apunte a un prg o hrb"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "605fedaa-da0a-435f-bdf3-efab5ba773a9",
+        "type": "message",
+        "text": "apache no sabe qué hacer con un exe excepto enviarlo al navegador para que lo descargue",
+        "user": "UNAHBRTFA",
+        "ts": "1588420035.401600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1588420088.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gZY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "apache no sabe qué hacer con un exe excepto enviarlo al navegador para que lo descargue"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "32aa42d6-4c5a-4e77-8694-821213073731",
+        "type": "message",
+        "text": "pero si el fichero no existe, sí sabe quejarse",
+        "user": "UNAHBRTFA",
+        "ts": "1588420050.401900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ul5fS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero si el fichero no existe, sí sabe quejarse"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588420050.401900",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1588431454.412200",
+        "reply_users": [
+            "UJUJLTWMT",
+            "UNAHBRTFA"
+        ],
+        "replies": [
+            {
+                "user": "UJUJLTWMT",
+                "ts": "1588431368.412000"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1588431454.412200"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "d070c491-12ff-41f6-ab16-c42e3d70ae97",
+        "type": "message",
+        "text": "Entiendo...",
+        "user": "UJU3NMK0U",
+        "ts": "1588421519.402200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8SP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Entiendo..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a1e528e-2146-43c2-8812-f5883967c8b3",
+        "type": "message",
+        "text": "Y... un script para que \"ejecute\" una aplicación. ¿eso existe???\nLo digo por que estoy que no puedo abrir\/lanzar una aplicación con hb_processRun(), que no se que me está pasando, y pues me he dicho, igual con un script se puede \"lanzar\" un exe. Pero, como uno que no sabe ni entende de nada, eh???",
+        "user": "UJU3NMK0U",
+        "ts": "1588421699.404400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wbx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y... un script para que \"ejecute\" una aplicación. ¿eso existe???\nLo digo por que estoy que no puedo abrir\/lanzar una aplicación con hb_processRun(), que no se que me está pasando, y pues me he dicho, igual con un script se puede \"lanzar\" un exe. Pero, como uno que no sabe ni entende de nada, eh???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d99e15e1-355c-4419-a821-1c7bbca601cd",
+        "type": "message",
+        "text": "Las cosas que se ejecutan en el navegador, sobre todo las que están hechas en javascript, tienen una capa de aislamiento con el sistema operativo",
+        "user": "UNAHBRTFA",
+        "ts": "1588423699.405300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BAa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Las cosas que se ejecutan en el navegador, sobre todo las que están hechas en javascript, tienen una capa de aislamiento con el sistema operativo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fe0dc367-17f6-421c-9e64-8d32bb5c554e",
+        "type": "message",
+        "text": "solo puedes interactuar con el SO a través de APIs web muy concretas, y normalmente el usuario tiene que aceptar que se usen estas APIs",
+        "user": "UNAHBRTFA",
+        "ts": "1588423746.406400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CzP\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "solo puedes interactuar con el SO a través de APIs web muy concretas, y normalmente el usuario tiene que aceptar que se usen estas APIs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a34d56cb-c8cf-47ae-8e68-a8878b415d67",
+        "type": "message",
+        "text": "si usas Skype por la web, por ejemplo, ves que tienes que dar permiso para usar tu micro y cámara",
+        "user": "UNAHBRTFA",
+        "ts": "1588423768.407200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3G95",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si usas Skype por la web, por ejemplo, ves que tienes que dar permiso para usar tu micro y cámara"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f7aa8fb-763a-41c6-a939-e3101f7c4c14",
+        "type": "message",
+        "text": "En el caso de ejecutar programas en el sistema, ni siquiera existe un API para eso porque el riesgo de seguridad es enorme",
+        "user": "UNAHBRTFA",
+        "ts": "1588423953.407800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1588423972.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YVBva",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En el caso de ejecutar programas en el sistema, ni siquiera existe un API para eso porque el riesgo de seguridad es enorme"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0e59fb9c-1f9d-426b-b693-30ab77e77531",
+        "type": "message",
+        "text": "Bien... ya tengo funcionando hb_processRun() y parece ser que también oExcel := CreateObject( \"Excel.Application\" )\nCon un empujoncito de los que se agradece muchísimo. Por lo visto, Apache si se lanza CON o SIN el panel de control de XAMPP, parece ser que los permisos (como bien apuntó <@UNAHBRTFA> que era tema de permisos) pues que no furulan igual y da problemas al querer interactuar con ficheretes.\n\nGracias a <@UJUJLTWMT> por ser la persona que es, sus aportes y ese tiempo que me ha dedicado.",
+        "user": "UJU3NMK0U",
+        "ts": "1588429852.411800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1588429888.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a6rD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien... ya tengo funcionando hb_processRun() y parece ser que también oExcel := CreateObject( \"Excel.Application\" )\nCon un empujoncito de los que se agradece muchísimo. Por lo visto, Apache si se lanza CON o SIN el panel de control de XAMPP, parece ser que los permisos (como bien apuntó "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " que era tema de permisos) pues que no furulan igual y da problemas al querer interactuar con ficheretes.\n\nGracias a "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJUJLTWMT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " por ser la persona que es, sus aportes y ese tiempo que me ha dedicado."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "054301f3-fd64-4155-b8f8-f569db70f833",
+        "type": "message",
+        "text": "Yo pensaba que Apache no se entera, porque delega eso en sus módulos específicos.",
+        "user": "UJUJLTWMT",
+        "ts": "1588431368.412000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Lr7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yo pensaba que Apache no se entera, porque delega eso en sus módulos específicos."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588420050.401900",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "e34afd53-1296-4ba4-ad9a-0c5fa647c396",
+        "type": "message",
+        "text": "Si hay un módulo asociado al tipo de archivo, sí",
+        "user": "UNAHBRTFA",
+        "ts": "1588431454.412200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "THhw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si hay un módulo asociado al tipo de archivo, sí"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588420050.401900",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "73bbd89d-ad20-4b9a-b1c3-4b09e2422761",
+        "type": "message",
+        "text": "<@UJU3NMK0U> te funciona createobjet con ModHarbour?",
+        "user": "UK28N3CER",
+        "ts": "1588431779.413700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZPxt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " te funciona createobjet con ModHarbour?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39af0e7c-0837-4ac7-83ed-c23fdfcc25d1",
+        "type": "message",
+        "text": "Abrir un archivo de Excel?",
+        "user": "UK28N3CER",
+        "ts": "1588431819.414500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7gaSU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Abrir un archivo de Excel?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6eadcc3d-7b4c-49dc-8ba8-f442d2cc868a",
+        "type": "message",
+        "text": "Según lo que vimos, así es",
+        "user": "UJUJLTWMT",
+        "ts": "1588431853.414800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HyUx7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Según lo que vimos, así es"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b05fbc79-ddf3-48e2-bb88-3ef73ef96fe4",
+        "type": "message",
+        "text": "o eso parece",
+        "user": "UJUJLTWMT",
+        "ts": "1588431868.415000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ACj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o eso parece"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1570a071-59f3-42fa-9007-3d01f928eda0",
+        "type": "message",
+        "text": "Hola <@UJUJLTWMT> eso esta muy bien debe de quedar un ejemplo de ese aporte en samples de ModHarbour?",
+        "user": "UK28N3CER",
+        "ts": "1588432059.416600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gVsVW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJUJLTWMT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " eso esta muy bien debe de quedar un ejemplo de ese aporte en samples de ModHarbour?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "09300789-e11b-4311-8746-15268297bfa2",
+        "type": "message",
+        "text": "Los maa importante para nosotros es la función de informes, xls, txt, pdd, print, sin eso no somos nada.  En producción lo que vale es eso.",
+        "user": "UK28N3CER",
+        "ts": "1588432165.418500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xblj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Los maa importante para nosotros es la función de informes, xls, txt, pdd, print, sin eso no somos nada.  En producción lo que vale es eso."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be6b4014-4f24-43d4-8f9e-2f1cc41bd920",
+        "type": "message",
+        "text": "Pdf",
+        "user": "UK28N3CER",
+        "ts": "1588432252.418700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1upL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pdf"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23d01459-67ba-4d0d-a952-56e2c2f3be4d",
+        "type": "message",
+        "text": "```function Main()\n\n   hb_Run( \"notepad.exe\" )\n   \nreturn nil```",
+        "user": "UJN8D8U3B",
+        "ts": "1588432339.419500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gLD9",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()\n\n   hb_Run( \"notepad.exe\" )\n   \nreturn nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dfdbb460-37a7-4aa6-9e04-424515928ef7",
+        "type": "message",
+        "text": "Prueba eso en local usando Apache en Windows...",
+        "user": "UJN8D8U3B",
+        "ts": "1588432351.419800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aFetv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Prueba eso en local usando Apache en Windows..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4b181b5-a0ff-4446-bd10-897b93926b2d",
+        "type": "message",
+        "text": "desde modpro.prg",
+        "user": "UJN8D8U3B",
+        "ts": "1588432358.420000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d6hZs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "desde modpro.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F013N2JD1PA",
+                "created": 1588432432,
+                "timestamp": 1588432432,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJN8D8U3B",
+                "editable": false,
+                "size": 35862,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013N2JD1PA\/image.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013N2JD1PA\/download\/image.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_64.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_80.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_360.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 210,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_480.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 280,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_160.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_720.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720_w": 720,
+                "thumb_720_h": 419,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_800.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_800_w": 800,
+                "thumb_800_h": 466,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_960.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_960_w": 960,
+                "thumb_960_h": 559,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013N2JD1PA-1b5b59d18c\/image_1024.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 597,
+                "original_w": 1030,
+                "original_h": 600,
+                "thumb_tiny": "AwAbADCkGOOtTR28sybkxjPc1XrQs\/8AUfiat6Eoi+xXH+z\/AN9UfYbn2\/76q5RU3HYp\/Ybn0X\/vqnWcQLSrIoYqcVaqG0\/19x\/vf1NFyZaIzq0bJSbfIHc1nUVTVxo2djelJsb0rIopco7mxsb0qvaf6+4\/3v6ms+rum\/8ALT8KLWRMnof\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJN8D8U3B\/F013N2JD1PA\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F013N2JD1PA-c125abc385",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJN8D8U3B",
+        "display_as_bot": false,
+        "ts": "1588432434.420100",
+        "client_msg_id": "0f9842be-aa9c-48a0-b808-668ab5b86b1d"
+    },
+    {
+        "client_msg_id": "70e5b038-bf94-4ecf-b8e9-e0fd874ca354",
+        "type": "message",
+        "text": "Pero eso no le funcionará a un usuario remoto...",
+        "user": "UJN8D8U3B",
+        "ts": "1588432447.420600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=A1jO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero eso no le funcionará a un usuario remoto..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "37970c13-d592-40fb-9185-d9124aa0577b",
+        "type": "message",
+        "text": "Desde una app web ModHarbour no funciona?",
+        "user": "UK28N3CER",
+        "ts": "1588433550.421400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6+=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Desde una app web ModHarbour no funciona?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "111378ab-8dc4-4173-96e3-f30e544904ee",
+        "type": "message",
+        "text": "Estás llamando al comando desde el servidor, no desde el cliente.",
+        "user": "UNAHBRTFA",
+        "ts": "1588433579.421900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QW2mU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Estás llamando al comando desde el servidor, no desde el cliente."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ab5078e-ddb6-4be4-9c90-ed46e82879a8",
+        "type": "message",
+        "text": "Ok cierto",
+        "user": "UK28N3CER",
+        "ts": "1588433622.422200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XHfA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ok cierto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "130f6c28-0ca7-4c53-a19c-efe801eaa759",
+        "type": "message",
+        "text": "Habría una forma que es usar el \"clipboard\" para mantener una conversación con una app local",
+        "user": "UJN8D8U3B",
+        "ts": "1588433865.424300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wcn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Habría una forma que es usar el \"clipboard\" para mantener una conversación con una app local"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46e950c2-d0ea-43eb-b9de-ba2e540cab4e",
+        "type": "message",
+        "text": "no es elegante, pero recuerdo que funcionaba",
+        "user": "UJN8D8U3B",
+        "ts": "1588433927.425100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tce",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no es elegante, pero recuerdo que funcionaba"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7071a430-a0fd-43b9-af52-8dcff6833876",
+        "type": "message",
+        "text": "el navegador copia algo al clipboard usando javascript, y una app local esta monitorizando el clipboard, y reacciona ante determinadas órdenes",
+        "user": "UJN8D8U3B",
+        "ts": "1588433974.425900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "prs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el navegador copia algo al clipboard usando javascript, y una app local esta monitorizando el clipboard, y reacciona ante determinadas órdenes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5436400f-a9b5-4741-9fcb-34b9da337f96",
+        "type": "message",
+        "text": "necesitas que el usuario dé permiso para eso, creo",
+        "user": "UNAHBRTFA",
+        "ts": "1588434016.426700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a0\/iH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "necesitas que el usuario dé permiso para eso, creo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a943d68c-4ae9-4c7b-80bd-e0ddd2b92964",
+        "type": "message",
+        "text": "Recordad que los navegadores no están hechos como una plataforma de desarrollo que permita interactuar con el sistema",
+        "user": "UNAHBRTFA",
+        "ts": "1588434097.427500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RbtO9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Recordad que los navegadores no están hechos como una plataforma de desarrollo que permita interactuar con el sistema"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2eb2f497-3fd9-4d44-aaa4-550ad43354c7",
+        "type": "message",
+        "text": "<@UMZ3LNV5Z> estás ?",
+        "user": "UJN8D8U3B",
+        "ts": "1588434165.428000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4ei32",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UMZ3LNV5Z"
+                            },
+                            {
+                                "type": "text",
+                                "text": " estás ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1e34feaf-50b1-47ec-a511-9d5baff4aafa",
+        "type": "message",
+        "text": "De momento estoy haciendo las pruebas y comprobando hasta donde llego...\nTODO parece funcionar correctamente\n```\tTRY\n\t\toExcel := GetActiveObject( \"Excel.Application\" )\n? \"TRY 1\"\n\tCATCH\n\t\tTRY\n\t\t\toExcel := CreateObject( \"Excel.Application\" )\n? \"TRY 2\"\n\t\tCATCH\n\t\t\t? \"ERROR! Excel not avialable.\"\n\t\t\tRETURN Nil\n\t\tEND\n\tEND\n\n\tTRY\n\t\toExcel:WorkBooks():Open( \"C:\\xampp\\htdocs\\PROVA.xlsx\" )\n\t\toExcel:Worksheets( \"HOJA1\" ):Activate()\n\n\t\toExcel:ActiveWorkbook:Close( .F. )\n\t\toExcel := NIL\n\tCATCH\n\t\t? \"S'ha produit un Error!!!...\"\n\tEND```",
+        "user": "UJU3NMK0U",
+        "ts": "1588435059.429300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1R1wo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De momento estoy haciendo las pruebas y comprobando hasta donde llego...\nTODO parece funcionar correctamente\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\tTRY\n\t\toExcel := GetActiveObject( \"Excel.Application\" )\n? \"TRY 1\"\n\tCATCH\n\t\tTRY\n\t\t\toExcel := CreateObject( \"Excel.Application\" )\n? \"TRY 2\"\n\t\tCATCH\n\t\t\t? \"ERROR! Excel not avialable.\"\n\t\t\tRETURN Nil\n\t\tEND\n\tEND\n\n\tTRY\n\t\toExcel:WorkBooks():Open( \"C:\\xampp\\htdocs\\PROVA.xlsx\" )\n\t\toExcel:Worksheets( \"HOJA1\" ):Activate()\n\n\t\toExcel:ActiveWorkbook:Close( .F. )\n\t\toExcel := NIL\n\tCATCH\n\t\t? \"S'ha produit un Error!!!...\"\n\tEND"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJUJLTWMT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "193736c4-2ab1-4b8a-b23d-a25610db6077",
+        "type": "message",
+        "text": ":ok_hand:",
+        "user": "UJN8D8U3B",
+        "ts": "1588435160.429500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6kpR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "ok_hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "75370b1c-f04b-479a-a648-feb554ad52a5",
+        "type": "message",
+        "text": "Eso funciona solo con Windows?",
+        "user": "UK28N3CER",
+        "ts": "1588435382.430200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sMYNm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso funciona solo con Windows?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "292c9d64-1e09-4943-afb0-99febc250d8d",
+        "type": "message",
+        "text": "si",
+        "user": "UJN8D8U3B",
+        "ts": "1588435571.430500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ec0iv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e1850c73-50f6-45a2-8122-4c0350a59f06",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UK28N3CER",
+        "ts": "1588436158.430600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HWdPt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "165e9196-bf99-4bbd-bc17-2bdeefdc6445",
+        "type": "message",
+        "text": "Puedo leer perfectamente un ficherete Excel, como estava acostumbrado!!!\nUUUUfffff... un peso que me quito de encima!!!\nEl cambio no va a ser tan dramático, si puedo convivir con mis malos hábitos de programador... se que no voy a hacer programas, pero programar, voy a programar un tiempo más, ahora en entorno Web.\n:smiley:",
+        "user": "UJU3NMK0U",
+        "ts": "1588437681.432600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dXAo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Puedo leer perfectamente un ficherete Excel, como estava acostumbrado!!!\nUUUUfffff... un peso que me quito de encima!!!\nEl cambio no va a ser tan dramático, si puedo convivir con mis malos hábitos de programador... se que no voy a hacer programas, pero programar, voy a programar un tiempo más, ahora en entorno Web.\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smiley"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "77c49183-dfb3-46a6-a3a6-5b4ed75a54de",
+        "type": "message",
+        "text": "Ahora tocará lidiar con TXmlDocument!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588437742.433400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uxu5G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora tocará lidiar con TXmlDocument!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "476223b9-516c-4586-960a-3744da14d63e",
+        "type": "message",
+        "text": "Esto no se ve hasta que te pones hacer algo serio",
+        "user": "UK28N3CER",
+        "ts": "1588438318.434400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OgzJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto no se ve hasta que te pones hacer algo serio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2526a0a5-8612-48aa-923f-fba06e36915c",
+        "type": "message",
+        "text": "El inicio es traumatico",
+        "user": "UK28N3CER",
+        "ts": "1588438378.435900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DZjH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "El inicio es traumatico"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8141557a-b006-4aa4-ad3e-51250ab71278",
+        "type": "message",
+        "text": "En mi caso todavía estoy en fase prueba y lo que estás haciendo me da tranquilidad :joy:",
+        "user": "UK28N3CER",
+        "ts": "1588438426.437400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PHh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En mi caso todavía estoy en fase prueba y lo que estás haciendo me da tranquilidad "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Pues pim-pam... se ha tragado TODO lo que tenia hecho y que me funciona en una aplicación Windows con harbour...\nXML generado correctamente",
+        "files": [
+            {
+                "id": "F0134EQR160",
+                "created": 1588440821,
+                "timestamp": 1588440821,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 68745,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0134EQR160\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0134EQR160\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0134EQR160-ca600e740f\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0134EQR160-ca600e740f\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0134EQR160-ca600e740f\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 326,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0134EQR160-ca600e740f\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 435,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0134EQR160-ca600e740f\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 648,
+                "original_h": 587,
+                "thumb_tiny": "AwArADCgDS4PqKaBS59jTAX8RSH8PyoOT2NJg+hoAM\/SjNGKSgBR1p2abSnpQAhozSUUAFFFFACjrS\/QU8KM9KCoz0oAYc+lJg0\/aPSjaPSgCOipNo9KNo9KAP\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F0134EQR160\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0134EQR160-945bc73aa3",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5o\/4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues pim-pam... se ha tragado TODO lo que tenia hecho y que me funciona en una aplicación Windows con harbour...\nXML generado correctamente"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588440823.437800",
+        "client_msg_id": "35db9124-a8d0-4d6c-842a-744bd57dbb1f"
+    },
+    {
+        "client_msg_id": "27a119d5-5078-441f-940e-a17522d7c823",
+        "type": "message",
+        "text": "Ya puedo leer Excel y generar Xml... en localhost.\nLo siguiente, en dominio y desde fuera poder hacer un ExcelToSEPA Online\nAh... y una apariencia sencillita, que ahora lo tengo como he podido, variables internas y ir probando eso y aquello. Pero por lo menos se que FUNCIONA!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588440926.439800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8fSv+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya puedo leer Excel y generar Xml... en localhost.\nLo siguiente, en dominio y desde fuera poder hacer un ExcelToSEPA Online\nAh... y una apariencia sencillita, que ahora lo tengo como he podido, variables internas y ir probando eso y aquello. Pero por lo menos se que FUNCIONA!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e8f520d-5a5f-430e-9783-428ea6ce968f",
+        "type": "message",
+        "text": "Tengo funcional Recibos domiciliados norma 19 y Transferencias norma 34",
+        "user": "UJU3NMK0U",
+        "ts": "1588440967.440500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vVZi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tengo funcional Recibos domiciliados norma 19 y Transferencias norma 34"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c3f0ab1d-8403-44dd-86ff-9e03d8a3d37a",
+        "type": "message",
+        "text": ":clap::clap::clap:",
+        "user": "UJN8D8U3B",
+        "ts": "1588440996.440800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SBL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "clap"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "clap"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "clap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be5bd751-53ef-4408-928a-b8949f6a933d",
+        "type": "message",
+        "text": "<https:\/\/modharbour.app|https:\/\/modharbour.app>",
+        "user": "UJWR5N32S",
+        "ts": "1588443182.441000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iQd5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/modharbour.app",
+                                "text": "https:\/\/modharbour.app"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "836b3043-9731-4088-85de-6d4aa6b4e9e0",
+        "type": "message",
+        "text": "Muy bueno Xevi !!!",
+        "user": "UJULAGJG5",
+        "ts": "1588443631.441300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cLJQO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muy bueno Xevi !!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "546932c2-60ad-4fc5-a33b-d385abf45c8d",
+        "type": "message",
+        "text": "super <@UJU3NMK0U>",
+        "user": "UK28N3CER",
+        "ts": "1588449441.441600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Crn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "super "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9bb859a4-c5b0-4497-9a85-6ff943ca3ebc",
+        "type": "message",
+        "text": "<@UJWR5N32S> buen sitio",
+        "user": "UK28N3CER",
+        "ts": "1588449519.441900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dsv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " buen sitio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8b967cd-c386-43f2-825a-a6f08ba4c84f",
+        "type": "message",
+        "text": "```&lt;input type=\"text\" id=\"filexml\" name=\"filexml\" size=50 &gt;```\n¿Como puedo poner en value el valor sea la fecha actual???\n\nAlgo así... no se como poder hacerlo\n```&lt;input type=\"text\" id=\"filexml\" name=\"filexml\" size=50 value=Date()&gt;```",
+        "user": "UJU3NMK0U",
+        "ts": "1588453424.444200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1588453461.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xo0",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<input type=\"text\" id=\"filexml\" name=\"filexml\" size=50 >"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Como puedo poner en value el valor sea la fecha actual???\n\nAlgo así... no se como poder hacerlo\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<input type=\"text\" id=\"filexml\" name=\"filexml\" size=50 value=Date()>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "568e9fd9-b697-4e6a-bfea-6a6d3d053440",
+        "type": "message",
+        "text": "¿en js o en mod_harbour?",
+        "user": "UNAHBRTFA",
+        "ts": "1588453540.444600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IM8V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿en js o en mod_harbour?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "609bb24b-d175-4a91-90dc-aa540d358a1b",
+        "type": "message",
+        "text": "jejeje... no se :grinning:",
+        "user": "UJU3NMK0U",
+        "ts": "1588453558.444900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3\/7H7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "jejeje... no se "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "grinning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "511a76b2-ed1c-4302-a72d-b2370a0bfc59",
+        "type": "message",
+        "text": "Como se puede hacer... si se puede com modharbour mejor.\nIgual una variable mifecha := Date()\nI ese valor \"transportarla\" a ese value",
+        "user": "UJU3NMK0U",
+        "ts": "1588453601.445900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oBfgN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como se puede hacer... si se puede com modharbour mejor.\nIgual una variable mifecha := Date()\nI ese valor \"transportarla\" a ese value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c6848cc-a6f0-4339-bb7c-235fbb799273",
+        "type": "message",
+        "text": "estoy pensando... igual con &lt;$...$&gt;",
+        "user": "UJU3NMK0U",
+        "ts": "1588453651.446800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EetOz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "estoy pensando... igual con <$...$>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f7b2a60-e28f-423a-bb7f-211a40d89d65",
+        "type": "message",
+        "text": "btw, para fechas deberías utilizar `&lt;input type=\"date\"&gt;`, que te da una UI mucho más usable",
+        "user": "UNAHBRTFA",
+        "ts": "1588453658.446900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zsa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "btw, para fechas deberías utilizar "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<input type=\"date\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", que te da una UI mucho más usable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "359ff7ce-c8da-42ea-aea8-a038795cb468",
+        "type": "message",
+        "text": "Ups... si, si. Lo tengo así... lo que pasa que he hecho un copy - paste de una línea que no toca.",
+        "user": "UJU3NMK0U",
+        "ts": "1588453709.447900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G=+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ups... si, si. Lo tengo así... lo que pasa que he hecho un copy - paste de una línea que no toca."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fadd3802-6757-476f-b9a9-c8fd824eab93",
+        "type": "message",
+        "text": "```&lt;input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\"&gt;```",
+        "user": "UJU3NMK0U",
+        "ts": "1588453735.448200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rUTW",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\">"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e3b9c495-58dd-4cfa-9148-da050120afbb",
+        "type": "message",
+        "text": "aunque con un input date, el valor que tienes que poner en el atributo `value` y que te va a llegar a mod_habour va a ser `\"&lt;año&gt;-&lt;mes&gt;-&lt;día&gt;\"`",
+        "user": "UNAHBRTFA",
+        "ts": "1588453762.448900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EKE9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aunque con un input date, el valor que tienes que poner en el atributo "
+                            },
+                            {
+                                "type": "text",
+                                "text": "value",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " y que te va a llegar a mod_habour va a ser "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"<año>-<mes>-<día>\"",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb4d4745-6f29-4a8a-85ec-3b97698ee1d8",
+        "type": "message",
+        "text": "Igual funciona...\n```&lt;input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\" value=\"&lt;$ Date() $&gt;\"&gt;```",
+        "user": "UJU3NMK0U",
+        "ts": "1588453922.449600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j=+w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Igual funciona...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\" value=\"<$ Date() $>\">"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "91ab4423-00c8-4641-b921-61a45d591691",
+        "type": "message",
+        "text": "mejor quítale el `style`, que puede que haga cosas raras con la UI específica de fechas",
+        "user": "UNAHBRTFA",
+        "ts": "1588454099.450200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mj5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mejor quítale el "
+                            },
+                            {
+                                "type": "text",
+                                "text": "style",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", que puede que haga cosas raras con la UI específica de fechas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3c4168cc-df7a-4918-8659-94475f281ab2",
+        "type": "message",
+        "text": "Hecho!!!\n```\tcData1 := DtoC( Date() ) \n\tcData1 := Right( cData1, 4 ) +\"-\"+ SubStr( cData1, 4, 2 ) +\"-\"+ Left( cData1, 2 )\n\tcHtml += '\t&lt;input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\"  value=\"' +cData1+ '\"&gt;'```",
+        "user": "UJU3NMK0U",
+        "ts": "1588454666.450500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P1o",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hecho!!!\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\tcData1 := DtoC( Date() ) \n\tcData1 := Right( cData1, 4 ) +\"-\"+ SubStr( cData1, 4, 2 ) +\"-\"+ Left( cData1, 2 )\n\tcHtml += '\t<input type=\"date\" id=\"dataemissio\" name=\"dataemissio\" style=\"width:142px\"  value=\"' +cData1+ '\">'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba422f92-c90b-4cb0-b76f-662c502a019a",
+        "type": "message",
+        "text": "<@UJU3NMK0U> esta mas que claro que la web es puro string  y harbour es pieza clave para eso ...",
+        "user": "UK28N3CER",
+        "ts": "1588454877.451400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wnpXT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " esta mas que claro que la web es puro string  y harbour es pieza clave para eso ..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ab414e24-2691-422e-9da2-fcb26899725c",
+        "type": "message",
+        "text": "discrepo, HTML no es más que una representación textual del DOM, que es un árbol de objetos",
+        "user": "UNAHBRTFA",
+        "ts": "1588454931.452300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OlZpJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "discrepo, HTML no es más que una representación textual del DOM, que es un árbol de objetos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c10a57a-0053-424e-b4fe-157cfd7a3567",
+        "type": "message",
+        "text": "pues todo lo que quieras que salga en el explorador es string",
+        "user": "UK28N3CER",
+        "ts": "1588455008.453700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rdN3T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pues todo lo que quieras que salga en el explorador es string"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "16bf4b46-fd8d-41d9-94b7-872f97119239",
+        "type": "message",
+        "text": "hasta ahorita es lo que veo,",
+        "user": "UK28N3CER",
+        "ts": "1588455018.454100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v\/k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hasta ahorita es lo que veo,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "526521ca-bcf1-40c5-9821-829699662c50",
+        "type": "message",
+        "text": "está montado con strings",
+        "user": "UNAHBRTFA",
+        "ts": "1588455037.454500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pkl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "está montado con strings"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0745f1cd-f1e7-45d3-89d1-d672f0550913",
+        "type": "message",
+        "text": "que es algo muy distinto",
+        "user": "UNAHBRTFA",
+        "ts": "1588455045.454900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eMQX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "que es algo muy distinto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4480468c-4e88-41ca-8288-f0bd1279f3af",
+        "type": "message",
+        "text": "si quieres un lenguaje que sea puro string, prueba bash",
+        "user": "UNAHBRTFA",
+        "ts": "1588455230.457100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q6Gy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si quieres un lenguaje que sea puro string, prueba bash"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UK28N3CER"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f2fcd75-886a-4747-a7f8-1981ce1b7603",
+        "type": "message",
+        "text": "hasta los números son cadenas",
+        "user": "UNAHBRTFA",
+        "ts": "1588455239.457300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yETNw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hasta los números son cadenas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Ahí estoy con la captura de datos...",
+        "files": [
+            {
+                "id": "F012YJX2X0T",
+                "created": 1588455452,
+                "timestamp": 1588455452,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 42728,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012YJX2X0T\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012YJX2X0T\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012YJX2X0T-02703b2631\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012YJX2X0T-02703b2631\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012YJX2X0T-02703b2631\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 243,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012YJX2X0T-02703b2631\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 324,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012YJX2X0T-02703b2631\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 426,
+                "original_h": 632,
+                "thumb_tiny": "AwAwACDQOc\/e\/Wj5v7360p6\/\/WpRg9v0oARc+uadRiigBvOe\/wCdHPv+dIQM\/wANAOOm2gBwHuaUcd6b83tTh70AJn2NA+lHPpS0AFFFFAH\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F012YJX2X0T\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012YJX2X0T-e23a7ac72e",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x\/Jj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahí estoy con la captura de datos..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588455453.457900",
+        "client_msg_id": "effe336e-e7b9-4c89-b078-2d9d49bf1d50"
+    },
+    {
+        "client_msg_id": "11ffc313-5fb6-4b6a-ac1c-7f164687e7be",
+        "type": "message",
+        "text": "Ahora toca descansar un rato",
+        "user": "UJU3NMK0U",
+        "ts": "1588455464.458300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K2D+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora toca descansar un rato"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "464f9855-bc1b-4952-ab08-16b5db54bd0e",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UK28N3CER",
+        "ts": "1588465154.458600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MYeH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0058a7db-0b0b-438c-a84d-5f6df05da286",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1588486170.458900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HGzp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4daaa65b-72fc-40e9-b12e-4dec54bd58e9",
+        "type": "message",
+        "text": "Muy bien Xavi ! La manera de dominar la fiera es conociendola",
+        "user": "UJWR5N32S",
+        "ts": "1588486287.460100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+d0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muy bien Xavi ! La manera de dominar la fiera es conociendola"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46c36af4-a085-4224-993e-29c5520c7a72",
+        "type": "message",
+        "text": "SI, si. El revólver úsalo sólo en caso de extrema necesidad.",
+        "user": "UM81W8B0Q",
+        "ts": "1588488063.460800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "11eMk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "SI, si. El revólver úsalo sólo en caso de extrema necesidad."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

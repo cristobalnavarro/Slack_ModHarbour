@@ -1,0 +1,164 @@
+[
+    {
+        "client_msg_id": "15cf4052-0680-4293-a6f2-2a31c33bba08",
+        "type": "message",
+        "text": "I was hoping there there is a standalone \"mod_harbour web_server.exe\"  for debugging purposes. Or maybe is there?",
+        "user": "UJWU9P1LP",
+        "ts": "1588778118.076200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gd5359cf0340",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f0d5359cf034005e0313981a49adb150.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+            "first_name": "",
+            "real_name": "AbeBuch",
+            "display_name": "AbeBuch",
+            "team": "TJH5YU202",
+            "name": "abe.buch",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8om",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was hoping there there is a standalone \"mod_harbour web_server.exe\"  for debugging purposes. Or maybe is there?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588700148.074900",
+        "parent_user_id": "UJHD6A81H"
+    },
+    {
+        "client_msg_id": "a833dfaf-fa04-4502-8e37-64a755730fdb",
+        "type": "message",
+        "text": "Hi all. I'm back and am anticipating getting into mod_harbour",
+        "user": "UM99QAYNB",
+        "ts": "1588818294.077900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AqM=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi all. I'm back and am anticipating getting into mod_harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "997c89b3-afd2-419f-960c-ae8701c0b55e",
+        "type": "message",
+        "text": "Currently looking at Antonios post\n\n<http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&amp;t=38892>\n\nAm working out how the json to Harbour hash demo works\n\nFirstly - Can someone tell me what is AP_Method() condition\nThe rest is straight forward until 'form' is declared\nWhat is the :attr of form\n :append seems to be used in two different ways\nthen there is the .submit()\n\nAre these part of mod_harbour?",
+        "user": "UM99QAYNB",
+        "ts": "1588819012.078600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I1C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Currently looking at Antonios post\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&t=38892"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nAm working out how the json to Harbour hash demo works\n\nFirstly - Can someone tell me what is AP_Method() condition\nThe rest is straight forward until 'form' is declared\nWhat is the :attr of form\n :append seems to be used in two different ways\nthen there is the .submit()\n\nAre these part of mod_harbour?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9c63ae9-9857-4deb-bd81-31f82348eeeb",
+        "type": "message",
+        "text": "Saw that AP_Method is an a modharbour Apache API  - what do the POST GET options do?",
+        "user": "UM99QAYNB",
+        "ts": "1588828405.080800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pr8GU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Saw that AP_Method is an a modharbour Apache API  - what do the POST GET options do?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

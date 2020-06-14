@@ -1,0 +1,34 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1580934768.000200",
+        "user": "UK28N3CER",
+        "text": "<@UK28N3CER> se ha unido al canal"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1580934816.000300",
+        "user": "UK28N3CER",
+        "text": "<@UK28N3CER> ha cambiado el nombre del canal de \"beacon\" a \"xfgcxc\"",
+        "old_name": "beacon",
+        "name": "xfgcxc"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1580934816.000400",
+        "user": "UK28N3CER",
+        "text": "<@UK28N3CER> ha borrado la finalidad del canal",
+        "purpose": ""
+    },
+    {
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1580934817.000500",
+        "user": "UK28N3CER",
+        "text": "<@UK28N3CER> ha borrado el tema del canal",
+        "topic": ""
+    }
+]

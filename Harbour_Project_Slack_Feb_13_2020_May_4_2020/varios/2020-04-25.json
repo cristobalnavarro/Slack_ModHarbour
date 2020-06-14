@@ -1,0 +1,4191 @@
+[
+    {
+        "type": "message",
+        "text": "Ahí estoy, ahí precisamente esperimentando con Tutor4",
+        "files": [
+            {
+                "id": "F0137S4561W",
+                "created": 1587803596,
+                "timestamp": 1587803596,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 32562,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0137S4561W\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0137S4561W\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0137S4561W-91122b7080\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0137S4561W-91122b7080\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0137S4561W-91122b7080\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 156,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0137S4561W-91122b7080\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 207,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0137S4561W-91122b7080\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 685,
+                "original_h": 296,
+                "thumb_tiny": "AwAUADDQPXr\/AOPUYPb\/ANCNJI7oQFjLe9IsshDZiIwMjnrTsxXH7T\/ljS\/N6D86h8+QdYT+dOeWRXIWIsPXNHKwuiWiovNk8vd5RznGM0JLIzAGIgHvmizC6JSM0YxRRSGMkiSTG4Zx0p9FFABRRRQB\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F0137S4561W\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0137S4561W-d64c5702b4",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "03H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahí estoy, ahí precisamente esperimentando con Tutor4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1587803598.247800",
+        "client_msg_id": "e485b20a-566c-40b5-ac06-e19cf1059353"
+    },
+    {
+        "client_msg_id": "1851b576-d09b-4521-85eb-e893201ff408",
+        "type": "message",
+        "text": "Pongamos pues, sin TWeb\nel enrutador\n```oApp:oRoute:Map( \"GET\"\t\t, \"test1\"\t\t, \"testtweb1\"\t, \"@twebcontroller.prg\" )\t```\nel view...\n```&lt;form action=\"{{ Route( 'test1' ) }}\" method=\"GET\"&gt;\n...\n&lt;select name=\"selecttweb\" onchange=\"enruta_a()\"&gt;\n...\n\t\t\t&lt;script&gt;\n\n\t\t\t\tfunction enruta_a() {\n\n\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'\n\n\t\t\t\t}\n\n\t\t\t&lt;\/script&gt;\t```\n¿Como enruto pasando el valor del select o algun valor del form???",
+        "user": "UJU3NMK0U",
+        "ts": "1587804119.250300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LC2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pongamos pues, sin TWeb\nel enrutador\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oApp:oRoute:Map( \"GET\"\t\t, \"test1\"\t\t, \"testtweb1\"\t, \"@twebcontroller.prg\" )\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el view...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<form action=\"{{ Route( 'test1' ) }}\" method=\"GET\">\n...\n<select name=\"selecttweb\" onchange=\"enruta_a()\">\n...\n\t\t\t<script>\n\n\t\t\t\tfunction enruta_a() {\n\n\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'\n\n\t\t\t\t}\n\n\t\t\t<\/script>\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n¿Como enruto pasando el valor del select o algun valor del form???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b41777d-f80a-45de-b8bb-a6af782545dd",
+        "type": "message",
+        "text": "por POST no puedes con window.location.href",
+        "user": "UNAHBRTFA",
+        "ts": "1587804205.250700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FuHq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "por POST no puedes con window.location.href"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a684ae8c-bec0-49a1-ae9c-05a03c050897",
+        "type": "message",
+        "text": "O sea, que si o si, debo hacer un submit para poder pasar valores...",
+        "user": "UJU3NMK0U",
+        "ts": "1587804330.251700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O+pYI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "O sea, que si o si, debo hacer un submit para poder pasar valores..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a71e4bf-ae52-4bf3-8aa1-672034dec512",
+        "type": "message",
+        "text": "una cosa que puedes hacer es poner un formulario oculto o algo y darle a submit con un script",
+        "user": "UNAHBRTFA",
+        "ts": "1587804386.253100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aSvy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "una cosa que puedes hacer es poner un formulario oculto o algo y darle a submit con un script"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "864188f2-86a6-4de8-baf9-598ff59ffb51",
+        "type": "message",
+        "text": "no lo recomiendo, pero es posible",
+        "user": "UNAHBRTFA",
+        "ts": "1587804394.253400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tnxx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no lo recomiendo, pero es posible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3c23d2dd-f413-408c-ae25-4b7d5ac38dd2",
+        "type": "message",
+        "text": "Nada, si no se recomienda, pues me olvido de hacerlo de esta manera y me queda claro que para proceder al paso de valores, con un botoncito me apaño. Cap problema!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587804507.254900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x3li",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Nada, si no se recomienda, pues me olvido de hacerlo de esta manera y me queda claro que para proceder al paso de valores, con un botoncito me apaño. Cap problema!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ecf834f8-88a9-4613-bb90-c508bc411155",
+        "type": "message",
+        "text": "Otra duda, pregunta.\nAlguna funcioncilla o manera de poder saber si estamos corriendo en un móvil, tablet, pc??\nNavegador ???",
+        "user": "UJU3NMK0U",
+        "ts": "1587804719.257000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UwR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otra duda, pregunta.\nAlguna funcioncilla o manera de poder saber si estamos corriendo en un móvil, tablet, pc??\nNavegador ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "62cf7976-23c7-4a19-b1b6-2c34df016421",
+        "type": "message",
+        "text": "creo que no hay ninguna manera fiable que no te dé falsos positivos ni negativos",
+        "user": "UNAHBRTFA",
+        "ts": "1587804880.257600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QnXqd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "creo que no hay ninguna manera fiable que no te dé falsos positivos ni negativos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "648e4961-2ebc-46e6-bb71-9f58485172b1",
+        "type": "message",
+        "text": "si la idea es cambiar el diseño de la página para que encaje con pantallas de móvil y tablet, se debería usar media queries en CSS que detecten el tamaño y la relación de aspecto de la ventana del navegador",
+        "user": "UNAHBRTFA",
+        "ts": "1587804925.258700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587804954.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uvTCB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si la idea es cambiar el diseño de la página para que encaje con pantallas de móvil y tablet, se debería usar media queries en CSS que detecten el tamaño y la relación de aspecto de la ventana del navegador"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a8b839ed-089d-4928-8052-20d1895f9bae",
+        "type": "message",
+        "text": "No... lo preguntava por si sabiendo en que pantalla voy a visualizar, mostrar unos u otra información.",
+        "user": "UJU3NMK0U",
+        "ts": "1587806285.260000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kzzEX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No... lo preguntava por si sabiendo en que pantalla voy a visualizar, mostrar unos u otra información."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c97d1779-a602-4115-8ae0-48ccbbfa9ebe",
+        "type": "message",
+        "text": "Por ejemplo, si se està en modo móvil, no voy a mostrar segun que información o no voy visualizar segun que botones para no hacer o mostrar demasiada información en la pantalla.",
+        "user": "UJU3NMK0U",
+        "ts": "1587806352.261100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7DC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Por ejemplo, si se està en modo móvil, no voy a mostrar segun que información o no voy visualizar segun que botones para no hacer o mostrar demasiada información en la pantalla."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587806352.261100",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1587817933.273300",
+        "reply_users": [
+            "UNAHBRTFA"
+        ],
+        "replies": [
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1587817933.273300"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "b402316a-24ce-4950-85df-344a9f178515",
+        "type": "message",
+        "text": "Xevi el tema del select utilizalo como vimos ayer. Un control mas que al pulsar el button llamara al routes y te lo redirijira donde toque pasando el\/los parametros",
+        "user": "UJWR5N32S",
+        "ts": "1587806407.262200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+CGTI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Xevi el tema del select utilizalo como vimos ayer. Un control mas que al pulsar el button llamara al routes y te lo redirijira donde toque pasando el\/los parametros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7bffdd89-6ec3-4e55-87b9-d388a4a5ca79",
+        "type": "message",
+        "text": "<@UJWR5N32S>, si si, eso me ha quedado claro ya",
+        "user": "UJU3NMK0U",
+        "ts": "1587806434.262600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Il\/Ah",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", si si, eso me ha quedado claro ya"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa799060-97f4-4e10-8df4-c61d54e40117",
+        "type": "message",
+        "text": "El modo de visualización de TWeb... no se si es así como funciona, pero deja mucho espaciado a los bordes y no \"aprovecha\" el ancho disponible.\nEn la imagen que he puesto un poco mas arriba, si te fijas, los botones empiezan muy separados del borde izquierdo.",
+        "user": "UJU3NMK0U",
+        "ts": "1587806559.264600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vUkEo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "El modo de visualización de TWeb... no se si es así como funciona, pero deja mucho espaciado a los bordes y no \"aprovecha\" el ancho disponible.\nEn la imagen que he puesto un poco mas arriba, si te fijas, los botones empiezan muy separados del borde izquierdo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "611a2df6-82f2-4a45-b4af-adc9069dd41f",
+        "type": "message",
+        "text": "y si redimensionas la pantalla como aparecen ? Pon un screenshot con el inpsector en modo movil",
+        "user": "UJWR5N32S",
+        "ts": "1587806624.265600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NjY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y si redimensionas la pantalla como aparecen ? Pon un screenshot con el inpsector en modo movil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "031ec112-1b25-4ee4-b7df-42890f654dff",
+        "type": "message",
+        "text": "La separación entre controles, también es notorio. No se si es ajustable.",
+        "user": "UJU3NMK0U",
+        "ts": "1587806659.266000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pqB4Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "La separación entre controles, también es notorio. No se si es ajustable."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ca9baeff-22e8-4b53-bb91-7ce384f3be5a",
+        "type": "message",
+        "text": "A medida que redimensionamos la ventana, si, se van ajustando correctamente, pero mas que nada lo digo por que de entrada, ya ves que estamos despreciando un ancho de la ventana... no se...",
+        "user": "UJU3NMK0U",
+        "ts": "1587806736.267300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c4+8L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A medida que redimensionamos la ventana, si, se van ajustando correctamente, pero mas que nada lo digo por que de entrada, ya ves que estamos despreciando un ancho de la ventana... no se..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "71c2da1b-5b50-43c1-a654-85b2bba8b154",
+        "type": "message",
+        "text": "si tomas yu sample tutor2.prg, por ejemplo, verás que hay un margen izquiero \"despreciado\" que si redimensionamos, aumenta o disminuye, pero nunca es 0 cero",
+        "user": "UJU3NMK0U",
+        "ts": "1587806843.268600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0aC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si tomas yu sample tutor2.prg, por ejemplo, verás que hay un margen izquiero \"despreciado\" que si redimensionamos, aumenta o disminuye, pero nunca es 0 cero"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ab7802f1-fbb9-458a-8a01-bc09509d8f5a",
+        "type": "message",
+        "text": "Bien, cuando mejor se ve, es cuando el ancho es mínimo... o en movil",
+        "user": "UJU3NMK0U",
+        "ts": "1587806914.269200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "l4o",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien, cuando mejor se ve, es cuando el ancho es mínimo... o en movil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1102e87a-1d06-423b-8a8c-30b0a75effa4",
+        "type": "message",
+        "text": "mira tutor7.prg y experimetna con el responsive",
+        "user": "UJWR5N32S",
+        "ts": "1587807067.269600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YZ\/D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mira tutor7.prg y experimetna con el responsive"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f80ab12-decf-4aea-8c88-afe3ebe49d5b",
+        "type": "message",
+        "text": "Si, si... si ahí también he mirado. Pero el responsive, o el \"resize\" no cambia siempre que redimensionamos, hasta llegar a unos \"valores\" no hace el cambio de tamaños. Supongo que está así hecho. No es que redimensione todos los anchos sinó que los \"centra\" y redimensiona cuando debe llegar a una medida determinada, entiendo.",
+        "user": "UJU3NMK0U",
+        "ts": "1587807414.272300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h81KT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, si... si ahí también he mirado. Pero el responsive, o el \"resize\" no cambia siempre que redimensionamos, hasta llegar a unos \"valores\" no hace el cambio de tamaños. Supongo que está así hecho. No es que redimensione todos los anchos sinó que los \"centra\" y redimensiona cuando debe llegar a una medida determinada, entiendo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ad5bb57-5e87-4f52-a2c0-8cc70f41a9ac",
+        "type": "message",
+        "text": "si. ais esta definido. Puedes modificar el css de cada estilo y experimentar",
+        "user": "UJWR5N32S",
+        "ts": "1587807465.272800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sQNs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si. ais esta definido. Puedes modificar el css de cada estilo y experimentar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "Eso se puede hacer con los media queries de CSS perfectamente",
+        "user": "UNAHBRTFA",
+        "ts": "1587817933.273300",
+        "thread_ts": "1587806352.261100",
+        "root": {
+            "client_msg_id": "c97d1779-a602-4115-8ae0-48ccbbfa9ebe",
+            "type": "message",
+            "text": "Por ejemplo, si se està en modo móvil, no voy a mostrar segun que información o no voy visualizar segun que botones para no hacer o mostrar demasiada información en la pantalla.",
+            "user": "UJU3NMK0U",
+            "ts": "1587806352.261100",
+            "team": "TJH5YU202",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "7DC",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Por ejemplo, si se està en modo móvil, no voy a mostrar segun que información o no voy visualizar segun que botones para no hacer o mostrar demasiada información en la pantalla."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1587806352.261100",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1587817933.273300",
+            "reply_users": [
+                "UNAHBRTFA"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Iy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso se puede hacer con los media queries de CSS perfectamente"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "d34704c8-430a-4f39-bc17-b1116b5bbc3b"
+    },
+    {
+        "client_msg_id": "b459f8a7-9846-477c-b814-ba08a04338a9",
+        "type": "message",
+        "text": "Es una clase o estilo que deba bajarme, instalar ???",
+        "user": "UJU3NMK0U",
+        "ts": "1587826444.274100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jo5mM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Es una clase o estilo que deba bajarme, instalar ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05291f16-a2b9-4a15-81bd-bba0ea59c358",
+        "type": "message",
+        "text": "es una cosa que ofrece CSS que puedes usar en estilos",
+        "user": "UNAHBRTFA",
+        "ts": "1587826848.276400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AI3VH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es una cosa que ofrece CSS que puedes usar en estilos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b124b68-c23b-46de-a951-8b3d8f57e9df",
+        "type": "message",
+        "text": "bootstrap y muchos otros lo usan para ser responsive",
+        "user": "UNAHBRTFA",
+        "ts": "1587826856.276800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+BN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bootstrap y muchos otros lo usan para ser responsive"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a4b86fd1-7c79-496f-b605-c320b4e6d936",
+        "type": "message",
+        "text": "aquí quieres usarlo para mostrar o ocultar elementos",
+        "user": "UNAHBRTFA",
+        "ts": "1587826875.277200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dXR+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aquí quieres usarlo para mostrar o ocultar elementos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "<@UJWR5N32S> en el Sample TWeb usando browse, no me saca los caracteres acentuados y demás...\nHe visto que utilizas UHtmlEncode(), pero a mi me hace lo mismo con o sin UHtmlEncode()",
+        "files": [
+            {
+                "id": "F012GRR9L8M",
+                "created": 1587826900,
+                "timestamp": 1587826900,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 83099,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012GRR9L8M\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012GRR9L8M\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 213,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 284,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012GRR9L8M-eb460eacbf\/captura_720.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720_w": 720,
+                "thumb_720_h": 427,
+                "original_w": 788,
+                "original_h": 467,
+                "thumb_tiny": "AwAcADC45dWIWEsvY7qYJJsEfZj\/AN91ZbpTR14oAg3zf8+x\/wC\/lOE03e3x\/wACqcZ7ihulAEHnz\/8APt\/4+KPOn\/59j\/32KloyP8mgBzdKbSt0puaAHjpQ3SkUk9aVulADeppQCKb3xTwAKAP\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F012GRR9L8M\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012GRR9L8M-6482db264f",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cze",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " en el Sample TWeb usando browse, no me saca los caracteres acentuados y demás...\nHe visto que utilizas UHtmlEncode(), pero a mi me hace lo mismo con o sin UHtmlEncode()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1587826902.277300",
+        "client_msg_id": "fddbf0c2-266b-42b4-a49f-b6c3cad00509"
+    },
+    {
+        "client_msg_id": "7c93ad00-b6da-4f64-9a49-06c02704f04c",
+        "type": "message",
+        "text": "<@UNAHBRTFA> si, lo utilizaria así, si me dices como puedo hacerlo.",
+        "user": "UJU3NMK0U",
+        "ts": "1587826947.278300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H8d1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " si, lo utilizaria así, si me dices como puedo hacerlo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5e382098-e781-4893-9e7e-d13e5edf0584",
+        "type": "message",
+        "text": "```@media (max-width:600px) {\n  #nav {\n    display: none;\n  }\n}\n#nav {\n  display: block;\n}```",
+        "user": "UNAHBRTFA",
+        "ts": "1587827026.279100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5\/0Wk",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "@media (max-width:600px) {\n  #nav {\n    display: none;\n  }\n}\n#nav {\n  display: block;\n}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8a91951-7f30-4efd-9295-2b9b22c6028e",
+        "type": "message",
+        "text": "esto dentro de un `&lt;style&gt;` o de un fichero css, por supuesto",
+        "user": "UNAHBRTFA",
+        "ts": "1587827100.279700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1OKdO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esto dentro de un "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<style>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " o de un fichero css, por supuesto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7fd332fc-cc70-4e9c-866c-1bdc8721ec4d",
+        "type": "message",
+        "text": "<@UJU3NMK0U> btw, si estás usando la misma dbf que en otros ejemplos que has puesto antes, la dbf está en utf-8",
+        "user": "UNAHBRTFA",
+        "ts": "1587827934.280400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z0KT\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " btw, si estás usando la misma dbf que en otros ejemplos que has puesto antes, la dbf está en utf-8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "25152396-74b1-4b76-9090-33a0137cb59c",
+        "type": "message",
+        "text": "sospecho que UHtmlEncode() interpreta la cadena como latin-1 o similar y la convierte a utf-8, lo cual no va a funcionar si los datos no están en latin-1",
+        "user": "UNAHBRTFA",
+        "ts": "1587827968.281200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J+sl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sospecho que UHtmlEncode() interpreta la cadena como latin-1 o similar y la convierte a utf-8, lo cual no va a funcionar si los datos no están en latin-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1760ffc2-9614-4ff5-b1aa-bde9bed68895",
+        "type": "message",
+        "text": "aunque aún no entiendo del todo eso de que harbour pueda poner codificaciones de caracteres por defecto, y a qué se aplica esa codificación",
+        "user": "UNAHBRTFA",
+        "ts": "1587828025.281800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587828050.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8pd+9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aunque aún no entiendo del todo eso de que harbour pueda poner codificaciones de caracteres por defecto, y a qué se aplica esa codificación"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a13ab34e-dd21-4a1d-82bb-96f40a1ea151",
+        "type": "message",
+        "text": "<@UJU3NMK0U> -&gt; <https:\/\/forum.mod-harbour.org\/viewtopic.php?f=7&amp;t=458>",
+        "user": "UJWR5N32S",
+        "ts": "1587828165.282200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xIM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " -> "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/forum.mod-harbour.org\/viewtopic.php?f=7&t=458"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4bc987d4-48aa-4708-9920-714f63ff2b81",
+        "type": "message",
+        "text": "&gt; sospecho que UHtmlEncode() interpreta la cadena como latin-1 o similar y la convierte a utf-8, lo cual no va a funcionar si los datos no están en latin-1",
+        "user": "UNAHBRTFA",
+        "ts": "1587828224.282500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9g0RA",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sospecho que UHtmlEncode() interpreta la cadena como latin-1 o similar y la convierte a utf-8, lo cual no va a funcionar si los datos no están en latin-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aa235ea1-8f4d-4b09-9ce1-666aa6e7420b",
+        "type": "message",
+        "text": "me acabo de dar cuenta de lo burro que soy",
+        "user": "UNAHBRTFA",
+        "ts": "1587828232.282900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ytlB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "me acabo de dar cuenta de lo burro que soy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6ae9dfe9-5352-4de6-a1a3-71610355eb39",
+        "type": "message",
+        "text": "esa función probablemente te coge `á` y te lo convierte en `&amp;aacute;` o `&amp;#xE1;`",
+        "user": "UNAHBRTFA",
+        "ts": "1587828303.283400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587828319.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JCma",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esa función probablemente te coge "
+                            },
+                            {
+                                "type": "text",
+                                "text": "á",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " y te lo convierte en "
+                            },
+                            {
+                                "type": "text",
+                                "text": "&aacute;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " o "
+                            },
+                            {
+                                "type": "text",
+                                "text": "&#xE1;",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d0e518e2-c2a9-4f43-a121-79435bfe6ab3",
+        "type": "message",
+        "text": "<@UJWR5N32S>, no deberías recomendar usar latin-1 unas veces y otras utf-8, porque tienes que cambiar la forma en la que pones caracteres en las views",
+        "user": "UNAHBRTFA",
+        "ts": "1587828499.284300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bQW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", no deberías recomendar usar latin-1 unas veces y otras utf-8, porque tienes que cambiar la forma en la que pones caracteres en las views"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "027b6d2b-533e-45e8-a7fd-098a0171089d",
+        "type": "message",
+        "text": "y estaba pensando que si tienes formularios en una página latin-1 y alguien pone caracteres griegos, japoneses o lo que sea, vas a tener problemas a la hora de escapar el resultado",
+        "user": "UNAHBRTFA",
+        "ts": "1587828772.286300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RcG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y estaba pensando que si tienes formularios en una página latin-1 y alguien pone caracteres griegos, japoneses o lo que sea, vas a tener problemas a la hora de escapar el resultado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4b9f9ffb-4f15-4693-b6bd-1316c73856eb",
+        "type": "message",
+        "text": "(fun fact: cuando le dices a un navegador que una página está en latin-1 en realidad te lo interpreta como cp1252. Y esto no es que los navegadores hagan cosas raras: lo pone en el estándar)",
+        "user": "UNAHBRTFA",
+        "ts": "1587828809.286500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587828939.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1dR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(fun fact: cuando le dices a un navegador que una página está en latin-1 en realidad te lo interpreta como cp1252. Y esto no es que los navegadores hagan cosas raras: lo pone en el estándar)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf4874e1-a722-4cd0-bb78-51e9c844c50f",
+        "type": "message",
+        "text": "Esto del tipo de codificación e un liiiioooo!!!\nsi defino el WEB\n```\tDEFINE WEB oWeb TITLE 'Test Browse' ICON \"images\/@Soft.ico\" TABLES \/\/INIT\n\t\toWeb:cCharset := 'Latin-1'\/\/'utf-8'\n\tINIT WEB oWeb\n\n\tDEFINE FORM o ID 'demo'\n\t\t\n\tHTML o INLINE '&lt;h3&gt;Fitxer de Clients Ààñç - dblclick event&lt;\/h3&gt;&lt;hr&gt;'```\nveo correctamente los campos en el Browse, pero veo símbolos raros en html\nY si defino en utf-8 veo bien html pero no los datos del Browse.\n\nHabrá alguna función para hacer al revés de UHtmlEncode()... HtmlUEncode ???",
+        "user": "UJU3NMK0U",
+        "ts": "1587829742.289900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eLrom",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto del tipo de codificación e un liiiioooo!!!\nsi defino el WEB\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\tDEFINE WEB oWeb TITLE 'Test Browse' ICON \"images\/@Soft.ico\" TABLES \/\/INIT\n\t\toWeb:cCharset := 'Latin-1'\/\/'utf-8'\n\tINIT WEB oWeb\n\n\tDEFINE FORM o ID 'demo'\n\t\t\n\tHTML o INLINE '<h3>Fitxer de Clients Ààñç - dblclick event<\/h3><hr>'"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "veo correctamente los campos en el Browse, pero veo símbolos raros en html\nY si defino en utf-8 veo bien html pero no los datos del Browse.\n\nHabrá alguna función para hacer al revés de UHtmlEncode()... HtmlUEncode ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a84ab68-89c6-4daa-8058-aa736605c189",
+        "type": "message",
+        "text": "sospecho que el browse saca los bytes como latin-1, ¿no?",
+        "user": "UNAHBRTFA",
+        "ts": "1587829938.290500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oUrmf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sospecho que el browse saca los bytes como latin-1, ¿no?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b0692ff9-9df4-4e7d-aab7-a1c0fc4e14b7",
+        "type": "message",
+        "text": "puedes hacer que salgan igual si en el header del html cambias el content=\"utf-8\" por content=\"latin-1\"",
+        "user": "UNAHBRTFA",
+        "ts": "1587829958.291100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6hefZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "puedes hacer que salgan igual si en el header del html cambias el content=\"utf-8\" por content=\"latin-1\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b242113a-e647-45d9-88d9-c048297edf83",
+        "type": "message",
+        "text": "la codificación de caracteres no es que sea un lío, es que los navegadores y editores de texto la meten bajo de la alfombra para que te puedas olvidar de ella",
+        "user": "UNAHBRTFA",
+        "ts": "1587830165.292600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LmJ4Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "la codificación de caracteres no es que sea un lío, es que los navegadores y editores de texto la meten bajo de la alfombra para que te puedas olvidar de ella"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39ec68b8-9bf8-4754-9662-cf361f1b5663",
+        "type": "message",
+        "text": "el problema es que cuando la alfombra tiene un bulto enorme no te estás olvidando de él",
+        "user": "UNAHBRTFA",
+        "ts": "1587830183.293200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587830188.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pXDLq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el problema es que cuando la alfombra tiene un bulto enorme no te estás olvidando de él"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ea3a8255-826b-4c52-affa-16c4813882fe",
+        "type": "message",
+        "text": "Rectifico... El Browse sale bien SOLO cuando latin-1, da igual utilize UHtmlEncode() o no.\nLuego, el problema está en que cuando latin-1, lo que ponga en html no saca çñàÀ...",
+        "user": "UJU3NMK0U",
+        "ts": "1587830256.294600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WOH1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Rectifico... El Browse sale bien SOLO cuando latin-1, da igual utilize UHtmlEncode() o no.\nLuego, el problema está en que cuando latin-1, lo que ponga en html no saca çñàÀ..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "248601e6-8e72-4f19-9316-7cfa0b3fb83a",
+        "type": "message",
+        "text": "¿te saca �?",
+        "user": "UNAHBRTFA",
+        "ts": "1587830361.295500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+tm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿te saca �?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3760ddc0-6f85-443d-a03f-9664feddba11",
+        "type": "message",
+        "text": "Sip",
+        "user": "UJU3NMK0U",
+        "ts": "1587830401.295700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uVf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "365e911b-5e21-4981-a278-19a9e5d11b5c",
+        "type": "message",
+        "text": "coge el `&lt;meta charset=\"utf-8\"&gt;` y cámbialo a latin-1",
+        "user": "UNAHBRTFA",
+        "ts": "1587830432.296400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9LdS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "coge el "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<meta charset=\"utf-8\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " y cámbialo a latin-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "781071ed-a2cf-4311-8e35-1b655426fefe",
+        "type": "message",
+        "text": "&lt;meta charset=\"utf-8\"&gt; que es lo que hace TWeb oWeb:cCharset := 'utf-8'\ncaracteres en html HTML o INLINE '&lt;h3&gt;Ààñç&lt;\/h3&gt;&lt;hr&gt;'\nmuestra en pantalla correctamente Ààñç\nBrowse ����\n\n&lt;meta charset=\"utf-8\"&gt; que es lo que hace TWeb oWeb:cCharset := 'latin-1'\ncaracteres en html HTML o INLINE '&lt;h3&gt;Ààñç&lt;\/h3&gt;&lt;hr&gt;'\nmuestra en pantalla Ã€Ã Ã±Ã§\nBrowse Ààñç\n\nEn cualquier de los casos da igual que utilize UHtmlEncode()",
+        "user": "UJU3NMK0U",
+        "ts": "1587830789.299700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kvCV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<meta charset=\"utf-8\"> que es lo que hace TWeb oWeb:cCharset := 'utf-8'\ncaracteres en html HTML o INLINE '<h3>Ààñç<\/h3><hr>'\nmuestra en pantalla correctamente Ààñç\nBrowse ����\n\n<meta charset=\"utf-8\"> que es lo que hace TWeb oWeb:cCharset := 'latin-1'\ncaracteres en html HTML o INLINE '<h3>Ààñç<\/h3><hr>'\nmuestra en pantalla Ã€Ã Ã±Ã§\nBrowse Ààñç\n\nEn cualquier de los casos da igual que utilize UHtmlEncode()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e1b3aaa8-1f42-4a9d-a342-f44f4b54a59f",
+        "type": "message",
+        "text": "ahí está el problema que le decía antes a charly",
+        "user": "UNAHBRTFA",
+        "ts": "1587830856.300000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uaZT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ahí está el problema que le decía antes a charly"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "55fe18c5-007b-4c61-83e9-9cc421ddd71a",
+        "type": "message",
+        "text": "tienes el prg en utf-8 y el dbf en latin-1",
+        "user": "UNAHBRTFA",
+        "ts": "1587830888.300600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BGv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tienes el prg en utf-8 y el dbf en latin-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "96130552-39af-4f67-84b8-ada295f7037d",
+        "type": "message",
+        "text": "Lo comun, creo, en DBFs estan en latin-1. Luego, claro, la web la necesitamos en utf-8 para caracteres especiales, y ahí se hace la ... un lio",
+        "user": "UJU3NMK0U",
+        "ts": "1587830974.301700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XHlW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo comun, creo, en DBFs estan en latin-1. Luego, claro, la web la necesitamos en utf-8 para caracteres especiales, y ahí se hace la ... un lio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "589c39f0-adc7-4adc-8dcb-27bebe9324ce",
+        "type": "message",
+        "text": "Bien seguireé con mas pruebas, y aparco ese tema, que no avanzo!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587831006.302400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D8d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien seguireé con mas pruebas, y aparco ese tema, que no avanzo!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9a57d10c-0f76-4d18-8ecb-d17dc83e993d",
+        "type": "message",
+        "text": "no sé cómo se transformarían los caracteres en un browse, ahí estoy al límite de mis conocimientos de harbour",
+        "user": "UNAHBRTFA",
+        "ts": "1587831027.302700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J0M",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no sé cómo se transformarían los caracteres en un browse, ahí estoy al límite de mis conocimientos de harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6b56509-0f7e-4dad-9a07-291cb735fe87",
+        "type": "message",
+        "text": "<@UJWR5N32S>",
+        "user": "UNAHBRTFA",
+        "ts": "1587831029.302900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OBB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3e2a275-4abb-420b-be74-54440f25cfca",
+        "type": "message",
+        "text": "Voy a comentarlo en el foro, por si...",
+        "user": "UJU3NMK0U",
+        "ts": "1587831050.303300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ulSC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Voy a comentarlo en el foro, por si..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0ca8053-78de-4ac1-a6a0-fff5b064b1c9",
+        "type": "message",
+        "text": "<@UJWR5N32S>... Otro fallo\/error o no se como plantearlo.\nCuando en un campo de una DBF, al importar un dato que éste contega la comilla simple, casca!!! y se rompe la importación\/carga de datos al Browse\nDe momento, lo arreglo de esta manera para poder ir siguiendo las pruebas...\n'nom' \t\t=&gt; strtran( (cAlias)-&gt;NOM, \"'\", \"´\" )\nsustituyo la comilla simple por un acento.",
+        "user": "UJU3NMK0U",
+        "ts": "1587835231.306000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F\/J48",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": "... Otro fallo\/error o no se como plantearlo.\nCuando en un campo de una DBF, al importar un dato que éste contega la comilla simple, casca!!! y se rompe la importación\/carga de datos al Browse\nDe momento, lo arreglo de esta manera para poder ir siguiendo las pruebas...\n'nom' \t\t=> strtran( (cAlias)->NOM, \"'\", \"´\" )\nsustituyo la comilla simple por un acento."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "00b70371-12ba-4766-bcd4-e4a831f9ff37",
+        "type": "message",
+        "text": "Aunque me muestra un símbolo raro.. pero al menos se que algo malo está ocurriendo.",
+        "user": "UJU3NMK0U",
+        "ts": "1587835412.308000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E4O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aunque me muestra un símbolo raro.. pero al menos se que algo malo está ocurriendo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "759e1a6e-5eff-4720-99d5-8ea7922b6e8f",
+        "type": "message",
+        "text": "Xevi me parece a mi que no queda otra. Pasa lo mismo cuando generas un .csv, deberíamos examinar todos los campos caracter, al menos de nombre y dirección, para que no haya ningún ; punto y coma",
+        "user": "UJULQCHL5",
+        "ts": "1587835426.308200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B59+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Xevi me parece a mi que no queda otra. Pasa lo mismo cuando generas un .csv, deberíamos examinar todos los campos caracter, al menos de nombre y dirección, para que no haya ningún ; punto y coma"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83e29e3d-13cb-4bc7-8a75-f487281202af",
+        "type": "message",
+        "text": "Pero me deja continuar trabajando",
+        "user": "UJU3NMK0U",
+        "ts": "1587835427.308400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ElPf0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero me deja continuar trabajando"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb570a7e-358b-48ec-bc11-cf459c0491c4",
+        "type": "message",
+        "text": "¿Has probado a hacer strtran(..., \"'\", \"\\\\'\")?",
+        "user": "UNAHBRTFA",
+        "ts": "1587835586.308900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IRNv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Has probado a hacer strtran(..., \"'\", \"\\\\'\")?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95c5ee7d-56bd-453c-967f-0d47be5bc6fe",
+        "type": "message",
+        "text": "<@UNAHBRTFA>... no traga, no.\nAl final le hago strtran(..., \"'\", \"|\" ) al menos no me saca caracter raro y me deja trabajar",
+        "user": "UJU3NMK0U",
+        "ts": "1587839590.310100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b1Ls",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "... no traga, no.\nAl final le hago strtran(..., \"'\", \"|\" ) al menos no me saca caracter raro y me deja trabajar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d03ff23-373b-4857-b183-30d85e21f9b2",
+        "type": "message",
+        "text": "No sé cómo funciona el Browse por dentro, así que era una sugerencia que podría haber funcionado",
+        "user": "UNAHBRTFA",
+        "ts": "1587839642.310700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587839658.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d08xS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No sé cómo funciona el Browse por dentro, así que era una sugerencia que podría haber funcionado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba0588fb-3bd4-4d3d-a91d-b46a64688845",
+        "type": "message",
+        "text": "el problema (o mejor dicho, la virtud) es que trabaja con hashes... i claro un hash se declara o define con comilla simple si el valor es texto... de ahí que si el texto contiene una comilla simple, casca!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587839948.312300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "39C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el problema (o mejor dicho, la virtud) es que trabaja con hashes... i claro un hash se declara o define con comilla simple si el valor es texto... de ahí que si el texto contiene una comilla simple, casca!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e04cbd31-09d1-4a0e-94e2-0c56e5712f47",
+        "type": "message",
+        "text": "pero debería poder escaparse",
+        "user": "UNAHBRTFA",
+        "ts": "1587840059.313000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1N5f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero debería poder escaparse"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d8ea2f82-3f9c-4dfd-9ba9-c779390cbb38",
+        "type": "message",
+        "text": "aunque sea a nivel del prepro",
+        "user": "UNAHBRTFA",
+        "ts": "1587840080.313400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/LS57",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aunque sea a nivel del prepro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a186e7f9-a52f-4ea8-b627-8d5d247e4eed",
+        "type": "message",
+        "text": "Alguna función en harbour debe haber para escapar y reconvertir. Seguro.",
+        "user": "UJU3NMK0U",
+        "ts": "1587840115.314000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c\/nia",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Alguna función en harbour debe haber para escapar y reconvertir. Seguro."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ad6efd9-cf39-4e3a-b6a3-2d00c1b85c4b",
+        "type": "message",
+        "text": "Supongo deberia de implementarse en la lectura\/captura en el Browse.",
+        "user": "UJU3NMK0U",
+        "ts": "1587840135.314400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1wuHz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Supongo deberia de implementarse en la lectura\/captura en el Browse."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a6b8989a-e4b3-4484-959c-a4a5fa33ce48",
+        "type": "message",
+        "text": "Ahí no llego, como es de suponer :face_with_rolling_eyes:",
+        "user": "UJU3NMK0U",
+        "ts": "1587840160.314800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bz1iK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahí no llego, como es de suponer "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "face_with_rolling_eyes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf52ff33-1579-489f-b73e-e10041fd5f50",
+        "type": "message",
+        "text": "A ver que dice <@UJWR5N32S>",
+        "user": "UJU3NMK0U",
+        "ts": "1587840177.315100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z=5+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A ver que dice "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c61ef454-cee8-464c-8a8c-dec2c425cf2b",
+        "type": "message",
+        "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion *hb_HAutoAdd*(`&lt;hHash&gt;, [&lt;lFlag&gt;]`) _➜_ lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  <http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8> que sumamos al ya más conocido <https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H>",
+        "user": "UJULQCHL5",
+        "ts": "1587840525.318500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "text": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                "fallback": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                "from_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8",
+                "service_icon": "http:\/\/www.kresin.ru\/favicon.ico",
+                "service_name": "kresin.ru",
+                "id": 1,
+                "original_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+            },
+            {
+                "service_name": "GitHub",
+                "title": "Petewg\/harbour-core",
+                "title_link": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                "text": "Portable, xBase compatible programming language and environment - Petewg\/harbour-core",
+                "fallback": "GitHub: Petewg\/harbour-core",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/3877210?s=400&v=4",
+                "from_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                "thumb_width": 158,
+                "thumb_height": 158,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 2,
+                "original_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Abd9=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion "
+                            },
+                            {
+                                "type": "text",
+                                "text": "hb_HAutoAdd",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "("
+                            },
+                            {
+                                "type": "text",
+                                "text": "<hHash>, [<lFlag>]",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ") "
+                            },
+                            {
+                                "type": "text",
+                                "text": "➜",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+                            },
+                            {
+                                "type": "text",
+                                "text": " que sumamos al ya más conocido "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587840525.318500",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1587841227.321200",
+        "reply_users": [
+            "UJWR5N32S"
+        ],
+        "replies": [
+            {
+                "user": "UJWR5N32S",
+                "ts": "1587841205.320900"
+            },
+            {
+                "user": "UJWR5N32S",
+                "ts": "1587841227.321200"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "e5d51522-4d1b-48a8-9ac3-3ceb856c9b1a",
+        "type": "message",
+        "text": "<http:\/\/modharbour.online|modharbour.online>",
+        "user": "UJHD6A81H",
+        "ts": "1587840679.318800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJHD6A81H",
+            "ts": "1587840753.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qOppf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "http:\/\/modharbour.online",
+                                "text": "modharbour.online"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJULQCHL5"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "82f7b5d3-b10a-4156-b44b-b374cabbdab6",
+        "type": "message",
+        "text": "yo, viniendo de un entorno completamente distinto, me encuentro muy agusto con los hashes y muy incómodo con el resto de harbour",
+        "user": "UNAHBRTFA",
+        "ts": "1587840771.319700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+KVC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yo, viniendo de un entorno completamente distinto, me encuentro muy agusto con los hashes y muy incómodo con el resto de harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "157ffd50-f80d-449b-9c09-c885dd9ab42d",
+        "type": "message",
+        "text": "<@UJULQCHL5> I added more description - thank you.",
+        "user": "UJHD6A81H",
+        "ts": "1587840979.320300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zsIv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJULQCHL5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I added more description - thank you."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587840979.320300",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1587841033.320700",
+        "reply_users": [
+            "UJULQCHL5"
+        ],
+        "replies": [
+            {
+                "user": "UJULQCHL5",
+                "ts": "1587841033.320700"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01386GU8RW",
+                "created": 1587840983,
+                "timestamp": 1587840983,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 38986,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01386GU8RW\/grafik.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01386GU8RW\/download\/grafik.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_64.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_80.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_360.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 95,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_480.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 127,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_160.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_720.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720_w": 720,
+                "thumb_720_h": 191,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_800.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_800_w": 800,
+                "thumb_800_h": 212,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_960.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_960_w": 960,
+                "thumb_960_h": 254,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01386GU8RW-18ab8a0c82\/grafik_1024.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 271,
+                "original_w": 1186,
+                "original_h": 314,
+                "thumb_tiny": "AwAMADDRPXrik59adilAxQA3\/gVH\/AqdRQA3\/gVKAfWlooA\/\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01386GU8RW\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01386GU8RW-dd39370733",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1587840986.320400",
+        "client_msg_id": "4ca1d74f-2452-4401-adfa-169260b8200a"
+    },
+    {
+        "client_msg_id": "211d967e-c9b2-4657-96ef-3970fd727995",
+        "type": "message",
+        "text": "thks",
+        "user": "UJULQCHL5",
+        "ts": "1587841033.320700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VxPCj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587840979.320300",
+        "parent_user_id": "UJHD6A81H"
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "Interesante",
+        "user": "UJWR5N32S",
+        "ts": "1587841205.320900",
+        "thread_ts": "1587840525.318500",
+        "root": {
+            "client_msg_id": "c61ef454-cee8-464c-8a8c-dec2c425cf2b",
+            "type": "message",
+            "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion *hb_HAutoAdd*(`&lt;hHash&gt;, [&lt;lFlag&gt;]`) _➜_ lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  <http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8> que sumamos al ya más conocido <https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H>",
+            "user": "UJULQCHL5",
+            "ts": "1587840525.318500",
+            "team": "TJH5YU202",
+            "attachments": [
+                {
+                    "text": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                    "fallback": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                    "from_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8",
+                    "service_icon": "http:\/\/www.kresin.ru\/favicon.ico",
+                    "service_name": "kresin.ru",
+                    "id": 1,
+                    "original_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+                },
+                {
+                    "service_name": "GitHub",
+                    "title": "Petewg\/harbour-core",
+                    "title_link": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                    "text": "Portable, xBase compatible programming language and environment - Petewg\/harbour-core",
+                    "fallback": "GitHub: Petewg\/harbour-core",
+                    "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/3877210?s=400&v=4",
+                    "from_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                    "thumb_width": 158,
+                    "thumb_height": 158,
+                    "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                    "id": 2,
+                    "original_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Abd9=",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "hb_HAutoAdd",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "("
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "<hHash>, [<lFlag>]",
+                                    "style": {
+                                        "code": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ") "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "➜",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " que sumamos al ya más conocido "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1587840525.318500",
+            "reply_count": 2,
+            "reply_users_count": 1,
+            "latest_reply": "1587841227.321200",
+            "reply_users": [
+                "UJWR5N32S"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ETjYM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Interesante"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "9c807578-a7c2-4212-bf26-f3c9b1b70b5d"
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "Ya puedes usar hashes",
+        "user": "UJWR5N32S",
+        "ts": "1587841227.321200",
+        "thread_ts": "1587840525.318500",
+        "root": {
+            "client_msg_id": "c61ef454-cee8-464c-8a8c-dec2c425cf2b",
+            "type": "message",
+            "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion *hb_HAutoAdd*(`&lt;hHash&gt;, [&lt;lFlag&gt;]`) _➜_ lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  <http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8> que sumamos al ya más conocido <https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H>",
+            "user": "UJULQCHL5",
+            "ts": "1587840525.318500",
+            "team": "TJH5YU202",
+            "attachments": [
+                {
+                    "text": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                    "fallback": "Harbour programming - a manual for beginners - part III Differences from Clipper - a brief description",
+                    "from_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8",
+                    "service_icon": "http:\/\/www.kresin.ru\/favicon.ico",
+                    "service_name": "kresin.ru",
+                    "id": 1,
+                    "original_url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+                },
+                {
+                    "service_name": "GitHub",
+                    "title": "Petewg\/harbour-core",
+                    "title_link": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                    "text": "Portable, xBase compatible programming language and environment - Petewg\/harbour-core",
+                    "fallback": "GitHub: Petewg\/harbour-core",
+                    "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/3877210?s=400&v=4",
+                    "from_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H",
+                    "thumb_width": 158,
+                    "thumb_height": 158,
+                    "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                    "id": 2,
+                    "original_url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Abd9=",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Tres cosas:\n\n1 - El hash se puede definir con comilla doble h[ \"codigo\" ]. Seguramente existirá alguna forma más.\n\n2 -  La funcion "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "hb_HAutoAdd",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "("
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "<hHash>, [<lFlag>]",
+                                    "style": {
+                                        "code": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ") "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "➜",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " lPreviousFlag permite impedir añadir claves por error y sólo permite las indicadas inicialmente. Esto soluciona el problema que yo mismo planteé en el otro canal, de que se añadieran claves por error. Sólo es necesario definir las claves y activar el flag.\n\n3 - Muy bueno este help sobre Hashes y otros  "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "http:\/\/www.kresin.ru\/en\/hrbfaq_3.html#Doc8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " que sumamos al ya más conocido "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https:\/\/github.com\/Petewg\/harbour-core\/wiki\/hb_H"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1587840525.318500",
+            "reply_count": 2,
+            "reply_users_count": 1,
+            "latest_reply": "1587841227.321200",
+            "reply_users": [
+                "UJWR5N32S"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kM8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya puedes usar hashes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "4ea8643f-a86b-4536-852d-c2a9dceead57",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJULQCHL5"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "49987b12-987d-4452-a60a-73d28b78efff",
+        "type": "message",
+        "text": "<https:\/\/youtu.be\/qcpUmynoQVo>\n\nAterrizajes espectaculares\nNo entiendo de aviones ni papa... pero me fascinan... Un tubo que se eleva...\nEn el foro de fwh... creo que teníamos un colega que trabajaba para AEANA o similar... no recuerdo su nombre",
+        "user": "UJULQCHL5",
+        "ts": "1587843236.322700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "SKIATHOS 2019 - LOWEST LANDING EVER? The EUROPEAN ST. MAARTEN (4K)",
+                "title_link": "https:\/\/youtu.be\/qcpUmynoQVo",
+                "author_name": "Cargospotter",
+                "author_link": "https:\/\/www.youtube.com\/user\/Cargospotter",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/qcpUmynoQVo\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: SKIATHOS 2019 - LOWEST LANDING EVER? The EUROPEAN ST. MAARTEN (4K)",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/qcpUmynoQVo?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/youtu.be\/qcpUmynoQVo",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/youtu.be\/qcpUmynoQVo"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vvI1F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/youtu.be\/qcpUmynoQVo"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nAterrizajes espectaculares\nNo entiendo de aviones ni papa... pero me fascinan... Un tubo que se eleva...\nEn el foro de fwh... creo que teníamos un colega que trabajaba para AEANA o similar... no recuerdo su nombre"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2639850b-dcba-4270-934a-3f91c66f5fec",
+        "type": "message",
+        "text": "Ufff!!!\nEl Browse también \"quita\" del contenido la comilla doble.\nNo me sirve!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587848651.323600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TMOh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ufff!!!\nEl Browse también \"quita\" del contenido la comilla doble.\nNo me sirve!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9cf87c32-38c0-4a7f-9616-9806d0a0f230",
+        "type": "message",
+        "text": "En tutor4b, cambiando el registro Homer Simpson por Ho'mer Simp\"son\" funciona correctamente!!!\nAhora si que no se que mirar, que cambiar, que tocar.\nDebo cambiar los datos de la DBF???   el índice Cdx???",
+        "user": "UJU3NMK0U",
+        "ts": "1587849133.325500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jGVV1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En tutor4b, cambiando el registro Homer Simpson por Ho'mer Simp\"son\" funciona correctamente!!!\nAhora si que no se que mirar, que cambiar, que tocar.\nDebo cambiar los datos de la DBF???   el índice Cdx???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "031e5985-9bf7-4eee-95a1-c549e899123d",
+        "type": "message",
+        "text": "Como puede ser que yo tenga una dbf, con campos con comilla simple io campos con comilla doble y usando esa DBF no funcione bien, y la dbf del tutor4b SI ???¿?¿?\nCada vez entiendo menos!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587849239.326700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7FI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como puede ser que yo tenga una dbf, con campos con comilla simple io campos con comilla doble y usando esa DBF no funcione bien, y la dbf del tutor4b SI ???¿?¿?\nCada vez entiendo menos!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1fa45075-c002-416b-82b6-6fc7ca4b5c26",
+        "type": "message",
+        "text": "ademas de la comilla doble y la simple, puedes usar corchetes, que sirven igualmente para delimitar una cadena",
+        "user": "UJN8D8U3B",
+        "ts": "1587852624.331400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "X+4qQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ademas de la comilla doble y la simple, puedes usar corchetes, que sirven igualmente para delimitar una cadena"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "889ff4e3-5bea-4bbd-b47e-5363270ca793",
+        "type": "message",
+        "text": "Bien... comprobado, funciona en TWeb sin Mercury. Se visualizan en el Browse la comilla simple y la comilla doble.\nNO FUNCIONA al integrar en MVC, a la que tenemos un registro con comilla simple \"casca\" y no se visualizan registros",
+        "user": "UJU3NMK0U",
+        "ts": "1587852626.331500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RBM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien... comprobado, funciona en TWeb sin Mercury. Se visualizan en el Browse la comilla simple y la comilla doble.\nNO FUNCIONA al integrar en MVC, a la que tenemos un registro con comilla simple \"casca\" y no se visualizan registros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587852626.331500",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1587882611.333000",
+        "reply_users": [
+            "UJWR5N32S",
+            "UJU3NMK0U"
+        ],
+        "replies": [
+            {
+                "user": "UJWR5N32S",
+                "ts": "1587881000.332800"
+            },
+            {
+                "user": "UJU3NMK0U",
+                "ts": "1587882611.333000"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "55b78b3c-bcd8-49fc-bdef-fd5c3648692b",
+        "type": "message",
+        "text": "[Hola]",
+        "user": "UJN8D8U3B",
+        "ts": "1587852632.331800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n9r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[Hola]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3339a48-77b0-4ca4-9e17-2ce65ed80c4a",
+        "type": "message",
+        "text": "Bona nit!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1587852632.331900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BMIXu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bona nit!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eaf79f98-1286-4b63-8473-430cd79a55aa",
+        "type": "message",
+        "text": "es equivalente a \"Hola\" y a 'Hola'",
+        "user": "UJN8D8U3B",
+        "ts": "1587852645.332200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T3c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es equivalente a \"Hola\" y a 'Hola'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c65bc47-dd1c-4774-b39f-7035c051e277",
+        "type": "message",
+        "text": "Sip... ya lo utilizo en alguna concatenación de cadenas",
+        "user": "UJU3NMK0U",
+        "ts": "1587852675.332700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SmA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sip... ya lo utilizo en alguna concatenación de cadenas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a727d395-0e08-4856-8d5f-eab99ff3bfe2",
+        "type": "message",
+        "text": "Funciona perfectamente !  :slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1587881000.332800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I71",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Funciona perfectamente !  "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587852626.331500",
+        "parent_user_id": "UJU3NMK0U"
+    },
+    {
+        "client_msg_id": "3974e25c-42e3-442e-91f5-4400c26943b5",
+        "type": "message",
+        "text": "He puesto un sample para mostrar lo que intento explicar.",
+        "user": "UJU3NMK0U",
+        "ts": "1587882611.333000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4WQa3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "He puesto un sample para mostrar lo que intento explicar."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1587852626.331500",
+        "parent_user_id": "UJU3NMK0U"
+    }
+]

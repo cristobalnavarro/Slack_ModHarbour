@@ -1,0 +1,566 @@
+[
+    {
+        "client_msg_id": "146a4c93-54f3-436c-9aed-f873d2b76668",
+        "type": "message",
+        "text": "No lo recuerdo bien, pero creo que Pablo y Ángel lo estuvieron hablando en una charla hace dos o tres semanas",
+        "user": "UNAHBRTFA",
+        "ts": "1582447104.014800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XSd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No lo recuerdo bien, pero creo que Pablo y Ángel lo estuvieron hablando en una charla hace dos o tres semanas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70901d99-2c28-44a3-bcca-32ed8ba6dbb4",
+        "type": "message",
+        "text": "Fue la charla del 24 de enero, no sé si alguien la grabó.",
+        "user": "UNAHBRTFA",
+        "ts": "1582448029.015200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rbmW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Fue la charla del 24 de enero, no sé si alguien la grabó."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f0cfaba-b545-49b1-bf18-65ccce8ad343",
+        "type": "message",
+        "text": "<@UJN8D8U3B> Ahora mismo, la versión\n de IIS que hay con un cambio chiquitín podría funcionar. Cuando la pones como aplicación no te da la ruta del script correctamente, y es solo por eso que te saca una página en blanco, simplemente hay que ver de engancharse a otra variable y listo, con eso podríamos meterla como aplicación y ahí decidir cuantos hilos por proceso, cuantos procesos y que permisos le damos",
+        "user": "UMZ3LNV5Z",
+        "ts": "1582448962.018200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M8dU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Ahora mismo, la versión\n de IIS que hay con un cambio chiquitín podría funcionar. Cuando la pones como aplicación no te da la ruta del script correctamente, y es solo por eso que te saca una página en blanco, simplemente hay que ver de engancharse a otra variable y listo, con eso podríamos meterla como aplicación y ahí decidir cuantos hilos por proceso, cuantos procesos y que permisos le damos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0be39e1b-2300-492f-9f42-828685f7167f",
+        "type": "message",
+        "text": "es mi próximo objetivo, ponerla al nivel de Apache :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1582449047.019500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F1Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es mi próximo objetivo, ponerla al nivel de Apache "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "18797ebe-d2f1-42f4-ba99-85569787bfab",
+        "type": "message",
+        "text": "modpro ya tiene splitter... más de dos horas",
+        "user": "UJN8D8U3B",
+        "ts": "1582449092.020400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ljm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "modpro ya tiene splitter... más de dos horas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07797f89-ac2d-49b5-9f6e-db5b3b53d953",
+        "type": "message",
+        "text": "<https:\/\/www.modharbour.org\/modharbour_samples\/modpro\/modpro.prg>",
+        "user": "UJN8D8U3B",
+        "ts": "1582449103.020800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QhHB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.modharbour.org\/modharbour_samples\/modpro\/modpro.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c5d01463-5c8d-4f9b-8694-6346edea008f",
+        "type": "message",
+        "text": "salgo a dar una vuelta, a la tarde hablamos de IIS",
+        "user": "UJN8D8U3B",
+        "ts": "1582449138.021500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ATh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "salgo a dar una vuelta, a la tarde hablamos de IIS"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "34a987c7-7dfe-42bb-9590-201461e29ffa",
+        "type": "message",
+        "text": "Si, que se espere el IIS el domingo es para pasear :slightly_smiling_face:",
+        "user": "UMZ3LNV5Z",
+        "ts": "1582449248.022700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IadM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, que se espere el IIS el domingo es para pasear "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d34bfa1-c7f1-47e7-9de4-9dc9c49d0049",
+        "type": "message",
+        "text": "Lo del mod-harbour-http-api  es otro animal diferente porque tu aplicación es el http server, solo que no se pelea con IIS, si registras por ejemplo https:\/\/+:443\/mi-aplicacion\/  pues todos los request que empiecen por esa ruta los despachará tu aplicación y el resto los agarrará IIS o la aplicación que tenga registrada la url que mejor se ajuste.  Pero la idea es que el mod-harbour-http-api , simplemente se enganche al mismo modharbour.dll que tengamos  funcionando para Apache o para IIS, incluso como modulo extra para una aplicación en FiveWin",
+        "user": "UMZ3LNV5Z",
+        "ts": "1582450531.028600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMZ3LNV5Z",
+            "ts": "1582451121.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8FFFW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo del mod-harbour-http-api  es otro animal diferente porque tu aplicación es el http server, solo que no se pelea con IIS, si registras por ejemplo https:\/\/+:443\/mi-aplicacion\/  pues todos los request que empiecen por esa ruta los despachará tu aplicación y el resto los agarrará IIS o la aplicación que tenga registrada la url que mejor se ajuste.  Pero la idea es que el mod-harbour-http-api , simplemente se enganche al mismo modharbour.dll que tengamos  funcionando para Apache o para IIS, incluso como modulo extra para una aplicación en FiveWin"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3e9d246-ed52-424a-b517-009a5bf9af57",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1582523053.031300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bT9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52e0e536-10e4-47ac-9da6-6aaaccc8eaf2",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1582524470.031500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fK6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba0f24df-c8ab-4af3-a23e-8c359e9c7015",
+        "type": "message",
+        "text": "Reorganizado el repo de mod_harbour y simplificado",
+        "user": "UJN8D8U3B",
+        "ts": "1582526085.031900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1582526326.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Ry",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Reorganizado el repo de mod_harbour y simplificado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1ec873a1-4e13-49f8-959b-91f23aaa7e30",
+        "type": "message",
+        "text": "Os agradezco, a quienes tengais un rato libre, que lo descargueis y probeis a construirlo para el sistema operativo que prefierais",
+        "user": "UJN8D8U3B",
+        "ts": "1582526119.032700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1582526340.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fqC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Os agradezco, a quienes tengais un rato libre, que lo descargueis y probeis a construirlo para el sistema operativo que prefierais"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c942385-4a61-4484-af3b-28573c381f5e",
+        "type": "message",
+        "text": "La idea es hacerlo más fácil e intuitivo :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1582526180.033400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lvI1t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "La idea es hacerlo más fácil e intuitivo "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

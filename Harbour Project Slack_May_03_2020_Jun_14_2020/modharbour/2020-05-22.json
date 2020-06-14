@@ -1,0 +1,2170 @@
+[
+    {
+        "client_msg_id": "44fb3f01-e4cf-4980-8a9a-64499059fea9",
+        "type": "message",
+        "text": "Good morning. I'm testing this new versione of sessions.prg but there is a problem. If I launch the same login.prg in 2 different tabs of the browser, the cookie is always the same because the string that identifies it is not different.",
+        "user": "UPK8HA95J",
+        "ts": "1590133719.241400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mvd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning. I'm testing this new versione of sessions.prg but there is a problem. If I launch the same login.prg in 2 different tabs of the browser, the cookie is always the same because the string that identifies it is not different."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4d292038-31ef-4877-84ac-0fb97ee7edcc",
+        "type": "message",
+        "text": "That's how cookies work. Try it with any other website you can log into, and it'll work the same.",
+        "user": "UNAHBRTFA",
+        "ts": "1590133814.242100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kti",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That's how cookies work. Try it with any other website you can log into, and it'll work the same."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90217f12-91cb-4fd5-aac1-0c551c292764",
+        "type": "message",
+        "text": "Cookies are domain-specific, not tab-specific.",
+        "user": "UNAHBRTFA",
+        "ts": "1590133847.242500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UFGip",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cookies are domain-specific, not tab-specific."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "34cb7881-8377-4bcc-a5a6-a8d9fc1279d9",
+        "type": "message",
+        "text": "You're right. I'm only trying to to find a way for using the session operation in different tabs.",
+        "user": "UPK8HA95J",
+        "ts": "1590134362.244200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sshe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You're right. I'm only trying to to find a way for using the session operation in different tabs."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a5fbd3e-d091-4c68-a17e-5962b1faf87c",
+        "type": "message",
+        "text": "<@UPK8HA95J> We are using sessionStorage to keep diferent sessions on different tabs and it work pretty well",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590136851.245800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mzRhd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UPK8HA95J"
+                            },
+                            {
+                                "type": "text",
+                                "text": " We are using sessionStorage to keep diferent sessions on different tabs and it work pretty well"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f35d4742-8867-4bd9-bfce-0505a8b1fc90",
+        "type": "message",
+        "text": "¿Podemos crear en el puerto de modulación? Crear o abrir un bloque de memoria compartida.",
+        "user": "UJHD6A81H",
+        "ts": "1590140326.246300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dvc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Podemos crear en el puerto de modulación? Crear o abrir un bloque de memoria compartida."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "91befc43-ddd2-4fb4-b73b-68014806ddbd",
+        "type": "message",
+        "text": "<https:\/\/www.php.net\/manual\/en\/function.shmop-open.php>",
+        "user": "UJHD6A81H",
+        "ts": "1590140334.246500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rMlq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.php.net\/manual\/en\/function.shmop-open.php"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a22e22dd-1617-4dcc-a39e-776259f8f231",
+        "type": "message",
+        "text": "buenos dias y buenas tardes a los que estan del otro lado del charco",
+        "user": "UK28N3CER",
+        "ts": "1590159914.247000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wohw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias y buenas tardes a los que estan del otro lado del charco"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "414bdd7a-5db5-4598-99b1-85ea0b224de1",
+        "type": "message",
+        "text": "amigos, alguien probó el ejemplo de sesión de <@USZ8E4MDZ>?",
+        "user": "UK28N3CER",
+        "ts": "1590159958.247800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ufeoj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "amigos, alguien probó el ejemplo de sesión de "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "USZ8E4MDZ"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b017c891-dca7-4686-89f8-16a48458a16a",
+        "type": "message",
+        "text": "yo lo probe y no pasa del Login,",
+        "user": "UK28N3CER",
+        "ts": "1590159975.248100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kaA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yo lo probe y no pasa del Login,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7557ca1d-8643-44e4-9285-74c9eb472780",
+        "type": "message",
+        "text": "despues de darle enter al usuario y contraseña , solo intenta lanzar info.prg  pero no hace nada y vuelve al login sin marcar error.",
+        "user": "UK28N3CER",
+        "ts": "1590160030.249300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F45SY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "despues de darle enter al usuario y contraseña , solo intenta lanzar info.prg  pero no hace nada y vuelve al login sin marcar error."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "25639e16-36dc-42aa-87d6-3d3c2846977e",
+        "type": "message",
+        "text": "lo probé en windows 10 y xamp",
+        "user": "UK28N3CER",
+        "ts": "1590160053.249800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VSzM+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "lo probé en windows 10 y xamp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "78d944b4-030b-422a-b86f-589c30dcb7f9",
+        "type": "message",
+        "text": "sin embargo el ejemplo de <@UJWR5N32S> funciona",
+        "user": "UK28N3CER",
+        "ts": "1590160088.250500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kOmR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sin embargo el ejemplo de "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": " funciona"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "182edbce-2e6b-42d1-be20-62bd0e2f4a32",
+        "type": "message",
+        "text": "Hola ¿como puedo enviar una imágen desde un prg? Estoy intentando esto y no funciona:\nfunction main\n   img = memoread( \"c:\\xampp\\htdocs\\img\\module_table_bottom.png\" )\n   ap_headersOutSet( \"Content-type\", \"image\/png\" )\n   ap_headersOutSet( \"Content-length\", lTrim(str(len(img)) ))\n   ?? img\nreturn nil",
+        "user": "U0108QAGAUF",
+        "ts": "1590162949.251600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Efi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola ¿como puedo enviar una imágen desde un prg? Estoy intentando esto y no funciona:\nfunction main\n   img = memoread( \"c:\\xampp\\htdocs\\img\\module_table_bottom.png\" )\n   ap_headersOutSet( \"Content-type\", \"image\/png\" )\n   ap_headersOutSet( \"Content-length\", lTrim(str(len(img)) ))\n   ?? img\nreturn nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "40d682a7-3a96-4749-8f81-8bce1d7d073d",
+        "type": "message",
+        "text": "no se si basta, pero una de las cosas que tienes que hacer con las imagenes es codificarlas en encode64",
+        "user": "UM81W8B0Q",
+        "ts": "1590171939.252200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1590172311.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "W0f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no se si basta, pero una de las cosas que tienes que hacer con las imagenes es codificarlas en encode64"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5792254f-21a4-4dc1-8ac4-01edc02e6358",
+        "type": "message",
+        "text": "<@UM81W8B0Q> el contenido de las imagenes es binario",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590174772.253600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=Me",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UM81W8B0Q"
+                            },
+                            {
+                                "type": "text",
+                                "text": " el contenido de las imagenes es binario"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "02294d8b-b1c1-4c35-b324-9caa1d4f80aa",
+        "type": "message",
+        "text": "realmente debería funcionar como lo está haciendo Quique",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590174829.254100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XseR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "realmente debería funcionar como lo está haciendo Quique"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UM81W8B0Q"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3705c958-be7f-4cf8-9476-48e5544d38a6",
+        "type": "message",
+        "text": "lo único que igual  harbour no lo está despachando correctamente",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590174886.254700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mXKTZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "lo único que igual  harbour no lo está despachando correctamente"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "60ce61fd-1bfd-49a6-a093-d64ff61186b8",
+        "type": "message",
+        "text": "<@U0108QAGAUF> puedes capturar la salida con el chrome?",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590174951.255700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rpz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0108QAGAUF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " puedes capturar la salida con el chrome?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cbd5dde7-c9ef-4476-afa3-f5d6bdfb64e3",
+        "type": "message",
+        "text": "Como dice Pablo, no es necesario convertirlo.",
+        "user": "U0108QAGAUF",
+        "ts": "1590174957.255800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wYv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como dice Pablo, no es necesario convertirlo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "adc4f047-99bc-479d-83e6-3184c5cd6350",
+        "type": "message",
+        "text": "ammm. espera",
+        "user": "U0108QAGAUF",
+        "ts": "1590174963.256000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lNxoT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ammm. espera"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3d1b83ab-4e1a-4ae2-bfd1-55564e8cf2fc",
+        "type": "message",
+        "text": "en network creo que te deja guardar el body como fichero",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590174980.256400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZXp55",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en network creo que te deja guardar el body como fichero"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5616724c-5e24-4986-b86d-4d48f0e709b2",
+        "type": "message",
+        "text": "y las cabeceras que estamos  mandando con la respuesta",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590175032.256900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HbqHl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y las cabeceras que estamos  mandando con la respuesta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "¿tiene que ser en chrome? en opera devuelve esto",
+        "files": [
+            {
+                "id": "F0143RR4G9K",
+                "created": 1590175116,
+                "timestamp": 1590175116,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0108QAGAUF",
+                "editable": false,
+                "size": 38337,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0143RR4G9K\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0143RR4G9K\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 192,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 255,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 383,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 426,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 511,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0143RR4G9K-f7538ce625\/image_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 545,
+                "original_w": 1062,
+                "original_h": 565,
+                "thumb_tiny": "AwAZADDQVcjkYp20UL90UtACbRRtFLRQAm0UbRS0UAIvQUtIOlLQAUUUUAFFFJQB\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/U0108QAGAUF\/F0143RR4G9K\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0143RR4G9K-ebaafd7943",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VQmpl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿tiene que ser en chrome? en opera devuelve esto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "U0108QAGAUF",
+        "display_as_bot": false,
+        "ts": "1590175118.257500",
+        "client_msg_id": "9fe0f584-f784-4773-a818-31132d881666"
+    },
+    {
+        "type": "message",
+        "text": "y este es el fuente según opera",
+        "files": [
+            {
+                "id": "F0145DN7LR1",
+                "created": 1590175152,
+                "timestamp": 1590175152,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U0108QAGAUF",
+                "editable": false,
+                "size": 38754,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0145DN7LR1\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0145DN7LR1\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 192,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 255,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 383,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 426,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 511,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0145DN7LR1-9a36ad4dd2\/image_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 545,
+                "original_w": 1062,
+                "original_h": 565,
+                "thumb_tiny": "AwAZADDQVQRyMU7aKE6UtACbRRtHpS0UAJtFG0UtFACL0paavSnUAFFFFABRRSUAf\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/U0108QAGAUF\/F0145DN7LR1\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0145DN7LR1-507a0af0e8",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kC6x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y este es el fuente según opera"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "U0108QAGAUF",
+        "display_as_bot": false,
+        "ts": "1590175155.258400",
+        "client_msg_id": "2f17cbd9-a11c-4aa3-b42e-1d00b5acdc5d"
+    },
+    {
+        "client_msg_id": "2c7c5660-61d2-4e5d-9055-b2d181ba582d",
+        "type": "message",
+        "text": "Tiene pinta de que harbour o apache se están trabando con los `\\0`",
+        "user": "UNAHBRTFA",
+        "ts": "1590175157.258700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1590175173.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y8Kg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tiene pinta de que harbour o apache se están trabando con los "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\\0",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4167b89b-a8ab-4a00-a4c8-69d3d2b3469a",
+        "type": "message",
+        "text": "Puede ser. Ese es el resultado del prg que puse de ejemplo, utilizando xampp en windows, con la instalación por defecto.",
+        "user": "U0108QAGAUF",
+        "ts": "1590175219.259800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tKS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Puede ser. Ese es el resultado del prg que puse de ejemplo, utilizando xampp en windows, con la instalación por defecto."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "362faba4-1bfa-436d-bec0-7fc39844788e",
+        "type": "message",
+        "text": "si parece, porque empieza escupiendo el magic del png",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590175221.259900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMZ3LNV5Z",
+            "ts": "1590175470.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bJs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si parece, porque empieza escupiendo el magic del png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a7de3735-819a-45b2-ac25-264671b6aa93",
+        "type": "message",
+        "text": "Por cierto ¿han notado que no funcionan el qout(), ni qqout()?",
+        "user": "U0108QAGAUF",
+        "ts": "1590175574.260600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g9Ly",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Por cierto ¿han notado que no funcionan el qout(), ni qqout()?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a4db60f-c364-4c6b-949e-c8d4b06a4f3b",
+        "type": "message",
+        "text": "donde tienen que funcionar?",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590176813.261000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "87vZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "donde tienen que funcionar?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "87d9f205-02c9-47c1-bf04-09348e02c097",
+        "type": "message",
+        "text": "en mod_harboru",
+        "user": "U0108QAGAUF",
+        "ts": "1590177286.261400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G0U",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en mod_harboru"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf3169ed-5abd-4ea1-95d5-b0a2619bfa48",
+        "type": "message",
+        "text": "si pones\n? \"Hola\"\nsi aparece, pero si pones\nqout( \"hola\" )\nno",
+        "user": "U0108QAGAUF",
+        "ts": "1590177308.261900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U0108QAGAUF",
+            "ts": "1590177413.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DYU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si pones\n? \"Hola\"\nsi aparece, pero si pones\nqout( \"hola\" )\nno"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "730b16b8-0c5f-4ae6-9fbf-bd5fddc54eda",
+        "type": "message",
+        "text": "claro, porque hay una regla de prepro por ahí para que ? y ?? usen Ap_puts o algo asi creo que se llamaba la funcioncita",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590177511.263500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lg0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "claro, porque hay una regla de prepro por ahí para que ? y ?? usen Ap_puts o algo asi creo que se llamaba la funcioncita"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a39248e3-5f20-4f3b-aa8e-f642cf558f9c",
+        "type": "message",
+        "text": "AP_RPuts()",
+        "user": "UJN8D8U3B",
+        "ts": "1590177535.263700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6pPUO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "AP_RPuts()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "489c092c-90ec-4e79-aec1-67cb4c0892c4",
+        "type": "message",
+        "text": "esa misma :slightly_smiling_face:\n__pp_addRule( hPP, \"#xcommand ? [&lt;explist,...&gt;] =&gt; AP_RPuts( '&lt;br&gt;' [,&lt;explist&gt;] )\" )\n   __pp_addRule( hPP, \"#xcommand ?? [&lt;explist,...&gt;] =&gt; AP_RPuts( [&lt;explist&gt;] )\" )",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590177570.264000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rmN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esa misma "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n__pp_addRule( hPP, \"#xcommand ? [<explist,...>] => AP_RPuts( '<br>' [,<explist>] )\" )\n   __pp_addRule( hPP, \"#xcommand ?? [<explist,...>] => AP_RPuts( [<explist>] )\" )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5f27f852-f6bc-4fc3-8178-ac52d47f43d0",
+        "type": "message",
+        "text": "¿por que no utilizar qout() y qqout() que son los nativos clipper?",
+        "user": "U0108QAGAUF",
+        "ts": "1590177645.265500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NTJa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿por que no utilizar qout() y qqout() que son los nativos clipper?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7549bd59-bec6-4ba1-8bce-59cbbc609af8",
+        "type": "message",
+        "text": "siempre puedes meter un xtranslate  a qout y qqout",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590177665.266000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ueqK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "siempre puedes meter un xtranslate  a qout y qqout"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6cec5c5b-17ae-4a8a-b6c5-ad8d69428f79",
+        "type": "message",
+        "text": "porque sacan el resultado a la salida estándar de apache, en vez de sacarlo en el html",
+        "user": "UNAHBRTFA",
+        "ts": "1590177677.266700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CqYa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "porque sacan el resultado a la salida estándar de apache, en vez de sacarlo en el html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0abcf2f4-8964-4a23-a910-b01b5b12c543",
+        "type": "message",
+        "text": "Porque Apache tiene su propia función de pintado que no tiene nada que ver con la capa GT de Harbour",
+        "user": "UJN8D8U3B",
+        "ts": "1590177702.267000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9pjf3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Porque Apache tiene su propia función de pintado que no tiene nada que ver con la capa GT de Harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fbb442a2-f041-4a1f-9eff-e2b14ab9647a",
+        "type": "message",
+        "text": "Se podria hacer un GTHTML ó asi que rutase QOUt() y QQOut() a las funciones de Apache ó a HTML, etc",
+        "user": "UJN8D8U3B",
+        "ts": "1590177735.267700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j+68N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se podria hacer un GTHTML ó asi que rutase QOUt() y QQOut() a las funciones de Apache ó a HTML, etc"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be20e5ee-7b30-486e-8d31-4b8c30920e0f",
+        "type": "message",
+        "text": "ah, ok, disculpen mi ignorancia de apache",
+        "user": "U0108QAGAUF",
+        "ts": "1590177787.269000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wBH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ah, ok, disculpen mi ignorancia de apache"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a6537d38-26f8-47d0-a39e-cb2e4c8d6e67",
+        "type": "message",
+        "text": "Antonio no te lies",
+        "user": "UJWR5N32S",
+        "ts": "1590177788.269100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JPc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Antonio no te lies"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "02869bed-7112-4e12-9ce3-2729b1f1d902",
+        "type": "message",
+        "text": "Pablo al final sonó la flauta y ya tenemos multiples cookies :+1::slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1590177790.269200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gFT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pablo al final sonó la flauta y ya tenemos multiples cookies "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f661bf9-7f9d-4e49-9742-c0e7dcc7f81a",
+        "type": "message",
+        "text": ":smile:",
+        "user": "UJN8D8U3B",
+        "ts": "1590177804.269700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zhV21",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0cf6d5b6-49b8-4a40-b91a-fa57117057c0",
+        "type": "message",
+        "text": "¿qué hicisteis?",
+        "user": "UNAHBRTFA",
+        "ts": "1590177805.269800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9xfk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿qué hicisteis?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "987f91b8-d4e6-4c0c-8bc8-e838f9bc8a52",
+        "type": "message",
+        "text": "solo había que soplar :slightly_smiling_face:",
+        "user": "UMZ3LNV5Z",
+        "ts": "1590177811.270100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H4+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "solo había que soplar "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ea7dbdb2-056f-4a6c-a272-8aa90615bf9d",
+        "type": "message",
+        "text": "cambiar un ..._set por ..._add",
+        "user": "UJN8D8U3B",
+        "ts": "1590177822.270300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i7w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cambiar un ..."
+                            },
+                            {
+                                "type": "text",
+                                "text": "set por ...",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "add"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UMZ3LNV5Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0c1f37d2-c552-4f98-b454-c82035d18d2e",
+        "type": "message",
+        "text": "Hahaha",
+        "user": "UJWR5N32S",
+        "ts": "1590177829.270500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H3une",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hahaha"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "996429ee-7e63-4765-a411-58afaff2cf9a",
+        "type": "message",
+        "text": "Quique eres bienvenido, y todos hace muy poco estabamos como tu ahora :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1590177871.271100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aj2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Quique eres bienvenido, y todos hace muy poco estabamos como tu ahora "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f8a6caa-c359-4ae1-8f0e-5f2a81b60de7",
+        "type": "message",
+        "text": "gracias :slightly_smiling_face:",
+        "user": "U0108QAGAUF",
+        "ts": "1590177885.271300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab1204c8d95",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/ab1204c8d956de0d9979e3d755437c52.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "",
+            "real_name": "Quique",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "quique",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uaw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "86dfefbd-7f24-4680-b6e4-99c1e81d25b4",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1590212264.272400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IPO8r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8cfac06-2cc3-4046-8a22-bac9e2a8e5e3",
+        "type": "message",
+        "text": "Egun On",
+        "user": "UJWR5N32S",
+        "ts": "1590212885.272800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wYD=w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Egun On"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

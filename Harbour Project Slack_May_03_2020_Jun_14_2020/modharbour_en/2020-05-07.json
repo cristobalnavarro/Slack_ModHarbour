@@ -1,0 +1,378 @@
+[
+    {
+        "client_msg_id": "1fda7028-58d5-41ba-acec-d143880e8cc3",
+        "type": "message",
+        "text": "<@UM99QAYNB> \"GET\" and \"POST\" are what's called HTTP methods: more or less keywords associated with a request that tell the server what you mean to do with that resource",
+        "user": "UNAHBRTFA",
+        "ts": "1588838948.081900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QtaC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UM99QAYNB"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \"GET\" and \"POST\" are what's called HTTP methods: more or less keywords associated with a request that tell the server what you mean to do with that resource"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5b9635d2-01e9-4a18-8fdb-fbbaf89a89b0",
+        "type": "message",
+        "text": "\"GET\" is usually used for normal page views or queries that don't modify the database, \"POST\" for requests that do (usually the result of a form)",
+        "user": "UNAHBRTFA",
+        "ts": "1588839018.083300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1588839078.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wv2p8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"GET\" is usually used for normal page views or queries that don't modify the database, \"POST\" for requests that do (usually the result of a form)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6c8062b-06a0-44c2-b15d-a476d473a4ba",
+        "type": "message",
+        "text": "There are actually more HTTP methods, but those two are the most used",
+        "user": "UNAHBRTFA",
+        "ts": "1588839038.083800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eNE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There are actually more HTTP methods, but those two are the most used"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b36eb4db-e0e5-44bb-b9d3-6c20cbfdf437",
+        "type": "message",
+        "text": "&gt; What is the :attr of form\n&gt;  :append seems to be used in two different ways\n&gt; then there is the .submit()\n&gt; \n&gt; Are these part of mod_harbour?\nThat is not harbour code, that's javascript using the jQuery library",
+        "user": "UNAHBRTFA",
+        "ts": "1588839424.084400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1588839459.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MQd\/",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What is the :attr of form\n :append seems to be used in two different ways\nthen there is the .submit()\n\nAre these part of mod_harbour?"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That is not harbour code, that's javascript using the jQuery library"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b07c2665-d3dc-46ad-963a-be622acdbfd4",
+        "type": "message",
+        "text": "Setup for \"Bestellsystem\" written in FIVEWIN",
+        "user": "UJHD6A81H",
+        "ts": "1588840727.085300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "27eeA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Setup for \"Bestellsystem\" written in FIVEWIN"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F013KRT5ZND",
+                "created": 1588840735,
+                "timestamp": 1588840735,
+                "name": "Setup Bestellung.png",
+                "title": "Setup Bestellung.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 660504,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013KRT5ZND\/setup_bestellung.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013KRT5ZND\/download\/setup_bestellung.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 138,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 184,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 277,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 307,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 369,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F013KRT5ZND-e652aa0d11\/setup_bestellung_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 394,
+                "original_w": 3008,
+                "original_h": 1156,
+                "thumb_tiny": "AwASADC7PuIGwZpFVtgyCD9KeYl3Z5z9TSGNcEc4+pouAuFHJzS4GOgpFxtA5\/WnZzQBGC3OYj+Yp2BzlcU48YpoZWPBGfY0xDnOMUzJ9adJ2plAMMn1pcn1pKKBDsn1opKU0DP\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F013KRT5ZND\/setup_bestellung.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F013KRT5ZND-a6bdb3e69e",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1588840738.085400",
+        "client_msg_id": "6c99fbc6-f2a0-4cab-b52a-6e8230d57e12"
+    },
+    {
+        "client_msg_id": "5deb9f96-f94d-4384-a24f-e71c118ad3c5",
+        "type": "message",
+        "text": "Got it. Now refreshing knowledge on JQuery and AJAX.",
+        "user": "UM99QAYNB",
+        "ts": "1588901756.087100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VYRn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Got it. Now refreshing knowledge on JQuery and AJAX."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eeffd649-a7c9-4827-a2ef-f241edd71dd9",
+        "type": "message",
+        "text": "<@UNAHBRTFA> Also see\n<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/wiki\/Functions-provided-by-the-mod-Harbour>\nIs there more information on syntax for these? Concise examples? Maybe Apachie?\nYou can refer me to please.",
+        "user": "UM99QAYNB",
+        "ts": "1588902493.087800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "FiveTechSoft\/mod_harbour",
+                "title_link": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/wiki\/Functions-provided-by-the-mod-Harbour",
+                "text": "Apache mod for Harbour. Contribute to FiveTechSoft\/mod_harbour development by creating an account on GitHub.",
+                "fallback": "GitHub: FiveTechSoft\/mod_harbour",
+                "from_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/wiki\/Functions-provided-by-the-mod-Harbour",
+                "thumb_url": "https:\/\/repository-images.githubusercontent.com\/186821405\/052d6000-7f03-11e9-85fa-9472623f216c",
+                "thumb_width": 190,
+                "thumb_height": 191,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/wiki\/Functions-provided-by-the-mod-Harbour"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uIQh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Also see\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/wiki\/Functions-provided-by-the-mod-Harbour"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nIs there more information on syntax for these? Concise examples? Maybe Apachie?\nYou can refer me to please."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

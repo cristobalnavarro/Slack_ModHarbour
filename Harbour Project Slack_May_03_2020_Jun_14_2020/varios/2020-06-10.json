@@ -1,0 +1,61 @@
+[
+    {
+        "client_msg_id": "6b3a058d-e6b9-41cc-a972-83e60592044d",
+        "type": "message",
+        "text": "<@UJN8D8U3B> Me gustaría saber tu opinión sobre este artículo: <https:\/\/queue.acm.org\/detail.cfm?id=3212479>",
+        "user": "UNAHBRTFA",
+        "ts": "1591858786.085100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "C Is Not a Low-level Language - ACM Queue",
+                "title_link": "https:\/\/queue.acm.org\/detail.cfm?id=3212479",
+                "text": "In the wake of the recent Meltdown and Spectre vulnerabilities, it",
+                "fallback": "C Is Not a Low-level Language - ACM Queue",
+                "from_url": "https:\/\/queue.acm.org\/detail.cfm?id=3212479",
+                "service_icon": "https:\/\/queue.acm.org\/favicon.ico",
+                "service_name": "queue.acm.org",
+                "id": 1,
+                "original_url": "https:\/\/queue.acm.org\/detail.cfm?id=3212479"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lxtn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Me gustaría saber tu opinión sobre este artículo: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/queue.acm.org\/detail.cfm?id=3212479"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

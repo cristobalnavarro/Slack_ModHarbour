@@ -1,0 +1,795 @@
+[
+    {
+        "client_msg_id": "3d423df9-1add-440c-931e-6a5397d90621",
+        "type": "message",
+        "text": "buenos dias",
+        "user": "UJXP7LS78",
+        "ts": "1582981188.203700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NpX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c51cbb9a-245b-4d40-afab-f47df4fd15b3",
+        "type": "message",
+        "text": "sabe alguien que es este trabajo",
+        "user": "UJXP7LS78",
+        "ts": "1582981197.204000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WZM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sabe alguien que es este trabajo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33031e7e-fbc5-4c62-b866-df7d8587304c",
+        "type": "message",
+        "text": "Hello, \n\nI've been working for a while to a project : <https:\/\/github.com\/APerricone\/HRB-Runner>\nthat parse HRB code and run it on browser to mix javascript code and harbour code, or use only harbour code like the last sample I wrote: \n<https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/master\/direct2.prg>\n\nthis work is far to be complete, I implemented only <https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/860b923984d3cf130f3ee2c7b475d8bcfd3e31ac\/hbrRun.js#L196|71 out of 181> operation codes.\n\nTheorically using mod_harbour or FastCGI is possible create a compiler and client runner, I will do it... maybe :)\n\nRegards,\nAntonino",
+        "user": "UJXP7LS78",
+        "ts": "1582981201.204200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "APerricone\/HRB-Runner",
+                "title_link": "https:\/\/github.com\/APerricone\/HRB-Runner",
+                "text": "HRB runner in Javascript for the web. Contribute to APerricone\/HRB-Runner development by creating an account on GitHub.",
+                "fallback": "GitHub: APerricone\/HRB-Runner",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/22457168?s=400&v=4",
+                "from_url": "https:\/\/github.com\/APerricone\/HRB-Runner",
+                "thumb_width": 246,
+                "thumb_height": 246,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/APerricone\/HRB-Runner"
+            },
+            {
+                "service_name": "GitHub",
+                "title": "APerricone\/HRB-Runner",
+                "title_link": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/master\/direct2.prg",
+                "text": "HRB runner in Javascript for the web. Contribute to APerricone\/HRB-Runner development by creating an account on GitHub.",
+                "fallback": "GitHub: APerricone\/HRB-Runner",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/22457168?s=400&v=4",
+                "from_url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/master\/direct2.prg",
+                "thumb_width": 246,
+                "thumb_height": 246,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 2,
+                "original_url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/master\/direct2.prg"
+            },
+            {
+                "service_name": "GitHub",
+                "title": "APerricone\/HRB-Runner",
+                "title_link": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/860b923984d3cf130f3ee2c7b475d8bcfd3e31ac\/hbrRun.js#L196",
+                "text": "HRB runner in Javascript for the web. Contribute to APerricone\/HRB-Runner development by creating an account on GitHub.",
+                "fallback": "GitHub: APerricone\/HRB-Runner",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/22457168?s=400&v=4",
+                "from_url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/860b923984d3cf130f3ee2c7b475d8bcfd3e31ac\/hbrRun.js#L196",
+                "thumb_width": 246,
+                "thumb_height": 246,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 3,
+                "original_url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/860b923984d3cf130f3ee2c7b475d8bcfd3e31ac\/hbrRun.js#L196"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cQjv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello, \n\nI've been working for a while to a project : "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/APerricone\/HRB-Runner"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nthat parse HRB code and run it on browser to mix javascript code and harbour code, or use only harbour code like the last sample I wrote: \n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/master\/direct2.prg"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nthis work is far to be complete, I implemented only "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/APerricone\/HRB-Runner\/blob\/860b923984d3cf130f3ee2c7b475d8bcfd3e31ac\/hbrRun.js#L196",
+                                "text": "71 out of 181"
+                            },
+                            {
+                                "type": "text",
+                                "text": " operation codes.\n\nTheorically using mod_harbour or FastCGI is possible create a compiler and client runner, I will do it... maybe :)\n\nRegards,\nAntonino"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "904fd7de-532a-458e-adb8-8b234165e346",
+        "type": "message",
+        "text": "<@UJXP7LS78> Antonio lo encontró hace un mes y lo estuvimos viendo un poco",
+        "user": "UNAHBRTFA",
+        "ts": "1582985783.205100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k\/6el",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJXP7LS78"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Antonio lo encontró hace un mes y lo estuvimos viendo un poco"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2ceeb935-d912-4fd0-974e-e24d893c6c56",
+        "type": "message",
+        "text": "<https:\/\/fivetechsoft.github.io\/HRB-Runner\/editor.html>",
+        "user": "UNAHBRTFA",
+        "ts": "1582985816.205600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K+im",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/fivetechsoft.github.io\/HRB-Runner\/editor.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6E46EE43-E256-4616-881B-90FAD58AA2A4",
+        "type": "message",
+        "text": "Gracias pero de que se trata en palabras simples ?",
+        "user": "UJXP7LS78",
+        "ts": "1582987136.206200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2pcb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias pero de que se trata en palabras simples ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a7d855d7-f78d-49f7-ad68-43dcf0b6b884",
+        "type": "message",
+        "text": "Es una forma de ejecutar HRBs en el navegador, para poder interactuar con javascript",
+        "user": "UNAHBRTFA",
+        "ts": "1582987473.206700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Cp6hE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Es una forma de ejecutar HRBs en el navegador, para poder interactuar con javascript"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "289f8608-bf29-47ed-8fc6-ddcb652e4255",
+        "type": "message",
+        "text": "o reemplazar a javascript",
+        "user": "UNAHBRTFA",
+        "ts": "1582987481.206900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k4v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o reemplazar a javascript"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d493fc4-d7bd-446e-a319-77c5aae62df2",
+        "type": "message",
+        "text": "aunque cuando lo estuvimos viendo le faltaba bastante para llegar hasta el punto de reemplazar nada",
+        "user": "UNAHBRTFA",
+        "ts": "1582987522.207600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wklfe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aunque cuando lo estuvimos viendo le faltaba bastante para llegar hasta el punto de reemplazar nada"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6f0430f5-f0ee-4f1a-b577-f3c7eb3c52c1",
+        "type": "message",
+        "text": "ja ja ja gracias Andreu por la explicacion es bueno tenerte en el grupo",
+        "user": "UJXP7LS78",
+        "ts": "1582988129.208100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zpl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ja ja ja gracias Andreu por la explicacion es bueno tenerte en el grupo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMZ3LNV5Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a4394661-0e73-4ff4-ace8-7031976dbd54",
+        "type": "message",
+        "text": "use DBF Editor to  manage your web page",
+        "user": "UJHD6A81H",
+        "ts": "1582992565.208400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "47aBY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "use DBF Editor to  manage your web page"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FUANG0S1Y",
+                "created": 1582992862,
+                "timestamp": 1582992862,
+                "name": "dbaseeditor.gif",
+                "title": "dbaseeditor.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 7516204,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FUANG0S1Y\/dbaseeditor.gif?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FUANG0S1Y\/download\/dbaseeditor.gif?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_64.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_80.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_360.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 219,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_480.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 291,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_160.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_720.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720_w": 720,
+                "thumb_720_h": 437,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_800.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_800_w": 800,
+                "thumb_800_h": 486,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_960.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_960_w": 960,
+                "thumb_960_h": 583,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_1024.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 622,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_360.gif?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_480.gif?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "image_exif_rotation": 1,
+                "original_w": 1308,
+                "original_h": 794,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FUANG0S1Y-89eb78a0e2\/dbaseeditor_deanimate_gif.png?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_tiny": "AwAdADCx9pb0FH2hvRfyqtmlDDvTEWPtLei0faX9FqDK0uVoAm+0v6LSCdgxPHPbtUBYdqTdQBFu96ckrIcq2K1PLT+4v5UeWn9xfyouBnfaZf8AnpSNcSMu1nyDWl5af3F\/Kk8uP+4v5UXAy9w9aN3vWr5af3F\/Kjy0\/uL+VFwsf\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FUANG0S1Y\/dbaseeditor.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FUANG0S1Y-58c754db86",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1582993069.208500",
+        "client_msg_id": "c96ee7f7-7eca-4a89-bb6f-e428a7b779b5"
+    },
+    {
+        "client_msg_id": "1c14eaed-79ac-4b13-96c2-3ed55d45de84",
+        "type": "message",
+        "text": "Otto good morning",
+        "user": "UJXP7LS78",
+        "ts": "1582995746.208900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rst+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otto good morning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0f29770c-32be-492e-920c-fb12f0cfc69b",
+        "type": "message",
+        "text": "your work looks very impressive",
+        "user": "UJXP7LS78",
+        "ts": "1582995759.209300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pVZE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "your work looks very impressive"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a1dfa5de-d295-4a99-9852-ffc1e9eae1be",
+        "type": "message",
+        "text": "can you share please any code to we deal with ?",
+        "user": "UJXP7LS78",
+        "ts": "1582995789.209900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kg1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "can you share please any code to we deal with ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "13c838d2-d654-4035-b46b-e0f0cecfd905",
+        "type": "message",
+        "text": "excuseme my bad English",
+        "user": "UJXP7LS78",
+        "ts": "1582995799.210200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9szZk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "excuseme my bad English"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fbd4e49e-e9e2-40b1-ad3b-419f23408800",
+        "type": "message",
+        "text": "I sent you a msg.",
+        "user": "UJHD6A81H",
+        "ts": "1582998098.210400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+RN2s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I sent you a msg."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "B9102C51-EA32-47C9-8EDC-FFAD2CF4044D",
+        "type": "message",
+        "text": "Thanks  Otto",
+        "user": "UJXP7LS78",
+        "ts": "1583004804.211100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=6=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks  Otto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

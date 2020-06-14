@@ -1,0 +1,294 @@
+[
+    {
+        "client_msg_id": "a7cad12f-953c-435a-9f12-02a0915699de",
+        "type": "message",
+        "text": "<@UJUJLTWMT> no se muy bien a que técnica te refieres, en el aspecto de seguridad en formularios Laravel utiliza CSRF\n\n<https:\/\/laravel.com\/docs\/6.x\/csrf>",
+        "user": "UJHK2Q8UT",
+        "ts": "1568539443.014700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "c266bd2e-7b58-42d5-92b5-8090b9238fed",
+        "type": "message",
+        "text": "Me refería al uso de \"form\" y su reenvio",
+        "user": "UJUJLTWMT",
+        "ts": "1568540771.015400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "241e64b8-f8a7-4bed-a119-5e7f2f7e5d92",
+        "type": "message",
+        "text": "El tema de los forms es muy amplio en Laravel, pero la verdad q son muy cómodos de utilizar, aunque si quieres reaccionar constantemente con la aplicación tienes q tirar de Ajax (como bien dice <@UJWR5N32S>), yo acabe usando Laravel como un api y trabajando con vue, y usaba axios para el Ajax, os dejo unos cuantos enlaces para que veais",
+        "user": "UJHK2Q8UT",
+        "ts": "1568542677.018300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJUJLTWMT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8eb42ab0-07bc-4d7e-8b89-3f548f4fa1f4",
+        "type": "message",
+        "text": "<https:\/\/laravel.com\/docs\/6.x\/blade>",
+        "user": "UJHK2Q8UT",
+        "ts": "1568542686.018500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "91bf5a8a-4c69-4abd-b915-991c2710a0b4",
+        "type": "message",
+        "text": "<https:\/\/vuejs.org\/>",
+        "user": "UJHK2Q8UT",
+        "ts": "1568542701.018700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Vue.js",
+                "title_link": "https:\/\/vuejs.org\/",
+                "text": "Vue.js - The Progressive JavaScript Framework",
+                "fallback": "Vue.js",
+                "thumb_url": "https:\/\/vuejs.org\/\/images\/logo.png",
+                "from_url": "https:\/\/vuejs.org\/",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/vuejs.org\/images\/icons\/apple-icon-57x57.png",
+                "service_name": "vuejs.org",
+                "id": 1,
+                "original_url": "https:\/\/vuejs.org\/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "226628e2-e128-4326-9da8-920f67b36a6b",
+        "type": "message",
+        "text": "<https:\/\/github.com\/axios\/axios>",
+        "user": "UJHK2Q8UT",
+        "ts": "1568542759.019000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "axios\/axios",
+                "title_link": "https:\/\/github.com\/axios\/axios",
+                "text": "Promise based HTTP client for the browser and node.js - axios\/axios",
+                "fallback": "GitHub: axios\/axios",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/32372333?s=400&v=4",
+                "from_url": "https:\/\/github.com\/axios\/axios",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/axios\/axios"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5e3066e9-ac68-4d2d-96ec-d303b3ec7ea9",
+        "type": "message",
+        "text": "No he usado axios, pero le he dado un vistazo rápido y no parece tener mucho que no venga ya en los navegadores con la función fetch",
+        "user": "UNAHBRTFA",
+        "ts": "1568544845.020000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "ff5e0620-72cc-4e9a-8c87-c7ff28d99f1e",
+        "type": "message",
+        "text": "A menos que tengas que soportar IE, claro",
+        "user": "UNAHBRTFA",
+        "ts": "1568544850.020200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "97747368-2df0-419f-a3c9-d9391e89d550",
+        "type": "message",
+        "text": "<https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API#Browser_compatibility>",
+        "user": "UNAHBRTFA",
+        "ts": "1568544855.020400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "MDN Web Docs",
+                "title": "Fetch API",
+                "title_link": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API#Browser_compatibility",
+                "text": "The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.",
+                "fallback": "MDN Web Docs: Fetch API",
+                "thumb_url": "https:\/\/developer.mozilla.org\/static\/img\/opengraph-logo.72382e605ce3.png",
+                "from_url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API#Browser_compatibility",
+                "thumb_width": 600,
+                "thumb_height": 600,
+                "service_icon": "https:\/\/developer.mozilla.org\/static\/img\/favicon144.e7e21ca263ca.png",
+                "id": 1,
+                "original_url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API#Browser_compatibility"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "346390e8-e73d-4a75-83a9-d0baf4602ccc",
+        "type": "message",
+        "text": "<https:\/\/medium.com\/@thejasonfile\/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5>",
+        "user": "UJHK2Q8UT",
+        "ts": "1568585549.021000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g94f8c70b95d",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e94f8c70b95dd8f53de15d4e4e763d0.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0021-72.png",
+            "first_name": "",
+            "real_name": "manuelcalerosolis",
+            "display_name": "manuelcalerosolis",
+            "team": "TJH5YU202",
+            "name": "manuelcalerosolis",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "Fetch vs. Axios.js for making http requests",
+                "title_link": "https:\/\/medium.com\/@thejasonfile\/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5",
+                "text": "One of the final sections of Stephen Grider’s excellent ‘ES6 Javascript: The Complete Developer’s Guide’ course on <http:\/\/Udemy.com|Udemy.com> discusses the…",
+                "fallback": "Medium: Fetch vs. Axios.js for making http requests",
+                "image_url": "https:\/\/miro.medium.com\/max\/1200\/1*3V84MyeQSlPtb7Bs_SU5Sg.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "4 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1508719132,
+                "from_url": "https:\/\/medium.com\/@thejasonfile\/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5",
+                "image_width": 375,
+                "image_height": 250,
+                "image_bytes": 228132,
+                "service_icon": "https:\/\/cdn-images-1.medium.com\/fit\/c\/152\/152\/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 1,
+                "original_url": "https:\/\/medium.com\/@thejasonfile\/fetch-vs-axios-js-for-making-http-requests-2b261cdd3af5"
+            }
+        ]
+    }
+]

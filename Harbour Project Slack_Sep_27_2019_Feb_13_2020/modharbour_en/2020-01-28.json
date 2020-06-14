@@ -1,0 +1,343 @@
+[
+    {
+        "client_msg_id": "6eb74fe1-dd9f-412f-bcb5-074ca283cfc9",
+        "type": "message",
+        "text": "hi, if I try index.prg in Genesis folder (samples mod_harbour) I get this error:\n&gt; Error: Bound error\n&gt; operation: array access\n&gt; [ 1] = H {\"\"=&gt;\"\"}\n&gt; [ 2] = C genesis\n&gt; called from: ..\/..\/..\/apache.prg, (b)MAIN, line: 32\n&gt; called from: pcode.hrb, CHECKUSER, line: 23\n&gt; called from: pcode.hrb, MAIN, line: 10\n&gt; called from: HB_HRBDO, line: 0\n&gt; called from: ..\/..\/..\/apache.prg, EXECUTE, line: 98\n&gt; called from: ..\/..\/..\/apache.prg, MAIN, line: 43\nmy configuration:\napache in c:\\XAMPP\nin C:\\XAMPP\\HTDOCS there is modharbour_samples dir with all samples\non the top of C:\\xampp\\apache\\conf\\httpd.conf\n```Define SRVROOT \"C:\/xampp\/apache\"\nSetEnv LIBHARBOUR \"c:\\xampp\\htdocs\\libharbour.dll\"\n\nDefine SRVROOT \"C:\/xampp\/apache\"\n\nServerRoot \"C:\/xampp\/apache\"```\non the bottom\n```&lt;FilesMatch \"\\.(prg|hrb)$\"&gt;\n    SetHandler harbour\n&lt;\/FilesMatch&gt;```\nI restarted XAMPP more than once but I get the same error.\n\nThis code return cCookies empty:\n`local cCookies := If( hb_HHasKey( hHeadersIn, \"Cookie\" ), hb_hGet( hHeadersIn, \"Cookie\" ), \"\" )`\n\nand this doesn't fill hCookies:\n`for each cCookie in aCookies`\n   `hb_HSet( hCookies, SubStr( alltrim(cCookie), 1, At( \"=\", alltrim(cCookie) ) - 1 ),;`\n        `SubStr( alltrim(cCookie), At( \"=\", alltrim(cCookie)) + 1 ) )`\n  `next`\n\nany help?\nthanks.",
+        "user": "UT5KSAR61",
+        "ts": "1580200278.003900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bebee1ed5784",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-27\/925943540294_bebee1ed5784d05fd820_72.jpg",
+            "first_name": "",
+            "real_name": "Damianodec",
+            "display_name": "Damianodec",
+            "team": "TJH5YU202",
+            "name": "damianodec",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ti+w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi, if I try index.prg in Genesis folder (samples mod_harbour) I get this error:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Error: Bound error\noperation: array access\n[ 1] = H {\"\"=>\"\"}\n[ 2] = C genesis\ncalled from: ..\/..\/..\/apache.prg, (b)MAIN, line: 32\ncalled from: pcode.hrb, CHECKUSER, line: 23\ncalled from: pcode.hrb, MAIN, line: 10\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\/..\/..\/apache.prg, EXECUTE, line: 98\ncalled from: ..\/..\/..\/apache.prg, MAIN, line: 43"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "my configuration:\napache in c:\\XAMPP\nin C:\\XAMPP\\HTDOCS there is modharbour_samples dir with all samples\non the top of C:\\xampp\\apache\\conf\\httpd.conf\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Define SRVROOT \"C:\/xampp\/apache\"\nSetEnv LIBHARBOUR \"c:\\xampp\\htdocs\\libharbour.dll\"\n\nDefine SRVROOT \"C:\/xampp\/apache\"\n\nServerRoot \"C:\/xampp\/apache\""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "on the bottom\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<FilesMatch \"\\.(prg|hrb)$\">\n    SetHandler harbour\n<\/FilesMatch>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I restarted XAMPP more than once but I get the same error.\n\nThis code return cCookies empty:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "local cCookies := If( hb_HHasKey( hHeadersIn, \"Cookie\" ), hb_hGet( hHeadersIn, \"Cookie\" ), \"\" )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nand this doesn't fill hCookies:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "for each cCookie in aCookies",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   hb_HSet( hCookies, SubStr( alltrim(cCookie), 1, At( \"=\", alltrim(cCookie) ) - 1 ),;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        SubStr( alltrim(cCookie), At( \"=\", alltrim(cCookie)) + 1 ) )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  next",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nany help?\nthanks."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "59b7e848-ec99-4c5d-be88-9d91fc8747cd",
+        "type": "message",
+        "text": "Does your browser accept cookies ?",
+        "user": "UM81W8B0Q",
+        "ts": "1580214643.004400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hBGUN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Does your browser accept cookies ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "26c84e16-3a27-40f0-bc43-cbb58fae8b3f",
+        "type": "message",
+        "text": "hi Angel,\nYes does it.\nChrome and explorer return me the same error.",
+        "user": "UT5KSAR61",
+        "ts": "1580216648.005300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bebee1ed5784",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-27\/925943540294_bebee1ed5784d05fd820_72.jpg",
+            "first_name": "",
+            "real_name": "Damianodec",
+            "display_name": "Damianodec",
+            "team": "TJH5YU202",
+            "name": "damianodec",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Z+D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi Angel,\nYes does it.\nChrome and explorer return me the same error."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4421864d-be79-4de1-80ac-05eeb24453a5",
+        "type": "message",
+        "text": "The author of genesis informs me that version in samples is very outdated.",
+        "user": "UM81W8B0Q",
+        "ts": "1580218279.006000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1580218317.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mqN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The author of genesis informs me that version in samples is very outdated."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "466a669a-df79-43aa-96bf-513cfc022aad",
+        "type": "message",
+        "text": "Genesis will be relaunched soon.",
+        "user": "UM81W8B0Q",
+        "ts": "1580218291.006400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nBsxz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Genesis will be relaunched soon."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "91df3242-c6ac-448b-905d-20d590bc8e18",
+        "type": "message",
+        "text": "thank you!",
+        "user": "UT5KSAR61",
+        "ts": "1580281755.006700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bebee1ed5784",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-27\/925943540294_bebee1ed5784d05fd820_72.jpg",
+            "first_name": "",
+            "real_name": "Damianodec",
+            "display_name": "Damianodec",
+            "team": "TJH5YU202",
+            "name": "damianodec",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GMO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thank you!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

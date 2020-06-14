@@ -1,0 +1,3244 @@
+[
+    {
+        "client_msg_id": "c65ac0ed-c692-4e5d-9ad7-246a85966a87",
+        "type": "message",
+        "text": "Me preguntaba si los websockets podrían permitir comunicar dos ejecutables .exe. ¿ Permitiria monitorear el uso de un .exe desde otro .exe ?",
+        "user": "UJULQCHL5",
+        "ts": "1587645880.163600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CQ2Jm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Me preguntaba si los websockets podrían permitir comunicar dos ejecutables .exe. ¿ Permitiria monitorear el uso de un .exe desde otro .exe ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "14087563-b606-4797-9a8d-ccbe0a9e9e86",
+        "type": "message",
+        "text": "no uses websockets si puedes usar TCP",
+        "user": "UNAHBRTFA",
+        "ts": "1587646014.163900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y88",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no uses websockets si puedes usar TCP"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "835affb6-42d6-4426-a51e-520fd59d0999",
+        "type": "message",
+        "text": "Paquito: Eso reqqueriría construir un cliente websocket en harbour. Similar al server de Antonio pero desde la otra punta.",
+        "user": "UM81W8B0Q",
+        "ts": "1587646102.165000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xx4v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Paquito: Eso reqqueriría construir un cliente websocket en harbour. Similar al server de Antonio pero desde la otra punta."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "40d18a39-6af3-4393-8ebf-de916e4a1808",
+        "type": "message",
+        "text": "INSISTO EN ESTO: Para qué reinventar la rueda ?",
+        "user": "UM81W8B0Q",
+        "ts": "1587646142.165800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DyI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "INSISTO EN ESTO: Para qué reinventar la rueda ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "489869db-d8c0-4084-a15b-9027b4406969",
+        "type": "message",
+        "text": "Para comunicar 2 exes tiene el RPC ya incluido en NETIO. Harbour en ambas puntas.",
+        "user": "UM81W8B0Q",
+        "ts": "1587646178.166500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ah\/qE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Para comunicar 2 exes tiene el RPC ya incluido en NETIO. Harbour en ambas puntas."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95f49cf3-df44-4467-bf8f-bf4ab7b09372",
+        "type": "message",
+        "text": "Hay varias alternativas de comunicacion ( tcp, pipes, etc ) pero para que reinventar algo que ya está hecho y disponible ?",
+        "user": "UM81W8B0Q",
+        "ts": "1587646223.167200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vY0V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hay varias alternativas de comunicacion ( tcp, pipes, etc ) pero para que reinventar algo que ya está hecho y disponible ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7d58a33b-a084-46c7-93d0-f659217edd70",
+        "type": "message",
+        "text": "I am cleaning up a bit and just found this photo from 1982.",
+        "user": "UJHD6A81H",
+        "ts": "1587653108.167800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XEO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am cleaning up a bit and just found this photo from 1982."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F012748J0HL",
+                "created": 1587653228,
+                "timestamp": 1587653228,
+                "name": "schreib.jpg",
+                "title": "schreib.jpg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 2378962,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012748J0HL\/schreib.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012748J0HL\/download\/schreib.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 360,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_720.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_720_w": 720,
+                "thumb_720_h": 540,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_800.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_800_w": 800,
+                "thumb_800_h": 600,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_960.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_960_w": 960,
+                "thumb_960_h": 720,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012748J0HL-e37b7f27ea\/schreib_1024.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 768,
+                "original_w": 4032,
+                "original_h": 3024,
+                "thumb_tiny": "AwAkADCXvS96YjDhc5IHWgS4Hzcn2FICbiqruwdsEgZqcOuAWGCe1MdFdixJHtQBHvbj5jUsRJTJOab5II4b9Keg2IBQBD5GGDKAB1O6n\/KFO4sfXjAFNVtxHdvrSeYCMFioPtmmA\/zAp+UqPYGmMzBvlIYHsDTcI7EKuAB1PenJDzuyAvcmgB0WRyW4I6Z+7RK5UbuGUnHByaeVDrtDKV9KhiV\/M+7gd+KALDKOPrUMqhSFUACpz2+tQz\/fFIBqAbunap8+YuCBj2qFPvfhUsfSkA3YqtwOamAAGBUZ61J2pgf\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F012748J0HL\/schreib.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012748J0HL-0ff1819a08",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1587653235.167900",
+        "client_msg_id": "86f8a4cb-546f-4b13-a685-830ba5a4d7a9",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "UJUSD6VB2"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4fb0492-62ac-4694-be9d-643a8d3022df",
+        "type": "message",
+        "text": "I learnt typewriting in a school very similar to that.",
+        "user": "UM81W8B0Q",
+        "ts": "1587653343.168900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XiE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I learnt typewriting in a school very similar to that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b9bfd81f-aec2-402b-bb89-b73a8edc7ce1",
+        "type": "message",
+        "text": "Gracias País. Como siempre, tan certero.",
+        "user": "UJULQCHL5",
+        "ts": "1587653720.169100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PSt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias País. Como siempre, tan certero."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ea950f8-83f9-491a-aa6b-7d69d8e65147",
+        "type": "message",
+        "text": "I pretty much grew up with a computer at home. But then again I'm not a very good typist.",
+        "user": "UNAHBRTFA",
+        "ts": "1587653795.169600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1y7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I pretty much grew up with a computer at home. But then again I'm not a very good typist."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33cc7224-9c89-46ec-adaf-0a888f801c14",
+        "type": "message",
+        "text": "I'm not a great typist either. Wasted money lol.",
+        "user": "UM81W8B0Q",
+        "ts": "1587656289.170200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ypqg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm not a great typist either. Wasted money lol."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c7a383f-3011-4043-9a14-7f02a7dd189b",
+        "type": "message",
+        "text": "Necesito en un script, al \"enchufar\", enrutar, enviar parámetros... como???",
+        "user": "UJU3NMK0U",
+        "ts": "1587659907.171000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3PRcf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Necesito en un script, al \"enchufar\", enrutar, enviar parámetros... como???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "657f4658-95b3-4116-afb5-0fb3e7775155",
+        "type": "message",
+        "text": "Busca el msgtask de Charly",
+        "user": "UM81W8B0Q",
+        "ts": "1587659950.172000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AaMb\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Busca el msgtask de Charly"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b38ffcb-d996-485f-aacf-e646bafb1a3e",
+        "type": "message",
+        "text": "```\t\t\t&lt;script&gt;\n\t\t\t\n\t\t\t\tfunction xcmchange() {\n\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'login'\n\t\t\t\t\t\to[ 'user' ] \t= 'user'\n\t\t\t\t\t\to[ 'psw' ] \t\t= 'psw'\n\t\t\t\t\t\n\t\t\t\t\t$.get( '{{ Route( 'autenticate' ) }}', o )\n\t\t\t\t\t\t.done( function( data ) { \n\t\t\t\t\t\t\tif ( data.success ) \n\t\t\t\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'   \/\/aquí necesito pasar parámetros\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\talert( 'Error autenticate' )\n\t\t\t\t\t\t})\n\t\t\t\t}\n\n\t\t\t&lt;\/script&gt;\t```",
+        "user": "UJU3NMK0U",
+        "ts": "1587659958.172200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1587660673.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PwO",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\t\t<script>\n\t\t\t\n\t\t\t\tfunction xcmchange() {\n\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'login'\n\t\t\t\t\t\to[ 'user' ] \t= 'user'\n\t\t\t\t\t\to[ 'psw' ] \t\t= 'psw'\n\t\t\t\t\t\n\t\t\t\t\t$.get( '{{ Route( 'autenticate' ) }}', o )\n\t\t\t\t\t\t.done( function( data ) { \n\t\t\t\t\t\t\tif ( data.success ) \n\t\t\t\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'   \/\/aquí necesito pasar parámetros\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\talert( 'Error autenticate' )\n\t\t\t\t\t\t})\n\t\t\t\t}\n\n\t\t\t<\/script>\t"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a93b1b4f-4312-4d2d-b931-aaacaac16e30",
+        "type": "message",
+        "text": "<@UM81W8B0Q> donde encuentro msgtask de Charly??? en el github no veo",
+        "user": "UJU3NMK0U",
+        "ts": "1587660164.172800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aQa5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UM81W8B0Q"
+                            },
+                            {
+                                "type": "text",
+                                "text": " donde encuentro msgtask de Charly??? en el github no veo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3fe2a72a-b482-4f76-b9df-1913fe9a40b9",
+        "type": "message",
+        "text": "No... no lo encuentro por ningún lado. Y por mas que pruebo, no doy con como enchufar co parámetros.",
+        "user": "UJU3NMK0U",
+        "ts": "1587661119.173700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NOBJH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No... no lo encuentro por ningún lado. Y por mas que pruebo, no doy con como enchufar co parámetros."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10449d55-a8ee-4339-bd69-c56ea83f04fe",
+        "type": "message",
+        "text": "xevi, tal como lo haces esta bien en la primera parte :slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1587662527.174200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sdtl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "xevi, tal como lo haces esta bien en la primera parte "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b82cebd3-5fed-4a33-8035-85619b821e61",
+        "type": "message",
+        "text": "En la segunda, vas a cargar una nueva ventana usando window.loacation.ref  a la cual le asignas una direccion",
+        "user": "UJWR5N32S",
+        "ts": "1587662564.174900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eqDk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En la segunda, vas a cargar una nueva ventana usando window.loacation.ref  a la cual le asignas una direccion"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "57c91993-9420-4ca0-8630-5c78991ef459",
+        "type": "message",
+        "text": "en este caso el metodo q se usa es el GET, y como bien sabes puedes pasar parametros \"enlinea\" ( en la url) añadiendo ? y tus variables",
+        "user": "UJWR5N32S",
+        "ts": "1587662614.175800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A6W4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en este caso el metodo q se usa es el GET, y como bien sabes puedes pasar parametros \"enlinea\" ( en la url) añadiendo ? y tus variables"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1cd87064-5863-4166-abf6-90495fad406e",
+        "type": "message",
+        "text": "<http:\/\/miurl.es\/test?var1=hola&amp;var2=123|miurl.es\/test?var1=hola&amp;var2=123>",
+        "user": "UJWR5N32S",
+        "ts": "1587662636.176300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mzLG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "http:\/\/miurl.es\/test?var1=hola&var2=123",
+                                "text": "miurl.es\/test?var1=hola&var2=123"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7276215d-e8ae-4b4c-b126-d93852e0e5bb",
+        "type": "message",
+        "text": "pero no se si te funcionará en este caso...",
+        "user": "UJWR5N32S",
+        "ts": "1587662676.176700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R4Uvt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero no se si te funcionará en este caso..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b647fc37-67fd-4f59-a577-79156325d7fd",
+        "type": "message",
+        "text": "ademas.. no ireas a pasar de nuevo user y psw via get, no ?",
+        "user": "UJWR5N32S",
+        "ts": "1587662695.177100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SullS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ademas.. no ireas a pasar de nuevo user y psw via get, no ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ceed040-1f44-4f4c-87b6-81e97a96876e",
+        "type": "message",
+        "text": "si usas por ejemplo 2 parametros pprias crear una url amigable como vimos el otro dia",
+        "user": "UJWR5N32S",
+        "ts": "1587662753.177800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=vau",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si usas por ejemplo 2 parametros pprias crear una url amigable como vimos el otro dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ffc78ec-bc0c-4809-9dc9-4ccaa437781d",
+        "type": "message",
+        "text": "```oApp:oRoute:Map( \"GET\"\t\t, \"go\"\t\t\t\t, \"go\/(var1)\/(var2)\"\t, \"go@gocontroller.prg\" )```",
+        "user": "UJWR5N32S",
+        "ts": "1587662793.178100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z1d",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oApp:oRoute:Map( \"GET\"\t\t, \"go\"\t\t\t\t, \"go\/(var1)\/(var2)\"\t, \"go@gocontroller.prg\" )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b0cdee93-8b8a-47f4-a26f-b155c320901d",
+        "type": "message",
+        "text": "esto quiere decir que se construira una url de este tipo -&gt; <http:\/\/tuurl.es\/test\/hola\/123|tuurl.es\/test\/hola\/123>",
+        "user": "UJWR5N32S",
+        "ts": "1587662825.178700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oPB10",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esto quiere decir que se construira una url de este tipo -> "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/tuurl.es\/test\/hola\/123",
+                                "text": "tuurl.es\/test\/hola\/123"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cdee468a-67c7-4e50-8d2a-8c7ab3c5eb45",
+        "type": "message",
+        "text": "Entonces para construirlo desde javascript, podrias hacer:",
+        "user": "UJWR5N32S",
+        "ts": "1587662855.179200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8S0V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Entonces para construirlo desde javascript, podrias hacer:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50ef1139-65d6-4287-bc63-159ab87a40d8",
+        "type": "message",
+        "text": "var cUrl = \"{{ Route( 'test1' ) }}\"  + '\/' + var1 + '\/' + var2",
+        "user": "UJWR5N32S",
+        "ts": "1587662915.180200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TBtv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "var cUrl = \"{{ Route( 'test1' ) }}\"  + '\/' + var1 + '\/' + var2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76b59fbe-df31-4990-9de8-30ebd6d79da4",
+        "type": "message",
+        "text": "Asi construirias la url",
+        "user": "UJWR5N32S",
+        "ts": "1587662924.180400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eXlKY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Asi construirias la url"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "efb6314f-fb78-4399-bfc1-c0c42f96d28a",
+        "type": "message",
+        "text": "pero a mi no me gusta este tipo de construcciones",
+        "user": "UJWR5N32S",
+        "ts": "1587662939.180800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HZMe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero a mi no me gusta este tipo de construcciones"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "65875b9b-b1ca-46fc-b4b4-6290be9199cd",
+        "type": "message",
+        "text": "Si son para consulta esta bien, pero si necesitas actualizar, piensa q el javascript es manipulable",
+        "user": "UJWR5N32S",
+        "ts": "1587662963.181400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3EX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si son para consulta esta bien, pero si necesitas actualizar, piensa q el javascript es manipulable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ccbbe573-8a3c-4eff-b38a-70c49190a7c3",
+        "type": "message",
+        "text": "como vimos el otro dia",
+        "user": "UJWR5N32S",
+        "ts": "1587662967.181600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uB92",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "como vimos el otro dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c9252c7-967f-4652-b92d-281d78347009",
+        "type": "message",
+        "text": "Si llegas a construilo asi, desde el controlador deberias recojer estas variables asi:",
+        "user": "UJWR5N32S",
+        "ts": "1587663008.182100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oo9V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si llegas a construilo asi, desde el controlador deberias recojer estas variables asi:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ccd83214-2e1a-47ca-b0ac-381e63d7b0b0",
+        "type": "message",
+        "text": "oController:oRequest:Get( 'var1' ) y oController:oRequest:Get( 'var2' )",
+        "user": "UJWR5N32S",
+        "ts": "1587663031.182600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lx03c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oController:oRequest:Get( 'var1' ) y oController:oRequest:Get( 'var2' )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd699987-6c43-4e1f-b837-ad5d411e23b6",
+        "type": "message",
+        "text": "Bufffff",
+        "user": "UJWR5N32S",
+        "ts": "1587663045.183000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7SOb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bufffff"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef5bfa34-b5fd-4327-8dae-f10afe253edc",
+        "type": "message",
+        "text": "Aun no entiendo q quieres pasar... una vez te has autenticado",
+        "user": "UJWR5N32S",
+        "ts": "1587663076.183400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CS=+S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aun no entiendo q quieres pasar... una vez te has autenticado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "304958ef-d7c3-41a2-9f15-222922fed709",
+        "type": "message",
+        "text": "Igual me he liado al decir quie es lo que quiero o pretendo hacer.\nNo quiero pasar NADA después de autenticar. NO.\nSolo que he mirado el ejemplo seamap como \"lanza\" o enruta de un prg a otro, y es lo que pretendo\nDe hecho. el script SOLO necesitaria... a ver co se puede hacer...\n``` \t\t\t&lt;script&gt;\n\t\t\t\tfunction enruta_a() {\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'myaction'\n\n\t\t\t\t\t$.get( '{{ Route( 'mienrute' ) }}', o )\n\n                }\n\t\t\t&lt;\/script&gt;\t```\nPero esto no funciona, claro. No se como deberia de hacerse",
+        "user": "UJU3NMK0U",
+        "ts": "1587664543.187400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "csl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Igual me he liado al decir quie es lo que quiero o pretendo hacer.\nNo quiero pasar NADA después de autenticar. NO.\nSolo que he mirado el ejemplo seamap como \"lanza\" o enruta de un prg a otro, y es lo que pretendo\nDe hecho. el script SOLO necesitaria... a ver co se puede hacer...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": " \t\t\t<script>\n\t\t\t\tfunction enruta_a() {\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'myaction'\n\n\t\t\t\t\t$.get( '{{ Route( 'mienrute' ) }}', o )\n\n                }\n\t\t\t<\/script>\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero esto no funciona, claro. No se como deberia de hacerse"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd0ed4aa-1f6f-4c22-877a-53c2252e9b35",
+        "type": "message",
+        "text": "existe mienrute ?",
+        "user": "UJWR5N32S",
+        "ts": "1587664641.189200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJWR5N32S",
+            "ts": "1587664652.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wAm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "existe mienrute ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8cafd64-4a69-4bec-9922-505d0f8f7ed1",
+        "type": "message",
+        "text": "Lo que pretendo es hechando mano de la clase TWeb, utilizar su potencial en MVC y poder hacer el enrutamiento de una view a otra view\nPor ejemplo, al pulsar un boton de la clase TWeb, enchufar a otro controlador+view",
+        "user": "UJU3NMK0U",
+        "ts": "1587664668.189800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kUdh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo que pretendo es hechando mano de la clase TWeb, utilizar su potencial en MVC y poder hacer el enrutamiento de una view a otra view\nPor ejemplo, al pulsar un boton de la clase TWeb, enchufar a otro controlador+view"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "19706d00-54d1-4782-9a1e-6a31eb0fe803",
+        "type": "message",
+        "text": "Si, existe emienrute",
+        "user": "UJU3NMK0U",
+        "ts": "1587664674.190000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1587664704.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AgQR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, existe emienrute"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "647ec4b7-463a-4859-9fdc-d04f552afd46",
+        "type": "message",
+        "text": "Cuando tienes la pagina cargada, si le das al boton izquierdo -&gt; mostrar codigo, podras ver si te ha sustituido el valor",
+        "user": "UJWR5N32S",
+        "ts": "1587664740.190700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zTY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cuando tienes la pagina cargada, si le das al boton izquierdo -> mostrar codigo, podras ver si te ha sustituido el valor"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "792edc5c-223d-4b54-bc92-4bfcf7f853b8",
+        "type": "message",
+        "text": "Pero en este caso \"NO ENRUTAS\" nada solo ejecutas un Get que hace una peticion al server y espera una contestacion",
+        "user": "UJWR5N32S",
+        "ts": "1587664779.191400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gDLy2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero en este caso \"NO ENRUTAS\" nada solo ejecutas un Get que hace una peticion al server y espera una contestacion"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "896f1891-4f5e-4536-a312-ad1a1baf4e3d",
+        "type": "message",
+        "text": "desde javascript si quieres ir a un controller ya lo hacias bien antes",
+        "user": "UJWR5N32S",
+        "ts": "1587664800.192000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ytpF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "desde javascript si quieres ir a un controller ya lo hacias bien antes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b631cfd0-2432-4e8f-b78f-4ab2294208de",
+        "type": "message",
+        "text": "```window.location.href = '{{ Route( 'test1' ) }}'```\n",
+        "user": "UJWR5N32S",
+        "ts": "1587664812.192300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OXIj",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "window.location.href = '{{ Route( 'test1' ) }}'"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3922d00e-c229-4d35-af08-1f644b6d7d7e",
+        "type": "message",
+        "text": "Esto si que te iria al controller y desde alla donde quieras...",
+        "user": "UJWR5N32S",
+        "ts": "1587664830.192700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xII",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto si que te iria al controller y desde alla donde quieras..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6981ec23-b006-4c2e-a142-1693c1d609dc",
+        "type": "message",
+        "text": "mas que llamar un prg de tweb lo ideal sería incrustar codigo tweb en las vistas  .view",
+        "user": "UK28N3CER",
+        "ts": "1587664914.193800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "bf50b53e78b3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-04-13\/1058586385811_bf50b53e78b35822be35_72.png",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vYuu+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mas que llamar un prg de tweb lo ideal sería incrustar codigo tweb en las vistas  .view"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e77dc8c5-884d-477a-b3b1-7c0e6d879e5c",
+        "type": "message",
+        "text": "De hecho, este ejemplo qhas puesto:",
+        "user": "UJWR5N32S",
+        "ts": "1587664923.194000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hniU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De hecho, este ejemplo qhas puesto:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ce31192-bca7-4336-a635-9439768fbc7a",
+        "type": "message",
+        "text": "```\t\t\t\tfunction xcmchange() {\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'login'\n\t\t\t\t\t\to[ 'user' ] \t= 'user'\n\t\t\t\t\t\to[ 'psw' ] \t\t= 'psw'\n\t\t\t\t\t$.get( '{{ Route( 'autenticate' ) }}', o )\n\t\t\t\t\t\t.done( function( data ) { \n\t\t\t\t\t\t\tif ( data.success ) \n\t\t\t\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'   \/\/aquí necesito pasar parámetros\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\talert( 'Error autenticate' )\n\t\t\t\t\t\t})\n\t\t\t\t}```",
+        "user": "UJWR5N32S",
+        "ts": "1587664927.194200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ByV",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\t\t\tfunction xcmchange() {\n\t\t\t\t\tvar o = new Object()\n\t\t\t\t\t\to[ 'action' ] \t= 'login'\n\t\t\t\t\t\to[ 'user' ] \t= 'user'\n\t\t\t\t\t\to[ 'psw' ] \t\t= 'psw'\n\t\t\t\t\t$.get( '{{ Route( 'autenticate' ) }}', o )\n\t\t\t\t\t\t.done( function( data ) { \n\t\t\t\t\t\t\tif ( data.success ) \n\t\t\t\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'   \/\/aquí necesito pasar parámetros\n\t\t\t\t\t\t\telse\n\t\t\t\t\t\t\t\talert( 'Error autenticate' )\n\t\t\t\t\t\t})\n\t\t\t\t}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d9530c3-5c68-4f18-b5fa-59168268f653",
+        "type": "message",
+        "text": "Es muy simple y claro",
+        "user": "UJWR5N32S",
+        "ts": "1587664933.194400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HSwc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Es muy simple y claro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97d72529-68b4-45be-8f4f-e0588904d102",
+        "type": "message",
+        "text": "Haces una peticion al server pasando unos parametros",
+        "user": "UJWR5N32S",
+        "ts": "1587664946.194700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PCAV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haces una peticion al server pasando unos parametros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "038bc0b4-4872-4a79-ab90-7efb66f96b3c",
+        "type": "message",
+        "text": "El server te contesta",
+        "user": "UJWR5N32S",
+        "ts": "1587664955.194900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IM93t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "El server te contesta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "41ef1f81-36cf-4a7d-9d2a-e8bb9204db02",
+        "type": "message",
+        "text": "y si existe data.success ejecutas otra ventana",
+        "user": "UJWR5N32S",
+        "ts": "1587664977.195400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "enVh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y si existe data.success ejecutas otra ventana"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fe080d79-cba2-440a-b707-a307c1f3b2d1",
+        "type": "message",
+        "text": "tu llegas al data.success ?",
+        "user": "UJWR5N32S",
+        "ts": "1587665007.196300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CQnJU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tu llegas al data.success ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ceea4509-0c4d-4db6-aec5-739356bc5bed",
+        "type": "message",
+        "text": "Si, si llega. Pero pero no quiero pasar por hacer una petición. Quiero ir directamente al otro enrute",
+        "user": "UJU3NMK0U",
+        "ts": "1587665052.196900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "089",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, si llega. Pero pero no quiero pasar por hacer una petición. Quiero ir directamente al otro enrute"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a6668e9-bd9e-4340-acbb-294523cf7f1b",
+        "type": "message",
+        "text": "y no va ?",
+        "user": "UJWR5N32S",
+        "ts": "1587665073.197200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uyDOJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y no va ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b03c384a-60be-43f8-aecf-e83b29143cfc",
+        "type": "message",
+        "text": "```oApp:oRoute:Map( \"GET\"\t, \"test1\"\t\t, \"test1\"\t, \"@micontroller.prg\" )```",
+        "user": "UJWR5N32S",
+        "ts": "1587665146.198200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BGNgT",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oApp:oRoute:Map( \"GET\"\t, \"test1\"\t\t, \"test1\"\t, \"@micontroller.prg\" )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9c2a04eb-46cd-4205-9c9b-5bb430740c2d",
+        "type": "message",
+        "text": "Si esto lo tienes definido habria de funcionar",
+        "user": "UJWR5N32S",
+        "ts": "1587665154.198500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uQW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si esto lo tienes definido habria de funcionar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d597fb61-8cd4-42b7-9dc2-4e21f4fa92b7",
+        "type": "message",
+        "text": "```        SELECT oSelect  ID 'cars2' PROMPT 'TWeb tutor1', 'TWeb tutor4b', 'TWeb tutor4g' VALUES  'tutor1', 'tutor4b', 'tutor4g'  GRID 3  ONCHANGE 'enruta_a()' OF o\n...\n\t\t\t&lt;script&gt;\n\t\t\t\tfunction enruta_a() {\n\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'\n                }\n\t\t\t&lt;\/script&gt;\t```\nEsto enchufa, pero no puedo pasar parámetros",
+        "user": "UJU3NMK0U",
+        "ts": "1587665254.199000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mrd",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "        SELECT oSelect  ID 'cars2' PROMPT 'TWeb tutor1', 'TWeb tutor4b', 'TWeb tutor4g' VALUES  'tutor1', 'tutor4b', 'tutor4g'  GRID 3  ONCHANGE 'enruta_a()' OF o\n...\n\t\t\t<script>\n\t\t\t\tfunction enruta_a() {\n\t\t\t\t\twindow.location.href = '{{ Route( 'test1' ) }}'\n                }\n\t\t\t<\/script>\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto enchufa, pero no puedo pasar parámetros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39b14cc4-303a-4011-932e-52e33f00c946",
+        "type": "message",
+        "text": "Desde javascript y queriendo hacer lo que haces tu en javascript lo puedes hacer como te he comentado antes",
+        "user": "UJWR5N32S",
+        "ts": "1587665290.199600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bRvmM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Desde javascript y queriendo hacer lo que haces tu en javascript lo puedes hacer como te he comentado antes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c2560cc-bf63-45ba-985e-dfee30edf50b",
+        "type": "message",
+        "text": "window.location.href o window.open(\"miurl\");",
+        "user": "UJWR5N32S",
+        "ts": "1587665340.200500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=eXa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "window.location.href o window.open(\"miurl\");"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d6fdfec-fae0-499f-87e9-60c56d2faf0d",
+        "type": "message",
+        "text": "y añadirle params en la url",
+        "user": "UJWR5N32S",
+        "ts": "1587665356.201100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MnA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y añadirle params en la url"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cde1e98f-7ee3-427f-9195-5797a604504f",
+        "type": "message",
+        "text": "O sin javascript... No se, yo no entiendo.\nPero como de un botón de TWeb, vas y llamas \"enrutas\" a otra view\/prg ???",
+        "user": "UJU3NMK0U",
+        "ts": "1587665360.201300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7gX9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "O sin javascript... No se, yo no entiendo.\nPero como de un botón de TWeb, vas y llamas \"enrutas\" a otra view\/prg ???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c758e1b-4b6b-414d-96c3-748166bd460f",
+        "type": "message",
+        "text": "pero a mi no me gusta",
+        "user": "UJWR5N32S",
+        "ts": "1587665361.201400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Eo4H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero a mi no me gusta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "450bdc64-8ecf-4589-9107-4229d238bc77",
+        "type": "message",
+        "text": "a nivel html puedes hacer un form, no ?",
+        "user": "UJWR5N32S",
+        "ts": "1587665405.201800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vnXf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "a nivel html puedes hacer un form, no ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9771672d-aa30-4a01-95cb-834afd0868c3",
+        "type": "message",
+        "text": "y el button un submit",
+        "user": "UJWR5N32S",
+        "ts": "1587665415.202000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MGI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y el button un submit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2561f49e-848a-45aa-af8f-d00ded125297",
+        "type": "message",
+        "text": "que ejecuta la accion del form q puedes ser ir a otra url con todos los parametros inputs q tengas",
+        "user": "UJWR5N32S",
+        "ts": "1587665445.202700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RAj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "que ejecuta la accion del form q puedes ser ir a otra url con todos los parametros inputs q tengas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eef43ad4-7ea2-4368-9833-654606356b43",
+        "type": "message",
+        "text": "Bien, pensava hacerlo en una lista desplegable, al cambiar de elemento, sin necesidad de pulsar un boton",
+        "user": "UJU3NMK0U",
+        "ts": "1587665522.204000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FV4Xw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien, pensava hacerlo en una lista desplegable, al cambiar de elemento, sin necesidad de pulsar un boton"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "26d4278b-1c5e-415b-82cd-8002831f8e2e",
+        "type": "message",
+        "text": "no entiendo",
+        "user": "UJWR5N32S",
+        "ts": "1587665543.204200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+56",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no entiendo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2b462025-95fc-4324-a07e-599880e25cac",
+        "type": "message",
+        "text": "Voy a mirarme el boton de TWeb..",
+        "user": "UJU3NMK0U",
+        "ts": "1587665608.204500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tMc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Voy a mirarme el boton de TWeb.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f0e809cc-6714-422f-a01c-859ff3250a06",
+        "type": "message",
+        "text": "Xevi... Este articuloe esta bien y se entiende facilmente",
+        "user": "UJWR5N32S",
+        "ts": "1587665650.204900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9uR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Xevi... Este articuloe esta bien y se entiende facilmente"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9cc213ab-2c74-45d1-b9ba-b205d6f19cd6",
+        "type": "message",
+        "text": "Es sobre el uso de ajax y cargar un html",
+        "user": "UJWR5N32S",
+        "ts": "1587665665.205300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ARak",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Es sobre el uso de ajax y cargar un html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a3638507-2675-402e-9612-9e94cf250cbd",
+        "type": "message",
+        "text": "<https:\/\/www.anerbarrena.com\/jquery-post-5064\/>",
+        "user": "UJWR5N32S",
+        "ts": "1587665667.205500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Aner Barrena",
+                "title": "jQuery post(): Envío y carga de datos a una página externa",
+                "title_link": "https:\/\/www.anerbarrena.com\/jquery-post-5064\/",
+                "text": "Ejemplos y sintaxis de jQuery post() para obtener una página externa o enviar datos a través del método GET.",
+                "fallback": "Aner Barrena: jQuery post(): Envío y carga de datos a una página externa",
+                "image_url": "https:\/\/www.anerbarrena.com\/wp-content\/uploads\/2012\/12\/jquery.jpg",
+                "image_width": 357,
+                "image_height": 240,
+                "ts": 1446505287,
+                "from_url": "https:\/\/www.anerbarrena.com\/jquery-post-5064\/",
+                "image_bytes": 15017,
+                "service_icon": "https:\/\/www.anerbarrena.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.anerbarrena.com\/jquery-post-5064\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F1b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.anerbarrena.com\/jquery-post-5064\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85f76cae-a256-436a-a6df-01123988bb8c",
+        "type": "message",
+        "text": "Lo miro, también.",
+        "user": "UJU3NMK0U",
+        "ts": "1587666342.205900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v=OpA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo miro, también."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a18c7c9-fb78-4d6d-9ee3-114e4b155097",
+        "type": "message",
+        "text": "En un botón, que está funcionando (sin TWeb)\n```&lt;form action=\"{{ Route( 'test1' ) }}\" method=\"GET\"&gt;\n&lt;button type=\"submit\" name=\"action\" value=\"tutor4d\"&gt; TWeb tutor4d&lt;\/i&gt;&lt;\/button&gt;```\n...\n¿como seria el  route, el name y value con la clase TWeb???\n```BUTTON  LABEL 'TWeb tutor4d'  GRID 0   SUBMIT OF o```\n???",
+        "user": "UJU3NMK0U",
+        "ts": "1587666651.208100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Isi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En un botón, que está funcionando (sin TWeb)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<form action=\"{{ Route( 'test1' ) }}\" method=\"GET\">\n<button type=\"submit\" name=\"action\" value=\"tutor4d\"> TWeb tutor4d<\/i><\/button>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "...\n¿como seria el  route, el name y value con la clase TWeb???\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "BUTTON  LABEL 'TWeb tutor4d'  GRID 0   SUBMIT OF o"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "071eb242-a317-4904-8d7b-7cb8c6d7a535",
+        "type": "message",
+        "text": "mirate el tutor20",
+        "user": "UJWR5N32S",
+        "ts": "1587666940.208300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vM6f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mirate el tutor20"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e35b26dd-3ac9-4505-b412-9e201f21e3f8",
+        "type": "message",
+        "text": "Si, si... si parto de ahí!!!\nVeo un boton 'btn' con SUBMIT, pero me faltan datos, buuufff!!!\nY el boton 'btn2' que llama directamente a un prg con link... pero claro, no pasa por el enrutamiento.",
+        "user": "UJU3NMK0U",
+        "ts": "1587667272.210200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aRW2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, si... si parto de ahí!!!\nVeo un boton 'btn' con SUBMIT, pero me faltan datos, buuufff!!!\nY el boton 'btn2' que llama directamente a un prg con link... pero claro, no pasa por el enrutamiento."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "238904b3-d68e-4fde-af0a-7172ec118642",
+        "type": "message",
+        "text": "Tengo el ordenador chapado ya. Si pones el code aqui del tutor20 lo miro",
+        "user": "UJWR5N32S",
+        "ts": "1587668356.211300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJWR5N32S",
+            "ts": "1587668382.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v\/rmr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tengo el ordenador chapado ya. Si pones el code aqui del tutor20 lo miro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ddc1fa6e-0138-460d-935c-3323c47a2108",
+        "type": "message",
+        "text": "Con la tablet claro...:slightly_smiling_face:",
+        "user": "UJWR5N32S",
+        "ts": "1587668475.211900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kj7Kt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con la tablet claro..."
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d38e9404-ea75-4b0e-8656-af5fed3fd9cf",
+        "type": "message",
+        "text": "```\/\/\t{% LoadHrb( 'lib\/tweb\/tweb.hrb' ) %}\n\n#include {% TWebInclude() %}\n\n#define PATH_DATA \t\tHB_GetEnv( \"PRGPATH\" ) + '\/data\/'\n\n\nfunction main()\n\n    LOCAL o, oWeb, oSelect\n\tLOCAL hParameters\n\tlocal hData \t:= {=&gt;}\n\tlocal lError \t:= .F.\n\tlocal lSave \t:= .F.\n\tlocal cError \t:= ''\n\tlocal cStyle \t:= ''\n\tlocal cLoren \t:= ''\n\t\n\t\/\/\tInicio Variables\n\t\n\t\thParameters := AP_PostPairs()\n\t\n\t\thData[ 'alias'  ] := HB_UrlDecode( HB_HGetDef( hParameters, 'alias', '' ) )\n\t\thData[ 'name'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'name', '' ) )\n\t\thData[ 'mail'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'mail', '' ) )\n\t\thData[ 'date'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'date', '' ) )\n\t\thData[ 'class'  ] := HB_UrlDecode( HB_HGetDef( hParameters, 'class', '' ) )\n\t\thData[ 'accept' ] := IF( HB_HGetDef( hParameters, 'accept', '' )  == 'on', .T., .F. )\n\n\n\tDEFINE WEB oWeb TITLE 'Form example' INIT\n\t\n\tTEXT TO cStyle \n\t\t&lt;style&gt;\n\t\t\t.jumbotron{\n\t\t\t\tbackground: url(\"images\/bg-head-02.jpg\") no-repeat center center; \n\t\t\t\tbackground-size: 100% 100%;\n\t\t\t}\n\t\t&lt;\/style&gt;\t\n\tENDTEXT\n\t\n\t?? cStyle\n\n\t\/\/\tChequeamos si entran parámetros\n\n\t\tIF len( hParameters ) &gt; 0 \n\t\n\t\t\tIF Save( hData, @cError )\n\t\t\t\n\t\t\t\t\/\/\tReset values...\n\t\t\t\n\t\t\t\thData[ 'alias'  ]\t:= ''\n\t\t\t\thData[ 'name'   ]\t:= ''\n\t\t\t\thData[ 'mail'   ]\t:= ''\n\t\t\t\thData[ 'date'   ]\t:= ''\n\t\t\t\thData[ 'class'  ]\t:= ''\n\t\t\t\thData[ 'accept' ]\t:= .F.\t\n\t\t\t\t\n\t\t\t\tlSave \t:= .T.\n\t\t\t\t\n\t\t\tELSE\n\t\t\t\tlError \t:= .T.\n\t\t\tENDIF\n\t\t\t\n\t\tENDIF\n\t\t\n\t\/\/\t--------------------------------------------------------------------------------------\n\t\n\t\/\/\tInicio Diseño...\n\n\t\tBanner()\n\t\t\n\t\tIF lError\n\t\t\tMessageError( cError )\n\t\tELSE\n\t\t\tIF lSave\n\t\t\t\tMessageSave()\n\t\t\tELSE\n\t\t\t\tMessageContactUs()\n\t\t\tENDIF\n\t\tENDIF\n\n    DEFINE FORM o ID 'demo' ACTION 'tutor20.prg'\n        o:lDessign  := .F.\n        o:cSizing   := '' \/\/'sm'       \/\/  SM\/LG\t\t\t\t\n\n    INIT FORM o        \t\t\n        \n        ROWGROUP o\n           \n            GET ID 'alias'  VALUE hData[ 'alias'] GRID 4 PLACEHOLDER 'Entra tu alias...'  LABEL 'Alias'   REQUIRED  OF o\n            GET ID 'name'   VALUE hData[ 'name' ] GRID 8 PLACEHOLDER 'Entra tu nombre...' LABEL 'Nombre'  REQUIRED  OF o\n\t\t\t\n        END o\n        \n        ROWGROUP o\n\t\t\n\t\t\tGET ID 'date'   VALUE hData[ 'date' ] GRID 4 PLACEHOLDER 'Entra tu nombre...' LABEL 'Fecha de Nacimiento'  TYPE 'date' OF o\n\t\t\tGET ID 'mail'   VALUE hData[ 'mail' ] GRID 4 PLACEHOLDER 'Entra tu mail...'   LABEL 'Mail de contacto'     TYPE 'email' REQUIRED OF o\n\t\t\tSELECT oSelect  ID 'class'  VALUE  hData[ 'class' ] LABEL 'Clase de Bono' PROMPT 'Normal', 'Premium', 'Excelent' VALUES  'N', 'P', 'E'  GRID 4  OF o            \n\n        END o          \n        \n        cLoren := \"En la indústria editorial i en disseny gràfic, lorem ipsum és un text de farciment que s'usa habitualment per a mostrar els elements gràfics d'un document, com ara la tipografia o la composició.\"\n\t\t\n        ROWGROUP o\t\n\t\t\t\n\t\t\tSMALL o ID 'chofer_data' Label cLoren  GRID 6\n            SWITCH ID 'accept' VALUE hData[ 'accept' ] LABEL 'Acepto condiciones' OF o\n\n        END o          \n        \n        ROWGROUP o\n\n            BUTTON ID 'btn'  LABEL 'Enviar' GRID 0 ICON '&lt;i class=\"far fa-paper-plane\"&gt;&lt;\/i&gt; ' \tCLASS 'btn-outline-primary' SUBMIT OF o\n            BUTTON ID 'btn2' LABEL 'List'   GRID 3 ICON '&lt;i class=\"fas fa-th-list\"&gt;&lt;\/i&gt; ' \t\tCLASS 'btn-outline-primary' LINK 'tutor20b.prg' OF o\n\t\t\t\n\n        END o           \n\t\t\n    END FORM o\t\n\n\t\nRETU NIL\n\nfunction Banner()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO\n\t\n\t\t&lt;div class=\"jumbotron\"&gt;\n\t\t\t&lt;div class=\"container\"&gt;\n\t\t\t\t&lt;h1&gt;&lt;a href=\"\"&gt;Friends of mod harbour&lt;\/a&gt;&lt;\/h1&gt;\n\t\t\t\t&lt;p&gt;Slack group project.&lt;br&gt;Spagetti code example... All in one !&lt;\/p&gt;\n\t\t\t&lt;\/div&gt;\n\t\t&lt;\/div&gt;\n\n\tENDTEXT\t\t\n\nretu nil\n\nfunction MessageContactUs()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO\n\t\n\t\t&lt;div class=\"alert alert-dark\" style=\"border-radius: 0px;\" &gt;\n\t\t\t&lt;h5 style=\"margin:0px;\"&gt;\n\t\t\t\t&lt;i class=\"fas fa-info-circle\"&gt;&lt;\/i&gt;\n\t\t\t\tContact Us\n\t\t\t&lt;\/h5&gt;\n\t\t&lt;\/div&gt;\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction MessageError( cError )\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml PARAMS cError ECHO\n\t\n\t\t&lt;div class=\"alert alert-danger\" style=\"border-radius: 0px;\" &gt;\n\t\t\t&lt;h5 style=\"margin:0px;\"&gt;\n\t\t\t\t&lt;i class=\"fas fa-exclamation-circle\"&gt;&lt;\/i&gt;\n\t\t\t\t&lt;strong&gt;Error &lt;\/strong&gt;&lt;$ cError $&gt;\n\t\t\t&lt;\/h5&gt;\n\t\t&lt;\/div&gt;\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction MessageSave()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO \n\t\n\t\t&lt;div class=\"alert alert-success\" style=\"border-radius: 0px;\" &gt;\n\t\t\t&lt;h5 style=\"margin:0px;\"&gt;\n\t\t\t\t&lt;i class=\"far fa-thumbs-up\"&gt;&lt;\/i&gt;\n\t\t\t\t&lt;strong&gt;Success ! &lt;\/strong&gt;Sus datos se han actualizado correctamente...\n\t\t\t&lt;\/h5&gt;\n\t\t&lt;\/div&gt;\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction Save( hData, cError )\n\n\tlocal cAlias\n\tlocal dDate \n\t\n\t\/\/\tChequear error en parametro...\n\t\n\t\tif empty( hData[ 'alias' ] ) \n\t\t\tcError := 'Campo Alias vacio'\n\t\t\tretu .f.\n\t\tendif\t\n\t\n\t\tif empty( hData[ 'date' ] ) \n\t\t\tcError := 'Campo fecha vacio'\n\t\t\tretu .f.\n\t\tendif\n\t\t\n\t\tif ! hData[ 'accept' ] \n\t\t\tcError := 'Debe aceptar nuestras condiciones'\n\t\t\tretu .f.\n\t\tendif\t\t\n\t\n\t\/\/\tConfig entorno ---------------\t\n\t\n\t\tSET EPOCH TO 1950\n\t\tSET DATE TO ITALIAN\n\t\n\t\/\/\tAbrimos Tabla ----------------\n\n\t\tUSE ( PATH_DATA + 'contacts.dbf' ) SHARED NEW VIA 'DBFCDX'\n\t\tSET INDEX TO ( PATH_DATA + 'contacts.cdx' )\n\t\t\n\t\tcAlias := Alias()\t\n\t\n\t\n\t\/\/\tNuestro sistema es simple. Solo daremos de alta un ALIAS que no exista en nuestra tabla...\n\t\n\t\tIF (cAlias)-&gt;( DbSeek(  hData[ 'alias' ] ) ) .AND. Alltrim((cAlias)-&gt;alias) == hData[ 'alias' ]\n\t\t\tcError := 'Alias ya existe. Intentelo con otro'\n\t\t\tretu .F.\n\t\tENDIF\n\t\t\n\t\/\/\tConvertimos variable fecha a date\n\n\t\tdDate \t:= CTod( Substr( hData[ 'date' ], 9, 2) + '\/' + ;\n\t\t\t\t\t\t Substr( hData[ 'date' ], 6, 2) + '\/' + ;\n\t\t\t\t\t\t Substr( hData[ 'date' ], 3, 2) ;\n\t\t\t\t\t\t)\t\n\t\t\t\t\t\t\n\t\/\/\tSalvamos los datos\n\n\t\t(cAlias)-&gt;( DbAppend() )\n\t\t\n\t\t(cAlias)-&gt;alias\t:= hData[ 'alias'  ]\n\t\t(cAlias)-&gt;name\t\t:= hData[ 'name'   ]\n\t\t(cAlias)-&gt;mail\t\t:= hData[ 'mail'   ]\n\t\t(cAlias)-&gt;date\t\t:= dDate\n\t\t(cAlias)-&gt;type\t\t:= hData[ 'class'  ]\n\t\t(cAlias)-&gt;accept\t:= hData[ 'accept' ]\n\nretu .t.```",
+        "user": "UJU3NMK0U",
+        "ts": "1587670012.212000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iHCi1",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/\/\t{% LoadHrb( 'lib\/tweb\/tweb.hrb' ) %}\n\n#include {% TWebInclude() %}\n\n#define PATH_DATA \t\tHB_GetEnv( \"PRGPATH\" ) + '\/data\/'\n\n\nfunction main()\n\n    LOCAL o, oWeb, oSelect\n\tLOCAL hParameters\n\tlocal hData \t:= {=>}\n\tlocal lError \t:= .F.\n\tlocal lSave \t:= .F.\n\tlocal cError \t:= ''\n\tlocal cStyle \t:= ''\n\tlocal cLoren \t:= ''\n\t\n\t\/\/\tInicio Variables\n\t\n\t\thParameters := AP_PostPairs()\n\t\n\t\thData[ 'alias'  ] := HB_UrlDecode( HB_HGetDef( hParameters, 'alias', '' ) )\n\t\thData[ 'name'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'name', '' ) )\n\t\thData[ 'mail'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'mail', '' ) )\n\t\thData[ 'date'   ] := HB_UrlDecode( HB_HGetDef( hParameters, 'date', '' ) )\n\t\thData[ 'class'  ] := HB_UrlDecode( HB_HGetDef( hParameters, 'class', '' ) )\n\t\thData[ 'accept' ] := IF( HB_HGetDef( hParameters, 'accept', '' )  == 'on', .T., .F. )\n\n\n\tDEFINE WEB oWeb TITLE 'Form example' INIT\n\t\n\tTEXT TO cStyle \n\t\t<style>\n\t\t\t.jumbotron{\n\t\t\t\tbackground: url(\"images\/bg-head-02.jpg\") no-repeat center center; \n\t\t\t\tbackground-size: 100% 100%;\n\t\t\t}\n\t\t<\/style>\t\n\tENDTEXT\n\t\n\t?? cStyle\n\n\t\/\/\tChequeamos si entran parámetros\n\n\t\tIF len( hParameters ) > 0 \n\t\n\t\t\tIF Save( hData, @cError )\n\t\t\t\n\t\t\t\t\/\/\tReset values...\n\t\t\t\n\t\t\t\thData[ 'alias'  ]\t:= ''\n\t\t\t\thData[ 'name'   ]\t:= ''\n\t\t\t\thData[ 'mail'   ]\t:= ''\n\t\t\t\thData[ 'date'   ]\t:= ''\n\t\t\t\thData[ 'class'  ]\t:= ''\n\t\t\t\thData[ 'accept' ]\t:= .F.\t\n\t\t\t\t\n\t\t\t\tlSave \t:= .T.\n\t\t\t\t\n\t\t\tELSE\n\t\t\t\tlError \t:= .T.\n\t\t\tENDIF\n\t\t\t\n\t\tENDIF\n\t\t\n\t\/\/\t--------------------------------------------------------------------------------------\n\t\n\t\/\/\tInicio Diseño...\n\n\t\tBanner()\n\t\t\n\t\tIF lError\n\t\t\tMessageError( cError )\n\t\tELSE\n\t\t\tIF lSave\n\t\t\t\tMessageSave()\n\t\t\tELSE\n\t\t\t\tMessageContactUs()\n\t\t\tENDIF\n\t\tENDIF\n\n    DEFINE FORM o ID 'demo' ACTION 'tutor20.prg'\n        o:lDessign  := .F.\n        o:cSizing   := '' \/\/'sm'       \/\/  SM\/LG\t\t\t\t\n\n    INIT FORM o        \t\t\n        \n        ROWGROUP o\n           \n            GET ID 'alias'  VALUE hData[ 'alias'] GRID 4 PLACEHOLDER 'Entra tu alias...'  LABEL 'Alias'   REQUIRED  OF o\n            GET ID 'name'   VALUE hData[ 'name' ] GRID 8 PLACEHOLDER 'Entra tu nombre...' LABEL 'Nombre'  REQUIRED  OF o\n\t\t\t\n        END o\n        \n        ROWGROUP o\n\t\t\n\t\t\tGET ID 'date'   VALUE hData[ 'date' ] GRID 4 PLACEHOLDER 'Entra tu nombre...' LABEL 'Fecha de Nacimiento'  TYPE 'date' OF o\n\t\t\tGET ID 'mail'   VALUE hData[ 'mail' ] GRID 4 PLACEHOLDER 'Entra tu mail...'   LABEL 'Mail de contacto'     TYPE 'email' REQUIRED OF o\n\t\t\tSELECT oSelect  ID 'class'  VALUE  hData[ 'class' ] LABEL 'Clase de Bono' PROMPT 'Normal', 'Premium', 'Excelent' VALUES  'N', 'P', 'E'  GRID 4  OF o            \n\n        END o          \n        \n        cLoren := \"En la indústria editorial i en disseny gràfic, lorem ipsum és un text de farciment que s'usa habitualment per a mostrar els elements gràfics d'un document, com ara la tipografia o la composició.\"\n\t\t\n        ROWGROUP o\t\n\t\t\t\n\t\t\tSMALL o ID 'chofer_data' Label cLoren  GRID 6\n            SWITCH ID 'accept' VALUE hData[ 'accept' ] LABEL 'Acepto condiciones' OF o\n\n        END o          \n        \n        ROWGROUP o\n\n            BUTTON ID 'btn'  LABEL 'Enviar' GRID 0 ICON '<i class=\"far fa-paper-plane\"><\/i> ' \tCLASS 'btn-outline-primary' SUBMIT OF o\n            BUTTON ID 'btn2' LABEL 'List'   GRID 3 ICON '<i class=\"fas fa-th-list\"><\/i> ' \t\tCLASS 'btn-outline-primary' LINK 'tutor20b.prg' OF o\n\t\t\t\n\n        END o           \n\t\t\n    END FORM o\t\n\n\t\nRETU NIL\n\nfunction Banner()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO\n\t\n\t\t<div class=\"jumbotron\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<h1><a href=\"\">Friends of mod harbour<\/a><\/h1>\n\t\t\t\t<p>Slack group project.<br>Spagetti code example... All in one !<\/p>\n\t\t\t<\/div>\n\t\t<\/div>\n\n\tENDTEXT\t\t\n\nretu nil\n\nfunction MessageContactUs()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO\n\t\n\t\t<div class=\"alert alert-dark\" style=\"border-radius: 0px;\" >\n\t\t\t<h5 style=\"margin:0px;\">\n\t\t\t\t<i class=\"fas fa-info-circle\"><\/i>\n\t\t\t\tContact Us\n\t\t\t<\/h5>\n\t\t<\/div>\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction MessageError( cError )\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml PARAMS cError ECHO\n\t\n\t\t<div class=\"alert alert-danger\" style=\"border-radius: 0px;\" >\n\t\t\t<h5 style=\"margin:0px;\">\n\t\t\t\t<i class=\"fas fa-exclamation-circle\"><\/i>\n\t\t\t\t<strong>Error <\/strong><$ cError $>\n\t\t\t<\/h5>\n\t\t<\/div>\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction MessageSave()\n\n\tLOCAL cHtml := ''\n\n\tTEXT TO cHtml ECHO \n\t\n\t\t<div class=\"alert alert-success\" style=\"border-radius: 0px;\" >\n\t\t\t<h5 style=\"margin:0px;\">\n\t\t\t\t<i class=\"far fa-thumbs-up\"><\/i>\n\t\t\t\t<strong>Success ! <\/strong>Sus datos se han actualizado correctamente...\n\t\t\t<\/h5>\n\t\t<\/div>\n\tENDTEXT\n\t\t\nRETU NIL\n\nfunction Save( hData, cError )\n\n\tlocal cAlias\n\tlocal dDate \n\t\n\t\/\/\tChequear error en parametro...\n\t\n\t\tif empty( hData[ 'alias' ] ) \n\t\t\tcError := 'Campo Alias vacio'\n\t\t\tretu .f.\n\t\tendif\t\n\t\n\t\tif empty( hData[ 'date' ] ) \n\t\t\tcError := 'Campo fecha vacio'\n\t\t\tretu .f.\n\t\tendif\n\t\t\n\t\tif ! hData[ 'accept' ] \n\t\t\tcError := 'Debe aceptar nuestras condiciones'\n\t\t\tretu .f.\n\t\tendif\t\t\n\t\n\t\/\/\tConfig entorno ---------------\t\n\t\n\t\tSET EPOCH TO 1950\n\t\tSET DATE TO ITALIAN\n\t\n\t\/\/\tAbrimos Tabla ----------------\n\n\t\tUSE ( PATH_DATA + 'contacts.dbf' ) SHARED NEW VIA 'DBFCDX'\n\t\tSET INDEX TO ( PATH_DATA + 'contacts.cdx' )\n\t\t\n\t\tcAlias := Alias()\t\n\t\n\t\n\t\/\/\tNuestro sistema es simple. Solo daremos de alta un ALIAS que no exista en nuestra tabla...\n\t\n\t\tIF (cAlias)->( DbSeek(  hData[ 'alias' ] ) ) .AND. Alltrim((cAlias)->alias) == hData[ 'alias' ]\n\t\t\tcError := 'Alias ya existe. Intentelo con otro'\n\t\t\tretu .F.\n\t\tENDIF\n\t\t\n\t\/\/\tConvertimos variable fecha a date\n\n\t\tdDate \t:= CTod( Substr( hData[ 'date' ], 9, 2) + '\/' + ;\n\t\t\t\t\t\t Substr( hData[ 'date' ], 6, 2) + '\/' + ;\n\t\t\t\t\t\t Substr( hData[ 'date' ], 3, 2) ;\n\t\t\t\t\t\t)\t\n\t\t\t\t\t\t\n\t\/\/\tSalvamos los datos\n\n\t\t(cAlias)->( DbAppend() )\n\t\t\n\t\t(cAlias)->alias\t:= hData[ 'alias'  ]\n\t\t(cAlias)->name\t\t:= hData[ 'name'   ]\n\t\t(cAlias)->mail\t\t:= hData[ 'mail'   ]\n\t\t(cAlias)->date\t\t:= dDate\n\t\t(cAlias)->type\t\t:= hData[ 'class'  ]\n\t\t(cAlias)->accept\t:= hData[ 'accept' ]\n\nretu .t."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9c5db9f8-b814-4508-bd6a-a057508c9e29",
+        "type": "message",
+        "text": "Cuando un FORM tiene un ACTION en su DEFINE, un boton con SUBMIT lo que hace es lanzar ese 'prg'\nPero esto no es lo que se busca en un MVC, sinó que lo que se busca es que \"enrute\" y siga el flujo del programa.\nAl FORM faltaria poder (igual se puede y no se como) poner un ROUTE y en el boton poderle poner un NAME y VALUE",
+        "user": "UJU3NMK0U",
+        "ts": "1587671681.214800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qlk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cuando un FORM tiene un ACTION en su DEFINE, un boton con SUBMIT lo que hace es lanzar ese 'prg'\nPero esto no es lo que se busca en un MVC, sinó que lo que se busca es que \"enrute\" y siga el flujo del programa.\nAl FORM faltaria poder (igual se puede y no se como) poner un ROUTE y en el boton poderle poner un NAME y VALUE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b21d9819-8571-4dee-96f2-31a55e1fd5e4",
+        "type": "message",
+        "text": "algo así...\n```DEFINE FORM o ID 'demo' ACTION 'index.prg' ROUTE 'test1'\n...\nBUTTON ID 'btn'  LABEL 'Enviar' GRID 0 ICON '&lt;i class=\"far fa-paper-plane\"&gt;&lt;\/i&gt; ' \tCLASS 'btn-outline-primary' SUBMIT NAME 'action' VALUE 'tutor4d' OF o```\n",
+        "user": "UJU3NMK0U",
+        "ts": "1587671930.216500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nA4c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "algo así...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "DEFINE FORM o ID 'demo' ACTION 'index.prg' ROUTE 'test1'\n...\nBUTTON ID 'btn'  LABEL 'Enviar' GRID 0 ICON '<i class=\"far fa-paper-plane\"><\/i> ' \tCLASS 'btn-outline-primary' SUBMIT NAME 'action' VALUE 'tutor4d' OF o"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

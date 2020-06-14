@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1590423379.000200",
+        "user": "UJWGTCNS3",
+        "text": "<@UJWGTCNS3> se ha unido al canal"
+    },
+    {
+        "client_msg_id": "10ad62e1-970f-47c3-8a18-47964660e79c",
+        "type": "message",
+        "text": "Hola estoy un poco perdido en chrome me aparecen mas mensajes desde la aplicación no que hago mal",
+        "user": "UJWGTCNS3",
+        "ts": "1590426328.001100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g5117c62f9fd",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d65117c62f9fdee40568ff74546ff940.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Andrés",
+            "real_name": "Andrés González Alonso",
+            "display_name": "Andygon",
+            "team": "TJH5YU202",
+            "name": "zalezalon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kVct",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola estoy un poco perdido en chrome me aparecen mas mensajes desde la aplicación no que hago mal"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

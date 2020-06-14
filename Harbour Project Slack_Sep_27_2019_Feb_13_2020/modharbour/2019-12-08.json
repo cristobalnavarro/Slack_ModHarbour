@@ -1,0 +1,421 @@
+[
+    {
+        "client_msg_id": "8f6dd1bf-d4d6-472b-9506-6ef1b54e3b6f",
+        "type": "message",
+        "text": "I changed body.view like this. Now scrolling is working fine.",
+        "user": "UJHD6A81H",
+        "ts": "1575797104.333400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "brA=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I changed body.view like this. Now scrolling is working fine."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ebdd2cbc-3bd1-4861-8bf4-6f9190c22f78",
+        "type": "message",
+        "text": "body&gt;\n  \n &lt;div class=\"container-fluid\"&gt;\n   &lt;div class=\"row\"&gt;\n\n  &lt;div class=\"container-fluid\" style=\"overflow:hidden;padding:0px;\"&gt;   \n      &lt;div class=\"row\" style=\"margin-right:0px;height:100%;\"&gt;\n         &lt;div id=\"leftmenu\" class=\"col-sm-2\" style=\"padding:0px;background-color:rgb(34, 45, 50);\"&gt;\n            &lt;nav class=\"navbar navbar-expand-lg navbar-inverse\" style=\"background-color:{{GetColor1()}};border:0px;\"&gt;\n               &lt;a class=\"navbar-brand\" style=\"color:white;cursor:pointer;padding-left:65px;\"&gt;Win&lt;font color=\"silver\"&gt;hotel&lt;\/font&gt;&lt;\/a&gt;\n            &lt;\/nav&gt; \n            {{View(\"menu\")}}\n         &lt;\/div&gt;\n         &lt;div class=\"col-sm-10\" style=\"padding-left:0px;padding-right:0px\"&gt;\n            &lt;nav class=\"navbar navbar-expand-lg navbar-inverse\" style=\"background-color:{{GetColor2()}};border:0px;\"&gt;\n               &lt;a id=\"title\" class=\"navbar-brand mr-auto\" style=\"color:white;padding-left:30px;\"&gt;{{hb_CapFirst(GetContentViewFileName())}}&lt;\/a&gt;\n               &lt;div class=\"nav-item\" style=\"color:white;display:inline-block;cursor:pointer;\" onclick=\"Logout();\"&gt;\n                  &lt;a class=\"nav-link\" style=\"color:white;\" style=\"cursor:pointer;\"&gt;{{GetUserName()}}\n                     &lt;i class=\"fa fa-sign-out\" style=\"padding-left:15px;\"&gt;&lt;\/i&gt;&lt;\/a&gt;\n                  &lt;\/div&gt;\n               &lt;\/nav&gt; \n               &lt;div style=\"background-color:#ecf0f5;height:calc( 100% - 50px );padding-top:50px;\"&gt;\n                  {{Router()}}\n               &lt;\/div&gt; \n            &lt;\/div&gt;\n         &lt;\/div&gt;\n    &lt;\/div&gt;     \n\n   &lt;\/div&gt;\n&lt;\/div&gt;\n\n   &lt;\/body&gt;",
+        "user": "UJHD6A81H",
+        "ts": "1575797117.333600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sJHmw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "body>\n  \n <div class=\"container-fluid\">\n   <div class=\"row\">\n\n  <div class=\"container-fluid\" style=\"overflow:hidden;padding:0px;\">   \n      <div class=\"row\" style=\"margin-right:0px;height:100%;\">\n         <div id=\"leftmenu\" class=\"col-sm-2\" style=\"padding:0px;background-color:rgb(34, 45, 50);\">\n            <nav class=\"navbar navbar-expand-lg navbar-inverse\" style=\"background-color:{{GetColor1()}};border:0px;\">\n               <a class=\"navbar-brand\" style=\"color:white;cursor:pointer;padding-left:65px;\">Win<font color=\"silver\">hotel<\/font><\/a>\n            <\/nav> \n            {{View(\"menu\")}}\n         <\/div>\n         <div class=\"col-sm-10\" style=\"padding-left:0px;padding-right:0px\">\n            <nav class=\"navbar navbar-expand-lg navbar-inverse\" style=\"background-color:{{GetColor2()}};border:0px;\">\n               <a id=\"title\" class=\"navbar-brand mr-auto\" style=\"color:white;padding-left:30px;\">{{hb_CapFirst(GetContentViewFileName())}}<\/a>\n               <div class=\"nav-item\" style=\"color:white;display:inline-block;cursor:pointer;\" onclick=\"Logout();\">\n                  <a class=\"nav-link\" style=\"color:white;\" style=\"cursor:pointer;\">{{GetUserName()}}\n                     <i class=\"fa fa-sign-out\" style=\"padding-left:15px;\"><\/i><\/a>\n                  <\/div>\n               <\/nav> \n               <div style=\"background-color:#ecf0f5;height:calc( 100% - 50px );padding-top:50px;\">\n                  {{Router()}}\n               <\/div> \n            <\/div>\n         <\/div>\n    <\/div>     \n\n   <\/div>\n<\/div>\n\n   <\/body>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FRE3B7FA8",
+                "created": 1575820438,
+                "timestamp": 1575820438,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 3031,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRE3B7FA8\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRE3B7FA8\/download\/grafik.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3B7FA8-d8c5192b88\/grafik_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3B7FA8-d8c5192b88\/grafik_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3B7FA8-d8c5192b88\/grafik_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 205,
+                "thumb_360_h": 101,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3B7FA8-d8c5192b88\/grafik_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 205,
+                "original_h": 101,
+                "thumb_tiny": "AwAXADDToJwCaja4iVirOAQcEVIRkEUAU8yGJGEkjO\/RRjFCtKVkJeRWjGecEGgxSmNF2MDH0KsOaUJLscGMszjBYsKRprfp+BaQ7kUnqRmlpEG1FU9QMUtMzZRms5JJncFcMwI59KctvcF\/mkO3PIDH3q5RQBS+zTqzbJMAnP3jz0o+z3WP9b\/48fQ1dooAqPbS7lKSHpzlj680sMNwsil5MgdfmPpVqigD\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FRE3B7FA8\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FRE3B7FA8-1153e57b06",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1575820440.333700",
+        "client_msg_id": "600428ac-ce90-4d70-bc55-9182b120a3f0"
+    },
+    {
+        "client_msg_id": "9b734507-5943-452b-865e-f1a14dee74f3",
+        "type": "message",
+        "text": "*Inserting a page with Material Design Blocks  into  mod harbour – GENESIS sample*",
+        "user": "UJHD6A81H",
+        "ts": "1575820452.334200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v=TW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Inserting a page with Material Design Blocks  into  mod harbour – GENESIS sample",
+                                "style": {
+                                    "bold": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1e2d8165-2e0e-4dbf-969d-045094d4b9d1",
+        "type": "message",
+        "text": "<https:\/\/mybergland.com\/fwforum\/designblocks.gif>",
+        "user": "UJHD6A81H",
+        "ts": "1575820924.334500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zj=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/mybergland.com\/fwforum\/designblocks.gif"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "FRE3BBY2Y",
+                "created": 1575820478,
+                "timestamp": 1575820478,
+                "name": "DesignBlocks.gif",
+                "title": "DesignBlocks.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 18225550,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRE3BBY2Y\/designblocks.gif?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-FRE3BBY2Y\/download\/designblocks.gif?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_64.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_80.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_360.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 190,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_480.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 253,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_160.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_720.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 379,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_800.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_800_w": 800,
+                "thumb_800_h": 421,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_960.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_960_w": 960,
+                "thumb_960_h": 505,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_1024.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 539,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_360.gif?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_480.gif?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "image_exif_rotation": 1,
+                "original_w": 1662,
+                "original_h": 875,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-FRE3BBY2Y-8a89d78731\/designblocks_deanimate_gif.png?t=xoxe-629202954002-950795328464-950341379620-2ca7f74bb6537751ea5666f8f5e8896e",
+                "thumb_tiny": "AwAZADDRfO3jd\/wGmZb1k\/IU+QZXgE\/Q4pNzj+D9aAGZbHWTr6CpVOR0I+tIS3GF\/Wk3P\/c\/WgB9I3SkUk9Vx+NK3SgBaKKKACiiigApG6UtI3SgD\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/FRE3BBY2Y\/designblocks.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-FRE3BBY2Y-58d0df43f3",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1575821213.334600",
+        "client_msg_id": "aec9e152-2012-493e-b891-10c334a1096a"
+    },
+    {
+        "client_msg_id": "4d19011d-23e3-4011-937a-ed6e1dbdb313",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UK28N3CER",
+        "ts": "1575832194.335400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "7f09da813e5b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-01\/880554116721_7f09da813e5b80b5a0a0_72.jpg",
+            "first_name": "",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1OSyV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e724502-b84e-4e2d-9d5c-f8676c7ba152",
+        "type": "message",
+        "text": "running in localhost different menu",
+        "user": "UJHD6A81H",
+        "ts": "1575834410.335900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i48Mo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "running in localhost different menu"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "babd8f73-238c-4a77-8f77-e74814a162b5",
+        "type": "message",
+        "text": "function View( cView )\n\n   local cViewName := hb_GetEnv( \"PRGPATH\" ) + \"\/views\/\" + cView + \".view\"\n   local lFound    := File( cViewName )\n   local cData\n\n   if ( \"menu\" $ cView)\n      If( AP_UserIp() == \"::1\")  .OR. ( AP_UserIp() == \"127.0.0.1\")\n         \/\/running in localhost\n         cViewName := hb_GetEnv( \"PRGPATH\" ) + \"\/views\/\" + \"menulocal\" + \".view\"\n\n      endif\n\n   endif\n\n   if lFound\n      cData = MemoRead( cViewName )\n      while ReplaceBlocks( @cData, \"{{\", \"}}\" )\n      end\n   else\n      cData = \"&lt;h2&gt;\" + cViewName + \" not found!&lt;\/h2&gt;\"\n   endif\nreturn cData\n\n\/\/----------------------------------------------------------------------------\/\/",
+        "user": "UJHD6A81H",
+        "ts": "1575834585.336100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EL3Zl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function View( cView )\n\n   local cViewName := hb_GetEnv( \"PRGPATH\" ) + \"\/views\/\" + cView + \".view\"\n   local lFound    := File( cViewName )\n   local cData\n\n   if ( \"menu\" $ cView)\n      If( AP_UserIp() == \"::1\")  .OR. ( AP_UserIp() == \"127.0.0.1\")\n         \/\/running in localhost\n         cViewName := hb_GetEnv( \"PRGPATH\" ) + \"\/views\/\" + \"menulocal\" + \".view\"\n\n      endif\n\n   endif\n\n   if lFound\n      cData = MemoRead( cViewName )\n      while ReplaceBlocks( @cData, \"{{\", \"}}\" )\n      end\n   else\n      cData = \"<h2>\" + cViewName + \" not found!<\/h2>\"\n   endif\nreturn cData\n\n\/\/----------------------------------------------------------------------------\/\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "798b693f-ae6c-4021-839d-2afd1a6602cb",
+        "type": "message",
+        "text": "good morning",
+        "user": "UJHD6A81H",
+        "ts": "1575875463.336300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ni8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "good morning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,293 @@
+[
+    {
+        "client_msg_id": "d07efdf5-9507-440d-aa28-789be4e52968",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UK28N3CER",
+        "ts": "1591792900.181700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kf\/jq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "I assume you mean you only recently discovered how use POST and GET _parameters_ (\"query string parameters\" is the more accurate term for the latter). `GET` is the most basic HTTP method (~= type of request), which you use when accessing a webpage, even without parameters.",
+        "user": "UNAHBRTFA",
+        "ts": "1591793360.181800",
+        "thread_ts": "1591751071.180200",
+        "root": {
+            "client_msg_id": "967088b9-55a9-4ade-8477-cf2ea38d021f",
+            "type": "message",
+            "text": "Re your suggestions. i'm still dabling! eg I only discovered POST and lesser used GET less than a month ago.",
+            "user": "UM99QAYNB",
+            "ts": "1591751071.180200",
+            "team": "TJH5YU202",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "m6kYl",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Re your suggestions. i'm still dabling! eg I only discovered POST and lesser used GET less than a month ago."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1591751071.180200",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1591793360.181800",
+            "reply_users": [
+                "UNAHBRTFA"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oHjA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I assume you mean you only recently discovered how use POST and GET "
+                            },
+                            {
+                                "type": "text",
+                                "text": "parameters",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " (\"query string parameters\" is the more accurate term for the latter). "
+                            },
+                            {
+                                "type": "text",
+                                "text": "GET",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " is the most basic HTTP method (~= type of request), which you use when accessing a webpage, even without parameters."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "108f504e-e5f1-4123-8582-5ca3f386f842"
+    },
+    {
+        "client_msg_id": "9ebb8527-a409-4b25-8558-ca74ce7bfa56",
+        "type": "message",
+        "text": "Mercury manual is ready ! --&gt; <https:\/\/forum.mod-harbour.org\/viewtopic.php?f=6&amp;t=474>",
+        "user": "UJWR5N32S",
+        "ts": "1591811337.182600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c5FZU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mercury manual is ready ! --> "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/forum.mod-harbour.org\/viewtopic.php?f=6&t=474"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H",
+                    "UM81W8B0Q",
+                    "UJUJLTWMT"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d60fcf64-d874-4a2a-8be7-227c9853efa4",
+        "type": "message",
+        "text": "Chat Manager now updates the input of the various chat clients with AJAX",
+        "user": "UJHD6A81H",
+        "ts": "1591828348.183200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6rCs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Chat Manager now updates the input of the various chat clients with AJAX"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F014SDDT7N3",
+                "created": 1591828352,
+                "timestamp": 1591828352,
+                "name": "chatmanager.gif",
+                "title": "chatmanager.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 604491,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014SDDT7N3\/chatmanager.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014SDDT7N3\/download\/chatmanager.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 229,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 305,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 458,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 509,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 611,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 652,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_360.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_480.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 1460,
+                "original_h": 929,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014SDDT7N3-2d853bb0cf\/chatmanager_deanimate_gif.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_tiny": "AwAeADCczRf3m\/KnIySZ2sxx\/s1TPtVmzPLc46fzraUEo3MVq7E5i+U\/MfyqRTxz+tDfdP0oANYmqSWw6orr\/j2k\/wB01JUV1\/x7Sf7tCKW5V+zt3df1qa3TyiSzA5Haloq3JtWOdOzuSs67Dg84qv8AaLj\/AJ4j\/vqn0VJaqMqveSsxPK+wP\/1qY9zI6FSWwRjkj\/Coz94\/Wio52V7R9j\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F014SDDT7N3\/chatmanager.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F014SDDT7N3-edf0356dfa",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1591828354.183300",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UJUJLTWMT",
+                    "UJN8D8U3B"
+                ],
+                "count": 2
+            },
+            {
+                "name": "star-struck",
+                "users": [
+                    "UJUJLTWMT",
+                    "UJN8D8U3B"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

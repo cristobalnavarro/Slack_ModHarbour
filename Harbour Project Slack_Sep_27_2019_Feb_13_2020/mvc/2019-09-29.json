@@ -1,0 +1,347 @@
+[
+    {
+        "client_msg_id": "1e3310dc-f980-4584-af04-7a5f67b738bb",
+        "type": "message",
+        "text": "Buen día a todos desde Piura Perú",
+        "user": "UJH8HAJQ2",
+        "ts": "1569758763.014300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gd4241009ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/aad4241009ed4c434918eb9bc2df89be.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Guillermo Varona Silupú",
+            "display_name": "Guillermo Varona Silupú",
+            "team": "TJH5YU202",
+            "name": "gvaronas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "cc626991-5a82-4b83-bf62-0d01d89c7e92",
+        "type": "message",
+        "text": "Estuve viendo el último vídeo del viernes, sobre el mvc, la verdad es que es una técnica espectacular, sin embargo tengo algunas dudas, entendiendo que tengo que cambiar mi \"chip\", consideren que vengo de las aplicaciones de escritorio, en mi caso por ejemplo yo siempre trabajo directamente sobre la dbf para mis browse, en el mvc veo que siempre devuelven los datos en un hash, Hay algún límite en lo que se refiere a la cantidad de registros para un hash?, Este modo de programación requerirá de equipos más potentes en Memoria ram?, lo digo porque como aparentemente todo el trabajo es en memoria, siempre habrá que trabajar de éste modo ya sea para un registro o cien mil registros?, Agradezco de antemano sus respuestas y disculpa si estoy preguntando disparates",
+        "user": "UJH8HAJQ2",
+        "ts": "1569759719.027500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gd4241009ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/aad4241009ed4c434918eb9bc2df89be.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Guillermo Varona Silupú",
+            "display_name": "Guillermo Varona Silupú",
+            "team": "TJH5YU202",
+            "name": "gvaronas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "6b8cc2a5-9ee5-4b6f-8580-308cd3212558",
+        "type": "message",
+        "text": "Hay dos maneras de mandar datos al servidor en web: con POST (es decir, enviando un formulario y dejando que la página se recargue entera), y por AJAX, con lo que envías datos al servidor y el servidor envía de vuelta sólo los datos de respuesta, no la página entera.",
+        "user": "UNAHBRTFA",
+        "ts": "1569760121.030100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "f09ccb2a-61da-430b-a199-e3c63e6176ae",
+        "type": "message",
+        "text": "Esos datos enviados en ambas direcciones suelen ser en formato JSON (básicamente un hash).",
+        "user": "UNAHBRTFA",
+        "ts": "1569760146.030700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "1b3ff3f6-dfd2-4803-8b38-2802c8e4cbf4",
+        "type": "message",
+        "text": "Sobre la memoria que usa, te tendrá que contestar otro.",
+        "user": "UNAHBRTFA",
+        "ts": "1569760235.032200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "a71832d1-9574-4743-9c03-44a40c8cf3cd",
+        "type": "message",
+        "text": "NO es buena practica web enviar enormes cantidades de datos",
+        "user": "UM81W8B0Q",
+        "ts": "1569764591.032600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "d37a91e1-5660-49db-ba4d-ef368995bd36",
+        "type": "message",
+        "text": "El motivo es el mismo que con las consultas SQL",
+        "user": "UM81W8B0Q",
+        "ts": "1569764620.033100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "43a9a4d6-1379-43da-8370-5169376f984d",
+        "type": "message",
+        "text": "Las consultas deben ser siempre acotadas para conservar ancho de banda",
+        "user": "UM81W8B0Q",
+        "ts": "1569764650.033600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "b6f7528e-132f-43c8-a135-c61f45766b3f",
+        "type": "message",
+        "text": "Pero bueno, los limites averigualos tu. Nadie te obliga a nada.",
+        "user": "UM81W8B0Q",
+        "ts": "1569764711.034200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "3104bac4-8515-45e3-afcd-be943db89fcb",
+        "type": "message",
+        "text": "Ok. Ajax entonces es la clave. Gracias por sus respuestas. Seguiré investigando",
+        "user": "UJH8HAJQ2",
+        "ts": "1569767076.036100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gd4241009ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/aad4241009ed4c434918eb9bc2df89be.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Guillermo Varona Silupú",
+            "display_name": "Guillermo Varona Silupú",
+            "team": "TJH5YU202",
+            "name": "gvaronas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "f6bda7ba-0662-4f29-93c4-18a207376b12",
+        "type": "message",
+        "text": "Bienvenido Guillermo!. Como dice Andreu existe el metodo POST que envia datos y recarga toda una pagina o el metodo ajax. Si te refieres al video de este viernes, vimos el MVC funcionando via Post, mas facil para entender. Y lo que hacia el controlador, era decirle al modelo que necesitaba una serie de datos, este se los devolvia en un hash, y posteriormente el controlador se los pasava a la vista que se encargaba de crear la pantalla y enviarlo hacia el navegador. Este es el proceso.",
+        "user": "UJWR5N32S",
+        "ts": "1569779458.039800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "5aa702ed-5ca1-450e-a559-971ea457473f",
+        "type": "message",
+        "text": "Olvidate de tener un browser conectado a un dbf, esto cambia en el mundo web de alguna manera. Tu tendras pintado un browser en pantalla y pulsaras un boton de avance pagina p.e. Entonces haces una peticion al servidor y este te pintara otra vez el browse con la pagina avanzada. Esto en el metodo Post",
+        "user": "UJWR5N32S",
+        "ts": "1569779563.041800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "eb7dc295-280a-417f-b365-2a2acdcdbc76",
+        "type": "message",
+        "text": "El metodo ajax, mas efectivo y veloz  el navegador pide los datos de la siguiente pagina a servidor y este solo le devuelve los datos del browser. Cuando el navegador lo recibe los susituye en el browser. Mas rapido y potente evidentemente, porque no vuelve a recargar una pagina...pero un poco mas laborioso l principio de netender y ejecutar",
+        "user": "UJWR5N32S",
+        "ts": "1569779666.043800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "8200e51c-f813-4035-8461-16dcdee3259b",
+        "type": "message",
+        "text": "Saludos.",
+        "user": "UJWR5N32S",
+        "ts": "1569779671.044000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "9d289ef1-cbee-408c-8bac-c083373256fc",
+        "type": "message",
+        "text": "Gracias Charly, aún hay cosas aqui con el mvc que ni siquiera sé cómo preguntarlas:slightly_smiling_face:, como dije antes, sigo investigando",
+        "user": "UJH8HAJQ2",
+        "ts": "1569794503.047600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gd4241009ed4",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/aad4241009ed4c434918eb9bc2df89be.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Guillermo Varona Silupú",
+            "display_name": "Guillermo Varona Silupú",
+            "team": "TJH5YU202",
+            "name": "gvaronas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "8e21a681-21df-458b-8aa3-81456f8c5ca1",
+        "type": "message",
+        "text": "Guillermo, animos y cualquier cosa aqui estamos para ayudar",
+        "user": "UJWR5N32S",
+        "ts": "1569822648.048500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJH8HAJQ2"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

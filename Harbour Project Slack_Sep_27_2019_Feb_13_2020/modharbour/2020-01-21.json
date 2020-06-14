@@ -1,0 +1,394 @@
+[
+    {
+        "client_msg_id": "edce9e7c-ac8e-48dd-97ef-d8519c84216f",
+        "type": "message",
+        "text": "Bs dias aun (aca son las 10:55) Necesito de su ayuda y guia. Me extendere un poco pero alla vamos.\nInicie con Mod_harbour casi cuando recien empezaron, como espectador y fan, despues el trabajo y complicaciones me desconectaron un par de meses, hoy en nueva casa laboral, y con nuevos desafios debo enfrentar un gran problema con una solucion simple y directa (WEB). Aca mis preguntas.\nDebo instalar una WEB APP que usa una DB MYSQL en un HOSTING externo, ya se puede instalar Mod_Harbour en servidores no propios (no aceptan modificaciones de los archivos de configuracion de Apache) o solo en los que puedo reconfigurar?\nSi eso es posible (usarlo en servidores de terceros), me gustaria guia en cuanto a lo que debo hacer, es una APP super sencilla, para UDS, jaja Tengo el modelo listo y las tablas que debo atacar.\nYa tendre tiempo de ponerme al dia, pero hoy y a 10 dias de iniciado el trabajo, es mi primera prioridad solucionarlo, y si es con MOD_HARBOUR seria espectacular.\nSaludos desde Chile, Adolfo",
+        "user": "UJWGS5U6T",
+        "ts": "1579615540.178900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0b8b47b206cd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/629613076418_0b8b47b206cd906ddd25_72.jpg",
+            "first_name": "Adolfo",
+            "real_name": "Adolfo Lagos",
+            "display_name": "Adolfo Lagos",
+            "team": "TJH5YU202",
+            "name": "adolfo.lagos",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3NoJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bs dias aun (aca son las 10:55) Necesito de su ayuda y guia. Me extendere un poco pero alla vamos.\nInicie con Mod_harbour casi cuando recien empezaron, como espectador y fan, despues el trabajo y complicaciones me desconectaron un par de meses, hoy en nueva casa laboral, y con nuevos desafios debo enfrentar un gran problema con una solucion simple y directa (WEB). Aca mis preguntas.\nDebo instalar una WEB APP que usa una DB MYSQL en un HOSTING externo, ya se puede instalar Mod_Harbour en servidores no propios (no aceptan modificaciones de los archivos de configuracion de Apache) o solo en los que puedo reconfigurar?\nSi eso es posible (usarlo en servidores de terceros), me gustaria guia en cuanto a lo que debo hacer, es una APP super sencilla, para UDS, jaja Tengo el modelo listo y las tablas que debo atacar.\nYa tendre tiempo de ponerme al dia, pero hoy y a 10 dias de iniciado el trabajo, es mi primera prioridad solucionarlo, y si es con MOD_HARBOUR seria espectacular.\nSaludos desde Chile, Adolfo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0c065b55-1578-48cf-a687-1f1ff5ab0d1e",
+        "type": "message",
+        "text": "Para usar mod_harbour hace falta tocar la configuración del servidor, cosa que normalmente no puedes hacer en un hosting.",
+        "user": "UNAHBRTFA",
+        "ts": "1579615805.179400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K1aQ6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Para usar mod_harbour hace falta tocar la configuración del servidor, cosa que normalmente no puedes hacer en un hosting."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f629f07-7947-440d-90cb-182103f30fc3",
+        "type": "message",
+        "text": "Creo que de momento todavía no hay hostings que incluyan mod_harbour",
+        "user": "UNAHBRTFA",
+        "ts": "1579615822.179800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f5=v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que de momento todavía no hay hostings que incluyan mod_harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "30eb4445-9eb3-485d-a375-05d2324d046a",
+        "type": "message",
+        "text": "Ups. Ok, gracias por la aclaracion, otra alternativa sera.",
+        "user": "UJWGS5U6T",
+        "ts": "1579616665.180700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0b8b47b206cd",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/629613076418_0b8b47b206cd906ddd25_72.jpg",
+            "first_name": "Adolfo",
+            "real_name": "Adolfo Lagos",
+            "display_name": "Adolfo Lagos",
+            "team": "TJH5YU202",
+            "name": "adolfo.lagos",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O4D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ups. Ok, gracias por la aclaracion, otra alternativa sera."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7f35df44-7564-4a3a-9ec7-013d78691e7e",
+        "type": "message",
+        "text": "Adolfo un servidor dell power t30 8gb en ram y disco duro 1tb jala de perlas.",
+        "user": "UK28N3CER",
+        "ts": "1579617899.182800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "7f09da813e5b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-01\/880554116721_7f09da813e5b80b5a0a0_72.jpg",
+            "first_name": "",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ALklC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Adolfo un servidor dell power t30 8gb en ram y disco duro 1tb jala de perlas."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3003c92d-3e54-44be-bee0-0f257fa7ed64",
+        "type": "message",
+        "text": "Instalas apache and iis. Y ModHarbour funciona en las 2 plataformas.",
+        "user": "UK28N3CER",
+        "ts": "1579617963.184200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "7f09da813e5b",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-01-01\/880554116721_7f09da813e5b80b5a0a0_72.jpg",
+            "first_name": "",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7c3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Instalas apache and iis. Y ModHarbour funciona en las 2 plataformas."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8717637c-7313-4467-877b-86a8d836a5ab",
+        "type": "message",
+        "text": "I am doing some tests with self-hosted-videos <https:\/\/winhotel.space\/videohtml5\/index.prg>",
+        "user": "UJHD6A81H",
+        "ts": "1579621471.184900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NLIN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I am doing some tests with self-hosted-videos "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/winhotel.space\/videohtml5\/index.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "42b6e489-81f6-483b-ab2e-d3a2197dc18c",
+        "type": "message",
+        "text": "<@UJWGS5U6T> hay servidores virtuales en linux muy baratos como hoy mod harbour con apache en linux corre como un tiro, si el volumen no es muy bestia puedes levantar tu server por muy poquito dinero, incluso puedes empezar en AWS con uno gratuito y luego ya lo escalas si te hace falta",
+        "user": "UMZ3LNV5Z",
+        "ts": "1579624609.186500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UMZ3LNV5Z",
+            "ts": "1579624889.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ruAoy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJWGS5U6T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " hay servidores virtuales en linux muy baratos como hoy mod harbour con apache en linux corre como un tiro, si el volumen no es muy bestia puedes levantar tu server por muy poquito dinero, incluso puedes empezar en AWS con uno gratuito y luego ya lo escalas si te hace falta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "42029337-57b2-4115-b353-9e22d0d61b43",
+        "type": "message",
+        "text": "good morning",
+        "user": "UJHD6A81H",
+        "ts": "1579677281.187600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q39J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "good morning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5cea59fe-307a-4745-a455-9eafc42527b0",
+        "type": "message",
+        "text": "How should we organize the exchange of data between online and offline.\nSQL Transfer or FTP?",
+        "user": "UJHD6A81H",
+        "ts": "1579677299.187900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cQfTl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "How should we organize the exchange of data between online and offline.\nSQL Transfer or FTP?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

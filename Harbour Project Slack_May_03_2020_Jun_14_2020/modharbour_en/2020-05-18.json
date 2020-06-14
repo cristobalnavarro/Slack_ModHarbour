@@ -1,0 +1,40 @@
+[
+    {
+        "client_msg_id": "7cde1b4a-f9f0-4e9f-bec0-72b7e8f28b61",
+        "type": "message",
+        "text": "Paypal will be removing support for their old payments api soon . They have replaced it with something called Payments V2. I am working on this interface.",
+        "user": "UJHD6A81H",
+        "ts": "1589793958.097100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R0MD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Paypal will be removing support for their old payments api soon . They have replaced it with something called Payments V2. I am working on this interface."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,644 @@
+[
+    {
+        "client_msg_id": "dbae8a40-d859-411a-a14a-f637dce93023",
+        "type": "message",
+        "text": "Solucionado un pequeño error en el driver LogRdd. Eso hacia que el primer trigger no fuera computado",
+        "user": "UJULQCHL5",
+        "ts": "1590173793.421300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+U\/F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Solucionado un pequeño error en el driver LogRdd. Eso hacia que el primer trigger no fuera computado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJUJLTWMT"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F014HQK8DU1",
+                "created": 1590173800,
+                "timestamp": 1590173800,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJULQCHL5",
+                "editable": false,
+                "size": 108697,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014HQK8DU1\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014HQK8DU1\/download\/image.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 249,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 332,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 497,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 553,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 663,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F014HQK8DU1-f713060d49\/image_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 707,
+                "original_w": 1442,
+                "original_h": 996,
+                "thumb_tiny": "AwAhADCD7XcdpDR9ruf+ehqv69OtGOPvCtrIROby4H\/LQ0n264H\/AC0NQEY7g0lOyAsfbrj\/AJ6H8qX7dcZ\/1n6VWoHWnyoBeMmlwKUdThTQf9xvzoEN\/CkzT8D+6350mP8AZagLjaB1p2P9lqAOfumi4XNMf1o7UD+tHasBhSr1NJSr1NIB1FFFAH\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJULQCHL5\/F014HQK8DU1\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F014HQK8DU1-4194e3edd3",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJULQCHL5",
+        "display_as_bot": false,
+        "ts": "1590173810.421400",
+        "client_msg_id": "d740c877-3891-4bf2-ad0e-d6e0f50a11c0"
+    },
+    {
+        "client_msg_id": "a34dd046-b2c8-4269-8f86-4f99164127e6",
+        "type": "message",
+        "text": "Si alguien lo pudiese modificar en el repositorio de harbour seria de agradecer",
+        "user": "UJULQCHL5",
+        "ts": "1590173924.422200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1dr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si alguien lo pudiese modificar en el repositorio de harbour seria de agradecer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4087d66e-bd11-4576-9d33-d824dadaa518",
+        "type": "message",
+        "text": "<https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/contrib\/rddmisc\/logrdd.prg>",
+        "user": "UJULQCHL5",
+        "ts": "1590174084.422400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "[harbour\/core] contrib\/rddmisc\/logrdd.prg",
+                "text": "```\n\/*\n * LOGRDD\n *\n * Copyright 2009 Francesco Saverio Giudice &lt;info \/ at \/ fsgiudice.com&gt;\n *\n * This program is free software; you can redistribute it and\/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation; either version 2, or (at your option)\n * any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program; see the file LICENSE.txt.  If not, write to\n * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,\n * Boston, MA 02110-1301 USA (or visit <https:\/\/www.gnu.org\/licenses\/>).\n *\n * As a special exception, the Harbour Project gives permission for\n * additional uses of the text contained in its release of Harbour.\n *\n * The exception is that, if you link the Harbour libraries with other\n * files to produce an executable, this does not by itself cause the\n * resulting executable to be covered by the GNU General Public License.\n * Your use of that executable is in no way restricted on account of\n * linking the Harbour library code into it.\n *\n * This exception does not however invalidate any other reasons why\n * the executable file might be covered by the GNU General Public License.\n *\n * This exception applies only to the code released by the Harbour\n * Project under the name Harbour.  If you copy code from other\n * Harbour Project or Free Software Foundation releases into a copy of\n * Harbour, as the General Public License permits, the exception does\n * not apply to the code that you add in this way.  To avoid misleading\n * anyone as to the status of such modified files, you must delete\n * this exception notice from them.\n *\n * If you write modifications of your own for Harbour, it is your choice\n * whether to permit this exception to apply to your modifications.\n * If you do not wish that, delete this exception notice.\n *\n *\/\n\n\/*\n * A simple RDD which introduce logging to file. It inherits from\n * any existent RDD but if you write \/ replace \/ delete something\n * on tables it writes changes in a log file.\n *\/\n\n#include \"<http:\/\/dbinfo.ch|dbinfo.ch>\"\n#include \"<http:\/\/fileio.ch|fileio.ch>\"\n#include \"<http:\/\/hbusrrdd.ch|hbusrrdd.ch>\"\n#include \"<http:\/\/rddsys.ch|rddsys.ch>\"\n\n#define ARRAY_FILENAME      1\n#define ARRAY_FHANDLE       2\n#define ARRAY_TAG           3\n#define ARRAY_ACTIVE        4\n#define ARRAY_RDDNAME       5\n#define ARRAY_MSGLOGBLOCK   6\n#define ARRAY_USERLOGBLOCK  7\n\nANNOUNCE LOGRDD\n\nDYNAMIC hb_LogRddInherit  \/* To be defined at user level *\/\n\nSTATIC s_nRddID := -1\n\nSTATIC FUNCTION LOGRDD_INIT( nRDD )\n\n   \/* Defaults *\/\n\n   LOCAL cFileName := \"changes.log\"\n   LOCAL lActive   := .F.\n   LOCAL cTag      := NetName() + \"\\\" + hb_UserName()\n   LOCAL cRDDName  := hb_LogRddInherit()\n\n   \/* Log File will be open later so user can change parameters *\/\n\n   \/* Store data in RDD cargo *\/\n   \/* cFileName, hFile, cTag, lActive, cRDDName, bMsgLogBlock, bUserLogBlock *\/\n   USRRDD_RDDDATA( nRDD, { cFileName, NIL, cTag, lActive, cRDDName, NIL, NIL } )\n\n   RETURN HB_SUCCESS\n\nSTATIC FUNCTION LOGRDD_EXIT( nRDD )\n\n   LOCAL aRDDData  := USRRDD_RDDDATA( nRDD )\n\n   \/* Closing log file *\/\n\n   IF aRDDData[ ARRAY_FHANDLE ] != NIL\n      FClose( aRDDData[ ARRAY_FHANDLE ] )\n      aRDDData[ ARRAY_FHANDLE ] := NIL\n   ENDIF\n\n   RETURN HB_SUCCESS\n\n\/\/ Create database from current WA fields definition\n\nSTATIC FUNCTION LOGRDD_CREATE( nWA, aOpenInfo )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_CREATE( nWA, aOpenInfo ) ) == HB_SUCCESS\n      ToLog( \"CREATE\", nWA, aOpenInfo )\n   ENDIF\n\n   RETURN nResult\n\n\/\/ Creating fields for new DBF - dbCreate() in current workarea\n\nSTATIC FUNCTION LOGRDD_CREATEFIELDS( nWA, aStruct )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_CREATEFIELDS( nWA, aStruct ) ) == HB_SUCCESS\n      ToLog( \"CREATEFIELDS\", nWA, aStruct )\n   ENDIF\n\n   RETURN nResult\n\n\/\/ Open workarea\n\nSTATIC FUNCTION LOGRDD_OPEN( nWA, aOpenInfo )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_OPEN( nWA, aOpenInfo ) ) == HB_SUCCESS\n      ToLog( \"OPEN\", nWA, aOpenInfo )\n   ENDIF\n\n   RETURN nResult\n\n\/\/ Close workarea\n\nSTATIC FUNCTION LOGRDD_CLOSE( nWA )\n\n   LOCAL cFile  := dbInfo( DBI_FULLPATH )\n   LOCAL cAlias := Alias()\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_CLOSE( nWA ) ) == HB_SUCCESS\n      ToLog( \"CLOSE\", nWA, cFile, cAlias )\n   ENDIF\n\n   RETURN nResult\n\nSTATIC FUNCTION LOGRDD_APPEND( nWA, lUnlockAll )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_APPEND( nWA, lUnlockAll ) ) == HB_SUCCESS\n      ToLog( \"APPEND\", nWA, lUnlockAll )\n   ENDIF\n\n   RETURN nResult\n\nSTATIC FUNCTION LOGRDD_DELETE( nWA )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_DELETE( nWA ) ) == HB_SUCCESS\n      ToLog( \"DELETE\", nWA )\n   ENDIF\n\n   RETURN nResult\n\nSTATIC FUNCTION LOGRDD_RECALL( nWA )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_RECALL( nWA ) ) == HB_SUCCESS\n      ToLog( \"RECALL\", nWA )\n   ENDIF\n\n   RETURN nResult\n\nSTATIC FUNCTION LOGRDD_PUTVALUE( nWA, nField, xValue )\n\n   LOCAL xOldValue := FieldGet( nField )\n   LOCAL nResult   := UR_SUPER_PUTVALUE( nWA, nField, xValue )\n\n   \/\/ Log changes only\n\n   IF ! xOldValue == xValue\n      ToLog( \"PUTVALUE\", nWA, nField, xValue, xOldValue )\n   ENDIF\n\n   RETURN nResult\n\nSTATIC FUNCTION LOGRDD_ZAP( nWA )\n\n   LOCAL nResult\n\n   IF ( nResult := UR_SUPER_ZAP( nWA ) ) == HB_SUCCESS\n      ToLog( \"ZAP\", nWA )\n   ENDIF\n\n   RETURN nResult\n\n\/* Force linking DBFCDX from which our RDD inherits *\/\n\nREQUEST DBFCDX\n\n\/*\n * This function have to exist in all RDD and then name have to be in\n * format: &lt;RDDNAME&gt;_GETFUNCTABLE\n *\/\n\nFUNCTION LOGRDD_GETFUNCTABLE( pFuncCount, pFuncTable, pSuperTable, nRddID, pSuperRddID )\n\n   LOCAL cSuperRDD := hb_LogRddInherit() \/* We are inheriting from a User Defined RDD *\/\n   LOCAL aMyFunc[ UR_METHODCOUNT ]\n\n   s_nRddID := nRddID\n\n   aMyFunc[ UR_INIT         ] := @LOGRDD_INIT()\n   aMyFunc[ UR_EXIT         ] := @LOGRDD_EXIT()\n   aMyFunc[ UR_CREATE       ] := @LOGRDD_CREATE()\n   aMyFunc[ UR_CREATEFIELDS ] := @LOGRDD_CREATEFIELDS()\n   aMyFunc[ UR_OPEN         ] := @LOGRDD_OPEN()\n   aMyFunc[ UR_CLOSE        ] := @LOGRDD_CLOSE()\n   aMyFunc[ UR_APPEND       ] := @LOGRDD_APPEND()\n   aMyFunc[ UR_DELETE       ] := @LOGRDD_DELETE()\n   aMyFunc[ UR_RECALL       ] := @LOGRDD_RECALL()\n   aMyFunc[ UR_PUTVALUE     ] := @LOGRDD_PUTVALUE()\n   aMyFunc[ UR_ZAP          ] := @LOGRDD_ZAP()\n\n   RETURN USRRDD_GETFUNCTABLE( pFuncCount, pFuncTable, pSuperTable, nRddID, ;\n      cSuperRDD, aMyFunc, pSuperRddID )\n\nINIT PROCEDURE _LOGRDD_INIT()\n\n   rddRegister( \"LOGRDD\", RDT_FULL )\n\n   RETURN\n\n\/* User utility functions *\/\n\nFUNCTION hb_LogRddLogFileName( cFileName )\n\n   LOCAL aRDDData\n   LOCAL cOldFileName\n\n   IF s_nRddID &gt;= 0\n\n      aRDDData := USRRDD_RDDDATA( s_nRddID )\n\n      cOldFileName := aRDDData[ ARRAY_FILENAME ]\n\n      IF HB_ISSTRING( cFileName )\n         aRDDData[ ARRAY_FILENAME ] := cFileName\n      ENDIF\n   ENDIF\n\n   RETURN cOldFileName\n\nFUNCTION hb_LogRddTag( cTag )\n\n   LOCAL aRDDData\n   LOCAL cOldTag\n\n   IF s_nRddID &gt;= 0\n\n      aRDDData := USRRDD_RDDDATA( s_nRddID )\n\n      cOldTag := aRDDData[ ARRAY_TAG ]\n\n      IF HB_ISSTRING( cTag )\n         aRDDData[ ARRAY_TAG ] := cTag\n      ENDIF\n   ENDIF\n\n   RETURN cOldTag\n\nFUNCTION hb_LogRddActive( lActive )\n\n   LOCAL aRDDData\n   LOCAL lOldActive\n\n   IF s_nRddID &gt;= 0\n\n      aRDDData := USRRDD_RDDDATA( s_nRddID )\n\n      lOldActive := aRDDData[ ARRAY_ACTIVE ]\n\n      IF HB_ISLOGICAL( lActive )\n         aRDDData[ ARRAY_ACTIVE ] := lActive\n      ENDIF\n   ENDIF\n\n   RETURN lOldActive\n\nFUNCTION hb_LogRddMsgLogBlock( bMsgLogBlock )\n\n   LOCAL aRDDData\n   LOCAL bOldMsgLogBlock\n\n   IF s_nRddID &gt;= 0\n\n      aRDDData := USRRDD_RDDDATA( s_nRddID )\n\n      bOldMsgLogBlock := aRDDData[ ARRAY_MSGLOGBLOCK ]\n\n      IF HB_ISEVALITEM(…",
+                "title": "contrib\/rddmisc\/logrdd.prg",
+                "footer": "<https:\/\/github.com\/harbour\/core|harbour\/core>",
+                "id": 1,
+                "title_link": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/contrib\/rddmisc\/logrdd.prg",
+                "footer_icon": "https:\/\/github.githubassets.com\/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B013M1D0ZKM",
+                "app_unfurl_url": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/contrib\/rddmisc\/logrdd.prg",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "W7s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/contrib\/rddmisc\/logrdd.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F014V53LRPA",
+                "created": 1590177927,
+                "timestamp": 1590177927,
+                "name": "Pacman_Original-7af3ed19-6548-3790-ab38-2dceb485061f.mp3",
+                "title": "Archivo de Android",
+                "mimetype": "audio\/mpeg",
+                "filetype": "mp3",
+                "pretty_type": "MP3",
+                "user": "UJWR5N32S",
+                "editable": false,
+                "size": 233751,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014V53LRPA\/pacman_original-7af3ed19-6548-3790-ab38-2dceb485061f.mp3?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F014V53LRPA\/download\/pacman_original-7af3ed19-6548-3790-ab38-2dceb485061f.mp3?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJWR5N32S\/F014V53LRPA\/pacman_original-7af3ed19-6548-3790-ab38-2dceb485061f.mp3",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F014V53LRPA-0e80998d43",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJWR5N32S",
+        "display_as_bot": false,
+        "ts": "1590177928.422700",
+        "client_msg_id": "6e1a4a17-ad8d-4a33-a302-4aa5c3703c72"
+    },
+    {
+        "client_msg_id": "ef9e9ab2-b970-4b11-b3bf-50272a809ede",
+        "type": "message",
+        "text": "40 años",
+        "user": "UJWR5N32S",
+        "ts": "1590177945.423200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AEi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "40 años"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d328c53-8d88-45d1-8acf-f5d9917d8b9d",
+        "type": "message",
+        "text": "Como pasa el tiempo...",
+        "user": "UJWR5N32S",
+        "ts": "1590177956.423600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CWxMP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como pasa el tiempo..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2b9b1e12-1e2d-4e78-a644-a9ac0ada91a6",
+        "type": "message",
+        "text": "Alli empezo mi obsesion practicamente...",
+        "user": "UJWR5N32S",
+        "ts": "1590177979.424400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+56g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Alli empezo mi obsesion practicamente..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d72eb1ae-b064-4cc7-a7c4-bd2f7b650e2b",
+        "type": "message",
+        "text": "Una de las muchas...",
+        "user": "UJWR5N32S",
+        "ts": "1590178097.424800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sNF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Una de las muchas..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e8fbcad4-54a8-41b1-bd45-626d28563625",
+        "type": "message",
+        "text": "Ahi también empece a perder dinero y horas de clase, jajajaja",
+        "user": "UM81W8B0Q",
+        "ts": "1590200995.425400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xyY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahi también empece a perder dinero y horas de clase, jajajaja"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7b77a52c-1bc1-4f9b-bade-a61665c0691c",
+        "type": "message",
+        "text": "El otro día se me ocurrió una forma de simplificar el argumento de diagonalización de Cantor un poco para que todo el mundo lo pudiera entender.",
+        "user": "UNAHBRTFA",
+        "ts": "1590208216.426200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t4HM=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "El otro día se me ocurrió una forma de simplificar el argumento de diagonalización de Cantor un poco para que todo el mundo lo pudiera entender."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b2f99039-1da8-42b5-91a5-4c6cbfb78780",
+        "type": "message",
+        "text": "Pero luego me puse a pensar... y le encontré un fallo al argumento",
+        "user": "UNAHBRTFA",
+        "ts": "1590208231.426700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qbRa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero luego me puse a pensar... y le encontré un fallo al argumento"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be192bdf-adcc-4ffb-a644-2a62b15d6ae8",
+        "type": "message",
+        "text": "O más bien, una forma de aplicarlo a otros conjuntos para llegar a una conclusión que es claramente falsa",
+        "user": "UNAHBRTFA",
+        "ts": "1590208263.427400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xo5Ow",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "O más bien, una forma de aplicarlo a otros conjuntos para llegar a una conclusión que es claramente falsa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c00dcd37-be87-4bb8-be99-4c212605b1c9",
+        "type": "message",
+        "text": "... y cómo no, el fallo (muy sutil) estaba en la simplificación",
+        "user": "UNAHBRTFA",
+        "ts": "1590208291.428100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1590208306.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "obWbi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "... y cómo no, el fallo (muy sutil) estaba en la simplificación"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "88147e7d-2a52-4cc4-993f-d8afc52c5c29",
+        "type": "message",
+        "text": "Pero creo que esa simplificación puede ser efectiva a la hora de explicar, aunque luego haya que deshacerla y rehacerla.",
+        "user": "UNAHBRTFA",
+        "ts": "1590208509.429100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z2r5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero creo que esa simplificación puede ser efectiva a la hora de explicar, aunque luego haya que deshacerla y rehacerla."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H",
+                    "UJRQZMTAM"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

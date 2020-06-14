@@ -1,0 +1,150 @@
+[
+    {
+        "client_msg_id": "165ca6d2-5503-4b9d-998a-74e59080ca15",
+        "type": "message",
+        "text": "<@UJN8D8U3B> I'm running mod_harbour in WSL Ubuntu.\nFor some reason the environment is not recognised when I run the sample mysql.prg.\n\n_The sample mysql.prg it cannot find the include..._\nError: Can't open #include file '\/home\/user\/harbour\/include\/hbdyn.ch'\ncalled from: __PP_PROCESS, line: 0\ncalled from: ..\/source\/exec.prg, EXECUTE, line: 64\n\nSource:\n0062:       ?? \"&lt;tr&gt;\"\n0063:       for n = 1 to mysql_num_fields( hMyRes )\n0064 =&gt;         hField = mysql_fetch_field( hMyRes )\n0065:          if hField != 0\n0066:             ?? \"&lt;td&gt;\" + PtrToStr( hField, 0 ) + \"&lt;\/td&gt;\"\n\n_The mysql.prg has this include..._\n#ifdef __PLATFORM__WINDOWS\n   #include \"c:\\harbour\\include\\<http:\/\/hbdyn.ch|hbdyn.ch>\"\n#else\n   #include \"\/home\/user\/harbour\/include\/hbdyn.ch\"\n#endif\n\n_Keying in $HOME shows correctly as..._\n-bash: \/home\/[myusername]: Is a directory\n\n_I have placed harbour source in here and <http:\/\/hbdyn.ch|hbdyn.ch> is there..._\n\/home\/[myusername]\/harbour\/include\/hbdyn.ch\n\nHow can I tell mod_harbour where to look?",
+        "user": "UM99QAYNB",
+        "ts": "1591676985.123900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6ec61250d91",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/246ec61250d91ef0909fcfab7e788886.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Jonathan Hodder",
+            "display_name": "Jonathan Hodder",
+            "team": "TJH5YU202",
+            "name": "jonathan",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tCK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I'm running mod_harbour in WSL Ubuntu.\nFor some reason the environment is not recognised when I run the sample mysql.prg.\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "The sample mysql.prg it cannot find the include...",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nError: Can't open #include file '\/home\/user\/harbour\/include\/hbdyn.ch'\ncalled from: __PP_PROCESS, line: 0\ncalled from: ..\/source\/exec.prg, EXECUTE, line: 64\n\nSource:\n0062:       ?? \"<tr>\"\n0063:       for n = 1 to mysql_num_fields( hMyRes )\n0064 =>         hField = mysql_fetch_field( hMyRes )\n0065:          if hField != 0\n0066:             ?? \"<td>\" + PtrToStr( hField, 0 ) + \"<\/td>\"\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "The mysql.prg has this include...",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n#ifdef __PLATFORM__WINDOWS\n   #include \"c:\\harbour\\include\\"
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/hbdyn.ch",
+                                "text": "hbdyn.ch"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"\n#else\n   #include \"\/home\/user\/harbour\/include\/hbdyn.ch\"\n#endif\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Keying in $HOME shows correctly as...",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n-bash: \/home\/[myusername]: Is a directory\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "I have placed harbour source in here and ",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/hbdyn.ch",
+                                "text": "hbdyn.ch",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " is there...",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\/home\/[myusername]\/harbour\/include\/hbdyn.ch\n\nHow can I tell mod_harbour where to look?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3ed5d870-c4b5-485d-a27f-06ad8064fd0e",
+        "type": "message",
+        "text": "Please modify #include file '\/home\/user\/harbour\/include\/hbdyn.ch' like this #include file '\/home\/YourUserName\/harbour\/include\/hbdyn.ch'",
+        "user": "UJN8D8U3B",
+        "ts": "1591680918.124700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fzc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Please modify #include file '\/home\/user\/harbour\/include\/hbdyn.ch' like this #include file '\/home\/YourUserName\/harbour\/include\/hbdyn.ch'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

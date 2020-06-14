@@ -1,0 +1,1946 @@
+[
+    {
+        "client_msg_id": "a3f0424d-4ff5-493b-b04c-932f66baebdc",
+        "type": "message",
+        "text": "Buenos dias. <@UNAHBRTFA> , no conozco exactamente que hace hb_UrlDecode, pero lo que comentas es cierto. Si se pudiera evitar hacer dos pasadas para decodificar la url estaria mejor.",
+        "user": "UJRQZMTAM",
+        "ts": "1577359975.348300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AbTPW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos dias. "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " , no conozco exactamente que hace hb_UrlDecode, pero lo que comentas es cierto. Si se pudiera evitar hacer dos pasadas para decodificar la url estaria mejor."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "832909a3-6660-4193-8bd1-3e56b227fb82",
+        "type": "message",
+        "text": "Buenas. Las URL soportan caracteres ASCII, y hay ciertos caracteres (`?` y `#` en particular) que tienen un significado especial, así que todo lo que no sea alfanumérico o en un rango limitado de puntuación se escapa con `%` más la codificación hexadecimal del byte: `%20` para el espacio.",
+        "user": "UNAHBRTFA",
+        "ts": "1577363144.351300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Oos",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenas. Las URL soportan caracteres ASCII, y hay ciertos caracteres ("
+                            },
+                            {
+                                "type": "text",
+                                "text": "?",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " y "
+                            },
+                            {
+                                "type": "text",
+                                "text": "#",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " en particular) que tienen un significado especial, así que todo lo que no sea alfanumérico o en un rango limitado de puntuación se escapa con "
+                            },
+                            {
+                                "type": "text",
+                                "text": "%",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " más la codificación hexadecimal del byte: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "%20",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " para el espacio."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3ce2ccdc-6ef0-4400-9bc9-49b56658478e",
+        "type": "message",
+        "text": "Esta codificación es a nivel de bytes: para codificar un caracter que no sea ASCII se convierte a UTF-8 primero",
+        "user": "UNAHBRTFA",
+        "ts": "1577363172.352000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RYc5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esta codificación es a nivel de bytes: para codificar un caracter que no sea ASCII se convierte a UTF-8 primero"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7aba3db8-e99e-447a-a89b-52a48dd496ea",
+        "type": "message",
+        "text": "Esta codificación se usa con la mayor parte de la URL, aunque no con el nombre de dominio porque históricamente los nombres de dominio eran solo ASCII",
+        "user": "UNAHBRTFA",
+        "ts": "1577363241.353300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v5O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esta codificación se usa con la mayor parte de la URL, aunque no con el nombre de dominio porque históricamente los nombres de dominio eran solo ASCII"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f50d6a7-c2d0-40de-b60d-b15d4db0c956",
+        "type": "message",
+        "text": "y con el query string (la parte `?a=b&amp;c=d` que se ve en todas partes), por motivos que yo no conozco, además de la codificación normal, los espacios se reemplazan por el caracter `'+'`",
+        "user": "UNAHBRTFA",
+        "ts": "1577363314.354700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EPwP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y con el query string (la parte "
+                            },
+                            {
+                                "type": "text",
+                                "text": "?a=b&c=d",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " que se ve en todas partes), por motivos que yo no conozco, además de la codificación normal, los espacios se reemplazan por el caracter "
+                            },
+                            {
+                                "type": "text",
+                                "text": "'+'",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4ba8135-a58b-4c7f-8a9c-17553572de18",
+        "type": "message",
+        "text": "`hb_UrlDecode` ahora mismo decodifica los `'+'` en espacios, que es perfecto para cuerpos de POST urlencoded y el query string, pero no para cosas como hacer un controlador como el de génesis",
+        "user": "UNAHBRTFA",
+        "ts": "1577363474.356700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nQj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hb_UrlDecode",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ahora mismo decodifica los "
+                            },
+                            {
+                                "type": "text",
+                                "text": "'+'",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " en espacios, que es perfecto para cuerpos de POST urlencoded y el query string, pero no para cosas como hacer un controlador como el de génesis"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0f5787a3-65fc-4e74-ab6f-6c17210e7b49",
+        "type": "message",
+        "text": "(cuando digo arriba ASCII quiero decir ASCII-128, como lo usa todo el mundo que no se crió con MSDOS :face_with_rolling_eyes:)",
+        "user": "UNAHBRTFA",
+        "ts": "1577363640.357500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YZei",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(cuando digo arriba ASCII quiero decir ASCII-128, como lo usa todo el mundo que no se crió con MSDOS "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "face_with_rolling_eyes"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f38bbfd-df21-448b-b8df-2ba7f9b21e79",
+        "type": "message",
+        "text": "<@UNAHBRTFA> que hace PHP?",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373329.357800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BFGGZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " que hace PHP?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b731117b-c8d1-43dd-ad42-6e83a14d5bba",
+        "type": "message",
+        "text": "$_POST_[]  te las da ya sin urlencoding?",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373379.358800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9xXXP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "$_POST_[]  te las da ya sin urlencoding?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f0aa91bb-c289-49e7-a214-83c4c9f9c61d",
+        "type": "message",
+        "text": "creo que sí, pero ahora mismo no estoy seguro",
+        "user": "UNAHBRTFA",
+        "ts": "1577373413.359300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=pGS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "creo que sí, pero ahora mismo no estoy seguro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "375b4510-596f-404a-b599-67009660954c",
+        "type": "message",
+        "text": "<https:\/\/github.com\/php\/php-src\/blob\/master\/main\/php_variables.c#L282>",
+        "user": "UNAHBRTFA",
+        "ts": "1577373563.360800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "php\/php-src",
+                "title_link": "https:\/\/github.com\/php\/php-src\/blob\/master\/main\/php_variables.c#L282",
+                "text": "The PHP Interpreter. Contribute to php\/php-src development by creating an account on GitHub.",
+                "fallback": "GitHub: php\/php-src",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/25158?s=400&v=4",
+                "from_url": "https:\/\/github.com\/php\/php-src\/blob\/master\/main\/php_variables.c#L282",
+                "thumb_width": 400,
+                "thumb_height": 400,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/php\/php-src\/blob\/master\/main\/php_variables.c#L282"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z+2v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/php\/php-src\/blob\/master\/main\/php_variables.c#L282"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb9ed093-948a-4b57-9ac7-fdffaf02773e",
+        "type": "message",
+        "text": "sí",
+        "user": "UNAHBRTFA",
+        "ts": "1577373567.361200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aHcF0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sí"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b2ec640-21c1-4d3e-bba1-9bca8781db08",
+        "type": "message",
+        "text": "aunque voy a buscar la función `php_url_decode` para asegurarme",
+        "user": "UNAHBRTFA",
+        "ts": "1577373624.362500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CsjDa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aunque voy a buscar la función "
+                            },
+                            {
+                                "type": "text",
+                                "text": "php_url_decode",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " para asegurarme"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a9c98e6a-9fef-4e57-8646-d6f2bfc8a5cf",
+        "type": "message",
+        "text": "lo suyo sería mirar en php que podría ser un buen modelo en que capa está haciendo el urldecode, si no lo está haciendo entonces dejamos AP_PostPairs tal como está y si php si que hace el decode pues podrías probar y haces un pull request y propones el cambio",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373628.362600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qF8e\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "lo suyo sería mirar en php que podría ser un buen modelo en que capa está haciendo el urldecode, si no lo está haciendo entonces dejamos AP_PostPairs tal como está y si php si que hace el decode pues podrías probar y haces un pull request y propones el cambio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c011483-c285-4402-b7bd-9d2d6e7eac39",
+        "type": "message",
+        "text": "no busques php_url-decode",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373637.362900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yH9w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no busques php_url-decode"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6b9a184d-2106-40f7-a8b0-8b139448d483",
+        "type": "message",
+        "text": "php es un mod en linux?",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373659.363200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9i7Wf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "php es un mod en linux?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "11ef6b9f-8fe1-4688-a60e-014b28ccab0c",
+        "type": "message",
+        "text": "porque estaba pensando que con windows es un fastcgi desde hace mucho",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373673.363600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z6vV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "porque estaba pensando que con windows es un fastcgi desde hace mucho"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4752788-1bdd-4b71-8ac9-873352827969",
+        "type": "message",
+        "text": "en apache\/linux creo que es un mod, pero en nginx se usa la versión de fastcgi",
+        "user": "UNAHBRTFA",
+        "ts": "1577373760.364600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rWp8d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en apache\/linux creo que es un mod, pero en nginx se usa la versión de fastcgi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97a1d970-ec6a-4ba7-a6ea-0f1fe2713119",
+        "type": "message",
+        "text": "pasame el link del git si lo tienes a mano, pls",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373781.365100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G7P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pasame el link del git si lo tienes a mano, pls"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1821414c-3c54-4ff7-a827-24927363c1ac",
+        "type": "message",
+        "text": "el link de qué git?",
+        "user": "UNAHBRTFA",
+        "ts": "1577373941.367500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e48Ft",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el link de qué git?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf4b0550-a7b8-4ee9-8a22-e6072d19da96",
+        "type": "message",
+        "text": "de mod php",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373953.367700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DRTo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "de mod php"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9600709f-adad-498f-ab15-3064fbeaf180",
+        "type": "message",
+        "text": "pero bueno busco en la web de php  :slightly_smiling_face: con esto de las navidades me estoy volviendo vago",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577373987.368400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2w0Fe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero bueno busco en la web de php  "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": " con esto de las navidades me estoy volviendo vago"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2687f02-829c-4a23-8734-3c3aeeef102d",
+        "type": "message",
+        "text": "```git clone <https:\/\/github.com\/php\/php-src.git>\n.\/configure --with-apxs2=\/usr\/local\/apache2\/bin\/apxs --with-mysql\nmake\nmake install```",
+        "user": "UNAHBRTFA",
+        "ts": "1577374131.370400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=+h",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "git clone "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/php\/php-src.git"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n.\/configure --with-apxs2=\/usr\/local\/apache2\/bin\/apxs --with-mysql\nmake\nmake install"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c70167c9-fb06-4c32-a568-b526a142032c",
+        "type": "message",
+        "text": "el `libphp7.so` que genera (en sistemas linux) es el mod de apache",
+        "user": "UNAHBRTFA",
+        "ts": "1577374148.370800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tFfN=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el "
+                            },
+                            {
+                                "type": "text",
+                                "text": "libphp7.so",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " que genera (en sistemas linux) es el mod de apache"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d0f6bacd-812d-4b15-831d-20bd42e33933",
+        "type": "message",
+        "text": "thx",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577374151.371000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gDC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thx"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2d1a961-51ab-4862-ada0-464ce24a37a7",
+        "type": "message",
+        "text": "`apxs` es un ejecutable que para ti vendrá en la distribución de apache para windows",
+        "user": "UNAHBRTFA",
+        "ts": "1577374236.372400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YM0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "apxs",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " es un ejecutable que para ti vendrá en la distribución de apache para windows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6d0b888b-7556-4e9f-926f-2359f45f2e68",
+        "type": "message",
+        "text": "con el codigo me sobra",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577374286.372800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8DL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "con el codigo me sobra"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2449112d-3050-4340-b236-b9b094e4b1af",
+        "type": "message",
+        "text": "Aquí creo que para no ir dando tumbos lo suyo es primero mirar php como modelo, y preparar un spec, definiendo el punto en que se hace cada conversión ,juego de caracteres, encoding,... ponemos un doc y se lo enseñamos a los mozos estos que andan por aquí y luego lo implementamos.  Aquí creo que es más importante el spec que el código en si, porque porque ahí vamos a enganchar luego o revisar como están enganchados, fastcgi, iis, httpapi, ....",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577374605.376000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MPt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aquí creo que para no ir dando tumbos lo suyo es primero mirar php como modelo, y preparar un spec, definiendo el punto en que se hace cada conversión ,juego de caracteres, encoding,... ponemos un doc y se lo enseñamos a los mozos estos que andan por aquí y luego lo implementamos.  Aquí creo que es más importante el spec que el código en si, porque porque ahí vamos a enganchar luego o revisar como están enganchados, fastcgi, iis, httpapi, ...."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb6da64e-e7da-4817-9bf4-0205b286510a",
+        "type": "message",
+        "text": "Pensaba reescribir la función `AP_PostPairs` en un par de días. Documentar lo que hace PHP va a tardar más que eso.",
+        "user": "UNAHBRTFA",
+        "ts": "1577374910.377200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eTkm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pensaba reescribir la función "
+                            },
+                            {
+                                "type": "text",
+                                "text": "AP_PostPairs",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " en un par de días. Documentar lo que hace PHP va a tardar más que eso."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5609df93-3406-4025-aa2a-328dc35f668c",
+        "type": "message",
+        "text": "reescríbela si quieres antes y luego la revisamos y se ajusta",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577374973.378600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=ZU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "reescríbela si quieres antes y luego la revisamos y se ajusta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "852997a5-7541-42b9-a1bd-6dbf8245a400",
+        "type": "message",
+        "text": "voy a pegarle un miradita al codigo de php y hago un hilo para esto en el foro",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577375019.379400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x00B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "voy a pegarle un miradita al codigo de php y hago un hilo para esto en el foro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a85e144d-a0ce-473b-a40c-bce4fccd9542",
+        "type": "message",
+        "text": "Pero sospecho que PHP sigue las especificaciones de `application\/x-www-form-urlencoded`  del WHATWG (<https:\/\/url.spec.whatwg.org\/#application\/x-www-form-urlencoded>) y `multipart\/form-data`  (<https:\/\/tools.ietf.org\/html\/rfc7578>) al pie de la letra y sin decodificar caracteres (aunque bytes sí)",
+        "user": "UNAHBRTFA",
+        "ts": "1577375066.380100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mBXQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero sospecho que PHP sigue las especificaciones de "
+                            },
+                            {
+                                "type": "text",
+                                "text": "application\/x-www-form-urlencoded",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  del WHATWG ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/url.spec.whatwg.org\/#application\/x-www-form-urlencoded"
+                            },
+                            {
+                                "type": "text",
+                                "text": ") y "
+                            },
+                            {
+                                "type": "text",
+                                "text": "multipart\/form-data",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/tools.ietf.org\/html\/rfc7578"
+                            },
+                            {
+                                "type": "text",
+                                "text": ") al pie de la letra y sin decodificar caracteres (aunque bytes sí)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76dd45ec-d542-4b86-a349-ac577d59ac40",
+        "type": "message",
+        "text": "bueno pues revisamos si las sigue y si es así ya tenemos a donde agarrarnos",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577375118.381000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LqMG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bueno pues revisamos si las sigue y si es así ya tenemos a donde agarrarnos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b27184dc-d28a-4d43-96ef-b7480c5b56dd",
+        "type": "message",
+        "text": "btw, la especificación de `application\/x-www-form-urlencoded` pone que:\n&gt; A legacy server-oriented implementation might have to support encodings other than UTF-8 as well as have special logic for tuples of which the name is ``_charset``. Such logic is not described here as only UTF-8 is conforming.",
+        "user": "UNAHBRTFA",
+        "ts": "1577375366.382000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CfNZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "btw, la especificación de "
+                            },
+                            {
+                                "type": "text",
+                                "text": "application\/x-www-form-urlencoded",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " pone que:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A legacy server-oriented implementation might have to support encodings other than UTF-8 as well as have special logic for tuples of which the name is `"
+                            },
+                            {
+                                "type": "text",
+                                "text": "_charset",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "`. Such logic is not described here as only UTF-8 is conforming."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f1d5ca77-75e7-47ed-bc63-602403b5dfb4",
+        "type": "message",
+        "text": "Pero en la práctica, si sigues las especificaciones de HTML y de codificación a `application\/x-www-form-urlencoded`, te puedes encontrar con codificaciones que no son UTF-8 usadas sin el campo `_charset`",
+        "user": "UNAHBRTFA",
+        "ts": "1577375413.383100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mguc7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero en la práctica, si sigues las especificaciones de HTML y de codificación a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "application\/x-www-form-urlencoded",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", te puedes encontrar con codificaciones que no son UTF-8 usadas sin el campo "
+                            },
+                            {
+                                "type": "text",
+                                "text": "_charset",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d57fc48-878d-4447-a629-06e88268f42a",
+        "type": "message",
+        "text": "Así que la decodificación de caracteres se deja mejor al usuario, por peligroso que esto pueda ser en la práctica",
+        "user": "UNAHBRTFA",
+        "ts": "1577375483.384500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "79G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Así que la decodificación de caracteres se deja mejor al usuario, por peligroso que esto pueda ser en la práctica"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d21372e3-5a93-4702-8866-b7b64e5d047f",
+        "type": "message",
+        "text": "<@UNAHBRTFA> seguimos aquí",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577375486.384600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JaE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " seguimos aquí"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "17431b36-3970-4fa2-8ba4-a7c2350e3462",
+        "type": "message",
+        "text": "<https:\/\/forum.mod-harbour.org\/viewtopic.php?f=7&amp;t=66>",
+        "user": "UMZ3LNV5Z",
+        "ts": "1577375488.384800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ec1f7fc24912",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-09-16\/760961231605_ec1f7fc24912daa47f98_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MIi\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/forum.mod-harbour.org\/viewtopic.php?f=7&t=66"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f9dbe51-2495-453d-9b52-d6d0cc6baf14",
+        "type": "message",
+        "text": "vale",
+        "user": "UNAHBRTFA",
+        "ts": "1577375491.385000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t6HD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "vale"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "41c74c01-7c99-402a-a6c5-3b6e27eadb08",
+        "type": "message",
+        "text": "<@UMZ3LNV5Z> Hay una cosa de las que PHP hace en las funciones `urlencode`\/`urldecode` con la que estoy muy en desacuerdo",
+        "user": "UNAHBRTFA",
+        "ts": "1577379257.385700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ypU5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UMZ3LNV5Z"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Hay una cosa de las que PHP hace en las funciones "
+                            },
+                            {
+                                "type": "text",
+                                "text": "urlencode",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "urldecode",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " con la que estoy muy en desacuerdo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de8e66f9-44b9-48f8-a4fe-2f75d0780661",
+        "type": "message",
+        "text": "supongo que tiene sentido, pero se puede crear un contexto de programación en el que lo deje de tener",
+        "user": "UNAHBRTFA",
+        "ts": "1577379337.386800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6SuV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "supongo que tiene sentido, pero se puede crear un contexto de programación en el que lo deje de tener"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6d6d2d66-6dd4-4e24-b507-441c636a49dc",
+        "type": "message",
+        "text": "New article on harbour.wiki - FastCGI Web Development with Harbour\nPlease go to the following link to read the article\n<https:\/\/harbour.wiki\/index.asp?page=PublicArticles&amp;mode=show&amp;id=190207001538&amp;sig=3331951908>\nPlease provide any feedback and additional content on the user group or by sending messages via harbour.wiki\nThe repo also has an early version of a mod_harbour.exe FastCGI program. Hopefully, if there is enough interest, and with some help, it can become an in-place replacement of the Apache module version.\nThanks",
+        "user": "UJVF4N84Q",
+        "ts": "1577428199.387300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g0ef97056eb3",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/9a0ef97056eb3a0a249e725fd878fc8d.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0025-72.png",
+            "first_name": "",
+            "real_name": "Eric Lendvai",
+            "display_name": "Eric Lendvai",
+            "team": "TJH5YU202",
+            "name": "eric",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Harbour Language Wiki Articles",
+                "title_link": "https:\/\/harbour.wiki\/index.asp?page=PublicArticles&mode=show&id=190207001538&sig=3331951908",
+                "text": "List of Articles for the Harbour.wiki site. Helping the Harbour programming language \/ compiler community.",
+                "fallback": "Harbour Language Wiki Articles",
+                "from_url": "https:\/\/harbour.wiki\/index.asp?page=PublicArticles&mode=show&id=190207001538&sig=3331951908",
+                "service_icon": "https:\/\/harbour.wiki\/images\/Harbour_logo_64.png",
+                "service_name": "harbour.wiki",
+                "id": 1,
+                "original_url": "https:\/\/harbour.wiki\/index.asp?page=PublicArticles&amp;mode=show&amp;id=190207001538&amp;sig=3331951908"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EcQiZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "New article on harbour.wiki - FastCGI Web Development with Harbour\nPlease go to the following link to read the article\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/harbour.wiki\/index.asp?page=PublicArticles&mode=show&id=190207001538&sig=3331951908"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPlease provide any feedback and additional content on the user group or by sending messages via harbour.wiki\nThe repo also has an early version of a mod_harbour.exe FastCGI program. Hopefully, if there is enough interest, and with some help, it can become an in-place replacement of the Apache module version.\nThanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aef9c680-d35c-4aad-9191-75cebfc58bda",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1577431023.387800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hB\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,2189 @@
+[
+    {
+        "client_msg_id": "513803bd-3330-4567-958a-067b468b15d0",
+        "type": "message",
+        "text": "좋",
+        "user": "UJHD6A81H",
+        "ts": "1588666396.115400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FYQsu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "좋"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "68e1e88a-5224-4576-a2a7-6d649d8a632a",
+        "type": "message",
+        "text": "Buenos días.\nEstoy intentando un sample sencillo, lo más sencillo para en un mismo prg, pueda utilizar html y prg...\n```#xtranslate HTML =&gt; #pragma __text| AP_RPuts(%s)\n\nfunction Main()\n\n\tHTML\n\t&lt;html&gt;\n\t\t&lt;head&gt;\n\t\t\t&lt;meta charset=\"utf-8\"&gt;\n\t\t\t&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"&gt;\n\t\t\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css>\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\"&gt;\n\t\t\t&lt;title&gt;TestHtmlPrg&lt;\/title&gt;\n\t\t&lt;\/head&gt;\n\n\n\t\t&lt;b&gt;Inicio líneas de texto (html)&lt;\/b&gt;\n\n\n\t\t&lt;?prg\n\t\t\tLocal cHtml := ''\n\n\t\t\tcHtml += '&lt;p&gt;línea 1 insertada de texto (prg)&lt;\/p&gt;'\n\t\t\tcHtml += '&lt;p&gt;línea 2 insertada de texto (prg)&lt;\/p&gt;'\n\n\t\t\tretu cHtml\t\t\t\t\t\t\t\t\n\t\t?&gt;\n\n\t\t&lt;b&gt;Final lineas de texto (html)&lt;\/b&gt;\n\n\t&lt;\/html\n\tENDTEXT\n\n\nreturn nil```\nNo está funcionando la visualizació corecta del apartado &lt;?prg ... ?&gt;\nMe he dejado algo???",
+        "user": "UJU3NMK0U",
+        "ts": "1588667894.118000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zy=iv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos días.\nEstoy intentando un sample sencillo, lo más sencillo para en un mismo prg, pueda utilizar html y prg...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#xtranslate HTML => #pragma __text| AP_RPuts(%s)\n\nfunction Main()\n\n\tHTML\n\t<html>\n\t\t<head>\n\t\t\t<meta charset=\"utf-8\">\n\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t\t\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\n\t\t\t<title>TestHtmlPrg<\/title>\n\t\t<\/head>\n\n\n\t\t<b>Inicio líneas de texto (html)<\/b>\n\n\n\t\t<?prg\n\t\t\tLocal cHtml := ''\n\n\t\t\tcHtml += '<p>línea 1 insertada de texto (prg)<\/p>'\n\t\t\tcHtml += '<p>línea 2 insertada de texto (prg)<\/p>'\n\n\t\t\tretu cHtml\t\t\t\t\t\t\t\t\n\t\t?>\n\n\t\t<b>Final lineas de texto (html)<\/b>\n\n\t<\/html\n\tENDTEXT\n\n\nreturn nil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No está funcionando la visualizació corecta del apartado <?prg ... ?>\nMe he dejado algo???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F012M94BF1D",
+                "created": 1588668016,
+                "timestamp": 1588668016,
+                "name": "Captura3.JPG",
+                "title": "Captura3.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 19368,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012M94BF1D\/captura3.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012M94BF1D\/download\/captura3.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012M94BF1D-23a852d350\/captura3_64.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012M94BF1D-23a852d350\/captura3_80.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012M94BF1D-23a852d350\/captura3_360.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 126,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012M94BF1D-23a852d350\/captura3_160.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 444,
+                "original_h": 155,
+                "thumb_tiny": "AwAQADC+Avof++qXanr\/AOPUuDjoKCD2C0AJtTOc\/rTto\/yabhvRKX5\/9mgBdo9\/zo2jPf8AOlGcc9faigD\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F012M94BF1D\/captura3.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012M94BF1D-9f4f361004",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588668018.118600",
+        "client_msg_id": "6bc06c1a-1359-4f78-8eab-5ae2fa7f51ab"
+    },
+    {
+        "type": "message",
+        "text": "```\/\/\t{% LoadHrb( 'lib\/tweb\/tweb.hrb' ) %}\n\n#include {% TWebInclude() %}\n\nfunction main()\n\n    LOCAL o\n\n\tDEFINE FORM o ID 'demo'\n\tINIT FORM o  \t\t\t\n\n\t\tHTML o INLINE '<head>'\n\t\tHTML o INLINE '<meta charset=\"utf-8\">'\n\t\tHTML o INLINE '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">'\n\t\tHTML o INLINE '<link rel=\"stylesheet\" href=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css>\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">'\n\t\tHTML o INLINE '<title>ExcelToSEPAxml<\/title>'\n\t\tHTML o INLINE '<\/head>'\n\n\t\tHTML o INLINE '<b>Inicio líneas de texto (html)<\/b>'\n\n\t\tFor n:=1 To 2\n\t\t\tHTML o INLINE '<p>línea ' +AllTrim(Str(n))+ ' insertada de texto (prg)<\/p>'\n\t\tNext\n\n\t\tHTML o INLINE '<b>Final lineas de texto (html)<\/b>'\n\n\tEND FORM o\n\t\nretu nil```\nEste resultado es el deseado con TWeb... bien, no se que me falta en el sample anterior para que funcione SOLO con modharbour, ¿?¿?\nSeguro que me olvido de algun xcommand, translate o no se que!!!\nEl caso es que tirando de TWeb, está funcionando y puedo \"mezclar\" prg con html",
+        "files": [
+            {
+                "id": "F012ME53SBH",
+                "created": 1588673850,
+                "timestamp": 1588673850,
+                "name": "Captura3.JPG",
+                "title": "Captura3.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 17405,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012ME53SBH\/captura3.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012ME53SBH\/download\/captura3.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012ME53SBH-5416feb6df\/captura3_64.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012ME53SBH-5416feb6df\/captura3_80.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012ME53SBH-5416feb6df\/captura3_360.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 250,
+                "thumb_360_h": 161,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012ME53SBH-5416feb6df\/captura3_160.jpg?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 250,
+                "original_h": 161,
+                "thumb_tiny": "AwAeADC8\/wB4\/vCvtiggj\/lqR+FPLgHBz+VBcD\/9VAEeen77vnpRzk\/vjwfQU\/zF9\/ypd689ePagCP1ImIGfSpEI24zux3o3rj\/61KpBzigBrSbSRsY+4FJ5uOqP+AqSigBnm8j5H59qBLkj5H59RT6KAI\/N4+4\/5VIORmiigD\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F012ME53SBH\/captura3.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012ME53SBH-b896ef4680",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hoSn",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/\/\t{% LoadHrb( 'lib\/tweb\/tweb.hrb' ) %}\n\n#include {% TWebInclude() %}\n\nfunction main()\n\n    LOCAL o\n\n\tDEFINE FORM o ID 'demo'\n\tINIT FORM o  \t\t\t\n\n\t\tHTML o INLINE '<head>'\n\t\tHTML o INLINE '<meta charset=\"utf-8\">'\n\t\tHTML o INLINE '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">'\n\t\tHTML o INLINE '<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">'\n\t\tHTML o INLINE '<title>ExcelToSEPAxml<\/title>'\n\t\tHTML o INLINE '<\/head>'\n\n\t\tHTML o INLINE '<b>Inicio líneas de texto (html)<\/b>'\n\n\t\tFor n:=1 To 2\n\t\t\tHTML o INLINE '<p>línea ' +AllTrim(Str(n))+ ' insertada de texto (prg)<\/p>'\n\t\tNext\n\n\t\tHTML o INLINE '<b>Final lineas de texto (html)<\/b>'\n\n\tEND FORM o\n\t\nretu nil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Este resultado es el deseado con TWeb... bien, no se que me falta en el sample anterior para que funcione SOLO con modharbour, ¿?¿?\nSeguro que me olvido de algun xcommand, translate o no se que!!!\nEl caso es que tirando de TWeb, está funcionando y puedo \"mezclar\" prg con html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588673851.119000",
+        "client_msg_id": "a22995e2-3796-497f-8008-bc69389078d9"
+    },
+    {
+        "client_msg_id": "b6d48e39-4fae-45b7-a0bf-d122f2b841ab",
+        "type": "message",
+        "text": "Sería de buen agrado, ver en un simple prg, funcionar \/\"mezclar\" \/ interactuar código html y prg.\nCreo haverme repasado todos los samples de modharbour, y no he visto ninguno",
+        "user": "UJU3NMK0U",
+        "ts": "1588673964.120600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qyw4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sería de buen agrado, ver en un simple prg, funcionar \/\"mezclar\" \/ interactuar código html y prg.\nCreo haverme repasado todos los samples de modharbour, y no he visto ninguno"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "61809440-83c7-4743-a301-9aa9e50f8f72",
+        "type": "message",
+        "text": "Algo así...\n```#xtranslate HTML =&gt; #pragma __text| AP_RPuts(%s)\n\nfunction Main()\n\n\tHTML\n\t&lt;html&gt;\n\t\t&lt;head&gt;\n\t\t\t&lt;meta charset=\"utf-8\"&gt;\n\t\t\t&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"&gt;\n\t\t\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css>\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\"&gt;\n\t\t\t&lt;title&gt;ExcelToSEPAxml&lt;\/title&gt;\n\t\t&lt;\/head&gt;\n\n\n\t\t&lt;b&gt;Inicio líneas de texto&lt;\/b&gt;\n\n\n\t\t&lt;?prg\n\t\t\tLocal cHtml := ''\n\t\t\tLocal nLin := 1\n\n\t\t\tcHtml += '&lt;p&gt;línea ' +AllTrim(Str(nLin++))+ ' insertada de texto &lt;\/p&gt;'\n\t\t\tcHtml += '&lt;p&gt;línea ' +AllTrim(Str(nLin++))+ ' insertada de texto &lt;\/p&gt;'\n\n\t\t\tretu cHtml\t\t\t\t\t\t\t\t\n\t\t?&gt;\n\n\t\t&lt;b&gt;Final lineas de texto&lt;\/b&gt;\n\n\t&lt;\/html\n\tENDTEXT```",
+        "user": "UJU3NMK0U",
+        "ts": "1588674024.120900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pof6x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Algo así...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#xtranslate HTML => #pragma __text| AP_RPuts(%s)\n\nfunction Main()\n\n\tHTML\n\t<html>\n\t\t<head>\n\t\t\t<meta charset=\"utf-8\">\n\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\t\t\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.3\/css\/bootstrap.min.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\" integrity=\"sha384-MCw98\/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\" crossorigin=\"anonymous\">\n\t\t\t<title>ExcelToSEPAxml<\/title>\n\t\t<\/head>\n\n\n\t\t<b>Inicio líneas de texto<\/b>\n\n\n\t\t<?prg\n\t\t\tLocal cHtml := ''\n\t\t\tLocal nLin := 1\n\n\t\t\tcHtml += '<p>línea ' +AllTrim(Str(nLin++))+ ' insertada de texto <\/p>'\n\t\t\tcHtml += '<p>línea ' +AllTrim(Str(nLin++))+ ' insertada de texto <\/p>'\n\n\t\t\tretu cHtml\t\t\t\t\t\t\t\t\n\t\t?>\n\n\t\t<b>Final lineas de texto<\/b>\n\n\t<\/html\n\tENDTEXT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "706ae118-d816-4428-b219-fc45ac3dbd11",
+        "type": "message",
+        "text": "Charly estás ??",
+        "user": "UJN8D8U3B",
+        "ts": "1588674459.121100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9B+=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Charly estás ??"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "66ee2adf-ef7c-4c9b-88a0-d7f193cc4665",
+        "type": "message",
+        "text": "<@UJU3NMK0U> esta funcionalidad es de TWeb. Hay ejemplo para usar plantillas como blocks y template que te puede funcionar",
+        "user": "UJWR5N32S",
+        "ts": "1588675967.122000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Yn\/l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " esta funcionalidad es de TWeb. Hay ejemplo para usar plantillas como blocks y template que te puede funcionar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e1aae3f-bbdf-4064-bb8b-920a7c926d55",
+        "type": "message",
+        "text": "Pues esta pero que muy bien que lo tengas implementado en TWeb.\nSeria bueno poder disponer, creo a mi entender, que pudiéramos tenerlo también en un prg, simple y llano.\nPor mi parte, echo mano de TWeb, que funciona.",
+        "user": "UJU3NMK0U",
+        "ts": "1588676662.123900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=M2F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues esta pero que muy bien que lo tengas implementado en TWeb.\nSeria bueno poder disponer, creo a mi entender, que pudiéramos tenerlo también en un prg, simple y llano.\nPor mi parte, echo mano de TWeb, que funciona."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d4440c3-a307-4331-9358-7f5979fec98f",
+        "type": "message",
+        "text": "Si Xevi, esta bien. Intento que la mayotia de cosas se puedan usar desde todos los lados, pero a vece no se puede. Teneis todo el fuente para estudiarlo si quereis e intentar ponerlo en otros entornos.",
+        "user": "UJWR5N32S",
+        "ts": "1588676745.125200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cNCv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si Xevi, esta bien. Intento que la mayotia de cosas se puedan usar desde todos los lados, pero a vece no se puede. Teneis todo el fuente para estudiarlo si quereis e intentar ponerlo en otros entornos."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a29e85c4-1e06-4185-95d9-5102d867b5a1",
+        "type": "message",
+        "text": "No tiene de ser dificil pero al fianl es una cuestion de tiempo",
+        "user": "UJWR5N32S",
+        "ts": "1588676756.125500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tEr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No tiene de ser dificil pero al fianl es una cuestion de tiempo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e6866a2-37c6-4c92-bad6-1f0088107d1b",
+        "type": "message",
+        "text": "final",
+        "user": "UJWR5N32S",
+        "ts": "1588676760.125800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gSHu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "final"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07cb234f-4a12-4326-952d-d8cd6854456e",
+        "type": "message",
+        "text": "Ademas... :slightly_smiling_face: digamos que el mod es el estado natural y las lib q puedes adjuntar como tweb te dan una funcionalidad \"extra\" que no esta en el mod. Si pedis que seria bueno poderlo usar, entonce podeis la lib no ? Yo entiendo q el mod ha de tener la funcionalidad base para que todo funcione, porque van aparecer libs con diferentes 'addon' que cada uno podra usar a su gusto.",
+        "user": "UJWR5N32S",
+        "ts": "1588677047.128600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z2j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ademas... "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            },
+                            {
+                                "type": "text",
+                                "text": " digamos que el mod es el estado natural y las lib q puedes adjuntar como tweb te dan una funcionalidad \"extra\" que no esta en el mod. Si pedis que seria bueno poderlo usar, entonce podeis la lib no ? Yo entiendo q el mod ha de tener la funcionalidad base para que todo funcione, porque van aparecer libs con diferentes 'addon' que cada uno podra usar a su gusto."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "557f05b4-e3b0-49cb-8bac-245a2f9e398a",
+        "type": "message",
+        "text": "Y repito...al final es una cuestion de recursos y tiempo",
+        "user": "UJWR5N32S",
+        "ts": "1588677080.129000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Oub+\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y repito...al final es una cuestion de recursos y tiempo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c33aa390-b888-48fc-a922-667563225143",
+        "type": "message",
+        "text": "Perfecto, y me queda aclarado. Gracias, como siempre, por tu tiempo!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588678517.129500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a1i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Perfecto, y me queda aclarado. Gracias, como siempre, por tu tiempo!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3127e32a-ff10-461e-b6ed-e4c397061128",
+        "type": "message",
+        "text": "Veo que muchos de los problemas que gente como Xevi tiene es que aún no acaba de entender qué va en el servidor y qué en el cliente, y las abstracciones como tweb ayudan a resolver problemas, pero no a entender el por qué de los problemas.",
+        "user": "UNAHBRTFA",
+        "ts": "1588678623.130900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1588678700.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gaW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Veo que muchos de los problemas que gente como Xevi tiene es que aún no acaba de entender qué va en el servidor y qué en el cliente, y las abstracciones como tweb ayudan a resolver problemas, pero no a entender el por qué de los problemas."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a3c663e9-66a6-491d-b820-dc2faed8ff6b",
+        "type": "message",
+        "text": "Así que creo que convendría hacer una charla repasando las bases y cogiendo ejemplos de cosas en tweb, por ejemplo, y explicando qué hacen a nivel HTTP y HTML",
+        "user": "UNAHBRTFA",
+        "ts": "1588678657.131700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aNy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Así que creo que convendría hacer una charla repasando las bases y cogiendo ejemplos de cosas en tweb, por ejemplo, y explicando qué hacen a nivel HTTP y HTML"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ebefe518-f4fa-45f3-a8ad-d7d7ae9f4bc2",
+        "type": "message",
+        "text": "Se ha hecho una pequeña modificación en la función SetCookie() para soportar Internet Explorer",
+        "user": "UJN8D8U3B",
+        "ts": "1588679178.132600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Saf2g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se ha hecho una pequeña modificación en la función SetCookie() para soportar Internet Explorer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "747f03fb-60ab-4975-8ea8-16819a1ad65c",
+        "type": "message",
+        "text": "ya está en el repo",
+        "user": "UJN8D8U3B",
+        "ts": "1588679186.132800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "29Pl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ya está en el repo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "55e4c892-f7f4-471d-85eb-633e7028a1f0",
+        "type": "message",
+        "text": "Quiero mostrar el contenido de un fichero xml\n```function Main()\n? MemoRead( \"C:\\xampp\\htdocs\\prova.xml\" )\nreturn nil```\nEsto me muestra\n```PRE520050515495000500bsWindows0172 5\/20-05-05T15:49:50 1 52.75 NOMBRE Y APELLIDOS 5200505154950W72G17123123000000001 TRF true 1 52.75 NORM SEPA OTHR 2020-05-07 NOMBRE Y APELLIDOS IBAN...IBAN CAIXESBBXXX DEBT 05052020000001190110 05052020000001190110 52.75 BICSWIFTxx Nombre y Apellidos ES3512345678901234567890 TEXTO INFORMATIVO```\nCuando lo que me deberia (o intento) es que me mostrara\n```&lt;?xml version=\"1.0\" encoding=\"iso-8859-1\"?&gt;\n&lt;Document xmlns:xsi=\"<http:\/\/www.w3.org\/2001\/XMLSchema-instance>\" xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.03\"&gt;\n   &lt;CstmrCdtTrfInitn&gt;\n      &lt;GrpHdr&gt;\n         &lt;MsgId&gt;PRE520050515495000500bsWindows0172&lt;\/MsgId&gt;\n         &lt;CreDtTm&gt;5\/20-05-05T15:49:50&lt;\/CreDtTm&gt;\n         &lt;NbOfTxs&gt;1&lt;\/NbOfTxs&gt;\n         &lt;CtrlSum&gt;52.75&lt;\/CtrlSum&gt;\n         &lt;InitgPty&gt;\n            &lt;Nm&gt;NOMBRE Y APELLIDOS&lt;\/Nm&gt;\n         &lt;\/InitgPty&gt;\n      &lt;\/GrpHdr&gt;\n      &lt;PmtInf&gt;\n         &lt;PmtInfId&gt;5200505154950W72G17123123000000001&lt;\/PmtInfId&gt;\n         &lt;PmtMtd&gt;TRF&lt;\/PmtMtd&gt;\n         &lt;BtchBookg&gt;true&lt;\/BtchBookg&gt;\n         &lt;NbOfTxs&gt;1&lt;\/NbOfTxs&gt;\n         &lt;CtrlSum&gt;52.75&lt;\/CtrlSum&gt;\n         &lt;PmtTpInf&gt;\n            &lt;InstrPrty&gt;NORM&lt;\/InstrPrty&gt;\n            &lt;SvcLvl&gt;\n               &lt;Cd&gt;SEPA&lt;\/Cd&gt;\n            &lt;\/SvcLvl&gt;\n            &lt;CtgyPurp&gt;\n               &lt;Cd&gt;OTHR&lt;\/Cd&gt;\n            &lt;\/CtgyPurp&gt;\n         &lt;\/PmtTpInf&gt;\n         &lt;ReqdExctnDt&gt;2020-05-07&lt;\/ReqdExctnDt&gt;\n         &lt;Dbtr&gt;\n...```\nAlgo debo de hacer para que me muestre TODO el contenido, de la forma que me lo muestra el Notepad, por ejemplo",
+        "user": "UJU3NMK0U",
+        "ts": "1588687941.140300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PqG3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Quiero mostrar el contenido de un fichero xml\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()\n? MemoRead( \"C:\\xampp\\htdocs\\prova.xml\" )\nreturn nil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esto me muestra\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "PRE520050515495000500bsWindows0172 5\/20-05-05T15:49:50 1 52.75 NOMBRE Y APELLIDOS 5200505154950W72G17123123000000001 TRF true 1 52.75 NORM SEPA OTHR 2020-05-07 NOMBRE Y APELLIDOS IBAN...IBAN CAIXESBBXXX DEBT 05052020000001190110 05052020000001190110 52.75 BICSWIFTxx Nombre y Apellidos ES3512345678901234567890 TEXTO INFORMATIVO"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cuando lo que me deberia (o intento) es que me mostrara\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<Document xmlns:xsi=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/www.w3.org\/2001\/XMLSchema-instance"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\" xmlns=\"urn:iso:std:iso:20022:tech:xsd:pain.001.001.03\">\n   <CstmrCdtTrfInitn>\n      <GrpHdr>\n         <MsgId>PRE520050515495000500bsWindows0172<\/MsgId>\n         <CreDtTm>5\/20-05-05T15:49:50<\/CreDtTm>\n         <NbOfTxs>1<\/NbOfTxs>\n         <CtrlSum>52.75<\/CtrlSum>\n         <InitgPty>\n            <Nm>NOMBRE Y APELLIDOS<\/Nm>\n         <\/InitgPty>\n      <\/GrpHdr>\n      <PmtInf>\n         <PmtInfId>5200505154950W72G17123123000000001<\/PmtInfId>\n         <PmtMtd>TRF<\/PmtMtd>\n         <BtchBookg>true<\/BtchBookg>\n         <NbOfTxs>1<\/NbOfTxs>\n         <CtrlSum>52.75<\/CtrlSum>\n         <PmtTpInf>\n            <InstrPrty>NORM<\/InstrPrty>\n            <SvcLvl>\n               <Cd>SEPA<\/Cd>\n            <\/SvcLvl>\n            <CtgyPurp>\n               <Cd>OTHR<\/Cd>\n            <\/CtgyPurp>\n         <\/PmtTpInf>\n         <ReqdExctnDt>2020-05-07<\/ReqdExctnDt>\n         <Dbtr>\n..."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nAlgo debo de hacer para que me muestre TODO el contenido, de la forma que me lo muestra el Notepad, por ejemplo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "71a86760-6059-4296-be2d-a03684e89061",
+        "type": "message",
+        "text": "Se \"come\" los tags y solo me muestra el texto que tengo entre tags\n¿?¿?",
+        "user": "UJU3NMK0U",
+        "ts": "1588687945.140500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJU3NMK0U",
+            "ts": "1588688020.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "w6uv0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Se \"come\" los tags y solo me muestra el texto que tengo entre tags\n¿?¿?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a315ad7b-eac7-452f-a36b-f0896056b02c",
+        "type": "message",
+        "text": "Tienes que escapar el xml",
+        "user": "UNAHBRTFA",
+        "ts": "1588688074.141000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GqG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tienes que escapar el xml"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b107909-2488-44da-973b-424001c43624",
+        "type": "message",
+        "text": "Estoy \"saturado\"... que funcioncilla?",
+        "user": "UJU3NMK0U",
+        "ts": "1588688120.141700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IOO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Estoy \"saturado\"... que funcioncilla?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ffe43614-37c5-4085-9083-2c01b1828c80",
+        "type": "message",
+        "text": "o sacarlo con la cabecera `Content-Type: text\/plain`",
+        "user": "UNAHBRTFA",
+        "ts": "1588688131.141900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yAFO1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o sacarlo con la cabecera "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Content-Type: text\/plain",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b0d42c2-2aa5-4d30-8915-3b0b3aea81de",
+        "type": "message",
+        "text": "cuando sacas texto, el navegador por defecto va a interpretar todo lo que saques como html",
+        "user": "UNAHBRTFA",
+        "ts": "1588688204.142900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zIM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cuando sacas texto, el navegador por defecto va a interpretar todo lo que saques como html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "553fdb06-4e0a-4f47-91f6-13c298bd4ef8",
+        "type": "message",
+        "text": "en este caso, los tags del xml se están interpretando como tags de html que el navegador no reconoce",
+        "user": "UNAHBRTFA",
+        "ts": "1588688235.143800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AQl6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en este caso, los tags del xml se están interpretando como tags de html que el navegador no reconoce"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a53ed93d-f2fa-4795-998d-cf786e0e3e20",
+        "type": "message",
+        "text": "puedes hacer dos cosas: si le pones la cabecera `Content-Type: text\/plain`, el navegador no lo va a interpretar como html",
+        "user": "UNAHBRTFA",
+        "ts": "1588688298.144600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KyNrl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "puedes hacer dos cosas: si le pones la cabecera "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Content-Type: text\/plain",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", el navegador no lo va a interpretar como html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba552f29-cd64-486e-8925-26e33f291879",
+        "type": "message",
+        "text": "o puedes sacarlo como html escapado",
+        "user": "UNAHBRTFA",
+        "ts": "1588688307.145000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NZW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o puedes sacarlo como html escapado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c5fb5a74-be43-43dd-b3e9-a807d7c5951d",
+        "type": "message",
+        "text": "creo que tweb tiene una función para escapar el html, pero no me acuerdo del nombre",
+        "user": "UNAHBRTFA",
+        "ts": "1588688326.145500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9bE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "creo que tweb tiene una función para escapar el html, pero no me acuerdo del nombre"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05d7cfd2-ae39-45fc-8fb8-d0a7143b1d18",
+        "type": "message",
+        "text": "también puedes copiar esta:\n```function EscaparHtml(string)\n\tstring := StrTran(string, \"&amp;\", \"&amp;\")\n\tstring := StrTran(string, \"&lt;\", \"&lt;\")\n\tstring := StrTran(string, '\"', \"&amp;quot;\")\n\tstring := StrTran(string, \"'\", \"&amp;apos;\")\nreturn string```",
+        "user": "UNAHBRTFA",
+        "ts": "1588688341.146000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YFoD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "también puedes copiar esta:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function EscaparHtml(string)\n\tstring := StrTran(string, \"&\", \"&amp;\")\n\tstring := StrTran(string, \"<\", \"&lt;\")\n\tstring := StrTran(string, '\"', \"&quot;\")\n\tstring := StrTran(string, \"'\", \"&apos;\")\nreturn string"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83ed0548-2e8f-4bfd-ba85-7277eb719b0f",
+        "type": "message",
+        "text": "Esta funcion EscaparHml() me sirve, aunque no lo muestre bien tabulado y el contenido todo seguido, pero creo que me vale.",
+        "user": "UJU3NMK0U",
+        "ts": "1588688507.147000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eEvt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esta funcion EscaparHml() me sirve, aunque no lo muestre bien tabulado y el contenido todo seguido, pero creo que me vale."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "66c0fc0d-07f9-4d79-a72e-4354120fb067",
+        "type": "message",
+        "text": "para que te lo muestre así puedes usar el content-type",
+        "user": "UNAHBRTFA",
+        "ts": "1588688533.147700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=sL0Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "para que te lo muestre así puedes usar el content-type"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7f392ad8-a4b5-4556-973a-f7ccc30973ab",
+        "type": "message",
+        "text": "o meter el xml escapado en un tag `&lt;pre&gt;`",
+        "user": "UNAHBRTFA",
+        "ts": "1588688545.148200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f4sB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "o meter el xml escapado en un tag "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<pre>",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d710cae4-e363-47eb-bc72-a4c7e4e3be26",
+        "type": "message",
+        "text": "Gracias <@UNAHBRTFA> \"&lt;pre&gt;\" + EscaparHtml( MemoRead( \"C:\\xampp\\htdocs\\prova.xml\" ) )",
+        "user": "UJU3NMK0U",
+        "ts": "1588689065.148500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0+l2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " \"<pre>\" + EscaparHtml( MemoRead( \"C:\\xampp\\htdocs\\prova.xml\" ) )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6d5b149-8159-443e-9a45-3a068e29e163",
+        "type": "message",
+        "text": "Ahora me queda... bajar un archivo, o copiar un archivo del Servidor a local...",
+        "user": "UJU3NMK0U",
+        "ts": "1588689100.149200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BAHYc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora me queda... bajar un archivo, o copiar un archivo del Servidor a local..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6170686-bb3d-4664-b973-2cf542c8ba39",
+        "type": "message",
+        "text": "Lo que llevo hecho...\n• Subida de un archivo al server (doy por supuesto que se trata de un Excel)\n• Selección de la hoja, columnas que corresponden a valores\n• Lectura de los datos del excel\n• Creación del fichero Xml (en local) muestro el texto del Xml\nBien, me falta el poder descargar\/bajar\/guardar localmente ese ficherete.",
+        "user": "UJU3NMK0U",
+        "ts": "1588689385.153300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c28",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo que llevo hecho...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Subida de un archivo al server (doy por supuesto que se trata de un Excel)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Selección de la hoja, columnas que corresponden a valores"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Lectura de los datos del excel"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Creación del fichero Xml (en local) muestro el texto del Xml"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nBien, me falta el poder descargar\/bajar\/guardar localmente ese ficherete."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f6e0f658-5433-4738-b07b-bdd02c56446c",
+        "type": "message",
+        "text": "para bajar un fichero, necesitas las cabeceras:\n• `Content-Type: application\/xml` (o algo más específico)\n• `Content-Disposition: attachment; filename=nombre.xml`",
+        "user": "UNAHBRTFA",
+        "ts": "1588689559.155300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XOE5w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "para bajar un fichero, necesitas las cabeceras:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Content-Type: application\/xml",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (o algo más específico)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Content-Disposition: attachment; filename=nombre.xml",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d140b621-9045-434c-a770-e6cb81c4419e",
+        "type": "message",
+        "text": "Ahora estoy muy \"espeso\"...\nMe doy un respiro y sigo... a ver si puedo colgar algo para que alguien pueda verlo",
+        "user": "UJU3NMK0U",
+        "ts": "1588689647.156000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/Vf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora estoy muy \"espeso\"...\nMe doy un respiro y sigo... a ver si puedo colgar algo para que alguien pueda verlo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "81a13558-2e11-45c1-b7e9-7b18e2c0442d",
+        "type": "message",
+        "text": "<@UJU3NMK0U> Gracias por tus aportes",
+        "user": "UK28N3CER",
+        "ts": "1588690232.156500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kGr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Gracias por tus aportes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "64132b5c-2ab7-434c-8514-60318f99dc32",
+        "type": "message",
+        "text": "Sin duda nos va a servir y mucho",
+        "user": "UK28N3CER",
+        "ts": "1588690248.157100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s1o5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sin duda nos va a servir y mucho"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "Hace exactamente un año publiqué este video en TWeb.\nInmediatamente después, Antonio lanzó Mod Harbour y comencé a programar con Mod Harbour.",
+        "files": [
+            {
+                "id": "F012WAZA5DL",
+                "created": 1588696306,
+                "timestamp": 1588696306,
+                "name": "AutoCode4TWeb.gif",
+                "title": "AutoCode4TWeb.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 1144416,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012WAZA5DL\/autocode4tweb.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F012WAZA5DL\/download\/autocode4tweb.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 273,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 364,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 546,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 607,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 728,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 777,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_360.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_480.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 1065,
+                "original_h": 808,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F012WAZA5DL-67d40f924b\/autocode4tweb_deanimate_gif.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_tiny": "AwAkADC6V+XIjX8TSbSf+WSf99f\/AFqlXlBQBTuKyIth\/wCeSf8AfX\/1qNh\/54p\/31\/9apgMUHOKLhZEH\/bJPz\/+tS8njyk\/P\/61TUpouFhin5RS8e1CfdFLgUhhkUZFLRQAnFHFLRQBH\/CPpS4zik\/hH0pR2oBDsUtFFABRRRQB\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F012WAZA5DL\/autocode4tweb.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F012WAZA5DL-a948a6e2ab",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/njX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hace exactamente un año publiqué este video en TWeb.\nInmediatamente después, Antonio lanzó Mod Harbour y comencé a programar con Mod Harbour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1588696309.157300",
+        "client_msg_id": "596b42ac-5ef0-46a0-b555-75598f4142ed",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UK28N3CER"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0131MCTF9T",
+                "created": 1588696320,
+                "timestamp": 1588696320,
+                "name": "AutoCode4TWebhelp.gif",
+                "title": "AutoCode4TWebhelp.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 866509,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0131MCTF9T\/autocode4twebhelp.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0131MCTF9T\/download\/autocode4twebhelp.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_64.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_80.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_360.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_360_w": 360,
+                "thumb_360_h": 273,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_480.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_w": 480,
+                "thumb_480_h": 364,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_160.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_720.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_720_w": 720,
+                "thumb_720_h": 546,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_800.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_800_w": 800,
+                "thumb_800_h": 607,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_960.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_960_w": 960,
+                "thumb_960_h": 728,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_1024.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 777,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_360.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_480.gif?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "original_w": 1065,
+                "original_h": 808,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0131MCTF9T-552c993dc3\/autocode4twebhelp_deanimate_gif.png?t=xoxe-629202954002-1183293690563-1183293711699-bad0c83802ec68402d6030a1e442ae77",
+                "thumb_tiny": "AwAkADC8QcfKi\/iaMP8A881\/76\/+tThkdKXLUAR7X\/55p\/31\/wDWoIbuij3BqXmgjIoAiEZzyGHvxS7Cp+UBv944xUnPpRzmmKwg6ClpBnbwP1o59P1pDFzRmkGfQfnRz6D86AHUUnPoPzo5oAT+Gg0fw0hpgOpabTqQBRRRQB\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0131MCTF9T\/autocode4twebhelp.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0131MCTF9T-02f480c73f",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1588696322.157600",
+        "client_msg_id": "74e90ab8-b120-44ff-883f-2b1ec811bb2f"
+    },
+    {
+        "client_msg_id": "57b538bd-65cf-4c13-a21b-716c3d1ef599",
+        "type": "message",
+        "text": "Por fín nos hemos enterado de como funcionan los plugins de hbmk2 :wink:",
+        "user": "UJN8D8U3B",
+        "ts": "1588715205.159900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aBVcv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Por fín nos hemos enterado de como funcionan los plugins de hbmk2 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "394bdf54-d285-4b17-9645-7d631f8d6854",
+        "type": "message",
+        "text": "plugin.prg\n```function hbmk2_plugin( hbmk2 )\n\n  hb_MemoWrit( hbmk2[ \"cSTATE\" ] + \".txt\", hb_jsonEncode( hbmk2, .T. ) )\n\nreturn nil```\n*Para construirlo:*\nharbour -gh -n plugin.prg\n\n*Para usarlo:*\nhbmk2 test.hbp plugin.hrb\n\nAhora tenemos una oportunidad para afinar el comportamiento de hbmk2 cuando sea necesario :-)",
+        "user": "UJN8D8U3B",
+        "ts": "1588715273.160200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1588715374.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RKdT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "plugin.prg\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function hbmk2_plugin( hbmk2 )\n\n  hb_MemoWrit( hbmk2[ \"cSTATE\" ] + \".txt\", hb_jsonEncode( hbmk2, .T. ) )\n\nreturn nil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Para construirlo:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nharbour -gh -n plugin.prg\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Para usarlo:",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nhbmk2 test.hbp plugin.hrb\n\nAhora tenemos una oportunidad para afinar el comportamiento de hbmk2 cuando sea necesario :-)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UK28N3CER"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f0052b2-3e34-43e9-b3f9-4de13656a89e",
+        "type": "message",
+        "text": "Buenos días y hasta mas tarde",
+        "user": "UK28N3CER",
+        "ts": "1588741422.161300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UEn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos días y hasta mas tarde"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "27302037-8a87-4eaa-9299-6c59952ab680",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1588742383.161600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VOo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

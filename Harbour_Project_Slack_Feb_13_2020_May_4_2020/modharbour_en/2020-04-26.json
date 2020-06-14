@@ -1,0 +1,448 @@
+[
+    {
+        "client_msg_id": "f9f543d0-5e54-4101-b79d-27944129b0cd",
+        "type": "message",
+        "text": "Do you have instructions on how to load the JS and CSS files best? I mean the order.\nAnd how do you do that you don't have double css and js functions?\nTWeb loads in the &lt;head&gt;.\nI usually load the scripts at the end of the page.\nCan you show us the way, please?",
+        "user": "UJHD6A81H",
+        "ts": "1587885127.059100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tfju",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Do you have instructions on how to load the JS and CSS files best? I mean the order.\nAnd how do you do that you don't have double css and js functions?\nTWeb loads in the <head>.\nI usually load the scripts at the end of the page.\nCan you show us the way, please?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "615021e7-9b0a-42a9-889c-258625ae6ae4",
+        "type": "message",
+        "text": "I went through some of the JS execution order last month: <https:\/\/github.com\/andreubotella\/js-execution-order\/tree\/master\/en>",
+        "user": "UNAHBRTFA",
+        "ts": "1587885523.060000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "andreubotella\/js-execution-order",
+                "title_link": "https:\/\/github.com\/andreubotella\/js-execution-order\/tree\/master\/en",
+                "text": "An overview of the Javascript execution order for beginners to the web. - andreubotella\/js-execution-order",
+                "fallback": "GitHub: andreubotella\/js-execution-order",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/8225977?s=400&v=4",
+                "from_url": "https:\/\/github.com\/andreubotella\/js-execution-order\/tree\/master\/en",
+                "thumb_width": 420,
+                "thumb_height": 420,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/andreubotella\/js-execution-order\/tree\/master\/en"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XRC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I went through some of the JS execution order last month: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/andreubotella\/js-execution-order\/tree\/master\/en"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a6315e44-c4e0-4fa9-8fdf-ef56650187cd",
+        "type": "message",
+        "text": "it's fine to load the scripts at the end, but you don't need to",
+        "user": "UNAHBRTFA",
+        "ts": "1587885540.060500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U2aRr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it's fine to load the scripts at the end, but you don't need to"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85f46987-db78-4abe-8cdd-88d31770d08a",
+        "type": "message",
+        "text": "so, there's some interaction between the styling and the scripting, since you can inspect the styles from JS, so the browser can't start running a script if there's a style still loading",
+        "user": "UNAHBRTFA",
+        "ts": "1587885596.061700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b5A=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so, there's some interaction between the styling and the scripting, since you can inspect the styles from JS, so the browser can't start running a script if there's a style still loading"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c907d0b-d91c-426b-b3e3-9d6e2a09cfa6",
+        "type": "message",
+        "text": "if you have the CSS at the top and the JS at the bottom, you shouldn't have issues",
+        "user": "UNAHBRTFA",
+        "ts": "1587885613.062100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hDW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if you have the CSS at the top and the JS at the bottom, you shouldn't have issues"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d5237479-e305-4e13-bf4b-c4b792097d48",
+        "type": "message",
+        "text": "though this is a part of the web platform where I'm not so much of an expert as in some other parts",
+        "user": "UNAHBRTFA",
+        "ts": "1587885679.063300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587885763.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B\/Og8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "though this is a part of the web platform where I'm not so much of an expert as in some other parts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9e33f3c2-a14e-4553-9a63-b4e890eb55cf",
+        "type": "message",
+        "text": "if you're going to have the scripts and css at the top, something you can do is load the scripts before the styles",
+        "user": "UNAHBRTFA",
+        "ts": "1587885890.064000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DWQ4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if you're going to have the scripts and css at the top, something you can do is load the scripts before the styles"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aad13553-d057-4195-8eae-7d5c957b712a",
+        "type": "message",
+        "text": "Thank you. I study now your overview on github. Then I will change my program.",
+        "user": "UJHD6A81H",
+        "ts": "1587886138.065200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FaQOe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thank you. I study now your overview on github. Then I will change my program."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "24e54326-8ba3-48d2-b0f4-ddca010c6208",
+        "type": "message",
+        "text": "I have poor performance on the webpage when testing with Audit.\nAlthough the program seems very performat to me.\nBut my server only has an upload of 2-4 Mbps.",
+        "user": "UJHD6A81H",
+        "ts": "1587886183.066000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RFHi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I have poor performance on the webpage when testing with Audit.\nAlthough the program seems very performat to me.\nBut my server only has an upload of 2-4 Mbps."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "544e4000-fc81-4c2f-a080-b35185fa2c29",
+        "type": "message",
+        "text": "There are many ways to squeeze performance out of a site, but many of them are advanced",
+        "user": "UNAHBRTFA",
+        "ts": "1587886267.066500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eKB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There are many ways to squeeze performance out of a site, but many of them are advanced"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bfbca528-92cb-4336-b26f-7c7f11d22458",
+        "type": "message",
+        "text": "I don't think the server's upload bandwidth is too big of a factor unless you have lots of users",
+        "user": "UNAHBRTFA",
+        "ts": "1587886328.067100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1587886336.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cyz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't think the server's upload bandwidth is too big of a factor unless you have lots of users"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

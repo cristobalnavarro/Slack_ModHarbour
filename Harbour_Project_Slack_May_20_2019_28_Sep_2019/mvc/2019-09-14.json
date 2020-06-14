@@ -1,0 +1,149 @@
+[
+    {
+        "client_msg_id": "01cb9f7c-af49-4058-92f2-27b15b4b1922",
+        "type": "message",
+        "text": "Ejemplo del ABM Ajax vs. Form en Server para que veais diferencias de comportamiento -&gt; <https:\/\/harbour.fourtech.es\/modharbour_charly\/src\/one\/>",
+        "user": "UJWR5N32S",
+        "ts": "1568484815.000800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "eb0cb478-f479-4959-8913-8e292c4ee446",
+        "type": "message",
+        "text": "gracias Charly !",
+        "user": "UM81W8B0Q",
+        "ts": "1568486006.001100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "b5c3e00b-1723-4383-b939-4df158f98245",
+        "type": "message",
+        "text": "Charly... se be muy bueno!!!\nEl cambio de ajax a Form, bien, sobre gustos, ya se sabe, aunque nos vendrá muy bien ver como en ese ejemplo se utiliza de una u otra forma. A veces, igual nos interesa más ver como \"se refresca\" toda la ventana, y en otras ocasiones, queda más \"elegante\" solo saber\/ver que un proceso ya se ha ejecutado y no tener que ver un \"pantallazo\".",
+        "user": "UJU3NMK0U",
+        "ts": "1568489647.003800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "1a4e3c9b-ed5b-4d7b-82c1-72f388a11be4",
+        "type": "message",
+        "text": "Muchas gracias port u tiempo!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1568489654.004100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "862ff56f-b59a-465e-a81d-de6253f019a7",
+        "type": "message",
+        "text": "Si el problema es el pantallazo (normalmente llamado FOUC, flash of unstyled content), más que la velocidad a la que se recarga la página, puedes evitarlo hasta cierto punto si metes el CSS al principio del HTML",
+        "user": "UNAHBRTFA",
+        "ts": "1568490420.010100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Favatars%2Fuser_shapes%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "cbc9c3a6-5f16-466e-bf7d-d7cd8cc9c668",
+        "type": "message",
+        "text": "A ver si <@UJHK2Q8UT> nos puede explicar por qué el framework utiliza esta técnica ( supongo que puede ser un tema de seguridad CSP, o algo así, aunque es mucho suponer ).",
+        "user": "UJUJLTWMT",
+        "ts": "1568490890.012500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "04cbee1b-a38f-4eac-ab8a-6d3c243011c9",
+        "type": "message",
+        "text": "Pues porque n principio la codificacion es mas facil y rapida",
+        "user": "UJWR5N32S",
+        "ts": "1568491313.013600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

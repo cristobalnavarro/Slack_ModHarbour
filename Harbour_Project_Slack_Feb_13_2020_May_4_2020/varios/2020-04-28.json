@@ -1,0 +1,1332 @@
+[
+    {
+        "type": "message",
+        "text": "Siguiendo el tema utf8 & ansi\nHe incluido el unicodeconvert.prg en la aplicación, y de esta manera me permite visualizar en una web utf-8 texto de mis DBFs codificadas en ansi.\nPrefiero esta \"norma\". Tener la web en utf-8 es lo más \"normal\" por lo que veo\/leo. La problemática de tener los datos en ansi, con UniToU8() creo que me han desaparecido, pues.",
+        "files": [
+            {
+                "id": "F0127HJQUSK",
+                "created": 1588062338,
+                "timestamp": 1588062338,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 23025,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0127HJQUSK\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0127HJQUSK\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0127HJQUSK-ebb419272f\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0127HJQUSK-ebb419272f\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0127HJQUSK-ebb419272f\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 122,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0127HJQUSK-ebb419272f\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 429,
+                "original_h": 145,
+                "thumb_tiny": "AwAQADC+j\/IvToO9O38dvzpiA7F69B3p2D6H86AQF+OFB\/GlVs\/eAX8aTDY6H86MH3\/SgBS6Dqy\/nTqbj\/ZzSgnPT9aAP\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F0127HJQUSK\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0127HJQUSK-a9b7f1bb4b",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uAq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Siguiendo el tema utf8 & ansi\nHe incluido el unicodeconvert.prg en la aplicación, y de esta manera me permite visualizar en una web utf-8 texto de mis DBFs codificadas en ansi.\nPrefiero esta \"norma\". Tener la web en utf-8 es lo más \"normal\" por lo que veo\/leo. La problemática de tener los datos en ansi, con UniToU8() creo que me han desaparecido, pues."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588062339.445400",
+        "client_msg_id": "225faa6b-cc91-48a4-bba8-d6cf6de9b117"
+    },
+    {
+        "client_msg_id": "a1a11110-4875-4483-ba70-dc69e79d8272",
+        "type": "message",
+        "text": "UTF-8 es lo recomendado en la web, pero no es la codificación que usan los navegadores por defecto",
+        "user": "UNAHBRTFA",
+        "ts": "1588062999.446400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CV2p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "UTF-8 es lo recomendado en la web, pero no es la codificación que usan los navegadores por defecto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "181bad70-a143-42b9-badb-a1d26f82d328",
+        "type": "message",
+        "text": "de ahí que tengas que poner el `&lt;meta charset&gt;`",
+        "user": "UNAHBRTFA",
+        "ts": "1588063010.446800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jjfH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "de ahí que tengas que poner el "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<meta charset>",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2173b465-f97e-4955-9e6f-1e7e12dac5ff",
+        "type": "message",
+        "text": "Si, si, <@UNAHBRTFA>...\nde hecho lo tengo así en el head.view\n```<!DOCTYPE html>\n\n&lt;head&gt;\n\n\t&lt;title&gt;{{ App():Get( 'v@soft' ) }}&lt;\/title&gt;\n\n&lt;!--\t&lt;META HTTP-EQUIV= \"Content-Type\" CONTENT=\"text\/html;charset=\"utf-8\"&gt; --&gt;\n&lt;meta charset=\"utf-8\"&gt;  &lt;!-- Per visualitzar correcament vocabulari amb accents, ç ¨ --&gt;\n\t\n    &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt;\n\t&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"&gt;\t\n\n\t&lt;link rel=\"shortcut icon\" type=\"image\/png\" href=\"{{ AppUrlImg() + '@Soft.ico'}}\"\/&gt;\n\n    &lt;!-- Bootstrap CSS CDN --&gt;   \n\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/css\/bootstrap.min.css>\"&gt;\n\n\t&lt;script src=\"<https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.3.1\/jquery.js>\"&gt;&lt;\/script&gt;\t\n\t&lt;script src=\"<https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.14.7\/umd\/popper.min.js>\"&gt;&lt;\/script&gt;\n\t&lt;script src=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/js\/bootstrap.min.js>\"&gt;&lt;\/script&gt;\n\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/use.fontawesome.com\/releases\/v5.8.2\/css\/all.css>\"&gt;\n \n&lt;\/head&gt;```\ny el prova.view\n```&lt;html&gt;\n\n\t{{ View( 'head.view' ) }}\n\t\n&lt;?prg\n\tLOCAL cHtml \t:= ''\n\n\t#define PATH_DATA \t\tHB_GetEnv( \"PRGPATH\" ) + '\/data\/'\n\tUSE ( PATH_DATA + 'test.dbf' ) SHARED NEW VIA 'DBFCDX'\n\tcAlias := Alias()\n\n? \"(cAlias)-&gt;last  =\", (cAlias)-&gt;last\n? \"UHtmlEncode( (cAlias)-&gt;last ) = \", UHtmlEncode( (cAlias)-&gt;last \t )\n? \"UniToU8( (cAlias)-&gt;last ) = \", UniToU8( (cAlias)-&gt;last )\n? \"UHtmlEncode( UniToU8( (cAlias)-&gt;last ) ) = \", UHtmlEncode( UniToU8( (cAlias)-&gt;last ) )\n\n\tretu cHtml\t\t\t\t\t\t\t\t\n?&gt;\n\n\t\t\n&lt;\/html&gt;```\nParece funcionar y entender bien el Ansi convertido a utf8 con UniToU8()\n\nAhora provaré con los browses",
+        "user": "UJU3NMK0U",
+        "ts": "1588067283.448600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6FA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, si, "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "...\nde hecho lo tengo así en el head.view\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<!DOCTYPE html>\n\n<head>\n\n\t<title>{{ App():Get( 'v@soft' ) }}<\/title>\n\n<!--\t<META HTTP-EQUIV= \"Content-Type\" CONTENT=\"text\/html;charset=\"utf-8\"> -->\n<meta charset=\"utf-8\">  <!-- Per visualitzar correcament vocabulari amb accents, ç ¨ -->\n\t\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\t\n\n\t<link rel=\"shortcut icon\" type=\"image\/png\" href=\"{{ AppUrlImg() + '@Soft.ico'}}\"\/>\n\n    <!-- Bootstrap CSS CDN -->   \n\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/css\/bootstrap.min.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\">\n\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.3.1\/jquery.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\t\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.14.7\/umd\/popper.min.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/js\/bootstrap.min.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\n\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/use.fontawesome.com\/releases\/v5.8.2\/css\/all.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\">\n \n<\/head>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\ny el prova.view\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<html>\n\n\t{{ View( 'head.view' ) }}\n\t\n<?prg\n\tLOCAL cHtml \t:= ''\n\n\t#define PATH_DATA \t\tHB_GetEnv( \"PRGPATH\" ) + '\/data\/'\n\tUSE ( PATH_DATA + 'test.dbf' ) SHARED NEW VIA 'DBFCDX'\n\tcAlias := Alias()\n\n? \"(cAlias)->last  =\", (cAlias)->last\n? \"UHtmlEncode( (cAlias)->last ) = \", UHtmlEncode( (cAlias)->last \t )\n? \"UniToU8( (cAlias)->last ) = \", UniToU8( (cAlias)->last )\n? \"UHtmlEncode( UniToU8( (cAlias)->last ) ) = \", UHtmlEncode( UniToU8( (cAlias)->last ) )\n\n\tretu cHtml\t\t\t\t\t\t\t\t\n?>\n\n\t\t\n<\/html>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nParece funcionar y entender bien el Ansi convertido a utf8 con UniToU8()\n\nAhora provaré con los browses"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ac2f376e-b0b4-4fe3-9bac-b0937d53948b",
+        "type": "message",
+        "text": "Pues SI !!!\ntutor4g, cambiamos\n```\/\/\tDEFINE WEB oWeb TITLE 'Test Browse' ICON \"images\/@Soft.ico\" TABLES INIT\n\tDEFINE WEB oWeb TITLE App():Get( 'v@soft' ) ICON \"images\/@Soft.ico\"\n\t\toWeb:lTables \t:= .T.\t\t\n\t\toWeb:cCharset \t:=  'utf-8'\/\/'ISO-8859-1'\t\/\/'Latin-1'\t\n\t\toWeb:cLang \t\t:= 'es'\t\n\tINIT WEB oWeb```\ny al cargar datos de la DBF en formato ansi...\n```...\n'last' \t\t=&gt; UHtmlEncode( UniToU8( (cAlias)-&gt;last ) )\t,;\n...```\nYa se puede tener la web en utf-8 y los datos de las DBFs, en ansi... manteniendo la compatibilidad con las aplicaciones actuales que me estan funcionando !!!\n\nBuuuuufffff!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588069996.450900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=kE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues SI !!!\ntutor4g, cambiamos\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\/\/\tDEFINE WEB oWeb TITLE 'Test Browse' ICON \"images\/@Soft.ico\" TABLES INIT\n\tDEFINE WEB oWeb TITLE App():Get( 'v@soft' ) ICON \"images\/@Soft.ico\"\n\t\toWeb:lTables \t:= .T.\t\t\n\t\toWeb:cCharset \t:=  'utf-8'\/\/'ISO-8859-1'\t\/\/'Latin-1'\t\n\t\toWeb:cLang \t\t:= 'es'\t\n\tINIT WEB oWeb"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\ny al cargar datos de la DBF en formato ansi...\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "...\n'last' \t\t=> UHtmlEncode( UniToU8( (cAlias)->last ) )\t,;\n..."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nYa se puede tener la web en utf-8 y los datos de las DBFs, en ansi... manteniendo la compatibilidad con las aplicaciones actuales que me estan funcionando !!!\n\nBuuuuufffff!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01316A98P3",
+                "created": 1588070059,
+                "timestamp": 1588070059,
+                "name": "Captura.JPG",
+                "title": "Captura.JPG",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 26282,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01316A98P3\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01316A98P3\/download\/captura.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01316A98P3-1ec03e7d71\/captura_64.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01316A98P3-1ec03e7d71\/captura_80.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01316A98P3-1ec03e7d71\/captura_360.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_360_w": 360,
+                "thumb_360_h": 140,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01316A98P3-1ec03e7d71\/captura_480.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "thumb_480_w": 480,
+                "thumb_480_h": 186,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01316A98P3-1ec03e7d71\/captura_160.jpg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "original_w": 611,
+                "original_h": 237,
+                "thumb_tiny": "AwASADC3NLHCwUrIeM\/LUf2yPBHly81cxSYoAqfa4v8AnnLSreRjpHJ+NWsUhAz0NAEH21AM+W\/5Un25P+ecn\/fNThc07FAC0UUUAFIRzS0hoAABS0gpaAP\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F01316A98P3\/captura.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01316A98P3-71c7ad06b0",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588070061.451000",
+        "client_msg_id": "11d49c17-eb99-40c1-bd15-dcf0d6bf7150"
+    },
+    {
+        "client_msg_id": "317b915a-ebf4-41da-abdb-6956cc43e5b0",
+        "type": "message",
+        "text": "Xevi, yo metería los default del oWeb en una funcion e invocaría esa función. Lo ideal sería que esa función pudiera ser invocada automáticamente desde TWeb, en caso de existir... Pero no podemos conformar con hacer un\n\n```FUNCTION WebDefault(oWeb)\n    oWeb:lTables \t:= .T.\t\t\n    oWeb:cCharset \t:=  'utf-8'\/\/'ISO-8859-1'\t\/\/'Latin-1'\t\n    oWeb:cLang \t\t:= 'es'\t```\n",
+        "user": "UJULQCHL5",
+        "ts": "1588070262.453400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z\/UQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Xevi, yo metería los default del oWeb en una funcion e invocaría esa función. Lo ideal sería que esa función pudiera ser invocada automáticamente desde TWeb, en caso de existir... Pero no podemos conformar con hacer un\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "FUNCTION WebDefault(oWeb)\n    oWeb:lTables \t:= .T.\t\t\n    oWeb:cCharset \t:=  'utf-8'\/\/'ISO-8859-1'\t\/\/'Latin-1'\t\n    oWeb:cLang \t\t:= 'es'\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4691e4af-ebc1-46c9-a7e8-9d48ff84012b",
+        "type": "message",
+        "text": "Paquito.\nYo lo que hago, finalmente, es tener mi head... comun en todas mis views...\nutilize TWeb en ellas o no\n```<!DOCTYPE html>\n\n&lt;head&gt;\n\n\t&lt;title&gt;{{ App():Get( 'v@soft' ) }}&lt;\/title&gt;\n\n&lt;!--\t&lt;META HTTP-EQUIV= \"Content-Type\" CONTENT=\"text\/html;charset=\"utf-8\"&gt; --&gt;\n&lt;meta charset=\"utf-8\"&gt;  &lt;!-- Per visualitzar correcament vocabulari amb accents, ç ¨ --&gt;\n\t\n    &lt;meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"&gt;\n\t&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"&gt;\t\n\n\t&lt;link rel=\"shortcut icon\" type=\"image\/png\" href=\"{{ AppUrlImg() + '@Soft.ico'}}\"\/&gt;\n\n    &lt;!-- Bootstrap CSS CDN --&gt;   \n\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/css\/bootstrap.min.css>\"&gt;\n\n\t&lt;script src=\"<https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.3.1\/jquery.js>\"&gt;&lt;\/script&gt;\t\n\t&lt;script src=\"<https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.14.7\/umd\/popper.min.js>\"&gt;&lt;\/script&gt;\n\t&lt;script src=\"<https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/js\/bootstrap.min.js>\"&gt;&lt;\/script&gt;\n\t&lt;link rel=\"stylesheet\" href=\"<https:\/\/use.fontawesome.com\/releases\/v5.8.2\/css\/all.css>\"&gt;\n \n&lt;\/head&gt;```\nLuego en las views que voy a utilizar TWeb, para poder \"mezclar\" controles de tweb o no, según me convengan.. NO decfino la web segun TWeb, pues ya la he definido en mi head.\nY cargo normalmente, si quiero Browses, cargo LoadTWebTables()...\ny adelante!!!\n```&lt;html&gt;\n\t{{ View( 'head.view' ) }}\n\t{{ LoadTWebTables() }}\n&lt;\/html&gt;\n\n&lt;?prg\n...```\nEsto es como lo hago, y está funcionando!!!",
+        "user": "UJU3NMK0U",
+        "ts": "1588072068.457400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jU2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Paquito.\nYo lo que hago, finalmente, es tener mi head... comun en todas mis views...\nutilize TWeb en ellas o no\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<!DOCTYPE html>\n\n<head>\n\n\t<title>{{ App():Get( 'v@soft' ) }}<\/title>\n\n<!--\t<META HTTP-EQUIV= \"Content-Type\" CONTENT=\"text\/html;charset=\"utf-8\"> -->\n<meta charset=\"utf-8\">  <!-- Per visualitzar correcament vocabulari amb accents, ç ¨ -->\n\t\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\t\n\n\t<link rel=\"shortcut icon\" type=\"image\/png\" href=\"{{ AppUrlImg() + '@Soft.ico'}}\"\/>\n\n    <!-- Bootstrap CSS CDN -->   \n\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/css\/bootstrap.min.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\">\n\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.3.1\/jquery.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\t\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/popper.js\/1.14.7\/umd\/popper.min.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\n\t<script src=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.3.1\/js\/bootstrap.min.js"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script>\n\t<link rel=\"stylesheet\" href=\""
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/use.fontawesome.com\/releases\/v5.8.2\/css\/all.css"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\">\n \n<\/head>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nLuego en las views que voy a utilizar TWeb, para poder \"mezclar\" controles de tweb o no, según me convengan.. NO decfino la web segun TWeb, pues ya la he definido en mi head.\nY cargo normalmente, si quiero Browses, cargo LoadTWebTables()...\ny adelante!!!\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<html>\n\t{{ View( 'head.view' ) }}\n\t{{ LoadTWebTables() }}\n<\/html>\n\n<?prg\n..."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nEsto es como lo hago, y está funcionando!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJULQCHL5",
+                    "UJUSD6VB2",
+                    "UK28N3CER"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f12fff31-63fa-4a3d-820d-b0530706f5f6",
+        "type": "message",
+        "text": "<@UJU3NMK0U> El doctype tiene que estar al principio del documento, antes del `&lt;html&gt;`\n```&lt;html&gt;\n\t{{ View( 'head.view' ) }}\n\t{{ LoadTWebTables() }}\n&lt;\/html&gt;```\n```<!DOCTYPE html>\n&lt;head&gt;```",
+        "user": "UNAHBRTFA",
+        "ts": "1588080164.458600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D1R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " El doctype tiene que estar al principio del documento, antes del "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<html>\n\t{{ View( 'head.view' ) }}\n\t{{ LoadTWebTables() }}\n<\/html>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<!DOCTYPE html>\n<head>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e0da6d42-5434-43ff-9c51-c6847e318d43",
+        "type": "message",
+        "text": "Crear una pagina en utf8 con las dbfs que habras de transformar su contenido cada vez, para simplemente que te funcione la web en utf8, simplemente porque lo lees y crees que es lo mejor, aun no lo entiendo. Aun no se que puedes hacer en utf8 q no puedas hacer con iso, pero bueno... Cuidado, q cada uno codifique como quiera la pagina eh",
+        "user": "UJWR5N32S",
+        "ts": "1588082675.464100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Iie+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Crear una pagina en utf8 con las dbfs que habras de transformar su contenido cada vez, para simplemente que te funcione la web en utf8, simplemente porque lo lees y crees que es lo mejor, aun no lo entiendo. Aun no se que puedes hacer en utf8 q no puedas hacer con iso, pero bueno... Cuidado, q cada uno codifique como quiera la pagina eh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "68fe8eb9-30e8-4dac-b760-8b5c88126682",
+        "type": "message",
+        "text": "Linux world is UTF-8",
+        "user": "UM81W8B0Q",
+        "ts": "1588086506.464900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bfY4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Linux world is UTF-8"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "373ae80a-413e-4072-9ad3-e9f60401c372",
+        "type": "message",
+        "text": "Las dbf en OEM no tienen problemas con el utf-8 según entiendo. Y la vm de harbour trabaja por defecto en utf-8.",
+        "user": "UM81W8B0Q",
+        "ts": "1588086608.466000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9AHZV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Las dbf en OEM no tienen problemas con el utf-8 según entiendo. Y la vm de harbour trabaja por defecto en utf-8."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "836c9d4e-4484-4c7b-af30-84cf2b865b55",
+        "type": "message",
+        "text": "Pero nunca nadie ha documentado esas cosas salvo la traduccion a modo unicode puro de HMG que hizo mi compa Claudio Soto hace unos años.",
+        "user": "UM81W8B0Q",
+        "ts": "1588086655.466900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1588089063.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wWY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero nunca nadie ha documentado esas cosas salvo la traduccion a modo unicode puro de HMG que hizo mi compa Claudio Soto hace unos años."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "12031739-a01e-491e-b507-c3fa562584e3",
+        "type": "message",
+        "text": "<@UJU3NMK0U> Pon la funcion UniToU8() aqui para quien la quiera usar si quiere usar tu metodo, please",
+        "user": "UJWR5N32S",
+        "ts": "1588088076.467500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p76",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJU3NMK0U"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Pon la funcion UniToU8() aqui para quien la quiera usar si quiere usar tu metodo, please"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0131UEQM5F",
+                "created": 1588088401,
+                "timestamp": 1588088401,
+                "name": "unicodeconvert.prg",
+                "title": "unicodeconvert.prg",
+                "mimetype": "application\/octet-stream",
+                "filetype": "binary",
+                "pretty_type": "Binary",
+                "user": "UJU3NMK0U",
+                "editable": false,
+                "size": 71939,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0131UEQM5F\/unicodeconvert.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0131UEQM5F\/download\/unicodeconvert.prg?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F0131UEQM5F\/unicodeconvert.prg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0131UEQM5F-743f2daff8",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588088403.467600",
+        "client_msg_id": "3ab19f02-de51-478d-8530-0029d3b02641"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F013D5G9YFJ",
+                "created": 1588088495,
+                "timestamp": 1588088495,
+                "name": "error.ch",
+                "title": "error.ch",
+                "mimetype": "text\/plain",
+                "filetype": "text",
+                "pretty_type": "Plain Text",
+                "user": "UJU3NMK0U",
+                "editable": true,
+                "size": 5922,
+                "mode": "snippet",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013D5G9YFJ\/error.ch?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F013D5G9YFJ\/download\/error.ch?t=xoxe-629202954002-1115206499825-1101204359349-48e7ea248bf98b7fac300966398406ac",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F013D5G9YFJ\/error.ch",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F013D5G9YFJ-86ab76ec21",
+                "edit_link": "https:\/\/harbourproject.slack.com\/files\/UJU3NMK0U\/F013D5G9YFJ\/error.ch\/edit",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": true,
+        "user": "UJU3NMK0U",
+        "display_as_bot": false,
+        "ts": "1588088495.467900",
+        "client_msg_id": "5e132c41-e40b-4aa9-94af-65fe27f45755"
+    },
+    {
+        "client_msg_id": "316a5ef9-fda3-457d-9717-c88285772a72",
+        "type": "message",
+        "text": "Otro tema... a ver si me dais una \"solución\" en programa.\nGenero un fichero xml para transferencias SEPA. Hay una \"etiqueta\" que nos e como generarla\n```&lt;InstdAmt Ccy=\"EUR\"&gt;20.37&lt;\/InstdAmt&gt;```\nBien, lo que hago es generarla así\n```&lt;InstdAmt&gt;20.37&lt;\/InstdAmt&gt;```\nSe me ocurrió hacer\n```cText := StrTran( MemoRead( cFile ), '&lt;InstdAmt&gt;', '&lt;InstdAmt Ccy=\"EUR\"&gt;' )\nmemowrit( cFile, cText )\t\t```\nPero memowrit() añade algun caracter de final de archivo, que luego al pasar a verificar el fichero, no traga.\n\nPara hacer el cambio de esa etiqueta, lo hago desde el Notepad++ con un replace all &lt;InstdAmt&gt; por &lt;InstdAmt Ccy=\"EUR\"&gt;\ny me funciona.\n\n¿Alguna idea para hacerlo desde código, pero que no me modifique la estructura del fichero???",
+        "user": "UJU3NMK0U",
+        "ts": "1588091544.473400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5SKSl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otro tema... a ver si me dais una \"solución\" en programa.\nGenero un fichero xml para transferencias SEPA. Hay una \"etiqueta\" que nos e como generarla\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<InstdAmt Ccy=\"EUR\">20.37<\/InstdAmt>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bien, lo que hago es generarla así\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "<InstdAmt>20.37<\/InstdAmt>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\nSe me ocurrió hacer\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cText := StrTran( MemoRead( cFile ), '<InstdAmt>', '<InstdAmt Ccy=\"EUR\">' )\nmemowrit( cFile, cText )\t\t"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero memowrit() añade algun caracter de final de archivo, que luego al pasar a verificar el fichero, no traga.\n\nPara hacer el cambio de esa etiqueta, lo hago desde el Notepad++ con un replace all <InstdAmt> por <InstdAmt Ccy=\"EUR\">\ny me funciona.\n\n¿Alguna idea para hacerlo desde código, pero que no me modifique la estructura del fichero???"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2ad405c-9981-40ea-89e1-66578fec9978",
+        "type": "message",
+        "text": "Ah... el xml lo estoy haciendo con    oXML := TXmlDocument():New()\ny la entrada...\no3:= TxmlNode():New( HBXML_TYPE_TAG, \"InstdAmt\",, AllTrim(Str(aItems[n,n_EUR],12,2)) )",
+        "user": "UJU3NMK0U",
+        "ts": "1588091882.474300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d8q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ah... el xml lo estoy haciendo con    oXML := TXmlDocument():New()\ny la entrada...\no3:= TxmlNode():New( HBXML_TYPE_TAG, \"InstdAmt\",, AllTrim(Str(aItems[n,n_EUR],12,2)) )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1588091882.474300",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1588155223.494400",
+        "reply_users": [
+            "UL77SJTB2",
+            "UJU3NMK0U"
+        ],
+        "replies": [
+            {
+                "user": "UL77SJTB2",
+                "ts": "1588153295.486600"
+            },
+            {
+                "user": "UJU3NMK0U",
+                "ts": "1588154656.494200"
+            },
+            {
+                "user": "UJU3NMK0U",
+                "ts": "1588155223.494400"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "731257de-a3f7-4c87-9978-119b3d3bb7ce",
+        "type": "message",
+        "text": "No utilices memoWrit() porque inserta el carácter EOF al final del fichero. Utiliza en su lugar hb_memoWrit() que no inserta nada extra al final.",
+        "user": "UJULQCHL5",
+        "ts": "1588092460.475600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iqVw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No utilices memoWrit() porque inserta el carácter EOF al final del fichero. Utiliza en su lugar hb_memoWrit() que no inserta nada extra al final."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8fd5b921-7dd4-4bf8-95d5-3ec8ce2cfd87",
+        "type": "message",
+        "text": "Ok.\nAhora he probado de hacer\n```cText := StrTran( MemoRead( cFile ), '&lt;InstdAmt&gt;', '&lt;InstdAmt Ccy=\"EUR\"&gt;' )\nhFile := FCreate( cFile )\nFWrite( hFile, cText )\nFClose( hFile )```\nEso me funciona...\n\n¿Qué seria mejor eso o hacerlo con hb_memoWrit()",
+        "user": "UJU3NMK0U",
+        "ts": "1588092661.476800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5Cib3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ok.\nAhora he probado de hacer\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cText := StrTran( MemoRead( cFile ), '<InstdAmt>', '<InstdAmt Ccy=\"EUR\">' )\nhFile := FCreate( cFile )\nFWrite( hFile, cText )\nFClose( hFile )"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso me funciona...\n\n¿Qué seria mejor eso o hacerlo con hb_memoWrit()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "626a6bbd-6606-4941-b0c0-ab582f29b0e0",
+        "type": "message",
+        "text": "Creo que es _exactamente lo mismo_",
+        "user": "UJULQCHL5",
+        "ts": "1588092696.477100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cmgO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que es "
+                            },
+                            {
+                                "type": "text",
+                                "text": "exactamente lo mismo",
+                                "style": {
+                                    "italic": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "77efede5-a0ea-4936-83be-6d337a75889f",
+        "type": "message",
+        "text": "Pues código más limpio y con una sola línea!!!\nhb_memoWrit()",
+        "user": "UJU3NMK0U",
+        "ts": "1588092785.477700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=eWa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pues código más limpio y con una sola línea!!!\nhb_memoWrit()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f77bfd8-2cbc-4319-a130-ae460d73a011",
+        "type": "message",
+        "text": "<@UJN8D8U3B> que extensión instalas en Visual Code para ver colorines los views???\nPara prg's tengo la extensión de Antonino Perricone, pero para los views... no he encontrado ninguna.",
+        "user": "UJU3NMK0U",
+        "ts": "1588106802.479400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "48f1b9655122",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/640143784356_48f1b96551220d9fdd4d_72.jpg",
+            "first_name": "Xevi",
+            "real_name": "Xevi",
+            "display_name": "Xevi",
+            "team": "TJH5YU202",
+            "name": "xevicomas",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cdL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " que extensión instalas en Visual Code para ver colorines los views???\nPara prg's tengo la extensión de Antonino Perricone, pero para los views... no he encontrado ninguna."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d34fbd93-6457-41de-ac1d-b84fa0eae75f",
+        "type": "message",
+        "text": "usa la misma de los html",
+        "user": "UM81W8B0Q",
+        "ts": "1588116671.479800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GaLS3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "usa la misma de los html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
