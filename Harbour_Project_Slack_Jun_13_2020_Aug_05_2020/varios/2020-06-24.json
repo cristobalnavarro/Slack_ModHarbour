@@ -1,0 +1,398 @@
+[
+    {
+        "client_msg_id": "a57160cc-04ca-40cb-b0e3-1b1b0ade4d7b",
+        "type": "message",
+        "text": "Felicidades a los juanes, juanas, juanillos, juanjos y juanitos, en especial a Juan Pastor.\n*Salut* i força al *canut*!",
+        "user": "UJULQCHL5",
+        "ts": "1592989269.226400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dQs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Felicidades a los juanes, juanas, juanillos, juanjos y juanitos, en especial a Juan Pastor.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Salut",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " i força al "
+                            },
+                            {
+                                "type": "text",
+                                "text": "canut",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UJWR5N32S",
+                    "UJN8D8U3B"
+                ],
+                "count": 2
+            },
+            {
+                "name": "beers",
+                "users": [
+                    "UJWR5N32S",
+                    "UJUJLTWMT",
+                    "UK28N3CER"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8776abb1-d117-43fd-b6f1-ebf0dbabc77e",
+        "type": "message",
+        "text": "Aquí se inicializa la tabla de simbolos. Digo yo que no habría ningun problema en inicializarla en cada request o thread del .exe de fastCGI\n\n<https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/src\/vm\/initsymb.c>",
+        "user": "UJULQCHL5",
+        "ts": "1593018402.227900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "[harbour\/core] src\/vm\/initsymb.c",
+                "text": "```\n\/*\n * Forces initialization of runtime support symbols\n *\n * Copyright 1999 {list of individual authors and e-mail addresses}\n *\n * This program is free software; you can redistribute it and\/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation; either version 2, or (at your option)\n * any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program; see the file LICENSE.txt.  If not, write to\n * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,\n * Boston, MA 02110-1301 USA (or visit <https:\/\/www.gnu.org\/licenses\/>).\n *\n * As a special exception, the Harbour Project gives permission for\n * additional uses of the text contained in its release of Harbour.\n *\n * The exception is that, if you link the Harbour libraries with other\n * files to produce an executable, this does not by itself cause the\n * resulting executable to be covered by the GNU General Public License.\n * Your use of that executable is in no way restricted on account of\n * linking the Harbour library code into it.\n *\n * This exception does not however invalidate any other reasons why\n * the executable file might be covered by the GNU General Public License.\n *\n * This exception applies only to the code released by the Harbour\n * Project under the name Harbour.  If you copy code from other\n * Harbour Project or Free Software Foundation releases into a copy of\n * Harbour, as the General Public License permits, the exception does\n * not apply to the code that you add in this way.  To avoid misleading\n * anyone as to the status of such modified files, you must delete\n * this exception notice from them.\n *\n * If you write modifications of your own for Harbour, it is your choice\n * whether to permit this exception to apply to your modifications.\n * If you do not wish that, delete this exception notice.\n *\n *\/\n\n#include \"hbapi.h\"\n#include \"hbvm.h\"\n\nHB_FUNC_EXTERN( AADD );\nHB_FUNC_EXTERN( ABS );\nHB_FUNC_EXTERN( ASC );\nHB_FUNC_EXTERN( AT );\nHB_FUNC_EXTERN( BOF );\nHB_FUNC_EXTERN( BREAK );\nHB_FUNC_EXTERN( CDOW );\nHB_FUNC_EXTERN( CHR );\nHB_FUNC_EXTERN( CMONTH );\nHB_FUNC_EXTERN( COL );\nHB_FUNC_EXTERN( CTOD );\nHB_FUNC_EXTERN( DATE );\nHB_FUNC_EXTERN( DAY );\nHB_FUNC_EXTERN( DELETED );\nHB_FUNC_EXTERN( DEVPOS );\nHB_FUNC_EXTERN( DOW );\nHB_FUNC_EXTERN( DTOC );\nHB_FUNC_EXTERN( DTOS );\nHB_FUNC_EXTERN( EMPTY );\nHB_FUNC_EXTERN( EOF );\nHB_FUNC_EXTERN( EXP );\nHB_FUNC_EXTERN( FCOUNT );\nHB_FUNC_EXTERN( FIELDNAME );\nHB_FUNC_EXTERN( FLOCK );\nHB_FUNC_EXTERN( FOUND );\nHB_FUNC_EXTERN( INKEY );\nHB_FUNC_EXTERN( INT );\nHB_FUNC_EXTERN( LASTREC );\nHB_FUNC_EXTERN( LEFT );\nHB_FUNC_EXTERN( LEN );\nHB_FUNC_EXTERN( LOCK );\nHB_FUNC_EXTERN( LOG );\nHB_FUNC_EXTERN( LOWER );\nHB_FUNC_EXTERN( LTRIM );\nHB_FUNC_EXTERN( MAX );\nHB_FUNC_EXTERN( MIN );\nHB_FUNC_EXTERN( MONTH );\nHB_FUNC_EXTERN( PCOL );\nHB_FUNC_EXTERN( PCOUNT );\nHB_FUNC_EXTERN( PROW );\nHB_FUNC_EXTERN( RECCOUNT );\nHB_FUNC_EXTERN( RECNO );\nHB_FUNC_EXTERN( REPLICATE );\nHB_FUNC_EXTERN( RLOCK );\nHB_FUNC_EXTERN( ROUND );\nHB_FUNC_EXTERN( ROW );\nHB_FUNC_EXTERN( RTRIM );\nHB_FUNC_EXTERN( SECONDS );\nHB_FUNC_EXTERN( SELECT );\nHB_FUNC_EXTERN( SETPOS );\nHB_FUNC_EXTERN( SETPOSBS );\nHB_FUNC_EXTERN( SPACE );\nHB_FUNC_EXTERN( SQRT );\nHB_FUNC_EXTERN( STR );\nHB_FUNC_EXTERN( SUBSTR );\nHB_FUNC_EXTERN( TIME );\nHB_FUNC_EXTERN( TRANSFORM );\nHB_FUNC_EXTERN( TRIM );\nHB_FUNC_EXTERN( TYPE );\nHB_FUNC_EXTERN( UPPER );\nHB_FUNC_EXTERN( VAL );\nHB_FUNC_EXTERN( WORD );\nHB_FUNC_EXTERN( YEAR );\n\nstatic HB_SYMB symbols[] = {\n   { \"AADD\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( AADD )      }, NULL },\n   { \"ABS\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( ABS )       }, NULL },\n   { \"ASC\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( ASC )       }, NULL },\n   { \"AT\",        { HB_FS_PUBLIC }, { HB_FUNCNAME( AT )        }, NULL },\n   { \"BOF\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( BOF )       }, NULL },\n   { \"BREAK\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( BREAK )     }, NULL },\n   { \"CDOW\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( CDOW )      }, NULL },\n   { \"CHR\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( CHR )       }, NULL },\n   { \"CMONTH\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( CMONTH )    }, NULL },\n   { \"COL\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( COL )       }, NULL },\n   { \"CTOD\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( CTOD )      }, NULL },\n   { \"DATE\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( DATE )      }, NULL },\n   { \"DAY\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( DAY )       }, NULL },\n   { \"DELETED\",   { HB_FS_PUBLIC }, { HB_FUNCNAME( DELETED )   }, NULL },\n   { \"DEVPOS\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( DEVPOS )    }, NULL },\n   { \"DOW\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( DOW )       }, NULL },\n   { \"DTOC\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( DTOC )      }, NULL },\n   { \"DTOS\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( DTOS )      }, NULL },\n   { \"EMPTY\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( EMPTY )     }, NULL },\n   { \"EOF\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( EOF )       }, NULL },\n   { \"EXP\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( EXP )       }, NULL },\n   { \"FCOUNT\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( FCOUNT )    }, NULL },\n   { \"FIELDNAME\", { HB_FS_PUBLIC }, { HB_FUNCNAME( FIELDNAME ) }, NULL },\n   { \"FLOCK\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( FLOCK )     }, NULL },\n   { \"FOUND\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( FOUND )     }, NULL },\n   { \"INKEY\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( INKEY )     }, NULL },\n   { \"INT\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( INT )       }, NULL },\n   { \"LASTREC\",   { HB_FS_PUBLIC }, { HB_FUNCNAME( LASTREC )   }, NULL },\n   { \"LEFT\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( LEFT )      }, NULL },\n   { \"LEN\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( LEN )       }, NULL },\n   { \"LOCK\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( LOCK )      }, NULL },\n   { \"LOG\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( LOG )       }, NULL },\n   { \"LOWER\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( LOWER )     }, NULL },\n   { \"LTRIM\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( LTRIM )     }, NULL },\n   { \"MAX\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( MAX )       }, NULL },\n   { \"MIN\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( MIN )       }, NULL },\n   { \"MONTH\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( MONTH )     }, NULL },\n   { \"PCOL\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( PCOL )      }, NULL },\n   { \"PCOUNT\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( PCOUNT )    }, NULL },\n   { \"PROW\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( PROW )      }, NULL },\n   { \"RECCOUNT\",  { HB_FS_PUBLIC }, { HB_FUNCNAME( RECCOUNT )  }, NULL },\n   { \"RECNO\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( RECNO )     }, NULL },\n   { \"REPLICATE\", { HB_FS_PUBLIC }, { HB_FUNCNAME( REPLICATE ) }, NULL },\n   { \"RLOCK\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( RLOCK )     }, NULL },\n   { \"ROUND\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( ROUND )     }, NULL },\n   { \"ROW\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( ROW )       }, NULL },\n   { \"RTRIM\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( RTRIM )     }, NULL },\n   { \"SECONDS\",   { HB_FS_PUBLIC }, { HB_FUNCNAME( SECONDS )   }, NULL },\n   { \"SELECT\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( SELECT )    }, NULL },\n   { \"SETPOS\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( SETPOS )    }, NULL },\n   { \"SETPOSBS\",  { HB_FS_PUBLIC }, { HB_FUNCNAME( SETPOSBS )  }, NULL },\n   { \"SPACE\",     { HB_FS_PUBLIC }, { HB_FUNCNAME( SPACE )     }, NULL },\n   { \"SQRT\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( SQRT )      }, NULL },\n   { \"STR\",       { HB_FS_PUBLIC }, { HB_FUNCNAME( STR )       }, NULL },\n   { \"SUBSTR\",    { HB_FS_PUBLIC }, { HB_FUNCNAME( SUBSTR )    }, NULL },\n   { \"TIME\",      { HB_FS_PUBLIC }, { HB_FUNCNAME( TIME )      }, NULL },\n   { \"TRANSFORM\", { HB_FS_PUBLIC }, { HB_FUNCNAME( T…",
+                "title": "src\/vm\/initsymb.c",
+                "footer": "<https:\/\/github.com\/harbour\/core|harbour\/core>",
+                "id": 1,
+                "title_link": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/src\/vm\/initsymb.c",
+                "footer_icon": "https:\/\/github.githubassets.com\/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B013M1D0ZKM",
+                "app_unfurl_url": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/src\/vm\/initsymb.c",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KJ7n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aquí se inicializa la tabla de simbolos. Digo yo que no habría ningun problema en inicializarla en cada request o thread del .exe de fastCGI\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/harbour\/core\/blob\/068a923d6f9b2edebac5bfec9ced2334ac887223\/src\/vm\/initsymb.c"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6c38ea8-1bb3-4555-aff7-a355dd03c6a9",
+        "type": "message",
+        "text": "Inicializando la tabla de simbolos tendriamos la misma situacion que con el copy de la .dll",
+        "user": "UJULQCHL5",
+        "ts": "1593018438.228500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lKOl9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Inicializando la tabla de simbolos tendriamos la misma situacion que con el copy de la .dll"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "06ef88ae-6042-4dd7-8d17-836507d0e4c1",
+        "type": "message",
+        "text": "Con lo cual nada cambiaria",
+        "user": "UJULQCHL5",
+        "ts": "1593018446.228700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HfUf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con lo cual nada cambiaria"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd71cf37-61bf-4d5a-93f8-7a32b3813bcf",
+        "type": "message",
+        "text": "Primero habria que vaciarla...",
+        "user": "UJN8D8U3B",
+        "ts": "1593018950.229000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "co1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Primero habria que vaciarla..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fe7ecca2-4b4b-4e07-907b-6e2e3e42f9c7",
+        "type": "message",
+        "text": "HB_SYMB symbols[] = {}",
+        "user": "UJWR5N32S",
+        "ts": "1593021078.229200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nJJI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "HB_SYMB symbols[] = {}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "328c866e-6dd2-4de9-b47a-61b3b6c36b1f",
+        "type": "message",
+        "text": "eso es casi una lobotomía, jaj",
+        "user": "UM81W8B0Q",
+        "ts": "1593022617.229600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NchJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eso es casi una lobotomía, jaj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33d687f5-01f9-4126-8a82-80be0a1e080e",
+        "type": "message",
+        "text": "harbour va a quedar mas tarado que sus users :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing::rolling_on_the_floor_laughing:",
+        "user": "UM81W8B0Q",
+        "ts": "1593022670.230200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DnYM4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "harbour va a quedar mas tarado que sus users "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "rolling_on_the_floor_laughing"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "rolling_on_the_floor_laughing"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "rolling_on_the_floor_laughing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "UJUSD6VB2",
+                    "UJN8D8U3B"
+                ],
+                "count": 2
+            },
+            {
+                "name": "smile",
+                "users": [
+                    "UJRQZMTAM"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

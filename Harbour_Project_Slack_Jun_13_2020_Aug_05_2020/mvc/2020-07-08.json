@@ -1,0 +1,341 @@
+[
+    {
+        "client_msg_id": "5a505c67-648a-4992-87b1-e9a4fbb710c7",
+        "type": "message",
+        "text": "Charly, ¿para probar el acceso por MySql, la librería WDO de donde la bajo de aquí? <https:\/\/github.com\/carles9000\/wdo>",
+        "user": "UJU6EJHU4",
+        "ts": "1594197665.061800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ge91f7ce2dab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/86e91f7ce2dab87299ca03646dcf2603.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Angel",
+            "real_name": "Angel Reigosa",
+            "display_name": "Anxo",
+            "team": "TJH5YU202",
+            "name": "areigosa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "carles9000\/wdo",
+                "text": "WDO Web Database Object",
+                "title": "carles9000\/wdo",
+                "footer": "<https:\/\/github.com\/carles9000\/wdo|carles9000\/wdo>",
+                "id": 1,
+                "footer_icon": "https:\/\/github.githubassets.com\/favicon.ico",
+                "ts": 1564139243,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Language",
+                        "value": "TSQL",
+                        "short": true
+                    },
+                    {
+                        "title": "Last updated",
+                        "value": "4 days ago",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B013M1D0ZKM",
+                "app_unfurl_url": "https:\/\/github.com\/carles9000\/wdo",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t07",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Charly, ¿para probar el acceso por MySql, la librería WDO de donde la bajo de aquí? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/carles9000\/wdo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "071609d3-ae98-4830-a76d-61dd77dc2c1f",
+        "type": "message",
+        "text": "Si",
+        "user": "UJWR5N32S",
+        "ts": "1594197698.062100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B3qfs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b157f0b5-8cf2-4f04-a354-4f68c4373250",
+        "type": "message",
+        "text": "En el directorio del curso teneis el zip de la base de datos q provamos el otro dia",
+        "user": "UJWR5N32S",
+        "ts": "1594197729.062600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FaA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En el directorio del curso teneis el zip de la base de datos q provamos el otro dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2fd0db2c-ba80-4c42-bd19-0fb08778d291",
+        "type": "message",
+        "text": "Me da el siguiente error:",
+        "user": "UJU6EJHU4",
+        "ts": "1594199963.063000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ge91f7ce2dab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/86e91f7ce2dab87299ca03646dcf2603.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Angel",
+            "real_name": "Angel Reigosa",
+            "display_name": "Anxo",
+            "team": "TJH5YU202",
+            "name": "areigosa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "REDs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Me da el siguiente error:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cc6b7295-c400-4f56-af1e-4c0c06add2b7",
+        "type": "message",
+        "text": "Error (MySQL library not found) Error: Argument error\noperation: +\n[ 1] = C Error:\n[ 2] = U nil\ncalled from: CHARACTER:__OPPLUS, line: 0\ncalled from: C:\/xampp\/htdocs\/go\/lib\/wdo\/wdo.hrb, RDBMS_MYSQL:QUERY, line: 150\ncalled from: pcode.hrb, CUSTOMERMODEL:ROWSBYSTATE, line: 119\ncalled from: pcode.hrb, CUSTOMER:GETBYSTATE, line: 64\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 5\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, ZEXECUTE, line: 316\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TROUTE:EXECUTE, line: 576\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TROUTE:LISTEN, line: 392\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TAPP:INIT, line: 135\ncalled from: pcode.hrb, MAIN, line: 37\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 134",
+        "user": "UJU6EJHU4",
+        "ts": "1594199966.063300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ge91f7ce2dab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/86e91f7ce2dab87299ca03646dcf2603.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Angel",
+            "real_name": "Angel Reigosa",
+            "display_name": "Anxo",
+            "team": "TJH5YU202",
+            "name": "areigosa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g=9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Error (MySQL library not found) Error: Argument error\noperation: +\n[ 1] = C Error:\n[ 2] = U nil\ncalled from: CHARACTER:__OPPLUS, line: 0\ncalled from: C:\/xampp\/htdocs\/go\/lib\/wdo\/wdo.hrb, RDBMS_MYSQL:QUERY, line: 150\ncalled from: pcode.hrb, CUSTOMERMODEL:ROWSBYSTATE, line: 119\ncalled from: pcode.hrb, CUSTOMER:GETBYSTATE, line: 64\ncalled from: pcode.hrb, __RUNCONTROLLER, line: 5\ncalled from: HB_HRBDO, line: 0\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, ZEXECUTE, line: 316\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TROUTE:EXECUTE, line: 576\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TROUTE:LISTEN, line: 392\ncalled from: C:\/xampp\/htdocs\/go\/lib\/mercury\/mercury.hrb, TAPP:INIT, line: 135\ncalled from: pcode.hrb, MAIN, line: 37\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\apache.prg, EXECUTE, line: 134"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "414aaa6d-f0fe-4b49-ba4a-2c661023af53",
+        "type": "message",
+        "text": "Creo que no encuentra la librería MySQL ¿Preciso alguna DLL?",
+        "user": "UJU6EJHU4",
+        "ts": "1594199992.063800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ge91f7ce2dab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/86e91f7ce2dab87299ca03646dcf2603.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Angel",
+            "real_name": "Angel Reigosa",
+            "display_name": "Anxo",
+            "team": "TJH5YU202",
+            "name": "areigosa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wel",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que no encuentra la librería MySQL ¿Preciso alguna DLL?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cffa4b65-51e6-46fe-804a-fc24a08d7fbd",
+        "type": "message",
+        "text": "He dejado en el directorio curso\/sql la dll de mysql. Ponla en el directorio htdocs",
+        "user": "UJWR5N32S",
+        "ts": "1594200067.064500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AjiGv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "He dejado en el directorio curso\/sql la dll de mysql. Ponla en el directorio htdocs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "030fce25-5e38-442f-aadf-145117b60174",
+        "type": "message",
+        "text": "Ok. Perfecto ya va. Gracias.",
+        "user": "UJU6EJHU4",
+        "ts": "1594200446.064800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "ge91f7ce2dab",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/86e91f7ce2dab87299ca03646dcf2603.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0019-72.png",
+            "first_name": "Angel",
+            "real_name": "Angel Reigosa",
+            "display_name": "Anxo",
+            "team": "TJH5YU202",
+            "name": "areigosa",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+gm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ok. Perfecto ya va. Gracias."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,304 @@
+[
+    {
+        "client_msg_id": "08b8c011-f546-4511-9306-126724e008c2",
+        "type": "message",
+        "text": "Good morning,\n\nI opened a topik 'Smalltalk'  to imitate SLACK on Google Groups modharbour.",
+        "user": "UJHD6A81H",
+        "ts": "1596610853.027100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wsbx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning,\n\nI opened a topik 'Smalltalk'  to imitate SLACK on Google Groups modharbour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "03f8153b-0d37-48bf-933c-f38713162df8",
+        "type": "message",
+        "text": "good morning :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1596611611.027400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hu4lw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "good morning "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0ac53789-01ec-41be-b3f9-5c1d12d32f6a",
+        "type": "message",
+        "text": "thanks Otto",
+        "user": "UJN8D8U3B",
+        "ts": "1596611615.027600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H+7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks Otto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bbec0b5-02d9-45c3-9599-3628f2edb92e",
+        "type": "message",
+        "text": "If you move to Google groups I can add that group to the scraping engine of <https:\/\/harbour.wiki\/index.asp?page=PublicSearchGoogleGroups>",
+        "user": "UJVF4N84Q",
+        "ts": "1596619637.028400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "165698b07a97",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-07-20\/1263349043217_165698b07a97ab0e8c3e_72.png",
+            "first_name": "",
+            "real_name": "Eric Lendvai",
+            "display_name": "Eric Lendvai",
+            "team": "TJH5YU202",
+            "name": "eric",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Public Search Google Groups",
+                "title_link": "https:\/\/harbour.wiki\/index.asp?page=PublicSearchGoogleGroups",
+                "text": "Links page for the Harbour.wiki site. Helping the Harbour programming language \/ compiler community.",
+                "fallback": "Public Search Google Groups",
+                "from_url": "https:\/\/harbour.wiki\/index.asp?page=PublicSearchGoogleGroups",
+                "service_icon": "https:\/\/harbour.wiki\/images\/Harbour_logo_64.png",
+                "service_name": "harbour.wiki",
+                "id": 1,
+                "original_url": "https:\/\/harbour.wiki\/index.asp?page=PublicSearchGoogleGroups"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JvuW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you move to Google groups I can add that group to the scraping engine of "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/harbour.wiki\/index.asp?page=PublicSearchGoogleGroups"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "af4560e8-427e-46a5-a95f-5d91e82de150",
+        "type": "message",
+        "text": "Ya somos 30 en el GROUP",
+        "user": "UJUJLTWMT",
+        "ts": "1596632283.028800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Wp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya somos 30 en el GROUP"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U015CUP1T5Z",
+                    "UK28N3CER",
+                    "UJN8D8U3B"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7874777b-cb63-4a11-97f1-84a85851012d",
+        "type": "message",
+        "text": "Y vamos a ser muchos más ahi muy pronto :wink:",
+        "user": "UJN8D8U3B",
+        "ts": "1596651060.029500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nwhiY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y vamos a ser muchos más ahi muy pronto "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33fc3639-9e95-4aae-aaf9-18d0a29a41cf",
+        "type": "message",
+        "text": "42 y creciendo...",
+        "user": "UJN8D8U3B",
+        "ts": "1596652710.029700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "obP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "42 y creciendo..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

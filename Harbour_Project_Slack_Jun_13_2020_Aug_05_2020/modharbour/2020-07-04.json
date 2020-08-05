@@ -1,0 +1,1137 @@
+[
+    {
+        "client_msg_id": "d1f8badb-6259-47fc-8038-e8b2f186c66a",
+        "type": "message",
+        "text": "&gt; ¿Es posible evitar que el navegador escriba en el caché?\n<@UJHD6A81H> `Cache-Control: no-store`",
+        "user": "UNAHBRTFA",
+        "ts": "1593854398.468300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p2wV",
+                "elements": [
+                    {
+                        "type": "rich_text_quote",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Es posible evitar que el navegador escriba en el caché?"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJHD6A81H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cache-Control: no-store",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c4414af-8b11-405a-a77b-cc71a630aab9",
+        "type": "message",
+        "text": "Andreu, gracias por ayudarme. Lo intenté.\nTal vez lo estoy usando mal.\n¿Puedes mirar la implementación por favor?",
+        "user": "UJHD6A81H",
+        "ts": "1593855136.468500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L3ESZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, gracias por ayudarme. Lo intenté.\nTal vez lo estoy usando mal.\n¿Puedes mirar la implementación por favor?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3095d0c6-165d-4089-82c5-a29f06f78b59",
+        "type": "message",
+        "text": "`function main`\n`    `\n    `local cimagecrypt :=  MemoRead( 'c:\\www\\htdocs\\mh_tests\\img\\imagedecrypt.jpg' )`  \n`    `\n    `cimage := Crypt(cimagecrypt, \"Another\")`\n`    `\n    `cimage := HB_BASE64ENCODE( cimage )`\n`    `\n    `TEMPLATE PARAMS cimage`\n`    `\n        `<!DOCTYPE html>`\n        `&lt;html&gt;`\n        `&lt;head&gt;`\n`      `\n        `&lt;meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate, private,  max-age=0, no-transform\"&gt;`\n        `&lt;meta http-equiv=\"Pragma\" content=\"no-cache\"&gt;`\n        `&lt;meta http-equiv=\"Expires\" content=\"0\"&gt;`\n        `&lt;\/head&gt;`\n        `&lt;body&gt;`\n`      `\n`        `\n        `&lt;img src=\"data:&lt;mime&gt;;base64,&lt;?prg return  cimage  ?&gt;\" alt=\"alt_text\"&gt;`\n`        `\n        `&lt;\/body&gt;`\n        `&lt;\/html&gt;` \n`        `\n    `ENDTEXT`\n\n`return`",
+        "user": "UJHD6A81H",
+        "ts": "1593855276.468800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5DAvy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    local cimagecrypt :=  MemoRead( 'c:\\www\\htdocs\\mh_tests\\img\\imagedecrypt.jpg' )  ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    cimage := Crypt(cimagecrypt, \"Another\")",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    cimage := HB_BASE64ENCODE( cimage )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    TEMPLATE PARAMS cimage",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <!DOCTYPE html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <head>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate, private,  max-age=0, no-transform\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <meta http-equiv=\"Pragma\" content=\"no-cache\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <meta http-equiv=\"Expires\" content=\"0\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <\/head>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <body>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <img src=\"data:<mime>;base64,<?prg return  cimage  ?>\" alt=\"alt_text\">",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <\/body>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        <\/html> ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "        ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "    ENDTEXT",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "return",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "103e743f-7459-44f5-a0dd-0f6481b4da5c",
+        "type": "message",
+        "text": "También leí que el navegador encripta los datos con el código de sesión cuando se conecta a través de https.\nNo está conmigo tampoco.",
+        "user": "UJHD6A81H",
+        "ts": "1593855372.469000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7Tc5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "También leí que el navegador encripta los datos con el código de sesión cuando se conecta a través de https.\nNo está conmigo tampoco."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4cb28b4c-cd96-4505-935b-f5043f848e59",
+        "type": "message",
+        "text": "Here is my image: <https:\/\/winhotel.space\/mh_tests\/img\/imagedecrypt.jpg>",
+        "user": "UJHD6A81H",
+        "ts": "1593855454.469400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pfjZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here is my image: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/winhotel.space\/mh_tests\/img\/imagedecrypt.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "40057626-dba9-4cdf-9789-46ddbf4acba8",
+        "type": "message",
+        "text": "Aunque las etiquetas `&lt;meta http-equiv&gt;` se hicieron para ser equivalentes a cabeceras HTTP, en la realidad no lo son",
+        "user": "UNAHBRTFA",
+        "ts": "1593855770.470100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pQPNA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aunque las etiquetas "
+                            },
+                            {
+                                "type": "text",
+                                "text": "<meta http-equiv>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " se hicieron para ser equivalentes a cabeceras HTTP, en la realidad no lo son"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e1c1cdd6-eed3-412b-aeb7-98c1f48f64b9",
+        "type": "message",
+        "text": "y por lo que veo en la especificación html, `Cache-Control` no es uno de los valores de `http-equiv` que los navegadores reconocen",
+        "user": "UNAHBRTFA",
+        "ts": "1593855904.471300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9X+F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y por lo que veo en la especificación html, "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Cache-Control",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " no es uno de los valores de "
+                            },
+                            {
+                                "type": "text",
+                                "text": "http-equiv",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " que los navegadores reconocen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "37ec4ff7-edeb-4244-b0aa-20199078d728",
+        "type": "message",
+        "text": "Usa una cabecera HTTP:\n```function main\n    \n    AP_HeadersOutSet(\"Cache-Control\", \"no-store\")\n\n    local cimagecrypt :=  MemoRead( 'c:\\www\\htdocs\\mh_tests\\img\\imagedecrypt.jpg' )  \n    \n    cimage := Crypt(cimagecrypt, \"Another\")\n    \n    cimage := HB_BASE64ENCODE( cimage )\n    \n    TEMPLATE PARAMS cimage\n        ....\n    ENDTEXT\nreturn```",
+        "user": "UNAHBRTFA",
+        "ts": "1593856198.471800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=8zQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Usa una cabecera HTTP:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function main\n    \n    AP_HeadersOutSet(\"Cache-Control\", \"no-store\")\n\n    local cimagecrypt :=  MemoRead( 'c:\\www\\htdocs\\mh_tests\\img\\imagedecrypt.jpg' )  \n    \n    cimage := Crypt(cimagecrypt, \"Another\")\n    \n    cimage := HB_BASE64ENCODE( cimage )\n    \n    TEMPLATE PARAMS cimage\n        ....\n    ENDTEXT\nreturn"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7e4a6b75-25d4-4ad9-b1d9-0f4ab0572339",
+        "type": "message",
+        "text": "Andreu, muchas gracias. Funciona.\nAhora he probado con y sin AP_HeaderOutSet ().",
+        "user": "UJHD6A81H",
+        "ts": "1593857440.472100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Tcc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, muchas gracias. Funciona.\nAhora he probado con y sin AP_HeaderOutSet ()."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "74d42d70-be1c-42e5-9e8d-b4c569f1377c",
+        "type": "message",
+        "text": "sin AP_HeaderOutSet ()",
+        "user": "UJHD6A81H",
+        "ts": "1593857473.472300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J90OW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sin AP_HeaderOutSet ()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F016BN00WH4",
+                "created": 1593857545,
+                "timestamp": 1593857545,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 412694,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F016BN00WH4\/grafik.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F016BN00WH4\/download\/grafik.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_64.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_80.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_360.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_360_w": 360,
+                "thumb_360_h": 331,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_480.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_480_w": 480,
+                "thumb_480_h": 442,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_160.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_720.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_720_w": 720,
+                "thumb_720_h": 663,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F016BN00WH4-4f548ef489\/grafik_800.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_800_w": 800,
+                "thumb_800_h": 736,
+                "original_w": 943,
+                "original_h": 868,
+                "thumb_tiny": "AwAsADB1siyM28Zx71Z+zw\/3B+ZpltC8ZYtjnpU3VjmmRGOmoz7PB\/c\/U0GCEfwfqakPHTp7UDpSKsjNkAEjAcAHikT76\/WrrWisxYsck5pv2RVOQzcc07mXI7kwUsBlsY9OKXZ\/00P50RAFmz7VJtX0pGxHt\/6aH86NvP3yfbPWm5OetNmzhwPTp+FAEufYUE8fdFZaISKtLEAAe9AFqIHLH6VJUYcgdqN59qAI8HPQ0S9H4\/h\/pUm8+1NdiUI9aAKaJgZNSw+lOKjApy9aAP\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F016BN00WH4\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F016BN00WH4-0b446e0021",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1593857549.472400"
+    },
+    {
+        "client_msg_id": "7c35dc0d-8d06-4d14-8e91-594ac5028c67",
+        "type": "message",
+        "text": "con AP_HeaderOutSet ()",
+        "user": "UJHD6A81H",
+        "ts": "1593857562.472800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Zn4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "con AP_HeaderOutSet ()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01789B1R3J",
+                "created": 1593857618,
+                "timestamp": 1593857618,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 469118,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01789B1R3J\/grafik.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01789B1R3J\/download\/grafik.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_64.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_80.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_360.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_360_w": 360,
+                "thumb_360_h": 258,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_480.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_480_w": 480,
+                "thumb_480_h": 345,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_160.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_720.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_720_w": 720,
+                "thumb_720_h": 517,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_800.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_800_w": 800,
+                "thumb_800_h": 574,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_960.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_960_w": 960,
+                "thumb_960_h": 689,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01789B1R3J-a9cc0cbc13\/grafik_1024.png?t=xoxe-629202954002-1307858988048-1296644259825-cbe9e6d0558bfb5b1a5a18db398692ce",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 735,
+                "original_w": 1120,
+                "original_h": 804,
+                "thumb_tiny": "AwAiADCWyGS\/4VZyPSo4VRVGxeSOTmpQCOODmgUVZBx6Cq14DtXjuegq1sOc5oPBBoBq6sZWD6GlUHcOD1rUyPUUHoeRTuR7MZDkpgHGAKkbKjOabCuEBz1Ap7DKkUjREe84PPSoriR1gDKec45GalKbVY5zxUVyMwKF65FAEMcsznGR\/wB81J5kgOCR+VRgFcVZVQUzjmgByk7Rz2pcn1NNX7o+lLQAZPqabJyBnnmnU1+g+tAEfc08dKZ3NPHSgD\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01789B1R3J\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01789B1R3J-cefb97e836",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1593857622.472900"
+    },
+    {
+        "client_msg_id": "aec47188-eb45-481d-9c47-85e077a58451",
+        "type": "message",
+        "text": "Creo que ahora tengo un sistema muy seguro para almacenar mis documentos.\nYa no tengo que tener cuidado de que borre manualmente el caché cuando miro un documento.",
+        "user": "UJHD6A81H",
+        "ts": "1593857839.473300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V3D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que ahora tengo un sistema muy seguro para almacenar mis documentos.\nYa no tengo que tener cuidado de que borre manualmente el caché cuando miro un documento."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d02b1dc4-0ede-4c05-b866-887f46cdc2e4",
+        "type": "message",
+        "text": "Les envié una pizza o un plato de ravioles con Paypal. Gracias nuevamente por su ayuda.",
+        "user": "UJHD6A81H",
+        "ts": "1593858752.473600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Pnq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Les envié una pizza o un plato de ravioles con Paypal. Gracias nuevamente por su ayuda."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f70bdb86-2ea4-4854-bfd1-e9231e76ee43",
+        "type": "message",
+        "text": "amigos, ¿alguien ha implementado el envío de correo electrónico a través de una aplicación en harbour? Tengo problemas con mi aplicación, no puedo enviar correos electrónicos desde cuentas de hotmail \/ outlook, solo desde otros proveedores",
+        "user": "U015CUP1T5Z",
+        "ts": "1593874436.473900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U015CUP1T5Z",
+            "ts": "1593874507.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eJs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "amigos, ¿alguien ha implementado el envío de correo electrónico a través de una aplicación en harbour? Tengo problemas con mi aplicación, no puedo enviar correos electrónicos desde cuentas de hotmail \/ outlook, solo desde otros proveedores"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "736d6ef6-d7ab-48b9-ae32-126f1dde577c",
+        "type": "message",
+        "text": "lo siento si estoy preguntando sobre el tema equivocado, ya que no hay un tema específico para el harbour, decidí usar esto",
+        "user": "U015CUP1T5Z",
+        "ts": "1593874530.474800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P1S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "lo siento si estoy preguntando sobre el tema equivocado, ya que no hay un tema específico para el harbour, decidí usar esto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "08f34d7d-69e6-4028-bac7-f356f620179f",
+        "type": "message",
+        "text": "Hola! Estoy tratando de seguir los ejemplos del curso de Mercury y me está dando unos errores que seguramente serán porque no tengo la última versión (me dice Mercury v1.03). ¿De dónde me puedo descargar la ultima version?",
+        "user": "U016R6PA9TK",
+        "ts": "1593884354.476000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g4d60dc1c020",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/4d60dc1c02078ca959d6375e555db8ae.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0017-72.png",
+            "first_name": "",
+            "real_name": "Alfredo Sanz",
+            "display_name": "Alfredo Sanz",
+            "team": "TJH5YU202",
+            "name": "alfredo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iAc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola! Estoy tratando de seguir los ejemplos del curso de Mercury y me está dando unos errores que seguramente serán porque no tengo la última versión (me dice Mercury v1.03). ¿De dónde me puedo descargar la ultima version?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fbc6b482-5a59-48ad-97ed-609a270c5e6c",
+        "type": "message",
+        "text": "Has de tener esta version de modharbour <https:\/\/modharbour.app\/compass\/bin\/modharbour.zip|https:\/\/modharbour.app\/compass\/bin\/modharbour.zip>",
+        "user": "UJWR5N32S",
+        "ts": "1593884620.478000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fpA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Has de tener esta version de modharbour "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/modharbour.app\/compass\/bin\/modharbour.zip",
+                                "text": "https:\/\/modharbour.app\/compass\/bin\/modharbour.zip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
