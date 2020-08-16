@@ -1,0 +1,371 @@
+[
+    {
+        "client_msg_id": "9f016fe4-58b9-4325-9a00-b22f7cdce03c",
+        "type": "message",
+        "text": "How to prevent the risks of client-side caching?",
+        "user": "UJHD6A81H",
+        "ts": "1592896509.198300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ifq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "How to prevent the risks of client-side caching?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7512f1e1-557a-49d2-b3bb-dc250715102e",
+        "type": "message",
+        "text": "There are several ways to handle caching, which go from setting a few headers to writing a service worker",
+        "user": "UNAHBRTFA",
+        "ts": "1592918740.199500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i4zc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There are several ways to handle caching, which go from setting a few headers to writing a service worker"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50054145-53db-4ddb-b40b-c086def6818c",
+        "type": "message",
+        "text": "I think MDN had some sort of tutorial on the headers",
+        "user": "UNAHBRTFA",
+        "ts": "1592918758.200000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592918764.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yWxO2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think MDN had some sort of tutorial on the headers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33f9ef8d-a8af-417e-9723-28d3c56f6d27",
+        "type": "message",
+        "text": "I haven't looked through these, so I'm not sure how good they are, but here are some links about it:",
+        "user": "UNAHBRTFA",
+        "ts": "1592918837.200500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rfg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I haven't looked through these, so I'm not sure how good they are, but here are some links about it:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "37ca6f28-e4af-48eb-8bd5-14823372b3f9",
+        "type": "message",
+        "text": "<https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching>",
+        "user": "UNAHBRTFA",
+        "ts": "1592918843.200700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "MDN Web Docs",
+                "title": "HTTP caching",
+                "title_link": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching",
+                "text": "The performance of web sites and applications can be significantly improved by reusing previously fetched resources. Web caches reduce latency and network traffic and thus lessen the time needed to display a representation of a resource. By making use of HTTP caching, Web sites become more responsive.",
+                "fallback": "MDN Web Docs: HTTP caching",
+                "thumb_url": "https:\/\/developer.mozilla.org\/static\/img\/opengraph-logo.72382e605ce3.png",
+                "from_url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching",
+                "thumb_width": 600,
+                "thumb_height": 600,
+                "service_icon": "https:\/\/developer.mozilla.org\/static\/img\/favicon144.e7e21ca263ca.png",
+                "id": 1,
+                "original_url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2GDw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Caching"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7582d66c-ad73-4132-b2ac-946a184b111d",
+        "type": "message",
+        "text": "<https:\/\/csswizardry.com\/2019\/03\/cache-control-for-civilians\/>",
+        "user": "UNAHBRTFA",
+        "ts": "1592918848.201000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Cache-Control for Civilians – CSS Wizardry",
+                "title_link": "https:\/\/csswizardry.com\/2019\/03\/cache-control-for-civilians\/",
+                "text": "What does Cache-Control really do? In basic terms? Let’s find out!",
+                "fallback": "Cache-Control for Civilians – CSS Wizardry",
+                "thumb_url": "https:\/\/csswizardry.com\/logo.png",
+                "from_url": "https:\/\/csswizardry.com\/2019\/03\/cache-control-for-civilians\/",
+                "thumb_width": 346,
+                "thumb_height": 345,
+                "service_icon": "https:\/\/csswizardry.com\/icon.png",
+                "service_name": "csswizardry.com",
+                "id": 1,
+                "original_url": "https:\/\/csswizardry.com\/2019\/03\/cache-control-for-civilians\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1bUL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/csswizardry.com\/2019\/03\/cache-control-for-civilians\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "714a359d-dc4b-4305-ae4f-32e1f62cbfcc",
+        "type": "message",
+        "text": "<https:\/\/www.mnot.net\/cache_docs\/>",
+        "user": "UNAHBRTFA",
+        "ts": "1592918852.201300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "title": "Caching Tutorial for Web Authors and Webmasters",
+                "title_link": "https:\/\/www.mnot.net\/cache_docs\/",
+                "text": "Covers the how's and why's of Web caching for people who publish on the Web. With FAQs.",
+                "fallback": "Caching Tutorial for Web Authors and Webmasters",
+                "from_url": "https:\/\/www.mnot.net\/cache_docs\/",
+                "service_icon": "https:\/\/www.mnot.net\/favicon.ico",
+                "service_name": "mnot.net",
+                "id": 1,
+                "original_url": "https:\/\/www.mnot.net\/cache_docs\/"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4QDQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.mnot.net\/cache_docs\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e1a13bd-c6c6-4537-beea-965575a7e0b8",
+        "type": "message",
+        "text": "<https:\/\/stackoverflow.com\/questions\/49547\/how-do-we-control-web-page-caching-across-all-browsers>",
+        "user": "UJHD6A81H",
+        "ts": "1592922189.201600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Stack Overflow",
+                "title": "How do we control web page caching, across all browsers?",
+                "title_link": "https:\/\/stackoverflow.com\/questions\/49547\/how-do-we-control-web-page-caching-across-all-browsers",
+                "text": "Our investigations have shown us that not all browsers respect the HTTP cache directives in a uniform manner. For security reasons we do not want certain pages in our application to be cached, eve...",
+                "fallback": "Stack Overflow: How do we control web page caching, across all browsers?",
+                "thumb_url": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/Img\/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https:\/\/stackoverflow.com\/questions\/49547\/how-do-we-control-web-page-caching-across-all-browsers",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https:\/\/cdn.sstatic.net\/Sites\/stackoverflow\/Img\/apple-touch-icon.png?v=c78bd457575a",
+                "id": 1,
+                "original_url": "https:\/\/stackoverflow.com\/questions\/49547\/how-do-we-control-web-page-caching-across-all-browsers"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KQdDl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/stackoverflow.com\/questions\/49547\/how-do-we-control-web-page-caching-across-all-browsers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
