@@ -1,0 +1,1000 @@
+[
+    {
+        "client_msg_id": "2d09322a-79f4-4dec-9fea-dbc156a159f1",
+        "type": "message",
+        "text": "I made a short test with the seamap example.\nHere we have everything we need for the logbook.\n\nI have installed a new query into the controller.\n case aArgs [1] == \"qradd\"\n ? \"qrCode insert new datarecord\" + \"&lt;br&gt;\"\n oModel: Add ()\n nRecNo: = recno ()\n  ? oView: Edit (oModel: Edit (nRecNo))\n\nYes, you can do it like this.\nI will use this example as a template.",
+        "user": "UJHD6A81H",
+        "ts": "1593431204.328400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y=Fhy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I made a short test with the seamap example.\nHere we have everything we need for the logbook.\n\nI have installed a new query into the controller.\n case aArgs [1] == \"qradd\"\n ? \"qrCode insert new datarecord\" + \"<br>\"\n oModel: Add ()\n nRecNo: = recno ()\n  ? oView: Edit (oModel: Edit (nRecNo))\n\nYes, you can do it like this.\nI will use this example as a template."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c55d4aa-c10a-4bed-9c23-96e453a6b9aa",
+        "type": "message",
+        "text": "Next I change dbcreate function.",
+        "user": "UJHD6A81H",
+        "ts": "1593432430.328900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z8s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Next I change dbcreate function."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dfd633d0-60b9-41a1-8217-bdbf6ed9dd7b",
+        "type": "message",
+        "text": "and basically everything works",
+        "user": "UJHD6A81H",
+        "ts": "1593432476.329300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pREtN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and basically everything works"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b1f2315-260a-4fc1-8f59-b1cd301f0be9",
+        "type": "message",
+        "text": "METHOD Add() \n   METHOD Edit()\n   METHOD Browse( hData ) \n   METHOD BrowseNext() VIRTUAL\n   METHOD BrowsePrev() VIRTUAL\n   METHOD Delete( nRecNo ) \n   METHOD Save( nRecNo )",
+        "user": "UJHD6A81H",
+        "ts": "1593432492.329500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q+re",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "METHOD Add() \n   METHOD Edit()\n   METHOD Browse( hData ) \n   METHOD BrowseNext() VIRTUAL\n   METHOD BrowsePrev() VIRTUAL\n   METHOD Delete( nRecNo ) \n   METHOD Save( nRecNo )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2458fbc8-a36f-4c82-9a47-da09d5d53262",
+        "type": "message",
+        "text": ":slightly_smiling_face:",
+        "user": "UJHD6A81H",
+        "ts": "1593432498.329700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1MK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a3cf69f4-76ca-4946-8b1c-8777ee26c617",
+        "type": "message",
+        "text": "`function CheckTables()`\n\n   `if ! File( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\" )`\n  `\/*`\n      `DbCreate( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\",;`\n      `{ { \"DATE\",       \"D\",   8,   0},;`\n      `{ \"TIME\",      \"C\",  13,   0},;`\n      `{ \"STATUS1\",   \"N\",  10,   0},;`\n      `{ \"STATUS2\",   \"N\",  10,   2},;`\n      `{ \"TODAY1\",    \"N\",   9,   0},;`\n      `{ \"TODAY2\",    \"N\",   9,   2},;`\n      `{ \"TEXT\",       \"C\",  10 ,  0 } })`\n`   `\n   `*\/`\n`   `\n   `DbCreate( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\",;`\n   `{ { \"DATE\",       \"C\",   10,   0},;`\n   `{ \"TIME\",      \"C\",  13,   0},;`\n   `{ \"STATUS1\",   \"C\",  10,   0},;`\n   `{ \"STATUS2\",   \"C\",  10,   0},;`\n   `{ \"TODAY1\",    \"C\",   9,   0},;`\n   `{ \"TODAY2\",    \"C\",   9,   0},;`\n   `{ \"TEXT\",       \"M\",  10 ,  0 } })`\n\n\n\n\n   `endif`\n\n   `USE ( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links\" ) SHARED NEW`\n\n   `if RecCount() == 0`\n      `APPEND BLANK`\n      `field-&gt;DATE := dtos( date())`\n      `field-&gt;TIME := time()`\n      `field-&gt;Text := \"Datebank angelegt\"`\n      `GO TOP`\n   `endif`   \n\n`return nil`",
+        "user": "UJHD6A81H",
+        "ts": "1593432581.330000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wLR7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function CheckTables()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   if ! File( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\" )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  \/*",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      DbCreate( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\",;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { { \"DATE\",       \"D\",   8,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"TIME\",      \"C\",  13,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"STATUS1\",   \"N\",  10,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"STATUS2\",   \"N\",  10,   2},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"TODAY1\",    \"N\",   9,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"TODAY2\",    \"N\",   9,   2},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      { \"TEXT\",       \"C\",  10 ,  0 } })",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   *\/",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   DbCreate( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links.dbf\",;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { { \"DATE\",       \"C\",   10,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"TIME\",      \"C\",  13,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"STATUS1\",   \"C\",  10,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"STATUS2\",   \"C\",  10,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"TODAY1\",    \"C\",   9,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"TODAY2\",    \"C\",   9,   0},;",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   { \"TEXT\",       \"M\",  10 ,  0 } })",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   endif",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   USE ( hb_GetEnv( \"PRGPATH\" ) + \"\/data\/links\" ) SHARED NEW",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   if RecCount() == 0",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      APPEND BLANK",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      field->DATE := dtos( date())",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      field->TIME := time()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      field->Text := \"Datebank angelegt\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "      GO TOP",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   endif   ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "return nil",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3d1baa83-48cb-4130-934b-6a930a05c581",
+        "type": "message",
+        "text": "For a quick test I have defined all fields as character fields.",
+        "user": "UJHD6A81H",
+        "ts": "1593432642.330300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0zT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "For a quick test I have defined all fields as character fields."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01664RP2J1",
+                "created": 1593432829,
+                "timestamp": 1593432829,
+                "name": "qrseamap.gif",
+                "title": "qrseamap.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 293391,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01664RP2J1\/qrseamap.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01664RP2J1\/download\/qrseamap.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 230,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 306,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 460,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 511,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 613,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 654,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_360.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_480.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "original_w": 1574,
+                "original_h": 1005,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01664RP2J1-8ef79183c9\/qrseamap_deanimate_gif.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_tiny": "AwAeADC8Yt33iT9QKTyV\/wAqP8Klop3FYi8hfX\/x0f4UeQvr\/wCOj\/CpaKLhYi8hfX\/x0f4UeQvr\/wCOj\/CpaKLhYKKKKQwpG6elLSEZoAiEb\/KfOPH60oRwwLS5wOR61Jt444pGRWOSAfrQB\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01664RP2J1\/qrseamap.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01664RP2J1-a5c4cadce0",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1593432834.330400"
+    },
+    {
+        "client_msg_id": "02898086-23de-4d8a-9994-9c0facc1c601",
+        "type": "message",
+        "text": "case aArgs[ 1 ] == \"qradd\"\n               ? \"qrCode insert datarecord\" + \"&lt;br&gt;\"\n\n               oModel:Add()\n\n               ? \"qrCode a f t e r insert datarecord\" + \"&lt;br&gt;\"\n               nRecNo  := recno()\n               \n               ? oView:qrEdit( oModel:qrEdit( nRecNo ) )",
+        "user": "UJHD6A81H",
+        "ts": "1593433966.330800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T70B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "case aArgs[ 1 ] == \"qradd\"\n               ? \"qrCode insert datarecord\" + \"<br>\"\n\n               oModel:Add()\n\n               ? \"qrCode a f t e r insert datarecord\" + \"<br>\"\n               nRecNo  := recno()\n               \n               ? oView:qrEdit( oModel:qrEdit( nRecNo ) )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0167GYF3D0",
+                "created": 1593434057,
+                "timestamp": 1593434057,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 28690,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0167GYF3D0\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0167GYF3D0\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 260,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 347,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 520,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 578,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 694,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167GYF3D0-48a32d1b81\/grafik_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 740,
+                "original_w": 1053,
+                "original_h": 761,
+                "thumb_tiny": "AwAiADCl+GaTNKD2pPwoAKSlxSUAFOj\/ANYv1FNp0f8ArF+ooATvS80hpe1ACfjR+NBpKACnR\/6xfqKbTo\/9Yv1FAFsxpn7i\/lR5af3F\/KnHrRQA3y0\/uL+VHlp\/cX8qdRQA3y0\/uL+VKsabh8i9fSlpV+8PrQB\/\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0167GYF3D0\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0167GYF3D0-cdb79073b5",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1593434059.330900"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0167P8L0F5",
+                "created": 1593434252,
+                "timestamp": 1593434252,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 17542,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0167P8L0F5\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0167P8L0F5\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 278,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 370,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 555,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0167P8L0F5-e07bb94858\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 617,
+                "thumb_800_h": 800,
+                "original_w": 640,
+                "original_h": 830,
+                "thumb_tiny": "AwAwACXTopD1paAEGe+KWiigBknamZ96dJ2ptAEppaTnNLQAUUUUAMk7UynydqZQA5pVRsEnP0o89PU\/lSOHLfKwA9xSYk\/vD\/vmq0J1Heenv+VHnp6n8qbiT+8Py\/8ArUYk\/vD\/AL5osg1FZw4BHSkpcNjB5PsKTafQ1JR\/\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0167P8L0F5\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0167P8L0F5-7405848c25",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1593434256.331300"
+    },
+    {
+        "client_msg_id": "d157dd1d-ebdc-4f53-a26e-b08b45fee5e5",
+        "type": "message",
+        "text": "Seamap from the mod harbour samples has a very lean and clear code.",
+        "user": "UJHD6A81H",
+        "ts": "1593435037.332100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Finfe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Seamap from the mod harbour samples has a very lean and clear code."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "26b69a51-2f94-4d59-8383-1c5fb797e713",
+        "type": "message",
+        "text": "He uses a very simple framework when playing the guitar",
+        "user": "UJHD6A81H",
+        "ts": "1593446253.332400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j8hd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "He uses a very simple framework when playing the guitar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f210088-17d5-468f-9803-a6f2705cdde2",
+        "type": "message",
+        "text": "<https:\/\/www.youtube.com\/watch?v=dEC_97p3C0k>",
+        "user": "UJHD6A81H",
+        "ts": "1593446270.332600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Richie Havens Sings \"Here Comes the Sun\"",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=dEC_97p3C0k",
+                "author_name": "VOA News",
+                "author_link": "https:\/\/www.youtube.com\/user\/VOAvideo",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/dEC_97p3C0k\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Richie Havens Sings \"Here Comes the Sun\"",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/dEC_97p3C0k?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=dEC_97p3C0k",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=dEC_97p3C0k"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EhW2W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=dEC_97p3C0k"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8977d2c4-6346-40b0-9a68-30382af867dc",
+        "type": "message",
+        "text": "simple but effective",
+        "user": "UM81W8B0Q",
+        "ts": "1593447339.332900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pVnUR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "simple but effective"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

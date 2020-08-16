@@ -1,0 +1,531 @@
+[
+    {
+        "client_msg_id": "88B92E21-C5A5-4D2C-9085-C244032293AE",
+        "type": "message",
+        "text": "Gracias Otto, me gusto la integracion del editor del texto, como lo hiciste, saludos",
+        "user": "UJUSD6VB2",
+        "ts": "1596978502.066000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I=b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias Otto, me gusto la integracion del editor del texto, como lo hiciste, saludos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f541892-f079-4c23-a326-8d24c3cec6d7",
+        "type": "message",
+        "text": "Osvaldo, to start this is all:",
+        "user": "UJHD6A81H",
+        "ts": "1596982224.066400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AjJ7a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Osvaldo, to start this is all:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1cac83dd-5968-4143-a426-b393d51b8ea2",
+        "type": "message",
+        "text": "`function Main()`\n\n`TEMPLATE`\n`<!DOCTYPE html>`\n`&lt;html&gt;`\n`&lt;head&gt;`\n  `&lt;script src=\"<https:\/\/cdn.tiny.cloud\/1\/igjv1m94i0f79x0zbb1e51gkirep338y5lxkkll94zkbqf25\/tinymce\/5\/tinymce.min.js>\"&gt;&lt;\/script&gt;` \n  `&lt;script&gt;tinymce.init({selector:'textarea'});&lt;\/script&gt;`\n`  `\n`&lt;\/head&gt;`\n`&lt;body&gt;`\n  `&lt;textarea&gt;&lt;H1&gt;Next, use our Get &lt;\/H1&gt; Started docs to setup Tiny!&lt;\/textarea&gt;`\n`&lt;\/body&gt;`\n`&lt;\/html&gt;`\n\n`ENDTEXT`  \n`return nil`",
+        "user": "UJHD6A81H",
+        "ts": "1596982245.066700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+x\/X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "TEMPLATE",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<!DOCTYPE html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<head>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  <script src=\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/cdn.tiny.cloud\/1\/igjv1m94i0f79x0zbb1e51gkirep338y5lxkkll94zkbqf25\/tinymce\/5\/tinymce.min.js",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"><\/script> ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  <script>tinymce.init({selector:'textarea'});<\/script>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<\/head>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<body>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  <textarea><H1>Next, use our Get <\/H1> Started docs to setup Tiny!<\/textarea>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<\/body>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "<\/html>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "ENDTEXT  ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "return nil",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b85b07b-2d1c-45c4-9ffd-9b0452075daf",
+        "type": "message",
+        "text": "Hello,",
+        "user": "UJHD6A81H",
+        "ts": "1596999112.066900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CeN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hello,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9085dc1d-43cf-4c22-bdb3-9f560ac51edb",
+        "type": "message",
+        "text": "En la función de guardar de GENESIS, cambio la URL en su lugar.\nhistory.replaceState ('datos a pasar', 'Título de la página', '\/ prueba');\nEsto está funcionando.\nPero el título no cambia. ¿Puede alguien ayudarme?\nAtentamente,\nOtto\n\n\n`function save`\n\n`...`\n\n\n   `cAction  := \"browse2\"`\n   `nVal1    := 1000`\n   `nVal2    := 0`\n\n   `logging(\"Save ok cAction \" + cAction)`\n  \n   `TEMPLATE` \n   `&lt;script&gt;` \n   `history.replaceState('1234', 'WINHOTEL', '<https:\/\/xxxxx\/winhotel\/index.prg?pagedata-test>');`\n   `&lt;\/script&gt;`\n   `ENDTEXT`\n\n   `AP_RPuts( View( \"default\" ) )`\n\n`return nil`",
+        "user": "UJHD6A81H",
+        "ts": "1596999189.067400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJHD6A81H",
+            "ts": "1597000330.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O664",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En la función de guardar de GENESIS, cambio la URL en su lugar.\nhistory.replaceState ('datos a pasar', 'Título de la página', '\/ prueba');\nEsto está funcionando.\nPero el título no cambia. ¿Puede alguien ayudarme?\nAtentamente,\nOtto\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "function save",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "...",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   cAction  := \"browse2\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   nVal1    := 1000",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   nVal2    := 0",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   logging(\"Save ok cAction \" + cAction)",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   TEMPLATE ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   <script> ",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   history.replaceState('1234', 'WINHOTEL', '",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/xxxxx\/winhotel\/index.prg?pagedata-test",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "');",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   <\/script>",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   ENDTEXT",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "   AP_RPuts( View( \"default\" ) )",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "return nil",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1035 @@
+[
+    {
+        "client_msg_id": "f0998de4-caed-4896-b779-f0b1771a401d",
+        "type": "message",
+        "text": "buenos dias, amigos",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425241.277200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GjgwA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias, amigos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3975c046-0daf-4af6-8a17-b6c43391fd1e",
+        "type": "message",
+        "text": "Buen día Ricardo",
+        "user": "UM81W8B0Q",
+        "ts": "1595425285.277500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jng",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen día Ricardo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1dddc276-44a7-48fc-828e-10227d7536b3",
+        "type": "message",
+        "text": "Estoy tratando de conectarme a ADS local en mi aplicación, pero me está dando el siguiente error:",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425295.277700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LlNbL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Estoy tratando de conectarme a ADS local en mi aplicación, pero me está dando el siguiente error:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "849f60a0-c3c2-4d51-aec7-b707820bd19a",
+        "type": "message",
+        "text": "Error: Unknown or unregistered symbol\noperation: ADSSETSERVERTYPE\ncalled from: HB_HRBLOAD, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425304.277900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SKAsg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Error: Unknown or unregistered symbol\noperation: ADSSETSERVERTYPE\ncalled from: HB_HRBLOAD, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "994d2239-90ef-4fe3-b589-9c39d865a854",
+        "type": "message",
+        "text": "Ya seguí las pautas para colocar las DLL en Apache \/ bin, pero todavía tengo el problema",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425339.278100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IWO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya seguí las pautas para colocar las DLL en Apache \/ bin, pero todavía tengo el problema"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "940c354f-0dd4-457d-a973-836045391516",
+        "type": "message",
+        "text": "¿Alguien tiene otra idea de lo que puedo estar olvidando?",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425356.278300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nH=q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Alguien tiene otra idea de lo que puedo estar olvidando?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bbf32eab-5037-431e-a236-788b261df9c6",
+        "type": "message",
+        "text": ":sweat_smile:",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425360.278500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GMCP1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "sweat_smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0455fa13-d0e0-4337-b8e8-1fe3d8185571",
+        "type": "message",
+        "text": "Seguí las pautas de esta publicación en el foro:",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425402.278700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PcxXe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Seguí las pautas de esta publicación en el foro:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d751f2ef-36f0-4e82-bd53-540565fdee3d",
+        "type": "message",
+        "text": "<https:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&amp;t=38779&amp;p=231238&amp;hilit=ads#p231238>",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425408.278900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fxm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&t=38779&p=231238&hilit=ads#p231238"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ac289140-1473-4dab-8051-eea12fbfaf46",
+        "type": "message",
+        "text": "hmm, creo que descubrí el problema. para ADS es libharbour.dll diferente?",
+        "user": "U015CUP1T5Z",
+        "ts": "1595425854.279100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pm8fr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hmm, creo que descubrí el problema. para ADS es libharbour.dll diferente?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85f1691f-d48e-462a-9776-698e0cb15002",
+        "type": "message",
+        "text": "Es posible ricardo, ya lochequeo cuando tenga un momento",
+        "user": "UJWR5N32S",
+        "ts": "1595433789.279500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QSV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Es posible ricardo, ya lochequeo cuando tenga un momento"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3ec1e0e7-3eed-4ea7-8973-6837135c7394",
+        "type": "message",
+        "text": "Sabeis si existe alguna manera de vaciar todos los identificadores creados con #define que no sea uno a uno con #undef ?",
+        "user": "UJWR5N32S",
+        "ts": "1595433843.280400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jpvx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sabeis si existe alguna manera de vaciar todos los identificadores creados con #define que no sea uno a uno con #undef ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "818f0c11-a141-4909-ab91-b3387f71efe3",
+        "type": "message",
+        "text": "Algo como #undefall",
+        "user": "UJWR5N32S",
+        "ts": "1595433852.280700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hAq3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Algo como #undefall"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "440f2446-4350-4eb5-a6f3-d921e27e2299",
+        "type": "message",
+        "text": "del * . *",
+        "user": "UM81W8B0Q",
+        "ts": "1595433866.281000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=atDg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "del * . *"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "64ce6bc6-7264-4aac-b958-929032646cdd",
+        "type": "message",
+        "text": "guat ?",
+        "user": "UJWR5N32S",
+        "ts": "1595433881.281200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wjpO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "guat ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "623144b3-8e7e-41f7-842e-4ed25b7c1b93",
+        "type": "message",
+        "text": "era broma",
+        "user": "UM81W8B0Q",
+        "ts": "1595433903.281400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1595433929.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=8z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "era broma"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef763d8e-a2bb-4e16-afbd-7db4d151032f",
+        "type": "message",
+        "text": "joke ?",
+        "user": "UJWR5N32S",
+        "ts": "1595433928.281700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x7mdT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "joke ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "080c992d-aa3c-40e2-95f1-a225855b08d6",
+        "type": "message",
+        "text": "yep",
+        "user": "UM81W8B0Q",
+        "ts": "1595433936.282000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Vuo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8a370325-8f0c-42c8-8450-0fab3bf609ac",
+        "type": "message",
+        "text": "oks",
+        "user": "UJWR5N32S",
+        "ts": "1595433940.282200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fN9G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6f019b82-afa9-4e6a-a78d-bb1215376165",
+        "type": "message",
+        "text": "Gracias <@UJWR5N32S>, hice la modificación y algunas pruebas, y creo que son realmente diferentes porque ahora todo funciona con ADS. Si alguien sabe más y puede detallar esta diferencia, ¡muchas gracias!",
+        "user": "U015CUP1T5Z",
+        "ts": "1595441783.282700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pa9u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", hice la modificación y algunas pruebas, y creo que son realmente diferentes porque ahora todo funciona con ADS. Si alguien sabe más y puede detallar esta diferencia, ¡muchas gracias!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6b896201-98aa-4555-847f-3d4802ae347f",
+        "type": "message",
+        "text": "Son 2 versiones 1 para ads y otra sin ads",
+        "user": "UK28N3CER",
+        "ts": "1595449279.283900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/YUo4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Son 2 versiones 1 para ads y otra sin ads"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ca04a509-bb35-46d2-b368-cf0bb1f7306c",
+        "type": "message",
+        "text": "Ahora tengo los componentes juntos para implementar mi Appointment management con mod harbour.",
+        "user": "UJHD6A81H",
+        "ts": "1595454590.284200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Wpha",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora tengo los componentes juntos para implementar mi Appointment management con mod harbour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0189CDMFC0",
+                "created": 1595454598,
+                "timestamp": 1595454598,
+                "name": "appointment.gif",
+                "title": "appointment.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 368419,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0189CDMFC0\/appointment.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0189CDMFC0\/download\/appointment.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 142,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 189,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 283,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 315,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 378,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 403,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_360.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_480.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "original_w": 1703,
+                "original_h": 670,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0189CDMFC0-36b094537e\/appointment_deanimate_gif.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_tiny": "AwASADC95bf3qYu8sMggVYopWQDGTAOCc\/Wov3g5YED61YpCARg0WAgBLcAnNLtYDJzUqxqpyKdS5QCiiiqAKKKKACiiigD\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0189CDMFC0\/appointment.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0189CDMFC0-ec22853bf2",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1595454601.284300"
+    },
+    {
+        "client_msg_id": "e2226956-fc19-4ac4-a620-5d789e5f6c0e",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1595480812.285200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dTF=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fbe7270-05fb-4310-8e9a-8ec9d02b258a",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1595485018.285500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gHr\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5c60f553-6a56-4e2f-9f7e-d2ffe4cd9add",
+        "type": "message",
+        "text": "<@U015CUP1T5Z> si son diferentes, puesto que uno incluye la libreria para ADS y el otro no",
+        "user": "UJN8D8U3B",
+        "ts": "1595485041.286000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jbk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U015CUP1T5Z"
+                            },
+                            {
+                                "type": "text",
+                                "text": " si son diferentes, puesto que uno incluye la libreria para ADS y el otro no"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

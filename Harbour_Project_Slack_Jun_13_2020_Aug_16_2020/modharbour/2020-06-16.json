@@ -1,0 +1,3779 @@
+[
+    {
+        "client_msg_id": "8f0fcc0b-2ec6-41a8-b6c9-0eb5a5962054",
+        "type": "message",
+        "text": "Buenos dias campeones",
+        "user": "UJULAGJG5",
+        "ts": "1592297161.030400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "084e5a50-2686-4ba1-940b-7ab3c0acd91d",
+        "type": "message",
+        "text": "La versión de Linux ya está disponible",
+        "user": "UJN8D8U3B",
+        "ts": "1592297186.030800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WYJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "La versión de Linux ya está disponible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "922403f1-ccb1-4b66-817d-c9af536fc2bb",
+        "type": "message",
+        "text": "<https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/fastcgi\/linux>",
+        "user": "UJN8D8U3B",
+        "ts": "1592297197.031000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rzqk5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/fastcgi\/linux"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb9b26bf-8a96-44cf-89b5-54e891ff98d4",
+        "type": "message",
+        "text": "Creo que, ya que estamos cambiando un poco el API de mod_harbour, habría que arreglar otras cosas que creo que están pendientes antes de hacer la versión fastcgi estable",
+        "user": "UNAHBRTFA",
+        "ts": "1592298605.032700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592298617.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hkp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Creo que, ya que estamos cambiando un poco el API de mod_harbour, habría que arreglar otras cosas que creo que están pendientes antes de hacer la versión fastcgi estable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6e2c98fe-bd48-4ae1-8c2a-09203cff6c3d",
+        "type": "message",
+        "text": "1. Hacer una función `hb_urlencode` (`mh_urlencode`?). Y ponerle un parámetro bool opcional a las dos funciones para escapar bytes distintos en un path y en un query string.\n2. Cambiar `AP_GetPairs` y `AP_PostPairs` (`MH_GetParams` y `MH_PostParams`?) para que sigan el spec de WHATWG (excepto por la decodificación UTF-8), y hacer que `MH_PostParams` soporte mime types alternativos, incluyendo `multipart\/form-data` y `application\/json`.\n3. Creo que necesitamos funciones para convertir a `application\/x-www-form-urlencoded`",
+        "user": "UNAHBRTFA",
+        "ts": "1592299086.037100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592299514.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i=bem",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Hacer una función "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "hb_urlencode",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " ("
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "mh_urlencode",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "?). Y ponerle un parámetro bool opcional a las dos funciones para escapar bytes distintos en un path y en un query string."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Cambiar "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "AP_GetPairs",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " y "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "AP_PostPairs",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " ("
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "MH_GetParams",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " y "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "MH_PostParams",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "?) para que sigan el spec de WHATWG (excepto por la decodificación UTF-8), y hacer que "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "MH_PostParams",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " soporte mime types alternativos, incluyendo "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "multipart\/form-data",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " y "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "application\/json",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Creo que necesitamos funciones para convertir a "
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "application\/x-www-form-urlencoded",
+                                        "style": {
+                                            "code": true
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "ordered",
+                        "indent": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "739961a5-1213-4c1e-b755-aa26a47acb84",
+        "type": "message",
+        "text": "Buen día másters",
+        "user": "UK28N3CER",
+        "ts": "1592312419.037700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bdIlt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen día másters"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "78245014-7066-490a-9017-cb1171614853",
+        "type": "message",
+        "text": "Buenos dias a todos, saludos!",
+        "user": "UJUSD6VB2",
+        "ts": "1592318386.038200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+TOen",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos dias a todos, saludos!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4d0ba3d0-aad4-4679-b271-623492fb1446",
+        "type": "message",
+        "text": "muy buenos dias amigos, seguimos con la tecla.",
+        "user": "UK28N3CER",
+        "ts": "1592320915.038700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U9pC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "muy buenos dias amigos, seguimos con la tecla."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "73bf1051-208f-4923-98b2-3226b742cd40",
+        "type": "message",
+        "text": "<https:\/\/developers.sinch.com\/page\/downloads>",
+        "user": "UJUSD6VB2",
+        "ts": "1592328039.039100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Sinch",
+                "title": "Android SDKs &amp; IOS SDKs - Download Resources &amp; Documentation",
+                "title_link": "https:\/\/developers.sinch.com\/page\/downloads",
+                "text": "The Sinch SDKs are available for iOS, Android &amp; JavaScript. Download the file, unpack it &amp; add it to your project. Sign up today and make your first mobile app.",
+                "fallback": "Sinch: Android SDKs &amp; IOS SDKs - Download Resources &amp; Documentation",
+                "from_url": "https:\/\/developers.sinch.com\/page\/downloads",
+                "id": 1,
+                "original_url": "https:\/\/developers.sinch.com\/page\/downloads"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+WYPa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/developers.sinch.com\/page\/downloads"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fe62cccc-dec5-4873-903e-eb51ba4c629b",
+        "type": "message",
+        "text": "Cesar una Disculpa, debio ser en varios.",
+        "user": "UJUSD6VB2",
+        "ts": "1592328085.039900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wTxm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cesar una Disculpa, debio ser en varios."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf2c6164-2505-4da0-a743-09747eb0f25a",
+        "type": "message",
+        "text": "bueno pero en modharbour se podra hacer ?",
+        "user": "UK28N3CER",
+        "ts": "1592332087.040300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aXV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bueno pero en modharbour se podra hacer ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592332087.040300",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1592334971.042100",
+        "reply_users": [
+            "UJUSD6VB2"
+        ],
+        "replies": [
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592334971.042100"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "786bcbe1-a531-4d99-873a-a74f088ca2cb",
+        "type": "message",
+        "text": "El mod_harbour en que versión de Linux funciona ? Gracias",
+        "user": "UJULAGJG5",
+        "ts": "1592334590.042000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "cc3d30f0-fdf8-406d-b2cc-859775ea6de4",
+        "type": "message",
+        "text": "Si, para mi que si.",
+        "user": "UJUSD6VB2",
+        "ts": "1592334971.042100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FKJp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, para mi que si."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592332087.040300",
+        "parent_user_id": "UK28N3CER"
+    },
+    {
+        "client_msg_id": "073e9205-c9a0-4691-ac5b-45391842eaf4",
+        "type": "message",
+        "text": "debian",
+        "user": "UJULQCHL5",
+        "ts": "1592336806.042400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TpvM1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "debian"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee7487fc-4d6c-4569-89cd-52d7942b8b8d",
+        "type": "message",
+        "text": "Gracias <@UJULQCHL5>",
+        "user": "UJULAGJG5",
+        "ts": "1592339366.042700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mzE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJULQCHL5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f5281f57-6a8a-40b3-ab3a-56f64e431e1d",
+        "type": "message",
+        "text": "But why install Nginx rather than Apache?\nThis is of course the most important issue. Why choose a secondary server rather than the main player in the market? The answer is simple, performance!\nNginx is an “Asynchronous” server. This means that it can perform several actions at the same time, without waiting until the end of the first to move to the second. This is not the case with Apache, which if it allows multiple queries at the same time will then launch new processes.\nIn short, it means three things.\nFirst, Nginx responds much faster than Apache.\nSecondly, Nginx can support more users simultaneously.\nThird, Nginx consumes less RAM than Apache, which is very important considering that Raspberry, even in its model 3, has only 1024MB of non-extensible RAM. This is all the more important in the context of the <https:\/\/geni.us\/rflusraspberrypibplus|B + model and its 512 MB of RAM.>\nSo you suspect that all this is not without consideration.\nNginx does not always react as Apache2 with PHP.\nIt is not as easy to test Nginx as Apache on a Windows machine.\nFinally, Nginx does not support .htaccess files, which you will have to convert to Nginx, and that you will not put in a file in the target directory, but in the site configuration file.\nHowever, Nginx is really worth it, and it’s probably a better choice than Apache for a web server on the Raspberry.",
+        "user": "UJUSD6VB2",
+        "ts": "1592345644.042900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AL5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But why install Nginx rather than Apache?\nThis is of course the most important issue. Why choose a secondary server rather than the main player in the market? The answer is simple, performance!\nNginx is an “Asynchronous” server. This means that it can perform several actions at the same time, without waiting until the end of the first to move to the second. This is not the case with Apache, which if it allows multiple queries at the same time will then launch new processes.\nIn short, it means three things.\nFirst, Nginx responds much faster than Apache.\nSecondly, Nginx can support more users simultaneously.\nThird, Nginx consumes less RAM than Apache, which is very important considering that Raspberry, even in its model 3, has only 1024MB of non-extensible RAM. This is all the more important in the context of the "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/geni.us\/rflusraspberrypibplus",
+                                "text": "B + model and its 512 MB of RAM."
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSo you suspect that all this is not without consideration.\nNginx does not always react as Apache2 with PHP.\nIt is not as easy to test Nginx as Apache on a Windows machine.\nFinally, Nginx does not support .htaccess files, which you will have to convert to Nginx, and that you will not put in a file in the target directory, but in the site configuration file.\nHowever, Nginx is really worth it, and it’s probably a better choice than Apache for a web server on the Raspberry."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "588ed557-c679-400a-ba63-19462372e802",
+        "type": "message",
+        "text": "Is it true ?",
+        "user": "UJUSD6VB2",
+        "ts": "1592345665.043200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ikmlH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is it true ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d4ae0f9-f4aa-42e2-90ec-eaa9ae5652e8",
+        "type": "message",
+        "text": "Best Regards",
+        "user": "UJUSD6VB2",
+        "ts": "1592345668.043400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "woM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Best Regards"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83f0afb4-2271-46df-b68e-087ad9cf0af8",
+        "type": "message",
+        "text": "Thanks in advance",
+        "user": "UJUSD6VB2",
+        "ts": "1592345678.043600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OD1x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks in advance"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f9d29bd-f487-4ab9-93d0-9319a7435492",
+        "type": "message",
+        "text": "Y....  ?",
+        "user": "UM81W8B0Q",
+        "ts": "1592346018.043800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fy8Fh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y....  ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346018.043800",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1592348463.065000",
+        "reply_users": [
+            "UJUSD6VB2",
+            "UM81W8B0Q"
+        ],
+        "replies": [
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592347715.061000"
+            },
+            {
+                "user": "UM81W8B0Q",
+                "ts": "1592348272.064500"
+            },
+            {
+                "user": "UM81W8B0Q",
+                "ts": "1592348463.065000"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "26f3c851-ba55-4ae8-90aa-de55322fa525",
+        "type": "message",
+        "text": "Osvaldo, al portar mod_harbour a fastCGI, ya somos compatibles con todos estos servidores: Apache, Nginx, Lighttpd, Cherokee, Microsoft IIS, Resin, SunOne, etc:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346460.045200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PHZa9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Osvaldo, al portar mod_harbour a fastCGI, ya somos compatibles con todos estos servidores: Apache, Nginx, Lighttpd, Cherokee, Microsoft IIS, Resin, SunOne, etc:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf7ab8b3-2517-4f29-8ca8-cd3fa5ab79a4",
+        "type": "message",
+        "text": "<https:\/\/fastcgi-archives.github.io\/>",
+        "user": "UJN8D8U3B",
+        "ts": "1592346471.045400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJN8D8U3B",
+            "ts": "1592346477.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "89HX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/fastcgi-archives.github.io\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fdb7dcd8-991b-4ee7-8932-ee360e977728",
+        "type": "message",
+        "text": "es por esto que hemos decidido cambiar el prefijo AP_... a MH_... ya que aunque mod_harbour comenzó como un mod para Apache, ahora ya funcionamos en todos los servidores web :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346542.046900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VyGG2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es por esto que hemos decidido cambiar el prefijo AP_... a MH_... ya que aunque mod_harbour comenzó como un mod para Apache, ahora ya funcionamos en todos los servidores web "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "66b7db96-5b6a-4044-bd8a-4ccc08d5b933",
+        "type": "message",
+        "text": "pero habría que poner instrucciones de instalación para nginx, y a lo mejor algunos más",
+        "user": "UNAHBRTFA",
+        "ts": "1592346578.047600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U\/\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero habría que poner instrucciones de instalación para nginx, y a lo mejor algunos más"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23d1cc4a-e6c8-4e4b-a05f-bc35568ee42e",
+        "type": "message",
+        "text": "buenas btw",
+        "user": "UNAHBRTFA",
+        "ts": "1592346613.048400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DSkO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenas btw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "64d3fe86-ad8b-45c4-b906-bbc18a09d7f8",
+        "type": "message",
+        "text": "solo hay que seguir las instrucciones de instalación de fastCGI en todos ellos...",
+        "user": "UJN8D8U3B",
+        "ts": "1592346625.048700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e0lG7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "solo hay que seguir las instrucciones de instalación de fastCGI en todos ellos..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "64022c86-4ef1-477c-8ef1-2d715c6294dc",
+        "type": "message",
+        "text": "Al cambiar a fastCGI, mod_harbour ha dado un salto cuántico :sparkles::sparkles: :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346693.049400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LQM=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al cambiar a fastCGI, mod_harbour ha dado un salto cuántico "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c86ed23f-f7be-4b09-a191-d4d2cec4e33f",
+        "type": "message",
+        "text": "\"salto cuántico\" no significa lo que crees que significa",
+        "user": "UNAHBRTFA",
+        "ts": "1592346737.049800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/T9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"salto cuántico\" no significa lo que crees que significa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "reply_count": 9,
+        "reply_users_count": 3,
+        "latest_reply": "1592408934.080100",
+        "reply_users": [
+            "UMZ3LNV5Z",
+            "UJUSD6VB2",
+            "UNAHBRTFA"
+        ],
+        "replies": [
+            {
+                "user": "UMZ3LNV5Z",
+                "ts": "1592352071.069000"
+            },
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592360129.069900"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1592366437.070100"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1592366457.070400"
+            },
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592368318.070900"
+            },
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592368323.071100"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1592368376.071300"
+            },
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592368602.071600"
+            },
+            {
+                "user": "UMZ3LNV5Z",
+                "ts": "1592408934.080100"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "06a5e83f-fc62-41e0-bf8e-e0f0e171a440",
+        "type": "message",
+        "text": "ya, pero queda bien :heart_eyes:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346750.050500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SK\/Yi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ya, pero queda bien "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "heart_eyes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346750.050500",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1592347538.057800",
+        "reply_users": [
+            "UJUSD6VB2"
+        ],
+        "replies": [
+            {
+                "user": "UJUSD6VB2",
+                "ts": "1592347538.057800"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "0b28f69e-fb4f-49e9-9f64-a2e417eb48ac",
+        "type": "message",
+        "text": "es el salto entre dos orbitales del átomo: por definición, el salto más pequeño posible",
+        "user": "UNAHBRTFA",
+        "ts": "1592346758.050800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rNOi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es el salto entre dos orbitales del átomo: por definición, el salto más pequeño posible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "156602a1-3489-4359-8848-99feecaebe62",
+        "type": "message",
+        "text": ":smile:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346759.050900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1DL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9461e62a-721a-4f04-9fb6-69a56ccf7d50",
+        "type": "message",
+        "text": "en realidad es el salto que le permite estar en distintos sitios a la vez... lo cual es ciertamente cuántico :wink:",
+        "user": "UJN8D8U3B",
+        "ts": "1592346801.051700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1bS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en realidad es el salto que le permite estar en distintos sitios a la vez... lo cual es ciertamente cuántico "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dc009ef0-2d1c-4b4e-a938-65308a5eee4e",
+        "type": "message",
+        "text": "podría discutirte eso, pero no lo voy a hacer",
+        "user": "UNAHBRTFA",
+        "ts": "1592346829.052000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rzo6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "podría discutirte eso, pero no lo voy a hacer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJUSD6VB2",
+                    "UMZ3LNV5Z"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5b6c5121-9a91-4a18-a3c8-0e41f8b293d0",
+        "type": "message",
+        "text": "al menos ahora no, he bebido un poco",
+        "user": "UNAHBRTFA",
+        "ts": "1592346833.052400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592346914.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Doe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "al menos ahora no, he bebido un poco"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "67bb4902-a4b4-4b30-a84d-7127e5c4a43a",
+        "type": "message",
+        "text": "y a nivel velocidad, cinco veces más rápido",
+        "user": "UJN8D8U3B",
+        "ts": "1592346876.053000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p\/9Dh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y a nivel velocidad, cinco veces más rápido"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f215ee4b-2160-4cd4-bc42-e09d63ea19e5",
+        "type": "message",
+        "text": "ahora tenemos que localizar todos los flags de configuración de fastCGI, porque fastCGI tiene un montón de opciones",
+        "user": "UJN8D8U3B",
+        "ts": "1592346991.053900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UMY4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ahora tenemos que localizar todos los flags de configuración de fastCGI, porque fastCGI tiene un montón de opciones"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b47bbe73-61a1-4aa7-b3ea-77431b582e94",
+        "type": "message",
+        "text": "pero, aún así, por defecto, va realmente bien :ok_hand:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347011.054300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u5vXw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero, aún así, por defecto, va realmente bien "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ok_hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "En teoría en todas las versiones modernas. En la práctica solo está testeado en ubuntu y debian.",
+        "user": "UNAHBRTFA",
+        "ts": "1592347013.054400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "fallback": "[June 16th, 2020 9:09 PM] jgabri: El mod_harbour en que versión de Linux funciona ? Gracias",
+                "ts": "1592334590.042000",
+                "author_id": "UJULAGJG5",
+                "author_subname": "Gabriel",
+                "channel_id": "CJUHF8SBX",
+                "channel_name": "modharbour",
+                "is_msg_unfurl": true,
+                "text": "El mod_harbour en que versión de Linux funciona ? Gracias",
+                "author_name": "Gabriel",
+                "author_link": "https:\/\/harbourproject.slack.com\/team\/UJULAGJG5",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/harbourproject.slack.com\/archives\/CJUHF8SBX\/p1592334590042000",
+                "is_share": true,
+                "footer": "Publicado en #modharbour"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1oi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En teoría en todas las versiones modernas. En la práctica solo está testeado en ubuntu y debian."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e82c8ff9-3602-4091-a710-31b4474042fc",
+        "type": "message",
+        "text": "y de momento el código fuente usado para Windows y Linux es el mismo practicamente, lo cual es extraordinario :+1:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347113.055300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IqoYY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y de momento el código fuente usado para Windows y Linux es el mismo practicamente, lo cual es extraordinario "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a59f5dfb-447f-4733-a8ec-68e05a2ec13e",
+        "type": "message",
+        "text": "¿viste mi lista de cambios que habría que hacer ya que vamos a cambiar el espacio de nombres?",
+        "user": "UNAHBRTFA",
+        "ts": "1592347222.055800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fepMl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿viste mi lista de cambios que habría que hacer ya que vamos a cambiar el espacio de nombres?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c93d120-4598-445f-a6a8-5ec320d02727",
+        "type": "message",
+        "text": "Si, Andreu, pero necesitaba un descanso... ayer arreglé la moto eléctrica que estaba averiada, y hoy la bici :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347491.056600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Td=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, Andreu, pero necesitaba un descanso... ayer arreglé la moto eléctrica que estaba averiada, y hoy la bici "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9c1abe1f-cf28-4d44-a633-c210c1a62093",
+        "type": "message",
+        "text": "respirar, coger fuerzas y seguir adelante :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347510.057000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M97O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "respirar, coger fuerzas y seguir adelante "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5af0f67e-bf70-4041-8ea8-daf944f1eb54",
+        "type": "message",
+        "text": "solo quería saber qué opinabas",
+        "user": "UNAHBRTFA",
+        "ts": "1592347523.057300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aYK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "solo quería saber qué opinabas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "45f71748-52d5-4f37-a02b-32ec0b0a3005",
+        "type": "message",
+        "text": "casi siempre estoy de acuerdo contigo",
+        "user": "UJN8D8U3B",
+        "ts": "1592347535.057700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2QPv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "casi siempre estoy de acuerdo contigo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e8e188fd-45b7-4f71-8479-e384a57231fb",
+        "type": "message",
+        "text": "si nosotros no nos echamos porras quien mas ?, asi que es autoanimarmos mas. Vamos por los mensajes cuánticos como los chinitos.",
+        "user": "UJUSD6VB2",
+        "ts": "1592347538.057800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CDu1Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si nosotros no nos echamos porras quien mas ?, asi que es autoanimarmos mas. Vamos por los mensajes cuánticos como los chinitos."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346750.050500",
+        "parent_user_id": "UJN8D8U3B"
+    },
+    {
+        "client_msg_id": "146ba6f1-8174-4aa9-83f8-a0c832467c42",
+        "type": "message",
+        "text": "creo que puedo hacer un pull request, como máximo este fin de semana, con el punto 2 (excepto por form-data) y 3",
+        "user": "UNAHBRTFA",
+        "ts": "1592347637.059700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o8jx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "creo que puedo hacer un pull request, como máximo este fin de semana, con el punto 2 (excepto por form-data) y 3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3da7aa19-b7e6-46ae-9d04-79803a50b088",
+        "type": "message",
+        "text": "Venga, voy a instalar nginx en un raspberry pi, y les inicio con las preguntas ...",
+        "user": "UJUSD6VB2",
+        "ts": "1592347651.060000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R3MHG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Venga, voy a instalar nginx en un raspberry pi, y les inicio con las preguntas ..."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a1bdc7e-321c-4fc4-9263-5d5719cedfcc",
+        "type": "message",
+        "text": ":+1: se agradece",
+        "user": "UJN8D8U3B",
+        "ts": "1592347656.060200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uDZ=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            },
+                            {
+                                "type": "text",
+                                "text": " se agradece"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be417a5b-acb4-484a-bdc0-9af6b113b424",
+        "type": "message",
+        "text": "Eso seria estupendo Osvaldo :ok_hand:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347670.060700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nz9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eso seria estupendo Osvaldo "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "ok_hand"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b78ad896-8d48-4893-b3ed-69c24ae5e4ff",
+        "type": "message",
+        "text": "Bueno, era una pregunta para si alguien ha usado nginx vs apache.",
+        "user": "UJUSD6VB2",
+        "ts": "1592347715.061000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t9c0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bueno, era una pregunta para si alguien ha usado nginx vs apache."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346018.043800",
+        "parent_user_id": "UM81W8B0Q"
+    },
+    {
+        "client_msg_id": "a094b8ff-6d9b-41a2-8825-9f0f8eac3953",
+        "type": "message",
+        "text": "el punto 1 lo haría si me ayudáis con el API C de harbour",
+        "user": "UNAHBRTFA",
+        "ts": "1592347733.061700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592347753.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zasO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "el punto 1 lo haría si me ayudáis con el API C de harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6a77317f-b9c0-4f83-b470-e301dd60ebe9",
+        "type": "message",
+        "text": "Si, ese amigo Antonio, ese, ese un salto cuántico.",
+        "user": "UJUSD6VB2",
+        "ts": "1592347748.062200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a6xs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, ese amigo Antonio, ese, ese un salto cuántico."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0e98fef9-8b04-4389-b6d6-d79a373063ed",
+        "type": "message",
+        "text": "cuenta con mi ayuda",
+        "user": "UJN8D8U3B",
+        "ts": "1592347751.062300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yRLC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cuenta con mi ayuda"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd5a53ef-aa19-4598-827f-135b279a597d",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UNAHBRTFA",
+        "ts": "1592347773.062700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UNwk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b9b43cb-a6ca-435b-9c29-bdd8922bc08b",
+        "type": "message",
+        "text": "un salto cuántico... <http:\/\/relexionesypoemas.over-blog.es\/2014\/08\/salto-cuantico.html>",
+        "user": "UJN8D8U3B",
+        "ts": "1592347782.062900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "El blog de Reflexiones y poemas",
+                "title": "SALTO CUANTICO - El blog de Reflexiones y poemas",
+                "title_link": "http:\/\/relexionesypoemas.over-blog.es\/2014\/08\/salto-cuantico.html",
+                "text": "SOMOS MAS QUE MATERIA SALTO CUANTICO Son momentos de luz en las sobras Como estrella fugaz te deslumbra Y abre tu alma encapsulada Al universo entero Al que perteneces Como un ave en vuelo te remonta Y no quieres perderte ni un segundo La maravilla de...",
+                "fallback": "El blog de Reflexiones y poemas: SALTO CUANTICO - El blog de Reflexiones y poemas",
+                "thumb_url": "http:\/\/img.over-blog-kiwi.com\/1\/18\/25\/14\/20160921\/ob_613f53_cuantico.jpg",
+                "from_url": "http:\/\/relexionesypoemas.over-blog.es\/2014\/08\/salto-cuantico.html",
+                "thumb_width": 204,
+                "thumb_height": 247,
+                "service_icon": "https:\/\/fdata.over-blog.com\/4\/98\/49\/03\/avatar-blog-1263918241-tmpphphREmaO.jpg",
+                "id": 1,
+                "original_url": "http:\/\/relexionesypoemas.over-blog.es\/2014\/08\/salto-cuantico.html"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H0\/iG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "un salto cuántico... "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/relexionesypoemas.over-blog.es\/2014\/08\/salto-cuantico.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5bdb2d61-b8b6-49da-9274-260584ba5fdd",
+        "type": "message",
+        "text": "me voy a la cama... buenas noches :sparkles::sparkles:",
+        "user": "UJN8D8U3B",
+        "ts": "1592347937.063800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ast",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "me voy a la cama... buenas noches "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sparkles"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d373bcf9-55c8-4ce5-ac82-5605dcb19d51",
+        "type": "message",
+        "text": "discrepo con el título y con lo de \"que nos ha dado Dios\", pero por lo demás perfecto :smile:",
+        "user": "UNAHBRTFA",
+        "ts": "1592348002.064400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YNG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "discrepo con el título y con lo de \"que nos ha dado Dios\", pero por lo demás perfecto "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e0cfa80a-d36b-42f3-b26d-db23ae58acc7",
+        "type": "message",
+        "text": "Ahh ok",
+        "user": "UM81W8B0Q",
+        "ts": "1592348272.064500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rQJk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahh ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346018.043800",
+        "parent_user_id": "UM81W8B0Q"
+    },
+    {
+        "client_msg_id": "422e0c3d-22bf-4a3a-b3cf-6f1c092fea23",
+        "type": "message",
+        "text": "Ngnix es el mas veloz y está pasando a Apache en cuota de mercado. Es un software de origen ruso que  usa un sync pool por lo que tengo entendido. La mayor parte de la ideas las sacaron del server g-wan hasta que éste último dejó de publicar su codigo fuente. (Eso aduce su paranoico autor que se mudo de francia a suiza porque dice que los servicios de inteligencia lo estaban persiguiendo )",
+        "user": "UM81W8B0Q",
+        "ts": "1592348463.065000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1592348624.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ANqPZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ngnix es el mas veloz y está pasando a Apache en cuota de mercado. Es un software de origen ruso que  usa un sync pool por lo que tengo entendido. La mayor parte de la ideas las sacaron del server g-wan hasta que éste último dejó de publicar su codigo fuente. (Eso aduce su paranoico autor que se mudo de francia a suiza porque dice que los servicios de inteligencia lo estaban persiguiendo )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346018.043800",
+        "parent_user_id": "UM81W8B0Q"
+    },
+    {
+        "client_msg_id": "e1ea62c9-6cef-4396-816f-0c750ada3545",
+        "type": "message",
+        "text": "Bueno, también puso \"con amor\", es decir que también nos quiere!!!",
+        "user": "UJUSD6VB2",
+        "ts": "1592348464.065200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M4oG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bueno, también puso \"con amor\", es decir que también nos quiere!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b8ee6a5-b3ce-469b-b5a1-5e082f92c22f",
+        "type": "message",
+        "text": "bueno, solo me he quejado de lo de \"que nos ha dado Dios\" porque ya me iba a quejar del título, y porque al ponerlo al final del poema parece que en vez de hablar de todo lo demás, el poema esté dedicado a dios, cosa que entiendo pero que no me deja un buen sabor de boca",
+        "user": "UNAHBRTFA",
+        "ts": "1592348815.067300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592348869.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8OGQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bueno, solo me he quejado de lo de \"que nos ha dado Dios\" porque ya me iba a quejar del título, y porque al ponerlo al final del poema parece que en vez de hablar de todo lo demás, el poema esté dedicado a dios, cosa que entiendo pero que no me deja un buen sabor de boca"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8891dcaa-05f0-4dd0-b681-1d81af0a1aed",
+        "type": "message",
+        "text": "pero en este punto lo estoy sobreanalizando",
+        "user": "UNAHBRTFA",
+        "ts": "1592348827.067700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HcsVA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pero en este punto lo estoy sobreanalizando"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d598f3ae-0a03-4d66-8bd2-723e6f62029a",
+        "type": "message",
+        "text": "No puedo creerlo, ejecute edit.exe en windows10 en modo consola y me salió esto :",
+        "user": "UJUSD6VB2",
+        "ts": "1592350842.068400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NyPPe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No puedo creerlo, ejecute edit.exe en windows10 en modo consola y me salió esto :"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F015BJXAN9L",
+                "created": 1592350844,
+                "timestamp": 1592350844,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJUSD6VB2",
+                "editable": false,
+                "size": 101959,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015BJXAN9L\/image.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015BJXAN9L\/download\/image.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 258,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 343,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 515,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 572,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 687,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015BJXAN9L-c2808b385e\/image_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 733,
+                "original_w": 1772,
+                "original_h": 1268,
+                "thumb_tiny": "AwAiADCH7fMDj5fyo\/tGcZHy\/lVU\/eob7xrbkQi6NSfHzA59qU6m+35V596oUU+RAXP7Sn\/2fypV1GdmC\/LycdKpUqnDAjrmlyIBT96kb7xoP3qG+8apAJRRRTAKUdRSUo6ihgayom8\/Kv5U\/wAtP7i\/lTU++akrmGN8tP7i\/lR5af3F\/KnUUXAiCJuPyr+VKsabfuL+VKPvGlX7tAH\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJUSD6VB2\/F015BJXAN9L\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015BJXAN9L-8a91ef2fc9",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJUSD6VB2",
+        "display_as_bot": false,
+        "ts": "1592350845.068500"
+    },
+    {
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "text": "<@UNAHBRTFA> lo de salto cuantico suena así como de Orihuela o igual de toda la Vega baja, un cuantico más o un poquico menos. Y si te vas unos poquicos km más para arriba hasta Dolores pues te dirían en plan cariñoso algo así como que puticos que sois ya habéis avanzado un cuantico más",
+        "user": "UMZ3LNV5Z",
+        "ts": "1592352071.069000",
+        "thread_ts": "1592346737.049800",
+        "root": {
+            "client_msg_id": "c86ed23f-f7be-4b09-a191-d4d2cec4e33f",
+            "type": "message",
+            "text": "\"salto cuántico\" no significa lo que crees que significa",
+            "user": "UNAHBRTFA",
+            "ts": "1592346737.049800",
+            "team": "TJH5YU202",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "\/T9",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "\"salto cuántico\" no significa lo que crees que significa"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "thread_ts": "1592346737.049800",
+            "reply_count": 9,
+            "reply_users_count": 3,
+            "latest_reply": "1592408934.080100",
+            "reply_users": [
+                "UMZ3LNV5Z",
+                "UJUSD6VB2",
+                "UNAHBRTFA"
+            ],
+            "subscribed": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zXe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " lo de salto cuantico suena así como de Orihuela o igual de toda la Vega baja, un cuantico más o un poquico menos. Y si te vas unos poquicos km más para arriba hasta Dolores pues te dirían en plan cariñoso algo así como que puticos que sois ya habéis avanzado un cuantico más"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "1b74bca0-e408-4249-be0c-490ba1641e05"
+    },
+    {
+        "client_msg_id": "FDFFBDBA-4CC8-4C9B-8A30-359C8FE50593",
+        "type": "message",
+        "text": "No entendi nada, pero me gusta tu definicion!",
+        "user": "UJUSD6VB2",
+        "ts": "1592360129.069900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+eJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No entendi nada, pero me gusta tu definicion!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "df7d0ab6-ea26-4e43-9f26-cd43b58b5fac",
+        "type": "message",
+        "text": "<https:\/\/es.wikipedia.org\/wiki\/Vega_Baja_del_Segura>",
+        "user": "UNAHBRTFA",
+        "ts": "1592366437.070100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592366607.000000"
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/bc\/Mapa_de_la_Vega_Baja_del_Segura.svg\/1200px-Mapa_de_la_Vega_Baja_del_Segura.svg.png",
+                "image_width": 1200,
+                "image_height": 1200,
+                "image_bytes": 271027,
+                "title": "Vega Baja del Segura",
+                "title_link": "https:\/\/es.wikipedia.org\/wiki\/Vega_Baja_del_Segura#\/media\/Archivo:Mapa_de_la_Vega_Baja_del_Segura.svg",
+                "from_url": "https:\/\/es.wikipedia.org\/wiki\/Vega_Baja_del_Segura#\/media\/Archivo:Mapa_de_la_Vega_Baja_del_Segura.svg",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/es.wikipedia.org\/",
+                "text": "La Vega Baja del Segura, (en valenciano El Baix Segura, oficialmente El Baix Segura \/ La Vega Baja), también denominada Bajo Segura[1]​[2]​[3]​, es una comarca de la Comunidad Valenciana, España, situada en el extremo sur de la provincia de Alicante, en el límite con la Región de Murcia.\nSu capital, además de su ciudad más importante históricamente, es Orihuela. Esta ciudad, situada en la llanura, forma parte del municipio más extenso de la comarca y es el segundo en población, con 77 414 habitantes (INE 2019). La ciudad de Torrevieja, situada en la costa comarcal, es la primera en población con 83 337 habitantes (INE 2019).\nLa comarca está formada por 27 municipios, repartidos en dos partidos judiciales: Orihuela y Torrevieja.\nEl relieve de la comarca está formado por la vega del curso bajo del río Segura, cuyo aprovechamiento es agrícola en regadío, principalmente huertas que contrasta la aridez de las zonas montañosas con algunos cultivos de secano. A ambos lados de su desembocadura, la comarca se abre al mar, cuyo litoral pertenece a la Costa Blanca.\nLa lengua predominante en la comarca es el castellano. En el municipio de Guardamar del Segura y en la pedanía oriolana de Barbarroja se habla también valenciano, perteneciendo todos los municipios menos Guardamar al predominio lingüístico oficial castellano.",
+                "fallback": "wikipedia: Vega Baja del Segura",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1,
+                "original_url": "https:\/\/es.wikipedia.org\/wiki\/Vega_Baja_del_Segura#\/media\/Archivo:Mapa_de_la_Vega_Baja_del_Segura.svg"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+XOh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/es.wikipedia.org\/wiki\/Vega_Baja_del_Segura"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "878c6abd-3194-47bf-8aed-1210f6d45e18",
+        "type": "message",
+        "text": "Pablo vivió durante muchos años en Redován, ese pueblucho arriba de Orihuela",
+        "user": "UNAHBRTFA",
+        "ts": "1592366457.070400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1592366903.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G2HL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pablo vivió durante muchos años en Redován, ese pueblucho arriba de Orihuela"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "e94241a8-1b6f-4da2-8503-b9271c2c30b9",
+        "type": "message",
+        "text": "hahaha, entonces es un publerino, tipo smallville,",
+        "user": "UJUSD6VB2",
+        "ts": "1592368318.070900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fx4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hahaha, entonces es un publerino, tipo smallville,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "08dbf261-fedf-4d57-93eb-ced462fc11c0",
+        "type": "message",
+        "text": "donde se crio superman",
+        "user": "UJUSD6VB2",
+        "ts": "1592368323.071100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0RDR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "donde se crio superman"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "b1e88c9d-318a-4578-bec9-6590679ce7c1",
+        "type": "message",
+        "text": "no tires una piedra en Redován, porque te sales :smile:",
+        "user": "UNAHBRTFA",
+        "ts": "1592368376.071300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EMNs\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no tires una piedra en Redován, porque te sales "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "494e134a-6d98-4709-8c84-bee8f92af281",
+        "type": "message",
+        "text": "intentare no tirarlas",
+        "user": "UJUSD6VB2",
+        "ts": "1592368602.071600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qX\/wf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "intentare no tirarlas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1592346737.049800",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "1a423424-30b0-4a09-adfd-3b532c0458b6",
+        "type": "message",
+        "text": "Buenos dias,\nComo puedo saber desde una view si estoy Autentificado?\nGracias",
+        "user": "UL77SJTB2",
+        "ts": "1592373814.072400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g083d53f16df",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e083d53f16dfeb8acae9b468b891210.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "Pere Cordonet",
+            "display_name": "Pere Cordonet",
+            "team": "TJH5YU202",
+            "name": "perecordonet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yjB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos dias,\nComo puedo saber desde una view si estoy Autentificado?\nGracias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f5b2cac0-7e66-400f-a456-501260bd3a44",
+        "type": "message",
+        "text": "En el controller",
+        "user": "UJWR5N32S",
+        "ts": "1592373869.072600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OdMHP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En el controller"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28614e51-6250-4ab0-a510-bd1b1b012cce",
+        "type": "message",
+        "text": "Pero desde un view ?\nCrear una funcion para saber si estoy autentificado?\nExiste?",
+        "user": "UL77SJTB2",
+        "ts": "1592373986.073400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g083d53f16df",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e083d53f16dfeb8acae9b468b891210.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "Pere Cordonet",
+            "display_name": "Pere Cordonet",
+            "team": "TJH5YU202",
+            "name": "perecordonet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GYI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero desde un view ?\nCrear una funcion para saber si estoy autentificado?\nExiste?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cf469c1e-58a1-4957-b6e9-ef60668b98f2",
+        "type": "message",
+        "text": "Hay muchas maneras para hacerlo. Puedes crearte un funcion publica  en el router que solo entrar compruebas si estas autenticado y guardas datos en una variable.",
+        "user": "UJWR5N32S",
+        "ts": "1592374073.074700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DdV5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hay muchas maneras para hacerlo. Puedes crearte un funcion publica  en el router que solo entrar compruebas si estas autenticado y guardas datos en una variable."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9421e442-9a02-4853-a8a3-4fb9c315bdbd",
+        "type": "message",
+        "text": "Pequeño ejemplo. Router",
+        "user": "UJWR5N32S",
+        "ts": "1592374083.075000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jrM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pequeño ejemplo. Router"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba5750f4-f8f6-49cd-9b42-785e48f67a6e",
+        "type": "message",
+        "text": "Al inicio te crear una --&gt; static _hToken := NIL",
+        "user": "UJWR5N32S",
+        "ts": "1592374143.075300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xRso",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al inicio te crear una --> static _hToken := NIL"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46ff5165-d48b-4167-88c7-83f5818ed57c",
+        "type": "message",
+        "text": "Al definir la APP hay una clausula ON INIT",
+        "user": "UJWR5N32S",
+        "ts": "1592374171.075900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Lv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al definir la APP hay una clausula ON INIT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0103970-893a-4420-984e-7b10243e9bd3",
+        "type": "message",
+        "text": "```\t\tDEFINE APP oApp TITLE 'My web aplication...' ;\n\t\t\tON INIT CheckUser( oApp );```",
+        "user": "UJWR5N32S",
+        "ts": "1592374182.076100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ai8e",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\t\tDEFINE APP oApp TITLE 'My web aplication...' ;\n\t\t\tON INIT CheckUser( oApp );"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de827063-78df-476e-ae9b-5e5faf33c44d",
+        "type": "message",
+        "text": "En CheckUser podrias chequear tambien si esta autenticado",
+        "user": "UJWR5N32S",
+        "ts": "1592374211.076600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K+T9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En CheckUser podrias chequear tambien si esta autenticado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d50106c1-0ed9-4b08-849d-b0635a3f684f",
+        "type": "message",
+        "text": "```function CheckUser( oApp ) \t\n\n\t_hToken  \t:= oApp:oMiddleware:GetDataJWT()\t\t\n\nRETU nil```",
+        "user": "UJWR5N32S",
+        "ts": "1592374234.076800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DSV",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function CheckUser( oApp ) \t\n\n\t_hToken  \t:= oApp:oMiddleware:GetDataJWT()\t\t\n\nRETU nil"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8f3fc29-1f0f-4015-a5a5-47dd27ff517c",
+        "type": "message",
+        "text": "Y crear u set de funciones publicas en tu App",
+        "user": "UJWR5N32S",
+        "ts": "1592374280.077300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mdD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y crear u set de funciones publicas en tu App"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3325607f-38cc-430e-ad9a-9599f417a03d",
+        "type": "message",
+        "text": "```function IsLogged(); \t\tretu if( _hToken == NIL, .F., .T. )\nfunction AppGetUser();\t\tretu if( valtype(_hToken) == 'H', _hToken[ 'user' ], '' )\nfunction AppGetUserName();\tretu if( valtype(_hToken) == 'H', _hToken[ 'name' ], '' )```",
+        "user": "UJWR5N32S",
+        "ts": "1592374291.077500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zCH1",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function IsLogged(); \t\tretu if( _hToken == NIL, .F., .T. )\nfunction AppGetUser();\t\tretu if( valtype(_hToken) == 'H', _hToken[ 'user' ], '' )\nfunction AppGetUserName();\tretu if( valtype(_hToken) == 'H', _hToken[ 'name' ], '' )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f32a2ae2-11b0-4325-98ee-f8d5ca0e1e7f",
+        "type": "message",
+        "text": "En este caso suponiendo que cuando tu autenticas guardas estas variables (user y name)",
+        "user": "UJWR5N32S",
+        "ts": "1592374315.078000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Tela",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En este caso suponiendo que cuando tu autenticas guardas estas variables (user y name)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c58df92d-dba0-48a9-a435-1a749e3571bc",
+        "type": "message",
+        "text": "Con esto desde tu view facilmente podrias usarlas",
+        "user": "UJWR5N32S",
+        "ts": "1592374342.078500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rs=g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con esto desde tu view facilmente podrias usarlas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "03d32a15-e84e-44fb-bc30-7b0260d10d25",
+        "type": "message",
+        "text": "Muchas gracias <@UJWR5N32S>",
+        "user": "UL77SJTB2",
+        "ts": "1592374682.078800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g083d53f16df",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/6e083d53f16dfeb8acae9b468b891210.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "",
+            "real_name": "Pere Cordonet",
+            "display_name": "Pere Cordonet",
+            "team": "TJH5YU202",
+            "name": "perecordonet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+y010",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muchas gracias "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJWR5N32S"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

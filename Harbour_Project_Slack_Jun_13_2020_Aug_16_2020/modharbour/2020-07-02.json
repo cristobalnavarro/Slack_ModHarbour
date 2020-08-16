@@ -1,0 +1,947 @@
+[
+    {
+        "client_msg_id": "11b0a940-fb11-46bb-b721-510367f81c5e",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1593683557.432200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Iad",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07812883-3150-4c31-b538-70ce1beafadd",
+        "type": "message",
+        "text": "Buen dia",
+        "user": "UK28N3CER",
+        "ts": "1593694658.432800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4ZGVZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "C788CF61-17F6-4543-8C8B-67094B0D9C84",
+        "type": "message",
+        "text": "Buenos días ",
+        "user": "UJXP7LS78",
+        "ts": "1593694676.433100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lQCpt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenos días "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "42a0e2db-0ab1-48b9-a73d-fd4dc2d2fb9c",
+        "type": "message",
+        "text": "Bon Giorno",
+        "user": "UM81W8B0Q",
+        "ts": "1593694692.433300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I6ms",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon Giorno"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2be13732-55e0-4a9f-8a31-ffef5905b263",
+        "type": "message",
+        "text": "buenos días amigos, estoy tengo un problema cuando uso la función Dtos para convertir la fecha 2020, obtengo 1920 como retorno. ¿Alguien sabe cómo resolver?",
+        "user": "U015CUP1T5Z",
+        "ts": "1593700104.434100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tS85",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos días amigos, estoy tengo un problema cuando uso la función Dtos para convertir la fecha 2020, obtengo 1920 como retorno. ¿Alguien sabe cómo resolver?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a39d1eba-b5dd-410c-8fae-f173ae59c8e3",
+        "type": "message",
+        "text": "set epoch to 1950",
+        "user": "UJXP7LS78",
+        "ts": "1593700404.434400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Dk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "set epoch to 1950"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ec6034fa-c20b-4394-a534-0f1bbd1b83b2",
+        "type": "message",
+        "text": "saludos",
+        "user": "UJXP7LS78",
+        "ts": "1593700406.434600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dDoW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "saludos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0c5d066b-6825-478f-90f5-c4bae143266b",
+        "type": "message",
+        "text": "gracias wilson! :+1:",
+        "user": "U015CUP1T5Z",
+        "ts": "1593700933.435000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tHR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias wilson! "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e1902db0-ff3e-4ca0-894f-f938722a3a37",
+        "type": "message",
+        "text": "Ricardo,   Si permanece en el negocio mientras muchos de nosotros lo estemos, 1950 no será suficiente para usted.\nYo suelo:SET EPOCH TO YEAR(DATE())-98   :-)",
+        "user": "UJHD6A81H",
+        "ts": "1593705494.435600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k9h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ricardo,   Si permanece en el negocio mientras muchos de nosotros lo estemos, 1950 no será suficiente para usted.\nYo suelo:SET EPOCH TO YEAR(DATE())-98   :-)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6fafb8d2-db2d-49b1-9f4a-17137aa2edf5",
+        "type": "message",
+        "text": "mejor usar set century on y asi evitar ambigüedades",
+        "user": "UM81W8B0Q",
+        "ts": "1593705640.436200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Loidr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mejor usar set century on y asi evitar ambigüedades"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e4948c74-9c73-4843-a722-15ff2de44045",
+        "type": "message",
+        "text": "Mejor. Asi en 2050 los clientes necesitaran una actualizacion :joy:",
+        "user": "UJULQCHL5",
+        "ts": "1593707659.437100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lMq2D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mejor. Asi en 2050 los clientes necesitaran una actualizacion "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U015CUP1T5Z"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2192bae-e56d-42d2-b6fd-6c2c18fccec9",
+        "type": "message",
+        "text": "una vez me leí un libro de ficción que mencionaba de pasada que en el año 3000 aún había algunos programas en visual basic sin actualizarse todavía",
+        "user": "UNAHBRTFA",
+        "ts": "1593707823.439000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JHKY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "una vez me leí un libro de ficción que mencionaba de pasada que en el año 3000 aún había algunos programas en visual basic sin actualizarse todavía"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd9838b7-2bd2-45bb-b85d-6d294e5213ff",
+        "type": "message",
+        "text": "en visual basic no se, pero en clipper seguro",
+        "user": "UM81W8B0Q",
+        "ts": "1593708480.439900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Cnoy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "en visual basic no se, pero en clipper seguro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "acf0ba4b-f5df-4bae-9658-03c9ca894a31",
+        "type": "message",
+        "text": "Cuando era adolescente, dejé que alguien alquilara un salón de baile para la víspera de Año Nuevo 2000.\nPensé que la Nochevieja 2000 nunca llegaría y ahora han pasado más de 20 años. El tiempo vuela.",
+        "user": "UJHD6A81H",
+        "ts": "1593711259.441100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PIu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cuando era adolescente, dejé que alguien alquilara un salón de baile para la víspera de Año Nuevo 2000.\nPensé que la Nochevieja 2000 nunca llegaría y ahora han pasado más de 20 años. El tiempo vuela."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "407ae463-873d-4f7b-8696-994e2dceb36a",
+        "type": "message",
+        "text": "Visual Basic, otro lenguaje tirado a la papelera por microchof... y van... ¿ Es que no os pone de los ganglios la falta de respeto al usuario de los de Seattle ?",
+        "user": "UJULQCHL5",
+        "ts": "1593711275.441200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bVaP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Visual Basic, otro lenguaje tirado a la papelera por microchof... y van... ¿ Es que no os pone de los ganglios la falta de respeto al usuario de los de Seattle ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1e3e069d-56e4-40a9-90ea-03daaa97b6e8",
+        "type": "message",
+        "text": "En los 80 se decía que en el 2000 la población mundial no podria alimentarse. Falso.\nQue los coches volarian. Falso\nQue habria un gobierno mundial. Verdadero\nQue habria una fuente inagotable de energia. Falso, a no ser que se considere que plantar 400 hectareas de paneles solares de ultima generacion es mejor que una estacion generadora de ciclo combinado.",
+        "user": "UJULQCHL5",
+        "ts": "1593711454.443200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "112Zu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En los 80 se decía que en el 2000 la población mundial no podria alimentarse. Falso.\nQue los coches volarian. Falso\nQue habria un gobierno mundial. Verdadero\nQue habria una fuente inagotable de energia. Falso, a no ser que se considere que plantar 400 hectareas de paneles solares de ultima generacion es mejor que una estacion generadora de ciclo combinado."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "911a1b6c-7e0a-4651-b292-bd313f3df920",
+        "type": "message",
+        "text": "¿y quién decía eso? los artículos de \"esta va a ser la ciudad del futuro\" en revistas de poca monta no son muy realistas",
+        "user": "UNAHBRTFA",
+        "ts": "1593711661.444500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pe5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿y quién decía eso? los artículos de \"esta va a ser la ciudad del futuro\" en revistas de poca monta no son muy realistas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ecc540aa-8f96-466b-ae78-4bcef7ad072f",
+        "type": "message",
+        "text": "puede que lo de la fuente inagotable de energía se refiriera a la fusión, especialmente a la fusión fría, que con la tecnología actual es posible pero resulta costar más de lo que produce",
+        "user": "UNAHBRTFA",
+        "ts": "1593711758.445400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1593711826.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K5q0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "puede que lo de la fuente inagotable de energía se refiriera a la fusión, especialmente a la fusión fría, que con la tecnología actual es posible pero resulta costar más de lo que produce"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "AAB27A04-A89A-4B0A-9CB6-93E17728EFC9",
+        "type": "message",
+        "text": "<@UJHD6A81H> gracias Otto! ",
+        "user": "U015CUP1T5Z",
+        "ts": "1593712672.446000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZbeKO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJHD6A81H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " gracias Otto! "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "815a4ba9-0ff8-4232-b355-4705a974a080",
+        "type": "message",
+        "text": "Los que vivimos los '80 bien lo sabemos. Lo comentabamos los chicos de entonces.\nMe voy, que tengo que echar un porte",
+        "user": "UJULQCHL5",
+        "ts": "1593713528.446900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tjs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Los que vivimos los '80 bien lo sabemos. Lo comentabamos los chicos de entonces.\nMe voy, que tengo que echar un porte"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d1713c5-f0e8-4a56-af84-b5321fedc2aa",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1593753215.447200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uhvcm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8a39e655-b659-4fca-ab94-e08b979020fa",
+        "type": "message",
+        "text": "Buenas noches!, Saludos!",
+        "user": "UJUSD6VB2",
+        "ts": "1593753583.447600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c1S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buenas noches!, Saludos!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "24d16448-f55c-476a-8e50-f55c7697e9ed",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1593755905.447900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QtB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a58fc267-c518-422a-beb9-4190493f39ec",
+        "type": "message",
+        "text": "Por fin vienes. Por fin los cubatas tienen sentido",
+        "user": "UJULQCHL5",
+        "ts": "1593758376.449500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3S01J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Por fin vienes. Por fin los cubatas tienen sentido"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

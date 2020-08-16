@@ -1,0 +1,3464 @@
+[
+    {
+        "client_msg_id": "baab01ec-8ba8-40e3-b7b3-06aa56863465",
+        "type": "message",
+        "text": "Good morning",
+        "user": "UJHD6A81H",
+        "ts": "1592637140.170000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "InpWd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50807c7d-dc5c-48e4-ac72-03e024c7e3e5",
+        "type": "message",
+        "text": "Comenzaré con FastCGI hoy.\nHe hecho un pequeño programa de conversión aquí.",
+        "user": "UJHD6A81H",
+        "ts": "1592637213.170200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TSdCL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Comenzaré con FastCGI hoy.\nHe hecho un pequeño programa de conversión aquí."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c805020-40ef-441b-864b-3fc59fe68c1c",
+        "type": "message",
+        "text": "#include \"<http:\/\/FiveWin.ch|FiveWin.ch>\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\nfunction Main()\n   local oDlg\n\n   DEFINE DIALOG oDlg FROM 6, 6 TO 20, 60 TITLE \"Convert Classic to FastCGI\"\n\n   @ 2, 2 BUTTON \"&amp;Convert to FASTCGI\" OF oDlg ;\n      ACTION ( convert() )\n\n   @ 4, 2 BUTTON \"&amp;Bye!\" OF oDlg ACTION oDlg:End()\n\n   ACTIVATE DIALOG oDlg\n\nreturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\nfunction convert()\n   local cText := \"\"\n   local I := 0\n   local aClassicToFASTCgi := {}\n   local cPrg  := cGetFile( \"(*.prg)|*.prg|\", \"Select prg\" )\n   local cDst := \"\"\n\n   AADD( aClassicToFASTCgi, { \"AP_RPUTS\",          \"MH_ECHO\" } )\n   AADD( aClassicToFASTCgi, { \"AP_ARGS\",           \"MH_QUERY\" } )\n   AADD( aClassicToFASTCgi, { \"AP_HEADERSOUTSET\",  \"MH_HEADER\" } )\n   AADD( aClassicToFASTCgi, { \"AP_BODY\",           \"MH_BODY\" } )\n\n   cText := MemoRead( cPrg )\n\n   for I = 1 to len( aClassicToFASTCgi )\n      cText := STRTRAN( UPPER( cText ), aClassicToFASTCgi[I,1], aClassicToFASTCgi[I,2])\n   next\n\n   cDst := STRTRAN( UPPER( cPrg ), \".PRG\", \"_Fastcgi.prg\" )\n   memowrit( cDst, cText )\n\n   ? \"Done\"\nreturn nil\n\n\/\/----------------------------------------------------------------------------\/\/",
+        "user": "UJHD6A81H",
+        "ts": "1592637242.170400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJHD6A81H",
+            "ts": "1592637401.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nrh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "#include \""
+                            },
+                            {
+                                "type": "link",
+                                "url": "http:\/\/FiveWin.ch",
+                                "text": "FiveWin.ch"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"\n\n\/\/----------------------------------------------------------------------------\/\/\n\nfunction Main()\n   local oDlg\n\n   DEFINE DIALOG oDlg FROM 6, 6 TO 20, 60 TITLE \"Convert Classic to FastCGI\"\n\n   @ 2, 2 BUTTON \"&Convert to FASTCGI\" OF oDlg ;\n      ACTION ( convert() )\n\n   @ 4, 2 BUTTON \"&Bye!\" OF oDlg ACTION oDlg:End()\n\n   ACTIVATE DIALOG oDlg\n\nreturn nil\n\n\/\/----------------------------------------------------------------------------\/\/\n\nfunction convert()\n   local cText := \"\"\n   local I := 0\n   local aClassicToFASTCgi := {}\n   local cPrg  := cGetFile( \"(*.prg)|*.prg|\", \"Select prg\" )\n   local cDst := \"\"\n\n   AADD( aClassicToFASTCgi, { \"AP_RPUTS\",          \"MH_ECHO\" } )\n   AADD( aClassicToFASTCgi, { \"AP_ARGS\",           \"MH_QUERY\" } )\n   AADD( aClassicToFASTCgi, { \"AP_HEADERSOUTSET\",  \"MH_HEADER\" } )\n   AADD( aClassicToFASTCgi, { \"AP_BODY\",           \"MH_BODY\" } )\n\n   cText := MemoRead( cPrg )\n\n   for I = 1 to len( aClassicToFASTCgi )\n      cText := STRTRAN( UPPER( cText ), aClassicToFASTCgi[I,1], aClassicToFASTCgi[I,2])\n   next\n\n   cDst := STRTRAN( UPPER( cPrg ), \".PRG\", \"_Fastcgi.prg\" )\n   memowrit( cDst, cText )\n\n   ? \"Done\"\nreturn nil\n\n\/\/----------------------------------------------------------------------------\/\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e87793a5-8f6b-4363-afd6-84bdf69b59bf",
+        "type": "message",
+        "text": "Al mismo tiempo, también estoy probando el módulo de cartera\nActualización de base de datos con GENESIS",
+        "user": "UJHD6A81H",
+        "ts": "1592638682.170700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kpwQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Al mismo tiempo, también estoy probando el módulo de cartera\nActualización de base de datos con GENESIS"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F015QH57WGM",
+                "created": 1592638692,
+                "timestamp": 1592638692,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 31706,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015QH57WGM\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015QH57WGM\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 220,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 294,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 441,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015QH57WGM-5a1f5efcc6\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 490,
+                "original_w": 956,
+                "original_h": 585,
+                "thumb_tiny": "AwAdADCiSQAQ55HvxV\/S2OJST0xyTVB87V+993vV\/SRkSg+1AF9HD\/dZWA\/unNPpoUL91QPoKXNAC0UUUAc62MLjb07VoaR\/y1\/CqZjyByBj0FXdLTa0nOeBQBoEZpM8mnfjRQAgxS0UlAH\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F015QH57WGM\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015QH57WGM-226303538c",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1592638697.170800"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F015RUA7P3L",
+                "created": 1592638745,
+                "timestamp": 1592638745,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 988567,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015RUA7P3L\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015RUA7P3L\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 295,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 394,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 591,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 657,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 788,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015RUA7P3L-efa53f20b0\/grafik_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 841,
+                "original_w": 1451,
+                "original_h": 1191,
+                "thumb_tiny": "AwAnADC3OfJtwYwBjAHFVhgx72jjLFv7tWrpd1vj6UyAAQUAQIAc5jj\/AO+RVs28I\/5ZJ\/3zUDsD27+tXGoAiFvCT\/qk\/wC+aU20P\/PJPyp69acelAEcql4sL1qJYpVQKOPxqwOgpp3ZPzfpQBVME5x09+auZHWgdOTmkoAXcP8AIpe1IBS9qAEBGBRxTR0FO70ALTdo7gUtFABtX0FHQcUUHpQB\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F015RUA7P3L\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015RUA7P3L-bc7d84cff7",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1592638748.171100"
+    },
+    {
+        "client_msg_id": "b08a1438-8de1-47e3-9858-841bc20a9f2e",
+        "type": "message",
+        "text": "<https:\/\/www.modharbour.club\/mh_portfolio\/portfolio.prg>",
+        "user": "UJHD6A81H",
+        "ts": "1592638781.171500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F189i",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.modharbour.club\/mh_portfolio\/portfolio.prg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "716128eb-311c-446c-88d4-4718e9ef027f",
+        "type": "message",
+        "text": "Acabo de ver que necesito reemplazar CRLF con &lt;br&gt; antes de imprimir :slightly_smiling_face:",
+        "user": "UJHD6A81H",
+        "ts": "1592638995.171700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BqlN\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Acabo de ver que necesito reemplazar CRLF con <br> antes de imprimir "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d863345-23a9-4998-913f-095444264dd1",
+        "type": "message",
+        "text": "Aquí con nosotros, el gobierno ha introducido una nueva tasa de IVA del 5%.\nEsto es para alimentos y bebidas en el restaurante desde 1.7. hasta el 31 de diciembre válido.\nLas próximas dos semanas tenemos mucho trabajo con las actualizaciones, desafortunadamente menos tiempo para el puerto de mods.",
+        "user": "UJHD6A81H",
+        "ts": "1592639153.171900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "v+\/s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Aquí con nosotros, el gobierno ha introducido una nueva tasa de IVA del 5%.\nEsto es para alimentos y bebidas en el restaurante desde 1.7. hasta el 31 de diciembre válido.\nLas próximas dos semanas tenemos mucho trabajo con las actualizaciones, desafortunadamente menos tiempo para el puerto de mods."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a6c4ba5-52d9-4f6c-9fe7-b1359baccf8d",
+        "type": "message",
+        "text": "Ya estoy deseando que WINHOTEL esté completamente programado con mod harbour.\nEntonces esta actualización sería muy fácil.",
+        "user": "UJHD6A81H",
+        "ts": "1592639245.172100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6va\/D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ya estoy deseando que WINHOTEL esté completamente programado con mod harbour.\nEntonces esta actualización sería muy fácil."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8cdaebb0-4ac4-42a7-8db0-2155510e9af7",
+        "type": "message",
+        "text": ":+1:",
+        "user": "UJN8D8U3B",
+        "ts": "1592641602.172300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M7ne",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "56ed6ba6-20c8-4599-ab2b-76ef15650e9b",
+        "type": "message",
+        "text": "Buen día",
+        "user": "UK28N3CER",
+        "ts": "1592664431.172700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TWU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buen día"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "887909be-0d7e-4c83-9078-909b857f7bdf",
+        "type": "message",
+        "text": "Hola <@UJN8D8U3B> quiero compilar ModHarbour CGI de donde se baja el harbour?",
+        "user": "UK28N3CER",
+        "ts": "1592664620.176500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "InAkY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hola "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " quiero compilar ModHarbour CGI de donde se baja el harbour?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "72894abd-99f1-48e8-9dbd-6ea058cf888f",
+        "type": "message",
+        "text": "tengo Harbour 3.2  pero al compilar no encuentra libcrypto.lib",
+        "user": "UK28N3CER",
+        "ts": "1592665014.177300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gil",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tengo Harbour 3.2  pero al compilar no encuentra libcrypto.lib"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28458daa-110d-47e7-9f0d-2cd83feea8ac",
+        "type": "message",
+        "text": "César, prueba con este: <https:\/\/github.com\/FiveTechSoft\/Harbour_builder\/suites\/711223329\/artifacts\/6935197>",
+        "user": "UJN8D8U3B",
+        "ts": "1592667130.177600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oMs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "César, prueba con este: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/Harbour_builder\/suites\/711223329\/artifacts\/6935197"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "65494c5b-bc0a-4b48-867d-a25c86026863",
+        "type": "message",
+        "text": "gracias Antonio que mable, lo intento",
+        "user": "UK28N3CER",
+        "ts": "1592668013.178000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kZfz3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias Antonio que mable, lo intento"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2db30af-64f9-4ae7-8efc-85aa8fa541bf",
+        "type": "message",
+        "text": "Cesar, ¿serías tan amable y grabarías un video de la compilación?",
+        "user": "UJHD6A81H",
+        "ts": "1592669627.178200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6c=h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cesar, ¿serías tan amable y grabarías un video de la compilación?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76bb0096-35fb-4928-8793-59954ca8b4e8",
+        "type": "message",
+        "text": "¿Puedes también probar mi archivo, si los programas clásicos funcionarán en fastcgi?",
+        "user": "UJHD6A81H",
+        "ts": "1592669730.178400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LxV75",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Puedes también probar mi archivo, si los programas clásicos funcionarán en fastcgi?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bfeb9f5f-459c-45dc-ab82-3a516a0c8cb9",
+        "type": "message",
+        "text": "<http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&amp;t=39119>",
+        "user": "UJHD6A81H",
+        "ts": "1592669783.178600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jx1E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "http:\/\/forums.fivetechsupport.com\/viewtopic.php?f=45&t=39119"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f16e6750-9584-49da-853c-5d9af6bdbab4",
+        "type": "message",
+        "text": "hi Otto",
+        "user": "UK28N3CER",
+        "ts": "1592669923.179100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NJ3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi Otto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb927de7-eb1b-43a0-a2f0-5932815a5f50",
+        "type": "message",
+        "text": "ok",
+        "user": "UK28N3CER",
+        "ts": "1592669943.179300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o7S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e907230b-c16b-44c1-8760-3cccd4b67572",
+        "type": "message",
+        "text": "<@UJN8D8U3B> donde está ?  apache.obj : error LNK2001: s¡mbolo externo HB_FUN_MH_ARGS sin resolver",
+        "user": "UK28N3CER",
+        "ts": "1592670001.179600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+odg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJN8D8U3B"
+                            },
+                            {
+                                "type": "text",
+                                "text": " donde está ?  apache.obj : error LNK2001: s¡mbolo externo HB_FUN_MH_ARGS sin resolver"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "713cb588-1412-4785-a54c-bbb1f771a430",
+        "type": "message",
+        "text": "Esta lleno de errores. Ayer no pude testear fastcgi por ese motivo.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670031.180000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pJPQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Esta lleno de errores. Ayer no pude testear fastcgi por ese motivo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bcbee344-4926-4a02-8df4-7c2e661fa4af",
+        "type": "message",
+        "text": "Hay funciones decalradas en el hbx y no implementadas y funcionesimplementqadas y no declaradas. Me parece que el github nbo está sincronizado del todo.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670069.180900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "t=lR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hay funciones decalradas en el hbx y no implementadas y funcionesimplementqadas y no declaradas. Me parece que el github nbo está sincronizado del todo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c5d269f-7871-4834-a6e9-56e1a976a736",
+        "type": "message",
+        "text": "hola Angel eso me imaginé",
+        "user": "UK28N3CER",
+        "ts": "1592670076.181100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=3TKd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hola Angel eso me imaginé"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4dcbd83c-f864-4d59-9f44-d973460c1e7e",
+        "type": "message",
+        "text": "Con Diego estuvimos 3 horas tratando de tapar los agujeros que aparecían y al final nos cansamos y decidimos esperar a una version mejor sincronizada",
+        "user": "UM81W8B0Q",
+        "ts": "1592670118.181800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1592670140.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mj6Yo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Con Diego estuvimos 3 horas tratando de tapar los agujeros que aparecían y al final nos cansamos y decidimos esperar a una version mejor sincronizada"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e8226ead-e3ff-4af1-9343-dcd723669d1d",
+        "type": "message",
+        "text": "ok. faltan cosas pero ya falta poco",
+        "user": "UK28N3CER",
+        "ts": "1592670248.182300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x+ON",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok. faltan cosas pero ya falta poco"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ab61a20d-ff72-45ad-aea8-5c9adc79d2c6",
+        "type": "message",
+        "text": "SIN DUDAS.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670267.182500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EGY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "SIN DUDAS."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cd6353f7-5b71-4aab-bc4f-089f6ec9acac",
+        "type": "message",
+        "text": "SOlo que lo de github no sirve para recompilar. Por lo tanto no pude probar las ideas que ayer le di a Antonio.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670307.183300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NVN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "SOlo que lo de github no sirve para recompilar. Por lo tanto no pude probar las ideas que ayer le di a Antonio."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85ba517a-9b22-4602-a504-04fccf6427e0",
+        "type": "message",
+        "text": "COmo se que no me va a dar bola, las quería probar por mi mismo. juajuajua",
+        "user": "UM81W8B0Q",
+        "ts": "1592670330.183800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MoRU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "COmo se que no me va a dar bola, las quería probar por mi mismo. juajuajua"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "252f8082-3f04-42f3-a5c2-f974a4879b7a",
+        "type": "message",
+        "text": "jeje",
+        "user": "UK28N3CER",
+        "ts": "1592670352.184000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hZ6=W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "jeje"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de7d0de8-60c1-4235-ad71-45d963ed77df",
+        "type": "message",
+        "text": "Antonio sigue en la conversion de simbolos",
+        "user": "UK28N3CER",
+        "ts": "1592670365.184500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zdm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Antonio sigue en la conversion de simbolos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f57df043-4a20-4fdc-b410-d237b451a0a9",
+        "type": "message",
+        "text": "P_RPUTS() --&gt; MH_ECHO()\nAP_ARGS() --&gt; MH_QUERY()\nAP_HEADERSOUTSET( x, y ) --&gt; MH_HEADER( x + y )\nAP_BODY() --&gt; MH_BODY()",
+        "user": "UK28N3CER",
+        "ts": "1592670367.184700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ftpx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "P_RPUTS() --> MH_ECHO()\nAP_ARGS() --> MH_QUERY()\nAP_HEADERSOUTSET( x, y ) --> MH_HEADER( x + y )\nAP_BODY() --> MH_BODY()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1385f706-41fc-4258-83be-59ad2d6150de",
+        "type": "message",
+        "text": "AP_ARGS() es que falta",
+        "user": "UK28N3CER",
+        "ts": "1592670389.185400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/TQUn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "AP_ARGS() es que falta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bc8a957a-c602-4ab4-a172-c20629dab480",
+        "type": "message",
+        "text": "NO se si nos equivocamos que o que pasó pero en una de las compilaciones rengas esas obtuvimos 700r\/s",
+        "user": "UM81W8B0Q",
+        "ts": "1592670408.185700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GtDY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "NO se si nos equivocamos que o que pasó pero en una de las compilaciones rengas esas obtuvimos 700r\/s"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "478d85f6-9bcb-43f5-9ea5-d1845b812c35",
+        "type": "message",
+        "text": "Despues seguimos encontrando errores cuando queriamos probar mas cosas y desistimos. Perdíamos mas tiempo buscando funciones AP MH y XX y que se yo que implementando ideas",
+        "user": "UM81W8B0Q",
+        "ts": "1592670456.186700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1592670475.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vz6tK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Despues seguimos encontrando errores cuando queriamos probar mas cosas y desistimos. Perdíamos mas tiempo buscando funciones AP MH y XX y que se yo que implementando ideas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6a0a5d96-f680-49a9-8b2d-5efea3a1a428",
+        "type": "message",
+        "text": "creo que era por la hora Angel",
+        "user": "UK28N3CER",
+        "ts": "1592670491.187200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WRdH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "creo que era por la hora Angel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cb283ae8-5e5e-4513-b741-240b97317903",
+        "type": "message",
+        "text": "puede ser jaj",
+        "user": "UM81W8B0Q",
+        "ts": "1592670502.187600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rduHH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "puede ser jaj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28a7f15c-3412-42f9-b09e-4ab41b5b3ae9",
+        "type": "message",
+        "text": "si retomas desde cero git clone  a ver si llegas al mismo error que yo",
+        "user": "UK28N3CER",
+        "ts": "1592670509.187900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T6EgR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si retomas desde cero git clone  a ver si llegas al mismo error que yo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c12c28fb-605c-4330-bd42-90e0212bfba1",
+        "type": "message",
+        "text": "Charly se toma la cerveza y me hace efecto a mi.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670517.188100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RVJ=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Charly se toma la cerveza y me hace efecto a mi."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "805bf344-9e4c-49c4-b342-c20c83f3ad45",
+        "type": "message",
+        "text": "Pero termine con flor de pedo.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670543.188400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6ixr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pero termine con flor de pedo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c1a05a1-9fa4-4fe5-8ee2-e129f2662ba1",
+        "type": "message",
+        "text": "De parchar código. SI hubiera sido de cerveza era mas divertido.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670564.188800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "doV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De parchar código. SI hubiera sido de cerveza era mas divertido."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fe3398d-031f-45f2-ac0d-3d4ef446661f",
+        "type": "message",
+        "text": "Mod harbour tiene un programa setup ?",
+        "user": "UM81W8B0Q",
+        "ts": "1592670644.189100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CQA1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mod harbour tiene un programa setup ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ed91b6d8-e729-43ff-8ae5-523a058ff8ee",
+        "type": "message",
+        "text": "Hay un usuario en el foro diciendo que lo usó para instalar mod_harbour y que le fallo",
+        "user": "UM81W8B0Q",
+        "ts": "1592670662.189500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UM81W8B0Q",
+            "ts": "1592670699.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fFBZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hay un usuario en el foro diciendo que lo usó para instalar mod_harbour y que le fallo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f87c79a3-6021-497b-bb2b-539130409bc7",
+        "type": "message",
+        "text": "YO ni siquiera sabía que ese instalador existía",
+        "user": "UM81W8B0Q",
+        "ts": "1592670676.189900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=8M",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "YO ni siquiera sabía que ese instalador existía"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cb6a4db3-cc59-4392-92ec-d47963ce9581",
+        "type": "message",
+        "text": "sip",
+        "user": "UK28N3CER",
+        "ts": "1592670688.190100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ipaez",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f5935ca3-442a-42c8-9366-51eabc2d9c02",
+        "type": "message",
+        "text": "lo estaba desarrollando Antonio pero no se si lo termino ModHarbour InnoSetup",
+        "user": "UK28N3CER",
+        "ts": "1592670720.191000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R+7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "lo estaba desarrollando Antonio pero no se si lo termino ModHarbour InnoSetup"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "92400d70-0550-422e-9557-3e3d6cea8e38",
+        "type": "message",
+        "text": "Tu te animas a darle orientaciones de cómo instalar mod_harbour ?",
+        "user": "UM81W8B0Q",
+        "ts": "1592670737.191300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EJsF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Tu te animas a darle orientaciones de cómo instalar mod_harbour ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9d31e646-9a0f-440c-b403-211fa2d4178a",
+        "type": "message",
+        "text": "Y decirle que ese instalador no funciona bien",
+        "user": "UM81W8B0Q",
+        "ts": "1592670749.191900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qqfcE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Y decirle que ese instalador no funciona bien"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "564bd005-6763-420e-9d7b-4a9d59dec677",
+        "type": "message",
+        "text": "por supuesto Amigo no me gusta decir que nooo.",
+        "user": "UK28N3CER",
+        "ts": "1592670753.192000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+9f",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "por supuesto Amigo no me gusta decir que nooo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c887529-2a05-4623-83e9-1e3f76c4e905",
+        "type": "message",
+        "text": "crÁ !!!!",
+        "user": "UM81W8B0Q",
+        "ts": "1592670826.192300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ehS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "crÁ !!!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8081f0d7-548f-46e4-a425-f2c2c546e91f",
+        "type": "message",
+        "text": "Ese karweru es de kenia creo. Y es un antiguo user del foro de HMG. QUe quiere empezar a hacer pinitos en el mundo web.",
+        "user": "UM81W8B0Q",
+        "ts": "1592670905.193400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kqyX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ese karweru es de kenia creo. Y es un antiguo user del foro de HMG. QUe quiere empezar a hacer pinitos en el mundo web."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b7ba48e0-1a54-44b2-ae58-abfbe43a9016",
+        "type": "message",
+        "text": "ok en cual foro anda?",
+        "user": "UK28N3CER",
+        "ts": "1592671443.193800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UpaAY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok en cual foro anda?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1e19950f-3f3d-4c12-a581-83716e3a436a",
+        "type": "message",
+        "text": "<http:\/\/forum.mod-harbour.org|forum.mod-harbour.org>",
+        "user": "UM81W8B0Q",
+        "ts": "1592672499.194400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5yRw1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "http:\/\/forum.mod-harbour.org",
+                                "text": "forum.mod-harbour.org"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e279300f-43db-4161-aa88-d345a3892983",
+        "type": "message",
+        "text": "buenas tardes con todos",
+        "user": "UJXP7LS78",
+        "ts": "1592677352.194800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lw0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenas tardes con todos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d3fc7d9c-ed60-4016-8815-7a66617fc69e",
+        "type": "message",
+        "text": "Antonio por favor necesito hacerte unas preguntas",
+        "user": "UJXP7LS78",
+        "ts": "1592677365.195200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NerAV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Antonio por favor necesito hacerte unas preguntas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4b7928a5-fcbb-44a8-a78b-74e9649d4615",
+        "type": "message",
+        "text": "1.- Que version de mod_harbour usas en ese proyecto que tienes tu funcionando y si es posible la puedas compartir ( mod_harbour claro ) para windows y linux o indicar como tenerla",
+        "user": "UJXP7LS78",
+        "ts": "1592677425.196400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZPsR3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1.- Que version de mod_harbour usas en ese proyecto que tienes tu funcionando y si es posible la puedas compartir ( mod_harbour claro ) para windows y linux o indicar como tenerla"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a1db2b7c-acb3-41a4-ae0b-427302868916",
+        "type": "message",
+        "text": "2.- ya que estas cambiando las funciones seria interesante te prepares un prg con las traducciones de las anteriors ejemplo",
+        "user": "UJXP7LS78",
+        "ts": "1592677469.197200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zkH3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "2.- ya que estas cambiando las funciones seria interesante te prepares un prg con las traducciones de las anteriors ejemplo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b20c81fb-f103-47a7-9c93-e51b517808dd",
+        "type": "message",
+        "text": "function P_RPUTS( .. ) ; return MH_ECHO(...)",
+        "user": "UJXP7LS78",
+        "ts": "1592677498.197800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YiV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function P_RPUTS( .. ) ; return MH_ECHO(...)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UM81W8B0Q"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4661ec0-fb40-4909-a967-9f2e5be02bbf",
+        "type": "message",
+        "text": "nada mas muchas gracias",
+        "user": "UJXP7LS78",
+        "ts": "1592677513.198000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mK\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nada mas muchas gracias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0af7d5e4-4f10-4097-a3c9-1fe65e03d5f8",
+        "type": "message",
+        "text": "si te refieres a modharbour FASTCGI, aun falta reconvertir simbolos,",
+        "user": "UK28N3CER",
+        "ts": "1592677990.198900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HMM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si te refieres a modharbour FASTCGI, aun falta reconvertir simbolos,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e686dba1-56ec-430a-9601-a47131d12ffb",
+        "type": "message",
+        "text": "Sin embargo la version que esta en el repositor, Carpeta .\/fastcgi  funciona correctamente.",
+        "user": "UK28N3CER",
+        "ts": "1592678035.199600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8lJo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sin embargo la version que esta en el repositor, Carpeta .\/fastcgi  funciona correctamente."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3b8346f-dd91-425f-b8f5-9d29f08bbaaa",
+        "type": "message",
+        "text": "nop",
+        "user": "UJXP7LS78",
+        "ts": "1592679874.199800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8AyGV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nop"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07433b4c-6dfc-44ce-86c6-283ecbf38899",
+        "type": "message",
+        "text": "a mod_harbour",
+        "user": "UJXP7LS78",
+        "ts": "1592679880.200000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "u8qOx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "a mod_harbour"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "677469cc-2b50-4993-ade8-2267387680e2",
+        "type": "message",
+        "text": "al fastcgi no me refiero",
+        "user": "UJXP7LS78",
+        "ts": "1592679894.200400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DZt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "al fastcgi no me refiero"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8845966-b7df-4540-9e1e-9222273d239f",
+        "type": "message",
+        "text": "se que esta en fase beta por eso no pregunto sobre el porque puede cambiar cualquier cosa",
+        "user": "UJXP7LS78",
+        "ts": "1592679912.200900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EFO7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "se que esta en fase beta por eso no pregunto sobre el porque puede cambiar cualquier cosa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1069852b-3bcc-4bf0-a302-771f00474c53",
+        "type": "message",
+        "text": "deja te paso el zip",
+        "user": "UK28N3CER",
+        "ts": "1592679932.201200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6U\/m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "deja te paso el zip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3492eeb7-80e3-492b-8925-b39999f7e4c0",
+        "type": "message",
+        "text": "gracias",
+        "user": "UJXP7LS78",
+        "ts": "1592679941.201400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GVRTM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d370ce4f-6659-4c6c-8e48-f5c3204ccc90",
+        "type": "message",
+        "text": "cual zip",
+        "user": "UJXP7LS78",
+        "ts": "1592679943.201600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RRyGb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cual zip"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52e6802d-f7a8-4ba1-8b93-bfe92a5d2625",
+        "type": "message",
+        "text": "?",
+        "user": "UJXP7LS78",
+        "ts": "1592679944.201800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aK4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "este es la ultima version estable",
+        "files": [
+            {
+                "id": "F015KGAA370",
+                "created": 1592679978,
+                "timestamp": 1592679978,
+                "name": "modharbour_win64_msvc_2020_05_27.zip",
+                "title": "modharbour_win64_msvc_2020_05_27.zip",
+                "mimetype": "application\/zip",
+                "filetype": "zip",
+                "pretty_type": "Zip",
+                "user": "UK28N3CER",
+                "editable": false,
+                "size": 27352586,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015KGAA370\/modharbour_win64_msvc_2020_05_27.zip?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015KGAA370\/download\/modharbour_win64_msvc_2020_05_27.zip?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UK28N3CER\/F015KGAA370\/modharbour_win64_msvc_2020_05_27.zip",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015KGAA370-0cb3f42bd1",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6jfMC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "este es la ultima version estable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UK28N3CER",
+        "display_as_bot": false,
+        "ts": "1592680000.202200"
+    },
+    {
+        "client_msg_id": "cafa6839-f30f-4802-a3d8-3d92507b5706",
+        "type": "message",
+        "text": "es la que tienes que tomar en cuenta cur lib y open sl",
+        "user": "UK28N3CER",
+        "ts": "1592680031.203000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lt\/H7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es la que tienes que tomar en cuenta cur lib y open sl"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6d7fc0c8-59cd-4a6e-81dd-11f70f84a21d",
+        "type": "message",
+        "text": "readme.md",
+        "user": "UK28N3CER",
+        "ts": "1592680082.203400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JOxR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "readme.md"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a77d4b2-8860-4b84-b371-812f66584452",
+        "type": "message",
+        "text": "la version que está en el repositorio a mi no me funciona.",
+        "user": "UK28N3CER",
+        "ts": "1592680202.203800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0Ok",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "la version que está en el repositorio a mi no me funciona."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6244332-9b70-4d18-b9c7-9629788d7946",
+        "type": "message",
+        "text": "gracias Cesar",
+        "user": "UJXP7LS78",
+        "ts": "1592680220.204000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "THH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias Cesar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b7abe20-acf7-4443-b021-e5292062ba9d",
+        "type": "message",
+        "text": "y cual debemos usar en Linux",
+        "user": "UJXP7LS78",
+        "ts": "1592680231.204300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7bC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y cual debemos usar en Linux"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "680763eb-1ab1-4b7e-b53e-f9a82742d175",
+        "type": "message",
+        "text": "la del repo pero no la he probado",
+        "user": "UK28N3CER",
+        "ts": "1592680259.204700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LhYl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "la del repo pero no la he probado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1dc3001d-4065-44b9-b856-15d6afe5fbc4",
+        "type": "message",
+        "text": "bueno",
+        "user": "UJXP7LS78",
+        "ts": "1592680796.205000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gc4a0baebb72",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/a1c4a0baebb720b97e5a197259dbf409.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0007-72.png",
+            "first_name": "",
+            "real_name": "wilson gamboa",
+            "display_name": "wilson gamboa",
+            "team": "TJH5YU202",
+            "name": "wilson.josenet",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XAQ8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bueno"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "233bd4f5-7d4e-49ea-8917-0f4b85d5cc2d",
+        "type": "message",
+        "text": "Cesar, ¿puedes mostrarme qué archivo tengo que descargar para el puerto clásico y cuál para fastcgi? Parece que https: &lt;\/\/github.com\/FiveTechSoft\/mod_harbour\/archive\/master.zip&gt; ya no funciona.",
+        "user": "UJHD6A81H",
+        "ts": "1592687649.206600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/z5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cesar, ¿puedes mostrarme qué archivo tengo que descargar para el puerto clásico y cuál para fastcgi? Parece que https: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "\/\/github.com\/FiveTechSoft\/mod_harbour\/archive\/master.zip"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ya no funciona."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0164UJ1JAD",
+                "created": 1592687657,
+                "timestamp": 1592687657,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 86781,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0164UJ1JAD\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0164UJ1JAD\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 342,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 455,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 683,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 843,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 911,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0164UJ1JAD-112814fdda\/grafik_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 972,
+                "thumb_1024_h": 1024,
+                "original_w": 1243,
+                "original_h": 1310,
+                "thumb_tiny": "AwAwAC2x9mmH\/L05\/Cj7NN\/z9PVuigCp9mm\/5+n\/ACo+zTf8\/T\/lVo5xxQuSOf1oAq\/Zpv8An6ej7LN\/z9P+VW6KAEbgGm5PoPzp56UCgBvPoPzpct6D86DS0ANLEds\/SlByM4xS0CgAPSgUGkXkdx9aAA0tGKKACgUUUAf\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0164UJ1JAD\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0164UJ1JAD-790c88a86e",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1592687659.206700"
+    },
+    {
+        "client_msg_id": "f498ab7a-80d9-4df0-96e7-30f60b19189a",
+        "type": "message",
+        "text": "I would like to update my install program for mod harbour.",
+        "user": "UJHD6A81H",
+        "ts": "1592687715.207400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T0zQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I would like to update my install program for mod harbour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F015SGASUKD",
+                "created": 1592687717,
+                "timestamp": 1592687717,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 5940,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015SGASUKD\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F015SGASUKD\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015SGASUKD-58a52b9d39\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015SGASUKD-58a52b9d39\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015SGASUKD-58a52b9d39\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 257,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015SGASUKD-58a52b9d39\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 343,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F015SGASUKD-58a52b9d39\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "original_w": 401,
+                "original_h": 561,
+                "thumb_tiny": "AwAwACK95Sf5NJ5Mfv8AnSt3pvH9407ishfJT3\/OgwRkYIP50nHqakWi4WRF9nj9D+dH2eP0P51LRSHdjT1oOe1B6mmnHv8ArQA6nLTAB709aACiiimIaetJz7U\/A9aTYtIY3nvT1pAqjpSjA70AFFGRSZFMR\/\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F015SGASUKD\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F015SGASUKD-90e737bedf",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1592687719.207500"
+    },
+    {
+        "client_msg_id": "aebf5c5f-e471-4a66-a81c-117ec7af1259",
+        "type": "message",
+        "text": "Otto, forget about fastcgi until it's stable",
+        "user": "UM81W8B0Q",
+        "ts": "1592688032.208200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EQ6jr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otto, forget about fastcgi until it's stable"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f077a2fc-8ed0-4023-918c-004d84e005f2",
+        "type": "message",
+        "text": "My advice: rollback to yout last well-behaving version until the storm calms down.",
+        "user": "UM81W8B0Q",
+        "ts": "1592688098.209500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oD3jX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My advice: rollback to yout last well-behaving version until the storm calms down."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b91f4f8f-0da6-4769-a1ed-df01524e419b",
+        "type": "message",
+        "text": "What storm ? :slightly_smiling_face:",
+        "user": "UJN8D8U3B",
+        "ts": "1592691260.209800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/nyrb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What storm ? "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b525bad-feaf-4209-b890-84e8261c42f6",
+        "type": "message",
+        "text": "Otto, here you have the new mod_harbour fastCGI: <https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/fastcgi\/windows\/win64>",
+        "user": "UJN8D8U3B",
+        "ts": "1592691324.210200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3c5Q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otto, here you have the new mod_harbour fastCGI: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/FiveTechSoft\/mod_harbour\/tree\/master\/fastcgi\/windows\/win64"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8bc91cd2-ed82-496d-a459-fcab2b6cc752",
+        "type": "message",
+        "text": "is it up to date ?",
+        "user": "UM81W8B0Q",
+        "ts": "1592692548.210700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NiXrZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is it up to date ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

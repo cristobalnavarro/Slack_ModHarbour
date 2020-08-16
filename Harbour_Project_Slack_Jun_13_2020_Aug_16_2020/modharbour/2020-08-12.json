@@ -1,0 +1,1192 @@
+[
+    {
+        "client_msg_id": "ab2f336b-8d28-4545-81e1-01a0d0224ba7",
+        "type": "message",
+        "text": "bueno, esta mañana abrí <https:\/\/github.com\/mod-harbour\/slack-logs\/issues\/4>, y no sé si alguien tiene opiniones sobre cómo hacer eso",
+        "user": "UNAHBRTFA",
+        "ts": "1597251483.157300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "author_name": "andreubotella",
+                "fallback": "[mod-harbour\/slack-logs] #4 How to fetch\/store the workspace logs",
+                "text": "Since this repo is meant to be used for abitrary Slack workspaces, rather than just the mod-harbour Slack that we're deploying at <https:\/\/slack.mod-harbour.org|slack.mod-harbour.org>, we must allow some degree of configuration on how to load those logs.\n\nMy initial idea here was to have a `logs` directory that's empty in the repo but that the app expects to contain subfolders with the different Slack backups (so that we can just do `git clone <https:\/\/github.com\/cristobalnavarro\/Slack_ModHarbour> logs` and have it work). Then, when the model prg's are first loaded, they make sure that directory contains the logs, and build a hash in memory for the various channels, users and so on across the different backups.\n\n<https:\/\/github.com\/carles9000|@carles9000> <https:\/\/github.com\/cristobalnavarro|@cristobalnavarro> Any thoughts?\n\n* * *\n\nComo este repositorio está hecho para usarse con workspaces arbitrarios de Slack, en vez de ser solo para el Slack de mod-harbour que hemos montado en <https:\/\/slack.mod-harbour.org|slack.mod-harbour.org>, debemos de permitir cierto grado de configuración sobre cómo cargar esos logs.\n\nMi idea inicial aquí era tener un directorio `logs` que esté vacío en el repo, pero que la app espera que contenga subcarpetas con los distintos backups del Slack (para que podamos hacer simplemente `git clone <https:\/\/github.com\/cristobalnavarro\/> Slack_ModHarbour logs` y que funcione). Entonces, al cargar los prg's del modelo por primera vez, se aseguran de que el directorio contenga los logs y crean un hash en memoria para los distintos canales, usuarios y demás a lo largo de los distintos backups.\n\n<https:\/\/github.com\/carles9000|@carles9000> <https:\/\/github.com\/cristobalnavarro|@cristobalnavarro> ¿Qué opináis?",
+                "title": "#4 How to fetch\/store the workspace logs",
+                "footer": "<https:\/\/github.com\/mod-harbour\/slack-logs|mod-harbour\/slack-logs>",
+                "id": 1,
+                "title_link": "https:\/\/github.com\/mod-harbour\/slack-logs\/issues\/4",
+                "author_link": "https:\/\/github.com\/andreubotella",
+                "author_icon": "https:\/\/avatars2.githubusercontent.com\/u\/8225977?v=4",
+                "footer_icon": "https:\/\/github.githubassets.com\/favicon.ico",
+                "ts": 1597230739,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Labels",
+                        "value": "enhancement",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B013M1D0ZKM",
+                "app_unfurl_url": "https:\/\/github.com\/mod-harbour\/slack-logs\/issues\/4",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o8oU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bueno, esta mañana abrí "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/mod-harbour\/slack-logs\/issues\/4"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", y no sé si alguien tiene opiniones sobre cómo hacer eso"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "reply_count": 16,
+        "reply_users_count": 3,
+        "latest_reply": "1597255194.166900",
+        "reply_users": [
+            "UJRQZMTAM",
+            "UNAHBRTFA",
+            "UJUJLTWMT"
+        ],
+        "replies": [
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254344.163500"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254394.163800"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254408.164000"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254435.164200"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254443.164400"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254449.164600"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254457.164800"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254484.165000"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254528.165200"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254545.165400"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254551.165600"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254692.165800"
+            },
+            {
+                "user": "UJRQZMTAM",
+                "ts": "1597254697.166000"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254725.166200"
+            },
+            {
+                "user": "UNAHBRTFA",
+                "ts": "1597254793.166400"
+            },
+            {
+                "user": "UJUJLTWMT",
+                "ts": "1597255194.166900"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "4da6f71b-f0e8-4a0f-aaa0-0053c77d080a",
+        "type": "message",
+        "text": "la idea es partir de una serie de logs del slack, como los del repo de cristóbal, y a lo mejor preprocesarlos un poco al cargar el modelo",
+        "user": "UNAHBRTFA",
+        "ts": "1597251588.159400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6BWl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "la idea es partir de una serie de logs del slack, como los del repo de cristóbal, y a lo mejor preprocesarlos un poco al cargar el modelo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e33d1c48-0c14-4050-b2ad-5185300e1c7b",
+        "type": "message",
+        "text": "mi idea era ir consultando los json desde el modelo para cada cosa, pero a lo mejor habría que meterlos todos en una dbf en vez de eso",
+        "user": "UNAHBRTFA",
+        "ts": "1597251625.160200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L7NIV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mi idea era ir consultando los json desde el modelo para cada cosa, pero a lo mejor habría que meterlos todos en una dbf en vez de eso"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4d1c7a5-5c3e-4165-939b-93ed149b61cd",
+        "type": "message",
+        "text": "y como el repo se debería poder usar para distintos workspaces de slack, estos logs no pueden estar en el repo en sí, sino que los tiene que poner en la carpeta el usuario que esté montando el server",
+        "user": "UNAHBRTFA",
+        "ts": "1597251702.161500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pf2q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "y como el repo se debería poder usar para distintos workspaces de slack, estos logs no pueden estar en el repo en sí, sino que los tiene que poner en la carpeta el usuario que esté montando el server"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3e8e6737-67fa-4ac0-8a5d-1681fe75b45d",
+        "type": "message",
+        "text": "Ahora tengo una buena solución, cómo puedo crear rápidamente un archivo DBF con una página HTML que uso drag-and-drop web page builder    puede conectarse.",
+        "user": "UJHD6A81H",
+        "ts": "1597254007.162000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XT7Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora tengo una buena solución, cómo puedo crear rápidamente un archivo DBF con una página HTML que uso drag-and-drop web page builder    puede conectarse."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e5779bb-700d-4e09-9a3f-9f3711a21b6f",
+        "type": "message",
+        "text": "NO entiendo",
+        "user": "UM81W8B0Q",
+        "ts": "1597254036.162300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MZNq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "NO entiendo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F018ACSQY3Z",
+                "created": 1597254034,
+                "timestamp": 1597254034,
+                "name": "novibuilder.mp4",
+                "title": "novibuilder.mp4",
+                "mimetype": "video\/mp4",
+                "filetype": "mp4",
+                "pretty_type": "MPEG 4 Video",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 18746943,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F018ACSQY3Z\/novibuilder.mp4?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F018ACSQY3Z\/download\/novibuilder.mp4?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018ACSQY3Z-69b6f9088d\/novibuilder_thumb_video.jpeg?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F018ACSQY3Z\/novibuilder.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F018ACSQY3Z-eb39964682",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1597254043.162400",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UM81W8B0Q"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UJUSD6VB2"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6a04486-29c7-4e79-8d93-60ea49d88e3d",
+        "type": "message",
+        "text": "por favor mira el video",
+        "user": "UJHD6A81H",
+        "ts": "1597254076.162900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NWzx0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "por favor mira el video"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d69dc83-fe2e-41e0-a7a9-ff69fe064fe4",
+        "type": "message",
+        "text": "Pirateo 101. :rolling_on_the_floor_laughing::joy:",
+        "user": "UM81W8B0Q",
+        "ts": "1597254316.163400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0z2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pirateo 101. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "rolling_on_the_floor_laughing"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "35dde464-314d-4703-8c3a-0a6a38471120",
+        "type": "message",
+        "text": "<@UNAHBRTFA>, vos decis de poder reproducir visualmente todo lo que esta en el json?",
+        "user": "UJRQZMTAM",
+        "ts": "1597254344.163500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJRQZMTAM",
+            "ts": "1597254365.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nBY=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", vos decis de poder reproducir visualmente todo lo que esta en el json?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "7c180c52-a4df-41d9-bc26-38b8294c287a",
+        "type": "message",
+        "text": "para eso está el proyecto, pero en ese issue no hablaba de eso",
+        "user": "UNAHBRTFA",
+        "ts": "1597254394.163800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j4V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "para eso está el proyecto, pero en ese issue no hablaba de eso"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "fd1ff3da-8b3e-4b02-a414-86c0c27f3471",
+        "type": "message",
+        "text": "hablaba de cómo cargar los json como parte del modelo MVC",
+        "user": "UNAHBRTFA",
+        "ts": "1597254408.164000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4mN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hablaba de cómo cargar los json como parte del modelo MVC"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "ecc7e378-cb31-456f-9c57-687fe9e3f329",
+        "type": "message",
+        "text": "Por lo que vi, incluso las imagenes se podrian tomar tambien. Ya que las mismas siguen almacenadas en slack y por mas que sean viejas estan disponibles.",
+        "user": "UJRQZMTAM",
+        "ts": "1597254435.164200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lqLYe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Por lo que vi, incluso las imagenes se podrian tomar tambien. Ya que las mismas siguen almacenadas en slack y por mas que sean viejas estan disponibles."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "71533844-4c5b-437f-9699-bfaf10b0ca3c",
+        "type": "message",
+        "text": "cierto",
+        "user": "UNAHBRTFA",
+        "ts": "1597254443.164400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IQK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cierto"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "edea8bc7-b230-4d98-8464-dd493bd3aa07",
+        "type": "message",
+        "text": "eso es interesante",
+        "user": "UJRQZMTAM",
+        "ts": "1597254449.164600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YuY+V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eso es interesante"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "f46a7fe6-ef42-4c41-8b22-ce3438fcaf4c",
+        "type": "message",
+        "text": "hasta que se den cuenta",
+        "user": "UJRQZMTAM",
+        "ts": "1597254457.164800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i8r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hasta que se den cuenta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "ca8f37ba-3671-4efb-8ebc-1a2bbdfc110b",
+        "type": "message",
+        "text": "probe abrir imagenes del año pasado almacenadas en slack y se ven sin problema",
+        "user": "UJRQZMTAM",
+        "ts": "1597254484.165000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Itc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "probe abrir imagenes del año pasado almacenadas en slack y se ven sin problema"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "ef577de5-7213-4c2e-bb30-34b219305262",
+        "type": "message",
+        "text": "ellos te proporcionan la información, montar un visualizador de este tipo no va en contra de nada",
+        "user": "UNAHBRTFA",
+        "ts": "1597254528.165200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rK3Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ellos te proporcionan la información, montar un visualizador de este tipo no va en contra de nada"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "e29ae529-3227-4f19-82eb-d350c3a02346",
+        "type": "message",
+        "text": "que te mantengan las imagenes disponibles",
+        "user": "UJRQZMTAM",
+        "ts": "1597254545.165400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K5w",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "que te mantengan las imagenes disponibles"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "6ec60e28-44c3-49ed-9870-3176f917c941",
+        "type": "message",
+        "text": "eso es otra cosa",
+        "user": "UJRQZMTAM",
+        "ts": "1597254551.165600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ngfF3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eso es otra cosa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "f54bffd4-5d57-4352-9a38-94d7b0615cfc",
+        "type": "message",
+        "text": "calculo que estas imagenes solo estan disponibles si tenes la sesion abierta",
+        "user": "UJRQZMTAM",
+        "ts": "1597254692.165800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XWtve",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "calculo que estas imagenes solo estan disponibles si tenes la sesion abierta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "f2377153-613f-4dc5-8211-955ef71bc527",
+        "type": "message",
+        "text": "esa prueba no la hice",
+        "user": "UJRQZMTAM",
+        "ts": "1597254697.166000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0d8c567df084",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-11-22\/834908722243_0d8c567df084bf59d639_72.png",
+            "first_name": "Diego",
+            "real_name": "Diego F",
+            "display_name": "Diego F",
+            "team": "TJH5YU202",
+            "name": "diegohfazio",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fxt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "esa prueba no la hice"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "759de68a-a351-4724-b6d0-3d24d7d35225",
+        "type": "message",
+        "text": "algunas sí, tuve problemas con eso en mi trabajo",
+        "user": "UNAHBRTFA",
+        "ts": "1597254725.166200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vOrAf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "algunas sí, tuve problemas con eso en mi trabajo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "cdac3916-62f7-4d27-a5f2-5934332b4e8c",
+        "type": "message",
+        "text": "no lo recordaba hasta ahora",
+        "user": "UNAHBRTFA",
+        "ts": "1597254793.166400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L\/BV4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no lo recordaba hasta ahora"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F018RCAC6UB",
+                "created": 1597254885,
+                "timestamp": 1597254885,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 45906,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F018RCAC6UB\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F018RCAC6UB\/download\/grafik.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 360,
+                "thumb_360_h": 125,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 480,
+                "thumb_480_h": 166,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_720.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_720_w": 720,
+                "thumb_720_h": 249,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_800.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_800_w": 800,
+                "thumb_800_h": 277,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_960.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_960_w": 960,
+                "thumb_960_h": 332,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F018RCAC6UB-92a533cbf2\/grafik_1024.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 355,
+                "original_w": 1831,
+                "original_h": 634,
+                "thumb_tiny": "AwAQADCkabTip9D+VJtPofyoABS8UmD6H8qMH0P5UAFKv3hz3pMH0P5Uqg7hwevpQB\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F018RCAC6UB\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F018RCAC6UB-9bbd5a258b",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1597254892.166600"
+    },
+    {
+        "client_msg_id": "e4f1b590-ca82-4595-8f89-72071f5178a9",
+        "type": "message",
+        "text": "<@UNAHBRTFA> todo el grado de generalización que le des al proyecto, será bienvenido. Luego le echaré un vistazo a lo que has hecho hoy. Ando \"busy\"",
+        "user": "UJUJLTWMT",
+        "ts": "1597255194.166900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vhe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UNAHBRTFA"
+                            },
+                            {
+                                "type": "text",
+                                "text": " todo el grado de generalización que le des al proyecto, será bienvenido. Luego le echaré un vistazo a lo que has hecho hoy. Ando \"busy\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1597251483.157300",
+        "parent_user_id": "UNAHBRTFA"
+    }
+]

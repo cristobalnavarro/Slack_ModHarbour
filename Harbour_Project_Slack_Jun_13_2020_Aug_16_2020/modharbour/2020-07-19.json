@@ -1,0 +1,960 @@
+[
+    {
+        "client_msg_id": "a6765ad5-8c7b-4741-93fb-ce5485d9ccb0",
+        "type": "message",
+        "text": "Buenos días",
+        "user": "UJULAGJG5",
+        "ts": "1595146887.156500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g456e0b2cdb9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/dc456e0b2cdb991048d487a08c4a8c7a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0004-72.png",
+            "first_name": "",
+            "real_name": "Gabriel",
+            "display_name": "Gabriel",
+            "team": "TJH5YU202",
+            "name": "jgabri",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "51C8ACD7-E9A0-45BE-A9EC-20EB00B0EF76",
+        "type": "message",
+        "text": "Matiner ",
+        "user": "UJH8DPY58",
+        "ts": "1595154347.156800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1cac88c496c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/451cac88c496c2cec0b934a281b6eb94.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "",
+            "real_name": "Juan Pastor",
+            "display_name": "",
+            "team": "TJH5YU202",
+            "name": "jpastor68",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B65+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Matiner "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd19a743-2e40-481e-8d90-bfb627f8950f",
+        "type": "message",
+        "text": "I know this is an old thread but the solution that worked for me was not listed here, and this still appears at the top of the results in Google. Try adding defer to your datatable.js import\n\n&lt;script defer type=\"text\/javascript\" src=\"~\/Scripts\/jquery.dataTables.min.js\"&gt;&lt;\/script&gt;\n\nif you open developer tools (in chrome) and click on \"Network\" you can see which order your files are loading. And even though Jquery.js by appear before DataTables.js in your html file, Jquery may not have finished loading by the time DataTables does. adding defer ensures that the datatables.js file loads last.\n\nAdditionally if you want to know if you are somehow loading two instances of jquery (another possible cause of this problem) you can see that in Developer tools under \"Network\".",
+        "user": "UJHD6A81H",
+        "ts": "1595155036.157000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eEHCO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I know this is an old thread but the solution that worked for me was not listed here, and this still appears at the top of the results in Google. Try adding defer to your datatable.js import\n\n<script defer type=\"text\/javascript\" src=\"~\/Scripts\/jquery.dataTables.min.js\"><\/script>\n\nif you open developer tools (in chrome) and click on \"Network\" you can see which order your files are loading. And even though Jquery.js by appear before DataTables.js in your html file, Jquery may not have finished loading by the time DataTables does. adding defer ensures that the datatables.js file loads last.\n\nAdditionally if you want to know if you are somehow loading two instances of jquery (another possible cause of this problem) you can see that in Developer tools under \"Network\"."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "65c3c121-a1e9-4210-a35d-e707bb39f377",
+        "type": "message",
+        "text": "Publico esto aquí en caso de que alguien tenga los mismos problemas que tuve. Para mí esto funciona.",
+        "user": "UJHD6A81H",
+        "ts": "1595155111.157200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zDBE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Publico esto aquí en caso de que alguien tenga los mismos problemas que tuve. Para mí esto funciona."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d84a3b6c-42d9-44e5-ad7a-51dc4ef142da",
+        "type": "message",
+        "text": "si no pones `defer`, `async` ni `type=\"module\"`, los scripts se van a cargar uno detrás del otro",
+        "user": "UNAHBRTFA",
+        "ts": "1595157336.158000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+u\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "si no pones "
+                            },
+                            {
+                                "type": "text",
+                                "text": "defer",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "text",
+                                "text": "async",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ni "
+                            },
+                            {
+                                "type": "text",
+                                "text": "type=\"module\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", los scripts se van a cargar uno detrás del otro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "04ad3366-f7bc-43bf-a0eb-bf1cdce9fd28",
+        "type": "message",
+        "text": "`defer` hace que un script se empiece a descargar, pero no se ejecuta hasta que la página se haya cargado del todo",
+        "user": "UNAHBRTFA",
+        "ts": "1595157371.158800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p2Rj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "defer",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " hace que un script se empiece a descargar, pero no se ejecuta hasta que la página se haya cargado del todo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b88d057c-5f61-4528-a373-b2917c1416eb",
+        "type": "message",
+        "text": "`async` hace que el script se empiece a descargar en ese momento, y que se ejecute en cuanto se haya descargado por completo, sea eso mientras la página se esté cargando, o después",
+        "user": "UNAHBRTFA",
+        "ts": "1595157445.160200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PMn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "async",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " hace que el script se empiece a descargar en ese momento, y que se ejecute en cuanto se haya descargado por completo, sea eso mientras la página se esté cargando, o después"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fb86c00-c179-4123-88d9-b5a58901952b",
+        "type": "message",
+        "text": "los bloques de código cargados con `$(() =&gt; {\/* ... *\/})` o con `window.onload = () =&gt; {\/* .. *\/};` se ejecutan después de ejecutarse todos los scripts con `async` y `defer`",
+        "user": "UNAHBRTFA",
+        "ts": "1595157517.161500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XQAD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "los bloques de código cargados con "
+                            },
+                            {
+                                "type": "text",
+                                "text": "$(() => {\/* ... *\/})",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " o con "
+                            },
+                            {
+                                "type": "text",
+                                "text": "window.onload = () => {\/* .. *\/};",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " se ejecutan después de ejecutarse todos los scripts con "
+                            },
+                            {
+                                "type": "text",
+                                "text": "async",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " y "
+                            },
+                            {
+                                "type": "text",
+                                "text": "defer",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae416fcb-1114-45e1-8803-1dcc66a62fb7",
+        "type": "message",
+        "text": "Muy buen día",
+        "user": "UK28N3CER",
+        "ts": "1595163748.161800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Br3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Muy buen día"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97eb2d27-9c00-4943-88d5-965622e626da",
+        "type": "message",
+        "text": "Thank you.",
+        "user": "UJHD6A81H",
+        "ts": "1595165964.162000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wBz33",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thank you."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "48e4bdce-370f-4ab5-ae8a-0e96584078ea",
+        "type": "message",
+        "text": "WPA  - How do I enable or disable “Gestures” on Android Mi PHONE?",
+        "user": "UJHD6A81H",
+        "ts": "1595165992.162400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9h\/F",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "WPA  - How do I enable or disable “Gestures” on Android Mi PHONE?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1d854b94-ecd4-48e5-be9b-b9fcf450b929",
+        "type": "message",
+        "text": "Maybe not possible:  <https:\/\/www.neowin.net\/news\/theres-no-way-to-disable-android-pies-gesture-based-navigation-on-the-pixel-3|There's no way to disable Android Pie's gesture-based navigation on the Pixel 3 - same Android version.>",
+        "user": "UJHD6A81H",
+        "ts": "1595166219.163000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "Neowin",
+                "title": "There's no way to disable Android Pie's gesture-based navigation on the Pixel 3",
+                "title_link": "https:\/\/www.neowin.net\/news\/theres-no-way-to-disable-android-pies-gesture-based-navigation-on-the-pixel-3",
+                "text": "Not only will Google's shiny new Pixel 3 handsets come with Android Pie's gesture navigation support turned on by default, there will be no way to disable it to use the older button-only interface.",
+                "fallback": "Neowin: There's no way to disable Android Pie's gesture-based navigation on the Pixel 3",
+                "image_url": "https:\/\/cdn.neow.in\/news\/images\/uploaded\/2018\/10\/1539142484_img_4463_story.jpg",
+                "from_url": "https:\/\/www.neowin.net\/news\/theres-no-way-to-disable-android-pies-gesture-based-navigation-on-the-pixel-3",
+                "image_width": 444,
+                "image_height": 250,
+                "image_bytes": 74626,
+                "service_icon": "https:\/\/www.neowin.net\/images\/orion\/icons\/apple-touch-icon-57x57.png",
+                "id": 1,
+                "original_url": "https:\/\/www.neowin.net\/news\/theres-no-way-to-disable-android-pies-gesture-based-navigation-on-the-pixel-3"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o3RC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Maybe not possible:  "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.neowin.net\/news\/theres-no-way-to-disable-android-pies-gesture-based-navigation-on-the-pixel-3",
+                                "text": "There's no way to disable Android Pie's gesture-based navigation on the Pixel 3 - same Android version."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "35dcc72e-2fe1-4f0e-a8fa-4264e619cb04",
+        "type": "message",
+        "text": "Ahora hay un problema si creamos aplicaciones WPA. A través de un gesto, la página web se puede cerrar y todos los datos se han ido.",
+        "user": "UJHD6A81H",
+        "ts": "1595166329.164200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FQ9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ahora hay un problema si creamos aplicaciones WPA. A través de un gesto, la página web se puede cerrar y todos los datos se han ido."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2f9c5e77-1bf6-4a6d-b93b-ebaf170334dc",
+        "type": "message",
+        "text": "Para eso está localStorage",
+        "user": "UNAHBRTFA",
+        "ts": "1595166635.164400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c6kuk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Para eso está localStorage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "893554e0-c73f-4231-9d90-e39678900d2f",
+        "type": "message",
+        "text": "Is localstorage sessionStorage ?",
+        "user": "UJHD6A81H",
+        "ts": "1595166906.165000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fp=Qe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is localstorage sessionStorage ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "677ce954-c336-465f-a594-77b872b2aadb",
+        "type": "message",
+        "text": "localStorage and sessionStorage are two storage \"buckets\" that work pretty much the same, except that sessionStorage gets cleared when the browser is closed while localStorage doesn't",
+        "user": "UNAHBRTFA",
+        "ts": "1595167031.166500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1595167052.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yNg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "localStorage and sessionStorage are two storage \"buckets\" that work pretty much the same, except that sessionStorage gets cleared when the browser is closed while localStorage doesn't"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bebb5d78-15b5-4ef5-81a4-2ce8d86cf7ff",
+        "type": "message",
+        "text": "I saw a video where these keys # key 139 MENU # key 158 BACK # key 172 HOME  from the keylayout generic.kl are edited. Maybe this helps.",
+        "user": "UJHD6A81H",
+        "ts": "1595167039.166700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LiFky",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I saw a video where these keys # key 139 MENU # key 158 BACK # key 172 HOME  from the keylayout generic.kl are edited. Maybe this helps."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fcdd31df-d189-452b-b847-31aa2812b3e9",
+        "type": "message",
+        "text": "Andreu, gracias. Probaré localStorage. Nunca lo usé. Siempre uso sessionObject. Pero parece que la sintaxis es similar.",
+        "user": "UJHD6A81H",
+        "ts": "1595167251.168100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oBdC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andreu, gracias. Probaré localStorage. Nunca lo usé. Siempre uso sessionObject. Pero parece que la sintaxis es similar."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "891bde34-567b-48b0-a643-35986696aafc",
+        "type": "message",
+        "text": "En mi solución RDP tengo 20 teclas y luego cambio con TAB.\nAhora con mod harbour probé un nuevo enfoque.\nComo prueba, tengo 400 interruptores y puedo desplazarme hacia abajo.\nDespués de seleccionar, la pantalla vuelve a saltar.\nTodo va muy rápido y creo que programaré la solución tan lista.",
+        "user": "UJHD6A81H",
+        "ts": "1595191795.168300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "43KO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En mi solución RDP tengo 20 teclas y luego cambio con TAB.\nAhora con mod harbour probé un nuevo enfoque.\nComo prueba, tengo 400 interruptores y puedo desplazarme hacia abajo.\nDespués de seleccionar, la pantalla vuelve a saltar.\nTodo va muy rápido y creo que programaré la solución tan lista."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UK28N3CER"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F0175EBMK9U",
+                "created": 1595191801,
+                "timestamp": 1595191801,
+                "name": "Onlinebiene.gif",
+                "title": "Onlinebiene.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 1893623,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0175EBMK9U\/onlinebiene.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F0175EBMK9U\/download\/onlinebiene.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_64.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_80.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_360.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_w": 231,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_480.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_w": 308,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_160.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_360.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_480.gif?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "original_w": 454,
+                "original_h": 707,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F0175EBMK9U-c7c0e396ae\/onlinebiene_deanimate_gif.png?t=xoxe-629202954002-1316365335585-1303739558562-bb0d767c5143c02b3f1039cae658c718",
+                "thumb_tiny": "AwAwAB58jESNyfvetDzNtP8AjSSf6x+P4vWmj61NtS1FWbEWVmOM4\/Grdpn58n071VIwOOKs2h+\/+FaOWljKMLrmRDIf3rcfxUjuNjYUA44xSv8A61v96lkVCjAYHHpWcmrrQcb6ldGYtySePWrtp\/HxjpVRVCnOQeKt2hzv\/Ctbe6Rf3tCCQfvH\/wB70phBIx\/SpJEJkbg\/e9KDGygk8gegrK9mdCtZkSptOTz+FW7T+P8ACq2d3AVs+4qzaAjfkelW29lsZRStd7n\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F0175EBMK9U\/onlinebiene.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F0175EBMK9U-2b82df2d9a",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1595191804.168400"
+    },
+    {
+        "client_msg_id": "78b6d2e3-5d5a-49ab-9510-27d8e095d455",
+        "type": "message",
+        "text": "Bon dia",
+        "user": "UJWR5N32S",
+        "ts": "1595222949.169000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "273d3745f7ae",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-05-20\/634344238497_273d3745f7ae1b176b82_72.jpg",
+            "first_name": "Charly",
+            "real_name": "Charly",
+            "display_name": "Charly",
+            "team": "TJH5YU202",
+            "name": "carles9000",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/=v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bon dia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7bad274b-dd5a-46b6-b79c-b5fb6ec22dec",
+        "type": "message",
+        "text": "buenos dias :sunny:",
+        "user": "UJN8D8U3B",
+        "ts": "1595227320.169300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g92ad2abcc45",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/8492ad2abcc45ce53969adcf8420acde.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "",
+            "real_name": "Antonio Linares",
+            "display_name": "Antonio Linares",
+            "team": "TJH5YU202",
+            "name": "alinares",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IiQv4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "buenos dias "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sunny"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
