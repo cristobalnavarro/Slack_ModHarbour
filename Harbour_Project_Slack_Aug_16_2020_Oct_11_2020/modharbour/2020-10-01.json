@@ -1,0 +1,697 @@
+[
+    {
+        "client_msg_id": "25c9a6ed-820c-4d7e-8c55-8ba2c3c7ab3f",
+        "type": "message",
+        "text": "¡Hola amigos! Estoy bien, los proyectos y el servicio al cliente han consumido mi tiempo por completo, ¡pero el desarrollo en mod_harbour es constante y fuerte!",
+        "user": "U015CUP1T5Z",
+        "ts": "1601552377.156200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "emQS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¡Hola amigos! Estoy bien, los proyectos y el servicio al cliente han consumido mi tiempo por completo, ¡pero el desarrollo en mod_harbour es constante y fuerte!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0e9621a6-77bf-4436-a7c4-368013cea12e",
+        "type": "message",
+        "text": "para que una aplicación en mod_harbour se ejecute en linux, simplemente coloque el archivo libharbour y el archivo .so? ¿Necesito cambiar algo en las bibliotecas en el directorio apache \/ bin?",
+        "user": "U015CUP1T5Z",
+        "ts": "1601552451.156400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4Hg19",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "para que una aplicación en mod_harbour se ejecute en linux, simplemente coloque el archivo libharbour y el archivo .so? ¿Necesito cambiar algo en las bibliotecas en el directorio apache \/ bin?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b5baad97-2fa1-4c17-8b0c-fc1d610c0d96",
+        "type": "message",
+        "text": "tienes que cambiar el fichero de configuración de apache",
+        "user": "UNAHBRTFA",
+        "ts": "1601553800.156800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+GDtF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tienes que cambiar el fichero de configuración de apache"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "823afbf2-0ffa-4783-a409-e6fa33fa2014",
+        "type": "message",
+        "text": "(`\/etc\/apache2\/apache2.conf` o algo así en Ubuntu\/Debian, `\/etc\/httpd\/httpd.conf` en Red Hat\/Fedora)",
+        "user": "UNAHBRTFA",
+        "ts": "1601553877.157500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g3d2a3f4c28c",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/23d2a3f4c28cebb4cf07e48d02620517.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0020-72.png",
+            "first_name": "Andreu",
+            "real_name": "Andreu Botella",
+            "display_name": "Andreu Botella",
+            "team": "TJH5YU202",
+            "name": "andreu.132",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UNAHBRTFA",
+            "ts": "1601553916.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pvhb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "("
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/etc\/apache2\/apache2.conf",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " o algo así en Ubuntu\/Debian, "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\/etc\/httpd\/httpd.conf",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " en Red Hat\/Fedora)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8cc1164b-bbe0-4ac0-8c63-dd06f917222a",
+        "type": "message",
+        "text": "gracias Andreu! :+1:",
+        "user": "U015CUP1T5Z",
+        "ts": "1601556558.158000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "2d5981129913",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-06-14\/1183376598323_2d5981129913ee85447d_72.jpg",
+            "first_name": "ricardo",
+            "real_name": "ricardo arraes",
+            "display_name": "ricardo arraes",
+            "team": "TJH5YU202",
+            "name": "ricardo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5sqMa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gracias Andreu! "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9390ac69-7580-44a8-9cc6-6e170d5c5a1c",
+        "type": "message",
+        "text": "What is inside the box",
+        "user": "UJHD6A81H",
+        "ts": "1601592376.158400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eHC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What is inside the box"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01BQPBL96Z",
+                "created": 1601592378,
+                "timestamp": 1601592378,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 1778757,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BQPBL96Z\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BQPBL96Z\/download\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_64.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_80.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_360.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 270,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_480.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 360,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_160.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_720.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 540,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_800.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_800_w": 800,
+                "thumb_800_h": 600,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BQPBL96Z-16c297d1ba\/grafik_960.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_960_w": 960,
+                "thumb_960_h": 720,
+                "original_w": 962,
+                "original_h": 722,
+                "thumb_tiny": "AwAkADBghYruCnHrik8k8nacU\/YxypkK496aI27sT9amyKuxY7YuM44+tKYF7cfWiNmUYVSacWkP8IFArsZHErHlgMe1KVw3ynHuKSMFgf3m38KR0Kk5lLD1FAx7OFfk9R0pPOX0akJZVQP5WQeqnJz70pK5+Zhn60LQQkcjBjsH5mnb5D1Cj9aYpIlOwjP0p+JOrP8ApigBkYLKfmIPsKR1KoSzE8Uq48o+v196jlwIiOKBjnA209fmwMD8qbJ92nJ1piGv8sgxUJlbfjjrippf9YKrf8tB\/vU2CJA7BCAcc0i5dsMSRSfw\/wDAjTovviobKSP\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01BQPBL96Z\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01BQPBL96Z-034958c470",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1601592384.158500"
+    },
+    {
+        "client_msg_id": "1a814822-843e-4322-b3eb-0a21457af41a",
+        "type": "message",
+        "text": "If this is a question?, then maybe Magnetic DISCK 8\" 4\" 3.5\"?",
+        "user": "UJUSD6VB2",
+        "ts": "1601592524.159700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J=R0W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If this is a question?, then maybe Magnetic DISCK 8\" 4\" 3.5\"?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01BU2YP2JF",
+                "created": 1601592839,
+                "timestamp": 1601592839,
+                "name": "lagervw.gif",
+                "title": "lagervw.gif",
+                "mimetype": "image\/gif",
+                "filetype": "gif",
+                "pretty_type": "GIF",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 7523684,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BU2YP2JF\/lagervw.gif?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BU2YP2JF\/download\/lagervw.gif?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_64.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_80.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_360.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 237,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_480.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 316,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_160.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_720.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 474,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_800.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_800_w": 800,
+                "thumb_800_h": 526,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_960.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_960_w": 960,
+                "thumb_960_h": 632,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_1024.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 674,
+                "thumb_360_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_360.gif?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_480.gif?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "original_w": 1597,
+                "original_h": 1051,
+                "deanimate_gif": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BU2YP2JF-20fb023c2e\/lagervw_deanimate_gif.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_tiny": "AwAfADCw1xhnAX7pPWlknZWQAD5lB5NQPOm91KxknqCTzTpJhgbkiOOBn2pAPN24C\/KuTnv6U4XLmINtBJbbgfSmy\/I7KsSbVHHbrQzqtqj+WuCc4PSgY+3uTNK6FcbKs1WtGRy5VFUjGdtWaYjOlmRXcCNCVYjlaluPkCFYUYkZORUZlYyOu1OMnlamld\/MAULjaOopDEV\/MhMjKhbimpNlGBSPCKSFFAfbAuIkJZyCo4FOtdkpkzEikcHA60AEEjbhiJUDHkirdRrBGhyqAGpKYj\/\/2Q==",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01BU2YP2JF\/lagervw.gif",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01BU2YP2JF-3ea1d26b20",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1601592848.159800"
+    },
+    {
+        "client_msg_id": "779328de-1d98-4c85-882f-4b40fa13e0c9",
+        "type": "message",
+        "text": "Osvaldo, Casi lo adivinaste.\nEstoy trabajando en una gestión de almacén hecha con mod Harbour.",
+        "user": "UJHD6A81H",
+        "ts": "1601593111.160200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G4Xx4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Osvaldo, Casi lo adivinaste.\nEstoy trabajando en una gestión de almacén hecha con mod Harbour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0c985c20-91ac-4d45-a1da-2843548b412e",
+        "type": "message",
+        "text": "My qr scanner doesn't get it",
+        "user": "UM81W8B0Q",
+        "ts": "1601593135.160500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HMPG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My qr scanner doesn't get it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "84130a4f-745f-486a-9f43-6d4015e50c02",
+        "type": "message",
+        "text": "Lo que ve aquí es la representación del escritorio.",
+        "user": "UJHD6A81H",
+        "ts": "1601593331.160700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uIl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Lo que ve aquí es la representación del escritorio."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "964ac0e4-82bc-4a8c-a18b-aab730fb5e95",
+        "type": "message",
+        "text": "So basically you are building your version of the Matrix",
+        "user": "UM81W8B0Q",
+        "ts": "1601593417.161300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PNOj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So basically you are building your version of the Matrix"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5f953a3c-26c1-4a10-b8db-81f49b0ba8b7",
+        "type": "message",
+        "text": "Why having a real world if you can build a virtual one.",
+        "user": "UM81W8B0Q",
+        "ts": "1601593447.162000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9mkb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Why having a real world if you can build a virtual one."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "94fc514e-b01f-44dc-842b-8d034bcaab17",
+        "type": "message",
+        "text": "Pensé que si cargaba todas las imágenes en la web, entonces podría encontrar mis cosas con la búsqueda de imágenes de Google.",
+        "user": "UJHD6A81H",
+        "ts": "1601593515.162300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g7N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pensé que si cargaba todas las imágenes en la web, entonces podría encontrar mis cosas con la búsqueda de imágenes de Google."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2bcc1a87-5694-4caa-a8af-c20bfa7c42e3",
+        "type": "message",
+        "text": "Si, puede ser que si funcione",
+        "user": "UJUSD6VB2",
+        "ts": "1601596078.162800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJUSD6VB2",
+            "ts": "1601596088.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rRDF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Si, puede ser que si funcione"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

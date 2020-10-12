@@ -1,0 +1,760 @@
+[
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01BVBB91DJ",
+                "created": 1601464234,
+                "timestamp": 1601464234,
+                "name": "gallery.mp4",
+                "title": "gallery.mp4",
+                "mimetype": "video\/mp4",
+                "filetype": "mp4",
+                "pretty_type": "MPEG 4 Video",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 17287375,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BVBB91DJ\/gallery.mp4?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BVBB91DJ\/download\/gallery.mp4?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BVBB91DJ-ef238528db\/gallery_thumb_video.jpeg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01BVBB91DJ\/gallery.mp4",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01BVBB91DJ-4884786b91",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1601464251.145100"
+    },
+    {
+        "client_msg_id": "3f8d4c38-2bc4-4485-803b-fc97bb1d0cd2",
+        "type": "message",
+        "text": "Les presento mi nuevo Bot hecho en modharbour... lo están testeando en el periódico mas grande de mi pais.",
+        "user": "UM81W8B0Q",
+        "ts": "1601474071.146000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A1lz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Les presento mi nuevo Bot hecho en modharbour... lo están testeando en el periódico mas grande de mi pais."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f40b2652-57ba-4caf-a5f3-408c077ab98f",
+        "type": "message",
+        "text": "<https:\/\/twitter.com\/matiasrocha_\/status\/1311095454751391746>",
+        "user": "UM81W8B0Q",
+        "ts": "1601474074.146200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xdr9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/twitter.com\/matiasrocha_\/status\/1311095454751391746"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H",
+                    "UK28N3CER"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9ec39774-3296-477d-ba1f-140e17fcefbc",
+        "type": "message",
+        "text": "```function Main()\nLOCAL oExcel, oWorkBook, oSheet, riga\nLOCAL nomefile, file_excel, colonna\n\nnomefile = \"c:\/temp\/Export_Excel.xlsx\"\nfile_excel = nomefile\nnomefile = strtran(nomefile,\"\/\",\"\\\")\nferase(nomefile)\n\noExcel:=TOleAuto():New(\"Excel.Application\")\noExcel:Visible := .F.\noExcel:DisplayAlerts:=.F.\noExcel:Workbooks:Add()\noWorkBook:=oExcel:Get(\"ActiveWorkBook\")\noSheet:=oExcel:Sheets:Add()\n\nriga = 1\noSheet:Cells(riga,1):Value:=\"FIELD 1\"\noSheet:Cells(riga,2):Value:=\"FIELD 2\"\noSheet:Cells(riga,3):Value:=\"FIELD 3\"\noSheet:Cells(riga,4):Value:=\"FIELD 4\"\noSheet:Cells(riga,5):Value:=\"FIELD 5\"\n\noSheet:rows(1):Font:Size = 11\noSheet:rows(1):Font:Name:=\"Arial\"\noSheet:rows(1):Font:Bold:=.T.\n\ndo while .t.\n    riga ++\n    if riga &gt; 10\n        exit\n    endif\n\n    oSheet:Cells(riga,1):Value = alltrim(str(riga))\n    oSheet:Cells(riga,2):Value = alltrim(str(riga))\n    oSheet:Cells(riga,3):Value = alltrim(str(riga))\n    oSheet:Cells(riga,4):Value = alltrim(str(riga))\n    oSheet:Cells(riga,5):Value = alltrim(str(riga))\n\nEnddo\n\noSheet:Cells:Select()\noSheet:Cells:EntireColumn:AutoFit()\noSheet:Range(\"A1\"):Select()\noWorkBook:SaveAs(nomefile, 51)\noWorkBook:Close(.T.)\noExcel:Quit()\n\nreturn nil```\nHi to all. I have a problem with Excel in mod-harbour. This little test program works perfectly if used on a machine with Xampp. On a machine with only Apache gives this error                                                                                                                                                                                                                            Error: Unable to get the SaveAs property of the Workbook class (0x800A03EC)\noperation: SAVEAS\nfilename: Microsoft Excel\n[ 1] = C c:\\temp\\Export_Excel.xlsx\n[ 2] = N 51\ncalled from: TOLEAUTO:SAVEAS, line: 0\ncalled from: pcode.hrb, MAIN, line: 46\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:\n0044:\n0045:\n0046 =&gt;oWorkBook:SaveAs(nomefile, 51)\n0047: oWorkBook:Close(.T.)\n0048: oExcel:Quit()",
+        "user": "UPK8HA95J",
+        "ts": "1601478096.149200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AIE",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function Main()\nLOCAL oExcel, oWorkBook, oSheet, riga\nLOCAL nomefile, file_excel, colonna\n\nnomefile = \"c:\/temp\/Export_Excel.xlsx\"\nfile_excel = nomefile\nnomefile = strtran(nomefile,\"\/\",\"\\\")\nferase(nomefile)\n\noExcel:=TOleAuto():New(\"Excel.Application\")\noExcel:Visible := .F.\noExcel:DisplayAlerts:=.F.\noExcel:Workbooks:Add()\noWorkBook:=oExcel:Get(\"ActiveWorkBook\")\noSheet:=oExcel:Sheets:Add()\n\nriga = 1\noSheet:Cells(riga,1):Value:=\"FIELD 1\"\noSheet:Cells(riga,2):Value:=\"FIELD 2\"\noSheet:Cells(riga,3):Value:=\"FIELD 3\"\noSheet:Cells(riga,4):Value:=\"FIELD 4\"\noSheet:Cells(riga,5):Value:=\"FIELD 5\"\n\noSheet:rows(1):Font:Size = 11\noSheet:rows(1):Font:Name:=\"Arial\"\noSheet:rows(1):Font:Bold:=.T.\n\ndo while .t.\n    riga ++\n    if riga > 10\n        exit\n    endif\n\n    oSheet:Cells(riga,1):Value = alltrim(str(riga))\n    oSheet:Cells(riga,2):Value = alltrim(str(riga))\n    oSheet:Cells(riga,3):Value = alltrim(str(riga))\n    oSheet:Cells(riga,4):Value = alltrim(str(riga))\n    oSheet:Cells(riga,5):Value = alltrim(str(riga))\n\nEnddo\n\noSheet:Cells:Select()\noSheet:Cells:EntireColumn:AutoFit()\noSheet:Range(\"A1\"):Select()\noWorkBook:SaveAs(nomefile, 51)\noWorkBook:Close(.T.)\noExcel:Quit()\n\nreturn nil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi to all. I have a problem with Excel in mod-harbour. This little test program works perfectly if used on a machine with Xampp. On a machine with only Apache gives this error                                                                                                                                                                                                                            Error: Unable to get the SaveAs property of the Workbook class (0x800A03EC)\noperation: SAVEAS\nfilename: Microsoft Excel\n[ 1] = C c:\\temp\\Export_Excel.xlsx\n[ 2] = N 51\ncalled from: TOLEAUTO:SAVEAS, line: 0\ncalled from: pcode.hrb, MAIN, line: 46\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:\n0044:\n0045:\n0046 =>oWorkBook:SaveAs(nomefile, 51)\n0047: oWorkBook:Close(.T.)\n0048: oExcel:Quit()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b42addc9-41e9-4310-ad9a-4b4220ffe93b",
+        "type": "message",
+        "text": "Someone has an idea where can be the problem ? Thanks a lot. Massimo.",
+        "user": "UPK8HA95J",
+        "ts": "1601478156.150000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zcih",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Someone has an idea where can be the problem ? Thanks a lot. Massimo."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f32bce2-eced-4f60-aa3a-005f3d356f97",
+        "type": "message",
+        "text": "Espero no hayan creído que hice ese bot. jeje",
+        "user": "UM81W8B0Q",
+        "ts": "1601480678.150700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eRs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Espero no hayan creído que hice ese bot. jeje"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f9234633-752a-47ea-ad8e-d9dcc501042a",
+        "type": "message",
+        "text": "tu eres el bot en cuerpo de mujer ?",
+        "user": "UK28N3CER",
+        "ts": "1601480800.151000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Ehb5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tu eres el bot en cuerpo de mujer ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "245745d3-b3cc-4669-b522-a867aed7c147",
+        "type": "message",
+        "text": "solo despues de las 22",
+        "user": "UM81W8B0Q",
+        "ts": "1601480974.151200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q29O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "solo despues de las 22"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "grin",
+                "users": [
+                    "UK28N3CER"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "72e7cff3-3e07-4d16-8abb-56b2ea11194f",
+        "type": "message",
+        "text": "@Massimo, here your code is working fine.  I inserted xbrowse to see what happens.",
+        "user": "UJHD6A81H",
+        "ts": "1601482132.151900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gXq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "@Massimo, here your code is working fine.  I inserted xbrowse to see what happens."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601482132.151900",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1601484875.155800",
+        "reply_users": [
+            "UPK8HA95J"
+        ],
+        "replies": [
+            {
+                "user": "UPK8HA95J",
+                "ts": "1601484875.155800"
+            }
+        ],
+        "subscribed": false
+    },
+    {
+        "client_msg_id": "2a25133d-b89c-4a46-9db4-12000dadae28",
+        "type": "message",
+        "text": "oSheet:Range(\"A1\"):Select()\n\nxbrowse(oWorkBook)\n\nxbrowse(oWorkBook:SaveAs)\n\noWorkBook:SaveAs(nomefile, 51)\n\n\noWorkBook:Close(.T.)",
+        "user": "UJHD6A81H",
+        "ts": "1601482137.152100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FLB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oSheet:Range(\"A1\"):Select()\n\nxbrowse(oWorkBook)\n\nxbrowse(oWorkBook:SaveAs)\n\noWorkBook:SaveAs(nomefile, 51)\n\n\noWorkBook:Close(.T.)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "71104365-08b7-431c-8ae6-24d555ddcdca",
+        "type": "message",
+        "text": "@Massimo maybe these files are missing:",
+        "user": "UJHD6A81H",
+        "ts": "1601482331.152600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f\/n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "@Massimo maybe these files are missing:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b64178e-3779-404d-a9e0-7314938204d9",
+        "type": "message",
+        "text": "aadd( aLinks, { \"Visual Studio C++ Redistributable 2017 x86\",  \"https: &lt;\/\/aka.ms\/vs\/15\/release\/vc_redist.x86.exe&gt;\", \"Download the file and run the exe immediately\" } )\n   aadd( aLinks, { \"Visual Studio C++ Redistributable 2017 x64\",  \"https: &lt;\/\/aka.ms\/vs\/15\/release\/vc_redist.x64.exe&gt;\", \"Download the file and run the exe immediately\"  } )",
+        "user": "UJHD6A81H",
+        "ts": "1601482340.152800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U4W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "aadd( aLinks, { \"Visual Studio C++ Redistributable 2017 x86\",  \"https: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "\/\/aka.ms\/vs\/15\/release\/vc_redist.x86.exe"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\", \"Download the file and run the exe immediately\" } )\n   aadd( aLinks, { \"Visual Studio C++ Redistributable 2017 x64\",  \"https: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "\/\/aka.ms\/vs\/15\/release\/vc_redist.x64.exe"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\", \"Download the file and run the exe immediately\"  } )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d5bac53-de88-48b8-a3a1-0039fdd9ed5a",
+        "type": "message",
+        "text": "Otherewise rights as Angel said.",
+        "user": "UJHD6A81H",
+        "ts": "1601482368.153300",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Tjh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Otherewise rights as Angel said."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f7a8445-5a77-4b9e-a6a7-e972b8e51810",
+        "type": "message",
+        "text": "BTW, good idea to use EXCEL like this with mod harbour. :+1:",
+        "user": "UJHD6A81H",
+        "ts": "1601482463.153900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yh3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "BTW, good idea to use EXCEL like this with mod harbour. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "842ecfa9-d0b7-469c-aaf2-49a50b00a86b",
+        "type": "message",
+        "text": "@Angel, _Espero no hayan creído que hice ese bot. jeje_\n Supuse que era tu periódico.\nTienes el mismo apellido.",
+        "user": "UJHD6A81H",
+        "ts": "1601483761.154800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U=58",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "@Angel,"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Espero no hayan creído que hice ese bot. jeje",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n Supuse que era tu periódico.\nTienes el mismo apellido."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c6ed95c-f0b6-4c40-b313-90d1da737984",
+        "type": "message",
+        "text": "Ohh I see",
+        "user": "UM81W8B0Q",
+        "ts": "1601483789.155000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cKJI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ohh I see"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d810abc-ee80-474a-bc87-078b162ba077",
+        "type": "message",
+        "text": "País means country. And is also my family name.",
+        "user": "UM81W8B0Q",
+        "ts": "1601483837.155700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VdRj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "País means country. And is also my family name."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5462b1bc-0274-40c9-9723-037302931de6",
+        "type": "message",
+        "text": "Thanks Otto. I've already installed the 2 programs you wrote. This program is working since months. The only change I made is taking away Xampp and installed Apache. Everything works except the save in Excel.",
+        "user": "UPK8HA95J",
+        "ts": "1601484875.155800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fv2Xn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks Otto. I've already installed the 2 programs you wrote. This program is working since months. The only change I made is taking away Xampp and installed Apache. Everything works except the save in Excel."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601482132.151900",
+        "parent_user_id": "UJHD6A81H"
+    }
+]

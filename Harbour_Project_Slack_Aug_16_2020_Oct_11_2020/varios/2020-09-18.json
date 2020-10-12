@@ -1,0 +1,318 @@
+[
+    {
+        "client_msg_id": "380eee9a-bec6-4694-adf7-1e4b14e8d3d6",
+        "type": "message",
+        "text": "<@UJULQCHL5>, teclea en tu consola RUNAS ( hay una opción que se supone que te pide las credenciales la primera vez pero luego las guarda ). Podrías hacer un .bat con ese comando y lanzarlo desde tu aplicación\n```D:\\&gt;runas\nUSO DE RUNAS:\n\nRUNAS [ [\/noprofile | \/profile] [\/env] [\/savecred | \/netonly] ]\n        \/user:&lt;nombre_usuario&gt; programa\n\nRUNAS [ [\/noprofile | \/profile] [\/env] [\/savecred] ]\n        \/smartcard [\/user:&lt;nombre_usuario&gt;] programa\n\nRUNAS \/trustlevel:&lt;nivel_confianza&gt; programa\n\n   \/noprofile        Especifica que el perfil de usuario no debe cargarse.\n                     Esto permite que las aplicaciones se carguen más\n                     rápidamente, pero puede ocasionar que algunas aplicaciones\n                     no se ejecuten correctamente.\n   \/profile          Especifica que el perfil de usuario debe cargarse.\n                     Estos son los valores predeterminados.\n   \/env              Usar el entorno actual en lugar del de los\n                     usuarios.\n   \/netonly          Usar si las credenciales especificadas son solo\n                     para acceso remoto.\n   \/savedcred        Usar las credenciales guardadas previamente\n                     por el usuario.\n   \/smartcard        Usar si las credenciales serán proporcionadas desde\n                     una tarjeta inteligente.\n   \/user             &lt;Nombre_usuario&gt; debe tener el formato USUARIO@DOMINIO\n                     o DOMINIO\\USUARIO\n   \/showtrustlevels  Muestra los niveles de confianza que se pueden usar\n                     como argumentos para \/trustlevel.\n   \/trustlevel       &lt;Nivel&gt; debe ser uno de los niveles enumerados\n                     en \/showtrustlevels.\n   program           Línea de comandos para EXE. Consulte los siguientes\n                     ejemplos.\n\nEjemplos:\n&gt; runas \/noprofile \/user:mymachine\\administrator cmd\n&gt; runas \/profile \/env \/user:mydomain\\admin \"mmc %windir%\\system32\\dsa.msc\"\n&gt; runas \/env \/user:usuario@dominio.microsoft.com \"notepad \\\"mi_archivo.txt\\\"\"\n\nNOTA: Escriba la contraseña de usuario solo cuando se le pida\nNOTA: \/profile no es compatible con \/netonly.\nNOTA: \/savecred no es compatible con \/smartcard```",
+        "user": "UJUJLTWMT",
+        "ts": "1600423932.002000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QD+N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "UJULQCHL5"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", teclea en tu consola RUNAS ( hay una opción que se supone que te pide las credenciales la primera vez pero luego las guarda ). Podrías hacer un .bat con ese comando y lanzarlo desde tu aplicación\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "D:\\>runas\nUSO DE RUNAS:\n\nRUNAS [ [\/noprofile | \/profile] [\/env] [\/savecred | \/netonly] ]\n        \/user:<nombre_usuario> programa\n\nRUNAS [ [\/noprofile | \/profile] [\/env] [\/savecred] ]\n        \/smartcard [\/user:<nombre_usuario>] programa\n\nRUNAS \/trustlevel:<nivel_confianza> programa\n\n   \/noprofile        Especifica que el perfil de usuario no debe cargarse.\n                     Esto permite que las aplicaciones se carguen más\n                     rápidamente, pero puede ocasionar que algunas aplicaciones\n                     no se ejecuten correctamente.\n   \/profile          Especifica que el perfil de usuario debe cargarse.\n                     Estos son los valores predeterminados.\n   \/env              Usar el entorno actual en lugar del de los\n                     usuarios.\n   \/netonly          Usar si las credenciales especificadas son solo\n                     para acceso remoto.\n   \/savedcred        Usar las credenciales guardadas previamente\n                     por el usuario.\n   \/smartcard        Usar si las credenciales serán proporcionadas desde\n                     una tarjeta inteligente.\n   \/user             <Nombre_usuario> debe tener el formato USUARIO@DOMINIO\n                     o DOMINIO\\USUARIO\n   \/showtrustlevels  Muestra los niveles de confianza que se pueden usar\n                     como argumentos para \/trustlevel.\n   \/trustlevel       <Nivel> debe ser uno de los niveles enumerados\n                     en \/showtrustlevels.\n   program           Línea de comandos para EXE. Consulte los siguientes\n                     ejemplos.\n\nEjemplos:\n> runas \/noprofile \/user:mymachine\\administrator cmd\n> runas \/profile \/env \/user:mydomain\\admin \"mmc %windir%\\system32\\dsa.msc\"\n> runas \/env \/user:usuario@dominio.microsoft.com \"notepad \\\"mi_archivo.txt\\\"\"\n\nNOTA: Escriba la contraseña de usuario solo cuando se le pida\nNOTA: \/profile no es compatible con \/netonly.\nNOTA: \/savecred no es compatible con \/smartcard"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bb21cd87-c2f7-4c7b-9fc4-7fd7e1e1ecda",
+        "type": "message",
+        "text": "Gracias Cristóbal. Revisaré el tema, pero me han dicho que me darán permisos de administrador.",
+        "user": "UJULQCHL5",
+        "ts": "1600430439.002600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mq8H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Gracias Cristóbal. Revisaré el tema, pero me han dicho que me darán permisos de administrador."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79011006-9153-4e15-9b43-be5917d98276",
+        "type": "message",
+        "text": "El RUNAS me puede servir para dar una charla esta tarde, a la vista de que sobra tiempo o faltan temas, que nunca se sabe.\nQuizá empiece dando una diatriba sobre el comando COPY del MSDOS 3.2\nA las 5 hora de aquí, para emocionaros",
+        "user": "UJULQCHL5",
+        "ts": "1600430530.004200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5co",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "El RUNAS me puede servir para dar una charla esta tarde, a la vista de que sobra tiempo o faltan temas, que nunca se sabe.\nQuizá empiece dando una diatriba sobre el comando COPY del MSDOS 3.2\nA las 5 hora de aquí, para emocionaros"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4ce44bd-78f3-419a-901e-d48e8cec7d29",
+        "type": "message",
+        "text": "Podés no ir que igual nadie te va a extrañar. Troll.",
+        "user": "UM81W8B0Q",
+        "ts": "1600430952.004900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aY6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Podés no ir que igual nadie te va a extrañar. Troll."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97976ef9-fc91-485d-a523-e49ed85e46fe",
+        "type": "message",
+        "text": "Justo tenía mi analizador de protocolo de redes activado y miren lo que diagnosticó:",
+        "user": "UM81W8B0Q",
+        "ts": "1600431203.005500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xl5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Justo tenía mi analizador de protocolo de redes activado y miren lo que diagnosticó:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01AVK01Z1T",
+                "created": 1600431248,
+                "timestamp": 1600431248,
+                "name": "Archivo de iOS(1).MOV",
+                "title": "Archivo de iOS(1).MOV",
+                "mimetype": "video\/quicktime",
+                "filetype": "mov",
+                "pretty_type": "QuickTime Movie",
+                "user": "UM81W8B0Q",
+                "editable": false,
+                "size": 20024886,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01AVK01Z1T\/archivo_de_ios_1_.mov?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01AVK01Z1T\/download\/archivo_de_ios_1_.mov?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_video": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01AVK01Z1T-f48bf32598\/archivo_de_ios_1__thumb_video.jpeg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UM81W8B0Q\/F01AVK01Z1T\/archivo_de_ios_1_.mov",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01AVK01Z1T-afa6c4856a",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UM81W8B0Q",
+        "display_as_bot": false,
+        "ts": "1600431267.005600"
+    },
+    {
+        "client_msg_id": "0c380981-84d6-4ffc-b6c2-e73038a73002",
+        "type": "message",
+        "text": "Chin Pum !",
+        "user": "UM81W8B0Q",
+        "ts": "1600431383.006000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SkJR3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Chin Pum !"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fde4dcd2-143b-4ef0-aa2a-6b1e4961edc6",
+        "type": "message",
+        "text": ":scream:",
+        "user": "UK28N3CER",
+        "ts": "1600456441.006200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D9h",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "scream"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

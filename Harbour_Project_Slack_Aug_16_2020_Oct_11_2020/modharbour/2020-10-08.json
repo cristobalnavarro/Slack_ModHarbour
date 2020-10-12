@@ -1,0 +1,82 @@
+[
+    {
+        "client_msg_id": "9758b1c7-9e17-4b75-b4b1-2db549cb6028",
+        "type": "message",
+        "text": "Hi to all. Converting a procedure from modharbour to the fastcgi version I found an error with the ado.prg that is inside the samples folder. Someone has an idea of what could be the problem ?",
+        "user": "UPK8HA95J",
+        "ts": "1602145479.222800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7xSow",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi to all. Converting a procedure from modharbour to the fastcgi version I found an error with the ado.prg that is inside the samples folder. Someone has an idea of what could be the problem ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2118637-d76f-4d17-8931-eba0020bc5eb",
+        "type": "message",
+        "text": "```Error: Message not found\noperation: NIL:_CONNECTIONSTRING\n[ 1] = U nil\ncalled from: __ERRRT_SBASE, line: 0\ncalled from: ..\/..\/..\/tobject.prg, NIL:ERROR, line: 148\ncalled from: ..\/..\/..\/tobject.prg, (b)HBOBJECT, line: 77\ncalled from: ..\/..\/..\/tobject.prg, NIL:MSGNOTFOUND, line: 0\ncalled from: ..\/..\/..\/tobject.prg, NIL:_CONNECTIONSTRING, line: 142\ncalled from: pcode.hrb, MSSQLSAMPLE, line: 40\ncalled from: pcode.hrb, MAIN, line: 7\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:```\n",
+        "user": "UPK8HA95J",
+        "ts": "1602145506.223100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gf2dea9b252b",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/f2dea9b252bd156608bbff0effb3df8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0024-72.png",
+            "first_name": "",
+            "real_name": "Massimo Linossi",
+            "display_name": "Massimo Linossi",
+            "team": "TJH5YU202",
+            "name": "massimo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qg=",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Error: Message not found\noperation: NIL:_CONNECTIONSTRING\n[ 1] = U nil\ncalled from: __ERRRT_SBASE, line: 0\ncalled from: ..\/..\/..\/tobject.prg, NIL:ERROR, line: 148\ncalled from: ..\/..\/..\/tobject.prg, (b)HBOBJECT, line: 77\ncalled from: ..\/..\/..\/tobject.prg, NIL:MSGNOTFOUND, line: 0\ncalled from: ..\/..\/..\/tobject.prg, NIL:_CONNECTIONSTRING, line: 142\ncalled from: pcode.hrb, MSSQLSAMPLE, line: 40\ncalled from: pcode.hrb, MAIN, line: 7\ncalled from: HB_HRBDO, line: 0\ncalled from: ..\\source\\exec.prg, EXECUTE, line: 70\n\nSource:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

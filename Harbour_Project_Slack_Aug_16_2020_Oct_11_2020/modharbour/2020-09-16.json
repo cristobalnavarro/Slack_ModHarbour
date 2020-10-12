@@ -1,0 +1,928 @@
+[
+    {
+        "client_msg_id": "9669f6ac-10f4-490e-8dca-56da6fb60636",
+        "type": "message",
+        "text": "En los ejemplos de mod harbour, siempre veo que primero se llama CONTROLLER y luego al ROUTER.\nQué sucede cuando diferentes rutas requieren diferentes niveles de seguridad.\n¿Cómo resuelves esto profesionalmente?",
+        "user": "UJHD6A81H",
+        "ts": "1600244047.042000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7n+T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "En los ejemplos de mod harbour, siempre veo que primero se llama CONTROLLER y luego al ROUTER.\nQué sucede cuando diferentes rutas requieren diferentes niveles de seguridad.\n¿Cómo resuelves esto profesionalmente?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5df466a0-7149-400f-8629-61db66e868d3",
+        "type": "message",
+        "text": "Now I found this:",
+        "user": "UJHD6A81H",
+        "ts": "1600247492.042200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJHD6A81H",
+            "ts": "1600250569.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pktJQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Now I found this:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01ASM1UZ5G",
+                "created": 1600247492,
+                "timestamp": 1600247492,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 21879,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ASM1UZ5G\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ASM1UZ5G\/download\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASM1UZ5G-53befb0315\/grafik_64.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASM1UZ5G-53befb0315\/grafik_80.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASM1UZ5G-53befb0315\/grafik_360.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 251,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASM1UZ5G-53befb0315\/grafik_480.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 334,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASM1UZ5G-53befb0315\/grafik_160.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "original_w": 524,
+                "original_h": 365,
+                "thumb_tiny": "AwAhADCw8c5YEHIPT5sYp0kc5CYbPGDg45qcdFpW4FVcVivLHMUT5s4HIzipLdJEUiQ59BnOKHmUZBPP0oWYMcKQaNbC0JaKbuNJvPpUlCjotK\/3TSD7q0p5HINAFKSNy5Ixj606FWRiWxgjtSyy7ZGXYMCnwSCVyCgGBmtOhHUdvoL5qXYv90UbF\/uio0K1Kg6ClpB0FLSGVpf9YadB94\/Smy\/6w06D7x+lPoInooopDP\/Z",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01ASM1UZ5G\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01ASM1UZ5G-830db5fb86",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1600247496.042300"
+    },
+    {
+        "client_msg_id": "d3323022-36b8-4b68-8466-0dbdbb6a075b",
+        "type": "message",
+        "text": "Puede ser más fácil pedir la ROUTER primero y luego el CONTROLLER?",
+        "user": "UJHD6A81H",
+        "ts": "1600247568.042700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "UJHD6A81H",
+            "ts": "1600247601.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7p1OB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Puede ser más fácil pedir la ROUTER primero y luego el CONTROLLER?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ea9db7ad-f8df-4c87-8852-da96ca3d315a",
+        "type": "message",
+        "text": "¿Dónde gestiona el nivel de seguridad requerido para la ruta?",
+        "user": "UJHD6A81H",
+        "ts": "1600247781.043000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ESd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "¿Dónde gestiona el nivel de seguridad requerido para la ruta?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8921c8da-6d20-4a27-94f9-da211658898e",
+        "type": "message",
+        "text": "Maybe here?",
+        "user": "UJHD6A81H",
+        "ts": "1600248155.043200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rd2+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Maybe here?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F01ASMPSYE6",
+                "created": 1600248156,
+                "timestamp": 1600248156,
+                "name": "grafik.png",
+                "title": "grafik.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJHD6A81H",
+                "editable": false,
+                "size": 23607,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ASMPSYE6\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ASMPSYE6\/download\/grafik.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_64.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_80.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_360.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 360,
+                "thumb_360_h": 175,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_480.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_w": 480,
+                "thumb_480_h": 234,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_160.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ASMPSYE6-1f1e53b2ba\/grafik_720.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720_w": 720,
+                "thumb_720_h": 351,
+                "original_w": 749,
+                "original_h": 365,
+                "thumb_tiny": "AwAXADC4sLeYG8xsdcUCAhGBlbmph2+lQXDOp+TPXsKpXYmSQp5a4LFs1JVWFmJO8HHbIqXIpNAmS0UxdxXqKeM45pDGBxgc9qinkCAEAEn1pR0FQ3P3V+tNCZJBIr7twAx0xUv7uqtt\/F+FT0NgiYYwMdKWkT7opaQz\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJHD6A81H\/F01ASMPSYE6\/grafik.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01ASMPSYE6-bcc9219832",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "user": "UJHD6A81H",
+        "display_as_bot": false,
+        "ts": "1600248161.043300"
+    },
+    {
+        "type": "message",
+        "text": "Derroición total. No me lo hesperava.",
+        "files": [
+            {
+                "id": "F01BGSBHLE4",
+                "created": 1600257770,
+                "timestamp": 1600257770,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "UJULQCHL5",
+                "editable": false,
+                "size": 244999,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BGSBHLE4\/image.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01BGSBHLE4\/download\/image.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BGSBHLE4-c840abce75\/image_64.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BGSBHLE4-c840abce75\/image_80.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BGSBHLE4-c840abce75\/image_360.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 239,
+                "thumb_360_h": 360,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01BGSBHLE4-c840abce75\/image_160.png?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "original_w": 244,
+                "original_h": 368,
+                "thumb_tiny": "AwAwAB\/SY4UkVR3yGcYU49PWka5kJADZBPanblJDKfxoGlcthc+1NdSOlVWlLEgEqw\/Ko3lfaAGP50CH+X1wuSOhqIzKjEA5xViaYQxHa+STx7VSeF0iErfxHpSsNOxaiUzEkqQOtSmEHrk0sLuII9gHT1qRXfq3HtigClLGv2uNSvHU+9OvP9RjA6jFBfE4aTB2ggY70k0yyJtOAM8YoAsRquxe3FOOBgFh9M1At2oUA9vSptqSDdtHPrQB\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UJULQCHL5\/F01BGSBHLE4\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01BGSBHLE4-8e9a68ea2d",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gAghQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Derroición total. No me lo hesperava."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UJULQCHL5",
+        "display_as_bot": false,
+        "ts": "1600257806.044200"
+    },
+    {
+        "client_msg_id": "173684ad-7be2-4751-9349-3b8a70bca327",
+        "type": "message",
+        "text": "<https:\/\/es.quora.com\/Si-me-caigo-de-un-avión-sin-paracaídas-qué-debo-hacer|Si me caigo de un avión sin paracaídas, ¿qué debo hacer? >\nSoy paracaidista con 64 saltos a mis espaldas. Y la siguiente tecnica la aprendi en el ejercito.\n Al momento que te das cuenta que estas cayendo, pones las manos juntas y extendidas sobre tu cabeza. Rapidamente las bajas haciendo medio circulo y tocandote el lado del muslo con cada mano. Repite este movimiento lo mas rapido que puedas a ver si puedes volar.\n Si no puedes volar, entonces abre bien las piernas, mete tu cabeza entre los muslos, mirate el culo y ….dile adios porque vas a morir!.",
+        "user": "UM81W8B0Q",
+        "ts": "1600260178.044700",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QLRS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/es.quora.com\/Si-me-caigo-de-un-avión-sin-paracaídas-qué-debo-hacer",
+                                "text": "Si me caigo de un avión sin paracaídas, ¿qué debo hacer? "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nSoy paracaidista con 64 saltos a mis espaldas. Y la siguiente tecnica la aprendi en el ejercito.\n Al momento que te das cuenta que estas cayendo, pones las manos juntas y extendidas sobre tu cabeza. Rapidamente las bajas haciendo medio circulo y tocandote el lado del muslo con cada mano. Repite este movimiento lo mas rapido que puedas a ver si puedes volar.\n Si no puedes volar, entonces abre bien las piernas, mete tu cabeza entre los muslos, mirate el culo y ….dile adios porque vas a morir!."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c8cbc704-48e0-430e-bcf3-a9d9d71e894e",
+        "type": "message",
+        "text": ":rolling_on_the_floor_laughing::joy::persevere:",
+        "user": "UM81W8B0Q",
+        "ts": "1600260206.045000",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0xT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "rolling_on_the_floor_laughing"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "joy"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "persevere"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "47c43d03-fc4a-434b-b7a3-60b754c0fa9e",
+        "type": "message",
+        "text": "Mexicanos!!!, Feliz dia de la independencia, no se de cual, pero feliz dia ,jejejejeje.",
+        "user": "UJUSD6VB2",
+        "ts": "1600288233.045900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RnIaj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mexicanos!!!, Feliz dia de la independencia, no se de cual, pero feliz dia ,jejejejeje."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "viva Villa !!!",
+        "files": [
+            {
+                "id": "F01ADMM15N3",
+                "created": 1600288502,
+                "timestamp": 1600288502,
+                "name": "viva villa.jpeg",
+                "title": "viva villa.jpeg",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "UK28N3CER",
+                "editable": false,
+                "size": 44082,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ADMM15N3\/viva_villa.jpeg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/TJH5YU202-F01ADMM15N3\/download\/viva_villa.jpeg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_64.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_80.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_360.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_360_w": 203,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_480.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_480_w": 270,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_160.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_720.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_720_w": 405,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_800.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_800_w": 450,
+                "thumb_800_h": 800,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_960.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_960_w": 540,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TJH5YU202-F01ADMM15N3-2bf09eae0a\/viva_villa_1024.jpg?t=xoxe-629202954002-1408710291175-1429611969940-666c705f8dd944d59ed88b8cd6be975e",
+                "thumb_1024_w": 576,
+                "thumb_1024_h": 1024,
+                "original_w": 592,
+                "original_h": 1052,
+                "thumb_tiny": "AwAwABugcnpU8TMWUd+9RMNpp0TbTu71JtZFu4fbCPc0+GN3iVt2M0isHIzgAetTCRVGMHj0FWYmXyQcnjNLGAJFzyKRWAODjFSIN0gNQW2WFcY4NQyOTIcU\/ZxkjpSRw70DEnmqI0KhY4HtViI4AbPNVqmikVFIZc0imTSTsqEcHIxUyttUAHoKos24ipt9UiGj\/9k=",
+                "permalink": "https:\/\/harbourproject.slack.com\/files\/UK28N3CER\/F01ADMM15N3\/viva_villa.jpeg",
+                "permalink_public": "https:\/\/slack-files.com\/TJH5YU202-F01ADMM15N3-7ea8348987",
+                "is_starred": false,
+                "has_rich_preview": false
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MVi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "viva Villa !!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "UK28N3CER",
+        "display_as_bot": false,
+        "ts": "1600288515.046100"
+    },
+    {
+        "client_msg_id": "e367a63d-8a24-4fa6-bba2-85ea026857f0",
+        "type": "message",
+        "text": "hahah, se ve bien ... bueno.",
+        "user": "UJUSD6VB2",
+        "ts": "1600290259.046900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i4gg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hahah, se ve bien ... bueno."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "746e435d-42f5-4a95-8bcf-aeb25fd5f5b7",
+        "type": "message",
+        "text": "Buena botella pillaste mandilon :sweat_smile:",
+        "user": "UJULQCHL5",
+        "ts": "1600290567.047500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j8YKV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Buena botella pillaste mandilon "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "sweat_smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2281acff-0fb9-44b9-a750-07c9ba951976",
+        "type": "message",
+        "text": "cuando vengas a México <@UJULQCHL5>",
+        "user": "UK28N3CER",
+        "ts": "1600291935.048100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G7c8d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cuando vengas a México "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "UJULQCHL5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f3843d9d-5774-4ea1-9fdd-819a5c029b84",
+        "type": "message",
+        "text": "Me encantaria. Qué amable y majo eres siempre :heart_eyes:",
+        "user": "UJULQCHL5",
+        "ts": "1600291986.048900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gFT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Me encantaria. Qué amable y majo eres siempre "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "heart_eyes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "87adef6c-2e10-4272-b55a-f5ca68c4acff",
+        "type": "message",
+        "text": "Este es un post serio. Ha muerto Bill Gates. Si es en serio <https:\/\/edition.cnn.com\/2020\/09\/15\/business\/william-gates-death\/index.html>",
+        "user": "UJULQCHL5",
+        "ts": "1600293303.049500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g7659142325a",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c87659142325a3facb661d85281ec091.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "",
+            "real_name": "Paquito",
+            "display_name": "Paquito",
+            "team": "TJH5YU202",
+            "name": "hmpaquito",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "CNN",
+                "title": "Father of Microsoft co-founder Bill Gates dies at 94",
+                "title_link": "https:\/\/edition.cnn.com\/2020\/09\/15\/business\/william-gates-death\/index.html",
+                "text": "The father of Microsoft co-founder Bill Gates died Monday, according to his son. William Henry Gates II was 94 years old.",
+                "fallback": "CNN: Father of Microsoft co-founder Bill Gates dies at 94",
+                "image_url": "https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/200915190304-bill-gates-sr-obit-restricted-super-tease.jpg",
+                "image_width": 444,
+                "image_height": 250,
+                "from_url": "https:\/\/edition.cnn.com\/2020\/09\/15\/business\/william-gates-death\/index.html",
+                "image_bytes": 67089,
+                "service_icon": "https:\/\/edition.cnn.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/edition.cnn.com\/2020\/09\/15\/business\/william-gates-death\/index.html"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "msjIy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Este es un post serio. Ha muerto Bill Gates. Si es en serio "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/edition.cnn.com\/2020\/09\/15\/business\/william-gates-death\/index.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "53327de6-011f-4800-8c65-8a4e8221c243",
+        "type": "message",
+        "text": "Mi estimado Cesar, mañana haber si podemos ver seemap-4, ya que según yo, ya instale todo, pero no me muestra nada.",
+        "user": "UJUSD6VB2",
+        "ts": "1600318090.050400",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sPTc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mi estimado Cesar, mañana haber si podemos ver seemap-4, ya que según yo, ya instale todo, pero no me muestra nada."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51da7a46-9149-4cce-bda5-9a214d5ba38b",
+        "type": "message",
+        "text": "Como tratar los archivos .view como si fueran HTML, aqui les dejo el tip:",
+        "user": "UJUSD6VB2",
+        "ts": "1600319252.050900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BBgn3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Como tratar los archivos .view como si fueran HTML, aqui les dejo el tip:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2119db44-c603-4766-8136-120e68461bcb",
+        "type": "message",
+        "text": "<https:\/\/www.jasoft.org\/Blog\/post\/como-anadir-nuevos-tipos-de-archivo-a-visual-studio-code.aspx>",
+        "user": "UJUSD6VB2",
+        "ts": "1600319254.051100",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "service_name": "JASoft.org",
+                "title": "TRUCO: Cómo añadir nuevos tipos de archivo a Visual Studio Code - JASoft.org",
+                "title_link": "https:\/\/www.jasoft.org\/Blog\/post\/como-anadir-nuevos-tipos-de-archivo-a-visual-studio-code.aspx",
+                "text": "Hace ya bastante tiempo que tengo claro que mi editor de código favorito es Visual Studio Code. Es ágil, gratuito, multi-plataforma, abarca casi cualquier cosa que puedas necesitar y lo que no lo tienes con extensiones. en este post vamos a aprender a extender el editor para incluir nuestros propios tipos de archivo y que funcionen de la misma manera que si fuesen nativos. Además aprenderemos también a hacer que ciertos archivos concretos de un proyecto utilicen variantes de un lenguaje para que el editor se comporte mejor con ellos, dotándolos de gran flexibilidad.",
+                "fallback": "JASoft.org: TRUCO: Cómo añadir nuevos tipos de archivo a Visual Studio Code - JASoft.org",
+                "thumb_url": "https:\/\/jmalarcon.blob.core.windows.net\/blog\/imgs\/VSCode-Asociaciones-Archivos\/VSCode-Asociacion-Archivos.gif",
+                "from_url": "https:\/\/www.jasoft.org\/Blog\/post\/como-anadir-nuevos-tipos-de-archivo-a-visual-studio-code.aspx",
+                "thumb_width": 760,
+                "thumb_height": 560,
+                "service_icon": "https:\/\/www.jasoft.org\/favicons\/apple-touch-icon-57x57.png?v=6996om8b4N",
+                "id": 1,
+                "original_url": "https:\/\/www.jasoft.org\/Blog\/post\/como-anadir-nuevos-tipos-de-archivo-a-visual-studio-code.aspx"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qVOi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.jasoft.org\/Blog\/post\/como-anadir-nuevos-tipos-de-archivo-a-visual-studio-code.aspx"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UJHD6A81H",
+                    "UK28N3CER"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

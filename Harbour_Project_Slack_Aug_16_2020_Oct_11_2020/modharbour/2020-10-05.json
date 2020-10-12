@@ -1,0 +1,232 @@
+[
+    {
+        "client_msg_id": "67e58e1d-8d1f-46c9-8d3b-9cc63bfb0ea6",
+        "type": "message",
+        "text": "function main\n  \n    local aDialog  := { \"$('#myDialogImg3').dialog( {  width: 300,height:480, position: { my: 'top',  at: 'left',of: $('#test3') }});\",;\n                        \"$('#myDialogImg2').dialog( {  width: 300,height:480, position: { my: 'top',  at: 'left',of: $('#test2') }});\" }\n\nTEMPLATE PARAMS   hHash_DBF, aDialog\n\n\n&lt;script&gt;\n    &lt;?prg  return aDialog[1] ?&gt;;\n    &lt;?prg  return aDialog[2] ?&gt;;\n\n&lt;\/script&gt;",
+        "user": "UJHD6A81H",
+        "ts": "1601899979.209900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4wHRS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "function main\n  \n    local aDialog  := { \"$('#myDialogImg3').dialog( {  width: 300,height:480, position: { my: 'top',  at: 'left',of: $('#test3') }});\",;\n                        \"$('#myDialogImg2').dialog( {  width: 300,height:480, position: { my: 'top',  at: 'left',of: $('#test2') }});\" }\n\nTEMPLATE PARAMS   hHash_DBF, aDialog\n\n\n<script>\n    <?prg  return aDialog[1] ?>;\n    <?prg  return aDialog[2] ?>;\n\n<\/script>"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8155e9ef-5a8f-4293-9c15-5b34dc58a76e",
+        "type": "message",
+        "text": "Dear Cristobal, thank you. It is working fine now.",
+        "user": "UJHD6A81H",
+        "ts": "1601900013.210500",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g6b8073e00e9",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/b96b8073e00e9eb02bcf05bc1418eb3a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0021-72.png",
+            "first_name": "Otto",
+            "real_name": "Otto Atzwanger",
+            "display_name": "Otto",
+            "team": "TJH5YU202",
+            "name": "otto",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fR=mz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Dear Cristobal, thank you. It is working fine now."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd4632e0-c643-4db6-83ac-88d4e2066ba9",
+        "type": "message",
+        "text": "es mejor tomarse 2 chupitos de tequila de cuarenta y tantos grados, el de 95 es bueno para hacer los chorizos al infierno pero no creo que esté bueno para tomarlo así",
+        "user": "UMZ3LNV5Z",
+        "ts": "1601910186.210900",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0705cbdb2dc9",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-02-24\/967980533062_0705cbdb2dc9cb3644bb_72.jpg",
+            "first_name": "Pablo",
+            "real_name": "Pablo Botella",
+            "display_name": "Pablo Botella",
+            "team": "TJH5YU202",
+            "name": "pb",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GxXr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "es mejor tomarse 2 chupitos de tequila de cuarenta y tantos grados, el de 95 es bueno para hacer los chorizos al infierno pero no creo que esté bueno para tomarlo así"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "thread_ts": "1601766301.194400",
+        "parent_user_id": "UNAHBRTFA"
+    },
+    {
+        "client_msg_id": "ccd2504a-3405-460e-af3b-86a50fe27487",
+        "type": "message",
+        "text": "You are wellcome",
+        "user": "UJUJLTWMT",
+        "ts": "1601924095.211200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "a60e3b1ef2d2",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2019-08-20\/726246109489_a60e3b1ef2d2c141969d_72.jpg",
+            "first_name": "",
+            "real_name": "Cristobal",
+            "display_name": "Cristobal",
+            "team": "TJH5YU202",
+            "name": "navarro.cristobal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xbw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You are wellcome"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "72e9b5d8-d360-4e86-9638-90332a4eacb9",
+        "type": "message",
+        "text": "Thanks!",
+        "user": "UJUSD6VB2",
+        "ts": "1601926905.211600",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "g1677a02d0b6",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bb1677a02d0b69ba91eb245090c7c83a.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "",
+            "real_name": "Osvaldo Ramirez",
+            "display_name": "Osvaldo Ramirez",
+            "team": "TJH5YU202",
+            "name": "ramirezosvaldo",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VOe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2bb342c8-5318-4c5f-ac80-ab4e301a50bf",
+        "type": "message",
+        "text": "ok",
+        "user": "UK28N3CER",
+        "ts": "1601936560.211800",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "0eafa7153ff3",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2020-05-18\/1155120542496_0eafa7153ff35206c804_72.jpg",
+            "first_name": "Cesar",
+            "real_name": "Cesar SysCtrl Software",
+            "display_name": "Cesar SysCtrl Software",
+            "team": "TJH5YU202",
+            "name": "sysctrlsoftware",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z1dE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

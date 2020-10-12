@@ -1,0 +1,48 @@
+[
+    {
+        "client_msg_id": "14dcdedc-382f-4018-a6dc-43e8fa7c8baf",
+        "type": "message",
+        "text": "Announcement: For those who are testing the beta3 of the new drivers for web development in harbour\n              a new version (beta_4) was uploaded to <https:\/\/www.mod-harbour.com>\nChanges: WIN32 and Linux versions are included in addition to the traditional WIN64\n          The names of the binaries have changed.\n          Also the environment variables in apache conf file.\n          New error handler that shows the correct line numbers when there are includes and defines.\n          Enjoy!\nComing soon: hw_apache binaries for MAC OSX\n             win \/ linux binaries for NGINX\nEnjoy!",
+        "user": "UM81W8B0Q",
+        "ts": "1598533555.000200",
+        "team": "TJH5YU202",
+        "user_team": "TJH5YU202",
+        "source_team": "TJH5YU202",
+        "user_profile": {
+            "avatar_hash": "gab9279ee8c0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/73ab9279ee8c00f66ce4904d30146c8f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0010-72.png",
+            "first_name": "",
+            "real_name": "Angel Pais",
+            "display_name": "Angel Pais",
+            "team": "TJH5YU202",
+            "name": "amigosam",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K6QxT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Announcement: For those who are testing the beta3 of the new drivers for web development in harbour\n              a new version (beta_4) was uploaded to "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.mod-harbour.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nChanges: WIN32 and Linux versions are included in addition to the traditional WIN64\n          The names of the binaries have changed.\n          Also the environment variables in apache conf file.\n          New error handler that shows the correct line numbers when there are includes and defines.\n          Enjoy!\nComing soon: hw_apache binaries for MAC OSX\n             win \/ linux binaries for NGINX\nEnjoy!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
